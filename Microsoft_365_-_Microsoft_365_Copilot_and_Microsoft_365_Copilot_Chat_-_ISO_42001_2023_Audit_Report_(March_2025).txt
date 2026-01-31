@@ -1,0 +1,393 @@
+--- Page 1 ---
+Version: 20250209 
+© Mastermind – Restricted 
+1 
+Stage 2 Certification Audit Report 
+March 20, 2025 
+Microsoft Corporation (“Microsoft” or the “Client”) completed a management system certification 
+assessment with Mastermind Assurance, LLC (“Mastermind”). Mastermind utilized a comprehensive 
+approach, incorporating inquiry, inspection, and observation-based methods to evaluate the scope of the 
+Client's management system and formulate its audit conclusions. 
+1.
+Audit Criteria
+When meeting the established objectives for this audit, Mastermind assessed the Client’s management 
+system for conformity to the following criteria: ISO/IEC 42001:2023 (AI Developer/Provider). 
+Through this determination of conformity, Mastermind employed assessment procedures that considered 
+the additional requirements governing certification to these standards as described within ISO/IEC 17021-
+1:2015, IAF MD 1:2023, and IAF MD 4:2025, as applicable.  
+If newer versions of any of these normative references were available at the time of the audit, those revisions 
+of the audit criteria were applied unless a transition period had been otherwise defined and assumed by 
+the Client. 
+2. Audit Objectives
+Mastermind has confirmed that the below objectives have been fulfilled:
+•
+Obtain information and evidence about conformity to all requirements of the applicable
+management system standard(s) or other normative documents
+•
+Assessment of performance monitoring, measuring, reporting, and reviewing against key
+performance objectives and targets consistent with the expectations in the applicable
+management systems standards(s) or other normative documents
+•
+Determination of the ability of Client’s management system and its performance regarding meeting
+of applicable legal or statutory, regulatory, and contractual requirements
+•
+Evaluate the effectiveness of the management system in achieving the Client’s objectives and
+intended results, ensuring that the Client has identified necessary controls based on the risk
+assessment
+•
+Assessment of the operational control of Client’s processes
+•
+Review of internal auditing and management review
+•
+Assessment of management’s responsibilities for policies implemented by Client
+With respect to the standards comprising the scope of this assessment as communicated by the Client via 
+its submission of an application to Mastermind, the below objectives supplemented this assessment: 
+MASTERMIND
+
+
+--- Page 2 ---
+Version: 20250209 
+© Mastermind – Restricted 
+2 
+•
+Obtain a sufficient understanding of the effective implementation of the management system
+•
+Confirm that the Client adheres to its own policies, objectives, and procedures
+•
+Demonstrate that the assessment of related risks is relevant and adequate for the operations within
+the management system scope
+•
+Establish whether the Client’s procedures for the identification, examination, evaluation, and
+implementation of related risks are consistent with the policy, objectives, and targets
+•
+Review changes, if available, to the management system relating to identified Areas of Concern
+from the Stage 1 Certification Audit
+3. Audit Scope
+Mastermind concluded that, in consideration of the identified organizational units justified for inclusion, the 
+management system scope remains appropriate, as detailed below. 
+The certificate scope comprises the management system supporting the operations of Microsoft 365 
+Copilot and Microsoft 365 Copilot Chat offerings. The organizational scope includes the Microsoft 365 
+Trusted Platform, Responsible AI, Security, and Privacy teams affecting the management system. These 
+activities are governed by the implemented controls that extend to both the AI Developer and AI Provider 
+roles in accordance with the organizational Statement of Applicability. 
+There were no significant changes affecting the management system scope since the previous audit with 
+the exception of further defining the in-scope offerings supported by the AIMS within the scope statement. 
+The Stage 2 Certification Audit specifically comprised a review of the management system in the context 
+of the activities performed at the central function in addition to a sampling of locations, where eligible and 
+if applicable, described below. 
+Category 
+Site Address 
+Virtual 
+Site 
+Central Office 
+One Microsoft Way 
+Redmond, WA 98052 
+United States 
+All controls as justified for inclusion per the Statement of Applicability were tested for operating 
+effectiveness as part of Mastermind’s validation of appropriate implementation during the Stage 2 
+Certification Audit. 
+4. Procedures Performed
+The below activities schedule was executed to support the Stage 2 Certification Audit conclusions. The 
+resulting procedures did not produce any significant issues relevant to the audit program. 
+MASTERMIND
+
+
+--- Page 3 ---
+ 
+Version: 20250209 
+© Mastermind – Restricted 
+3 
+ 
+There were no material deviations from the original audit plan. 
+Date 
+Assessment Topics 
+Assessment 
+Team 
+Location 
+March 10, 2025 
+• 
+Audit Plan Delivery 
+- 
+- 
+March 13, 2025 
+• 
+Opening Meeting 
+• 
+Evaluation of Central Office activities 
+− Context of the organization  
+(incl. issues related to climate change) 
+− Leadership 
+− Planning 
+− Support 
+− Operation 
+− Performance evaluation 
+− Improvement 
+− AIMS: A.2 (Policies related to AI) 
+− AIMS: A.3 (Internal organization) 
+− AIMS: A.8 (Information for interested 
+parties of AI systems) 
+− AIMS: A.9 (Use of AI systems) 
+− AIMS: A.10 (Third-party and 
+customer relationships) 
+D
+n 
+Central Office 
+(Remote) 
+March 14, 2025 
+• 
+Evaluation of Central Office activities 
+− Follow up meetings relating to 
+fulfilment of management system 
+requirements 
+− AIMS: A.4 (Resources for AI systems)  
+− AIMS: A.5 (Assessing impacts of AI 
+systems) 
+− AIMS: A.6 (AI system life cycle) 
+− AIMS: A.7 (Data for AI systems) 
+• 
+Closing Meeting 
+D
+n 
+Central Office 
+(Remote) 
+5. Duration 
+The audit duration is defined as the audit activities executed between the opening meeting and the closing 
+meeting. Per the above schedule and unless otherwise noted, all schedules were completed as an 8-hour 
+workday conducted live with Client. 
+MASTERMIND
+
+
+--- Page 4 ---
+ 
+Version: 20250209 
+© Mastermind – Restricted 
+4 
+ 
+Additional audit activities included the performance of document review while conducting the audit, 
+corroborating information provided by Client, generating audit findings, and preparing audit conclusions. 
+The duration for this specific audit was 2 calendar days. 
+6. Roles & Responsibilities 
+The assessment procedures were performed by the appointed team members outlined below. 
+Name 
+Role 
+D
+n 
+Lead Auditor 
+ 
+The Client was represented by the following individuals throughout the duration of the audit procedures: 
+Name 
+Job Title 
+O
+i 
+Principal Product Manager 
+R
+i 
+Principal PM Manager 
+P
+a   
+Principal Product Manager, M365 Copilot 
+J
+a 
+Principal Product Manager, M365 Copilot 
+L
+s 
+Product Manager 
+M
+n 
+Principal Group TPM Manager 
+J
+i 
+Principal Group Science Manager 
+F
+a 
+Senior Applied Scientist 
+7. Audit Evidence 
+The audit team was granted access to electronic artifacts and records by the Client, enabling a more 
+thorough offline inspection than could be achieved solely through live interviews. The artifact listing below 
+represents only a sample of the electronic records that underpinned the audit conclusion. The audit team 
+augmented the retention of these files with its own workpapers and meeting recordings. 
+# 
+Artifact 
+1 
+Statement of Applicability (version 2.0):  
+M365 ISO 42001 Statement of Applicability_WM.pdf 
+2 
+Risk Analysis & Impact Assessment: E+D RAI Processes_WM.pdf 
+3 
+Internal Audit: Microsoft ISO 42001 IA Final Report_Confidential.pdf 
+4 
+Management Review: AIMS Meeting.pdf 
+MASTERMIND
+
+
+--- Page 5 ---
+ 
+Version: 20250209 
+© Mastermind – Restricted 
+5 
+ 
+# 
+Artifact 
+5 
+Microsoft 365 AIMS Manual_WM.pdf 
+6 
+MS Responsible AI Standard v2.pdf 
+7 
+ORA G&E Responsible AI Division Lead FINAL_Confidential.pdf 
+8 
+DSB Common Technical Requirements by Release Stage for Active Release_2025-01-
+22_WM.pdf 
+9 
+Restricted Uses_WM.pdf 
+10 
+Principles for responsible adoption and use of AI at Microsoft_WM.pdf 
+8. Audit Findings 
+Positive findings (i.e., noteworthy features) relating to the management system are detailed below based 
+on observations recorded by the audit team: 
+• 
+The Microsoft 365 Copilot, pilot program executed with key customers is an excellent example of 
+intaking and acting on feedback from interested parties. 
+• 
+The assignment of Lead Responsible AI (RAI) Champs to features of Microsoft 365 Copilot 
+demonstrates maturity of the AIMS and a commitment to RAI. 
+• 
+The Service Trust Portal (STP) is regularly updated to ensure end users have access to the most 
+current compliance deliverables. Access and separation of duty controls for publishing to the STP 
+are robust and effective. 
+• 
+The internal audit function outsourced to EY comprised a team of credentialed technical experts 
+and auditors with management system standard audit experience resulting in deep testing and 
+thorough reporting.  
+• 
+The Microsoft 365 Copilot corrective actions process included findings from all sources, including 
+self-identified issues. Taking actions on self-identified items reflects significant initial maturity of the 
+AIMS and best practice. 
+• 
+The Microsoft Security Response Center (MSRC) Abuse portal is an extensively sufficient process for 
+reporting concerns related to the Microsoft 365 Copilot and Microsoft 365 Copilot Chat systems. 
+• 
+Customer feedback mechanisms facilitated by the One Customer Voice (OCV) process represent 
+best practices for the intake and triaging of customer feedback. Feedback is captured within an 
+M365 Copilot Dashboard with trend analysis for centralized tracking. 
+• 
+System information assessments (SIA) require additional reviews when AI systems and features 
+contain sensitive uses, demonstrating a commitment to taking actions to address risks to 
+individuals, groups of individuals, and societies. 
+MASTERMIND
+
+
+--- Page 6 ---
+ 
+Version: 20250209 
+© Mastermind – Restricted 
+6 
+ 
+Negative findings from these inspections, if identified, were classified as a nonconformity (NC) whenever 
+they pertained to the non-fulfillment of a requirement. Nonconformities were rated depending on whether 
+the issue restricts (i.e., major) or continues to permit (i.e., minor) the management system to achieve the 
+intended results. 
+There were no identified nonconformities as a result of the procedures performed affecting the Stage 2 
+Certification Audit. 
+9. Other Considerations 
+The audit team leveraged information and communication technologies (ICT) during this review, including, 
+but not limited to, web conferencing software (e.g., Teams) and secure document repositories to enable 
+the offline inspection of electronic records provided by the Client. 
+Mastermind exercised recognized leading practices for the safeguarding of confidential information 
+throughout all planning, scheduled activities, and reporting phases of this assessment. There were no 
+unresolved issues at the conclusion of the audit.  
+10. Audit Conclusion 
+The assessment practices and determinations resulting from this audit were grounded in a sampling 
+process limited to the available information, thereby introducing an inherent level of risk to the conclusion. 
+The audit team analyzed all information and audit evidence gathered during both the Stage 1 Certification 
+Audit and the Stage 2 Certification Audit, including audit findings, to determine its conclusions for initial 
+certification. 
+From its performance throughout this assessment, the audit team recommends issuance of certification 
+for the scope of the management system implemented by the Client. The audit team ascertained sufficient 
+conformity and effectiveness of the management system primarily through its examination of electronic 
+records, subsequently corroborated through inquiry with the Client. This process supported the conclusion 
+that the management system remains capable of meeting the applicable requirements of the audit criteria 
+and is positioned to achieve its expected outcomes. Any identified nonconformities will need to be 
+corrected prior to a final decision on certification in accordance with agreed upon timelines established 
+between the Client and the audit team. 
+The Lead Auditor conducted a closing meeting, detailing the audit conclusions and recommendation, with 
+the attendance of Client representatives as outlined within Section 6 of this report. There were no unresolved 
+points resulting from this communication. 
+ 
+MASTERMIND
+
+
+--- Page 7 ---
+ 
+Version: 20250209 
+© Mastermind – Restricted 
+7 
+ 
+Appendix A: Audit Program 
+The audit team evaluated all management system requirements, including clauses 4 through 10 of the 
+High-Level Structure (HLS), as well as a selection of controls listed in the organization's Statement of 
+Applicability, following the minimum sampling program outlined below. Additionally, extension criteria are 
+evaluated fully during each system audit and, therefore, are excluded from the representative program. 
+Assessment Topic 
+Initial 
+Certification 
+Audit 
+First 
+Surveillance 
+Audit 
+Second 
+Surveillance 
+Audit 
+Recertification 
+Audit 
+Context of the organization 
+X 
+X 
+X 
+X 
+Leadership 
+X 
+X 
+X 
+X 
+Planning 
+X 
+X 
+X 
+X 
+Support 
+X 
+X 
+X 
+X 
+Operation 
+X 
+X 
+X 
+X 
+Performance evaluation 
+X 
+X 
+X 
+X 
+Improvement 
+X 
+X 
+X 
+X 
+AIMS: A.2-A.5 (Policy & Resources)  
+X 
+X 
+- 
+X 
+AIMS: A.6-A.7 (Life Cycle & Data) 
+X 
+- 
+X 
+X 
+AIMS: A.8-A.10 (Interested Parties) 
+X 
+X 
+X 
+X 
+ 
+MASTERMIND

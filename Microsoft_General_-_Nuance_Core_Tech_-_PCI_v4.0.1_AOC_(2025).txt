@@ -1,0 +1,977 @@
+--- Page 1 ---
+Payment Card Industry 
+Data Security Standard 
+Attestation of Compliance for Report 
+on Compliance – Service Providers 
+Version 4.0.1 
+Publication Date: August 2024 
+Pci
+
+
+--- Page 2 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance - Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page i 
+PCI DSS v4.0.1 Attestation of Compliance for Report on 
+Compliance – Service Providers 
+Entity Name: Microsoft Corporation dba. Nuance Communications, Inc 
+Date of Report as noted in the Report on Compliance: 7/31/2025 
+Date Assessment Ended: 7/2/2025 
+ 
+ 
+Pci
+
+
+--- Page 3 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 1 
+Section 1:  Assessment Information 
+Instructions for Submission 
+This Attestation of Compliance (AOC) must be completed as a declaration of the results of the service provider’s 
+assessment against the Payment Card Industry Data Security Standard (PCI DSS) Requirements and Testing 
+Procedures (“Assessment”). Complete all sections. The service provider is responsible for ensuring that each section 
+is completed by the relevant parties, as applicable. Contact the entity(ies) to which this AOC will be submitted for 
+reporting and submission procedures.  
+This AOC reflects the results documented in an associated Report on Compliance (ROC). Associated ROC sections 
+are noted in each AOC Part/Section below.  
+Capitalized terms used but not otherwise defined in this document have the meanings set forth in the PCI DSS 
+Report on Compliance Template. 
+Part 1. Contact Information 
+Part 1a. Assessed Entity  
+(ROC Section 1.1) 
+Company name: 
+Microsoft Corporation 
+DBA (doing business as): 
+Nuance Communications, Inc. 
+Company mailing address: 
+5 Wayside RD, Burlington, MA 01803-4609, USA 
+Company main website: 
+www.nuance.com 
+Company contact name: 
+Umar Waheed 
+Company contact title: 
+Partner Security Engineer Manager 
+Contact phone number: 
+(781) 565-5000 
+Contact e-mail address: 
+umarwaheed@microsoft.com 
+Part 1b. Assessor  
+(ROC Section 1.1) 
+Provide the following information for all assessors involved in the Assessment. If there was no assessor for a given 
+assessor type, enter Not Applicable. 
+PCI SSC Internal Security Assessor(s)  
+ISA name(s): 
+LynnMarie Panzarino 
+Qualified Security Assessor  
+Company name: 
+Coalfire Systems, Inc.  
+Company mailing address: 
+330 N Wabash Ave., Suite 1430, Chicago, IL 60611 
+Company website: 
+https://www.Coalfire.com 
+Lead Assessor name: 
+Morgan Sayre 
+Assessor phone number: 
++1 (877) 224-8077 
+Assessor e-mail address: 
+CoalfireSubmission@Coalfire.com 
+Assessor certificate number: 
+QSA #204-356 
+ 
+Pci
+
+
+--- Page 4 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 2 
+Part 2. Executive Summary 
+Part 2a. Scope Verification  
+Services that were INCLUDED in the scope of the Assessment (select all that apply): 
+Name of service(s) assessed: 
+Nuance (Core Tech) Gatekeeper v1 
+Nuance (Core Tech) Gatekeeper v2 
+Nuance (Core Tech) Mix Runtime Services: Automatic Speech Recognition 
+as a Service (ASRaaS), Dialog as a Service (DLGaaS), Fabric, Natural 
+Language Understanding as a Service (NLUaaS), Nuance Recognizer as a 
+Service (NRaaS), and Text to Speech as a Service (TTSaaS) 
+Nuance (Core Tech) Mix Tooling 
+Type of service(s) assessed: 
+Hosting Provider: 
+ Applications / software 
+ Hardware 
+ Infrastructure / Network 
+ Physical space (co-location) 
+ Storage 
+ Web-hosting services 
+ Security services 
+ 3-D Secure Hosting Provider 
+ Multi-Tenant Service Provider 
+ Other Hosting (specify): 
+Managed Services: 
+ Systems security services 
+ IT support 
+ Physical security 
+ Terminal Management System 
+ Other services (specify): 
+ 
+ 
+Payment Processing: 
+ POI / card present 
+ Internet / e-commerce 
+ MOTO / Call Center 
+ ATM 
+ Other processing (specify): 
+ 
+ 
+ 
+ Account Management 
+ Fraud and Chargeback 
+ Payment Gateway/Switch 
+ Back-Office Services 
+ Issuer Processing 
+ Prepaid Services 
+ Billing Management 
+ Loyalty Programs 
+ Records Management 
+ Clearing and Settlement 
+ Merchant Services 
+ Tax/Government Payments 
+ Network Provider 
+ Others (specify):  
+Note: These categories are provided for assistance only and are not intended to limit or predetermine an entity’s 
+service description. If these categories do not apply to the assessed service, complete “Others.” If it is not clear 
+whether a category could apply to the assessed service, consult with the entity(ies) to which this AOC will be 
+submitted.  
+ 
+ 
+Pci
+
+
+--- Page 5 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 3 
+Part 2a. Scope Verification (continued)  
+Services that are provided by the service provider but were NOT INCLUDED in the scope of the 
+Assessment (select all that apply): 
+Name of service(s) not assessed: 
+Cloud Services 
+Type of service(s) not assessed: 
+Hosting Provider: 
+ Applications / software 
+ Hardware 
+ Infrastructure / Network 
+ Physical space (co-location) 
+ Storage 
+ Web-hosting services 
+ Security services 
+ 3-D Secure Hosting Provider 
+ Multi-Tenant Service Provider 
+ Other Hosting (specify): 
+Managed Services: 
+ Systems security services 
+ IT support 
+ Physical security 
+ Terminal Management System 
+ Other services (specify): 
+ 
+ 
+Payment Processing: 
+ POI / card present 
+ Internet / e-commerce 
+ MOTO / Call Center 
+ ATM 
+ Other processing (specify): 
+ 
+ 
+ 
+ Account Management 
+ Fraud and Chargeback 
+ Payment Gateway/Switch 
+ Back-Office Services 
+ Issuer Processing 
+ Prepaid Services 
+ Billing Management 
+ Loyalty Programs 
+ Records Management 
+ Clearing and Settlement 
+ Merchant Services 
+ Tax/Government Payments 
+ Network Provider 
+ 
+ Others (specify): Non-transactional data feeds and voice recording. 
+Provide a brief explanation why any checked services 
+were not included in the Assessment: 
+Assessed separately 
+ 
+Pci
+
+
+--- Page 6 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 4 
+Part 2b. Description of Role with Payment Cards  
+(ROC Sections 2.1 and 3.1) 
+Describe how the business 
+stores, processes, and/or 
+transmits account data. 
+The Core Tech environment receives information from the customer through 
+telephony or the internet. In-house web APIs translate this information between 
+audio and text (Automatic Speech Recognition as a Service (ASRaaS), Text to 
+Speech as a Service (TTSaaS), Nuance Recognizer as a Service (NRaaS), 
+extract customer-defined data elements from text (Natural Language 
+Understanding as a Service (NLUaaS), NR, Dialog as a Service (DLGaaS), and 
+verify user identities based on provided audio and text. 
+ 
+Within the Core Tech environment, account data (PAN, expiry date, card 
+security codes) may pass through the system because it is contained in audio 
+or text that is processed by the system. If account data is contained in input to a 
+web service API, in which all externally facing services are provided to the 
+customer via telephony or internet, it may be returned to the caller in a 
+response from that API. All requests to and responses from Core Tech web 
+services are using HTTPS with RSA-2048 over TLS v1.2 and AES 256-bit 
+encryption with SHA-256 or higher. 
+ 
+In all examples described, the customer is responsible for their account data 
+and its protection.  Nuance is not intended for transmission, processing, or 
+storage of account data and informs their customers of this and the 
+corresponding responsibilities.  In expectation that some customers may use 
+the Nuance services for activities that involve transmitting, processing, and 
+storing of their account data despite this intention, Nuance has taken 
+preventative measures as described above to prevent storage. 
+ 
+For the duration of language data processing, all data (input and output) is held 
+in non-persistent memory. Spoken or typed words are returned to the client as 
+text values (using encrypted transfer protocols (TLS 1.2 RSA 2048 (SHA256) or 
+higher)) and this text may be converted back to audio as needed. Note that 
+audio-to-text and text-to-audio translations, as well as information extraction 
+and user verification, are separate services and the only forms of processing.  
+ 
+Each service offers mechanisms for customers to flag transactions that may 
+contain account data. For any such flagged transactions, no transaction content 
+(audio and/or text) is stored persistently. 
+ 
+In instances where customers are not aware of account data contained in 
+transaction input (audio or text), a verification algorithm is applied at the 
+perimeter prior to input and output being stored in volatile memory. The 
+transaction content such as the output of the speech-to-text service is scanned 
+for PAN using regular expression patterns. If a PAN is detected, the transaction 
+input and output are flagged, and the PAN is truncated to only retain the last 4 
+digits to prevent the storage of the full PAN data, or the PAN is removed 
+entirely if its position can be determined in text. 
+ 
+For these solutions PAN data (in the form of voice and text input) is transmitted 
+externally to the in-scope environment through secure protocols: private 
+Multiprotocol Label Switching (MPLS), VPN, HTTPS or encrypted transfer 
+protocols (TLS 1.2 RSA 2048 (SHA256) or higher). 
+ 
+The Core Tech environment provides: 
+• Web services that expose REST, gRPC, and WebSocket APIs that 
+Nuance customers integrate with to access functionality such as: 
+o Speech-to-text (ASRaaS: audio in -> text out); 
+o Text-to-speech (TTSaaS: text in -> audio out); 
+Pci
+
+
+--- Page 7 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 5 
+o Natural-language-understanding - 
+▪ NLUaaS: text in -> interpretation out, and 
+▪ NRaaS: audio in -> interpretation out. 
+o Dialog (DLGaaS: text or audio in -> state changes and text or 
+audio out); 
+o Voice biometrics (Gatekeeper, Media Manager: audio in -> user 
+authentication out); and 
+o Downloading runtime event logs for the above functionality 
+(Kafka/AFSS API). 
+• A browser-based developers’ portal (“Mix Tooling”) that Nuance 
+customers use to create models for the web services listed above; and 
+• A browser-based administrative portal (“Gatekeeper”) that Nuance 
+customers use to manage voice biometrics data. 
+ 
+The remaining data (last 4 digits of PAN and expiry date) may be stored 
+persistently encrypted using AES 256-bit strength ciphers in the form of 
+transaction event logs for the duration of 28 days for later retrieval by 
+customers. 
+ 
+Information flow of the in-scope environment is controlled by the customer. 
+Customers may use Nuance-provided web APIs to retrieve the redacted 
+transaction event logs and customers may configure callbacks into web APIs 
+under their control. All outbound communications take place via the internet 
+through an HTTPS connection using TLS v1.2+ and AES 256-bit encryption 
+with SHA-384. 
+ 
+Nuance does not intentionally transmit, store, or process account data for these 
+services, and the applications are designed to remove/truncate PAN (based on 
+agreement with the customer business) to prevent any storage of account data.  
+Customers are considered responsible for their account data. 
+ 
+Core Tech web services are not intended for explicitly managing account data 
+in structured, semantically tagged formats. However, they may be used by 
+Nuance customers (e.g., a bank that implements a virtual agent like Alexa or 
+Siri) whose workflows include account data: 
+• In text-to-speech, the Nuance customer’s application may need to turn 
+account data into spoken audio - Example: Customer application sends 
+text “Your new expiry date is 09/24”, Core Tech web service returns 
+audio stream corresponding to this text. 
+• In speech-to-text, the Nuance customer’s application may need to turn 
+spoken audio into text that contains account data - Example: bank 
+customer speaks “my credit card number is one two three dash four five 
+six,” Nuance web service returns the text “My Credit Card number is 
+123-456”. 
+• In natural-language-understanding, the Nuance customer’s application 
+may need to extract account data elements from unstructured text - 
+Example: Customer’s application sends text “my credit card number is 
+123-456 and my expiry date is 09/24”, Nuance web service may return 
+“{“number”:”123-456”; “date”:”09/24”}” 
+• In dialog, all the above workflows may be combined into a longer 
+interaction between an end user and a virtual agent. 
+• In voice biometrics, the following workflows are used - 
+o Enrollment: the audio used to enroll a user in the system is stored, 
+but users are not expected to speak credit card information for the 
+purpose of enrollment. If account data is spoken, it is redacted from 
+the audio segments as well as transcriptions if applicable. 
+Pci
+
+
+--- Page 8 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 6 
+o Verification: up to several minutes of audio from the start of a 
+phone conversation between a customer and a call center agent 
+may be processed by Nuance web services to verify the 
+customer’s identity (and detect fraudsters trying to impersonate a 
+regular customer) – that audio is stored and may contain account 
+data, if so, it is redacted from the audio segments as well as 
+transcriptions if applicable. 
+Describe how the business is 
+otherwise involved in or has the 
+ability to impact the security of 
+its customers’ account data. 
+Not Applicable.  No other business functionality or processes that Nuance is 
+involved in and has the ability to impact the security of its customers’ account 
+data was present within the scope of this assessment. 
+Describe system components 
+that could impact the security of 
+account data. 
+System components within the CDE that could impact 
+the security of account data: 
+• Servers 
+• Storage 
+• Network security groups 
+ 
+Support Systems 
+• Administrative Virtual Desktops 
+• Multi-factor authentication 
+• Access Authorization 
+• Change Management 
+• File Integrity Monitoring 
+• Intrusion Detection Systems 
+• Logging and Alerting 
+• Internal Vulnerability Scanning 
+• External ASV Scanning 
+• Penetration Testing 
+ 
+ 
+ 
+ 
+Pci
+
+
+--- Page 9 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 7 
+Part 2c. Description of Payment Card Environment 
+Provide a high-level description of the 
+environment covered by this Assessment. 
+For example: 
+• 
+Connections into and out of the cardholder 
+data environment (CDE). 
+• 
+Critical system components within the CDE, 
+such as POI devices, databases, web 
+servers, etc., and any other necessary 
+payment components, as applicable. 
+• 
+System components that could impact the 
+security of account data. 
+The Core Tech environment receives information from the 
+customer through telephony or the internet. In-house web 
+APIs over HTTPS translate this information between audio 
+and text (ASR, TTS, NR), extract customer-defined data 
+elements from text (NLU, NR, DLG), and verify user identities 
+based on provided audio and text before returning resulting 
+processed output to the customer. 
+ 
+The customer is responsible for their account data and its 
+protection.  Nuance is not intended for transmission, 
+processing, or storage of account data and informs their 
+customers of this and the corresponding responsibilities.  In 
+expectation that some customers may use the Nuance 
+services for activities that involve processing account data 
+despite this intention, Nuance has taken preventative 
+measures as described above to prevent storage. 
+ 
+Technologies: 
+• 
+Operating Systems: including Windows servers and 
+client versions. 
+• 
+Databases: multiple vendors and versions, supporting 
+service implementations in the background, and as 
+services for clients themselves. 
+• 
+Web portals for client and service management. 
+• 
+Administrative Workstations: Connects the web portals 
+used for the services from RDP and VPN technologies. 
+• 
+Vulnerability scanning: both internal vulnerability 
+scanning and external vulnerability scanning, on server 
+resources within the environment. 
+• 
+Change management: software to track and record 
+approval of infrastructure and software changes. 
+• 
+Encryption: custom implementations, including HSM 
+and Key Vault encryption services, which offer secure, 
+encrypted storage for Nuance and customer secrets 
+and encryption keys. 
+Indicate whether the environment includes segmentation to reduce the scope of the 
+Assessment.  
+(Refer to the “Segmentation” section of PCI DSS for guidance on segmentation)  
+ Yes    
+ No 
+ 
+Pci
+
+
+--- Page 10 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 8 
+Part 2d. In-Scope Locations/Facilities 
+(ROC Section 4.6) 
+List all types of physical locations/facilities (for example, corporate offices, data centers, call centers and mail 
+rooms) in scope for this Assessment.  
+Facility Type 
+Total Number of 
+Locations 
+(How many locations of 
+this type are in scope) 
+Location(s) of Facility 
+(city, country) 
+Microsoft Azure Data Center 
+Regions 
+12 
+Australia East 
+Australia Southeast 
+Canada Central 
+Canada East 
+North Europe 
+West Europe 
+Japan East 
+Japan West 
+UK South 
+UK West 
+East US 
+West US 
+ 
+ 
+Pci
+
+
+--- Page 11 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 9 
+Part 2e. PCI SSC Validated Products and Solutions 
+(ROC Section 3.3) 
+Does the entity use any item identified on any PCI SSC Lists of Validated Products and Solutions 0F¨?     
+   
+ Yes    
+ No 
+Provide the following information regarding each item the entity uses from PCI SSC's Lists of Validated 
+Products and Solutions: 
+Name of PCI SSC 
+validated Product or 
+Solution 
+Version of 
+Product or 
+Solution 
+PCI SSC Standard to 
+which Product or 
+Solution Was 
+Validated 
+PCI SSC Listing 
+Reference 
+Number 
+Expiry Date of 
+Listing 
+Not Applicable 
+Not Applicable 
+Not Applicable 
+Not Applicable 
+Not Applicable 
+ 
+ 
+ 
+* 
+For purposes of this document, ”Lists of Validated Products and Solutions” means the lists of validated products, solutions, 
+and/or components, appearing on the PCI SSC website (www.pcisecuritystandards.org) (for example, 3DS Software 
+Development Kits, Approved PTS Devices, Validated Payment Software,  Point to Point Encryption (P2PE) solutions, Software-
+Based PIN Entry on COTS (SPoC) solutions, Contactless Payments on COTS (CPoC) solutions), and Mobile Payments on 
+COTS (MPoC) products. 
+ 
+Pci
+
+
+--- Page 12 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 10 
+Part 2f. Third-Party Service Providers 
+(ROC Section 4.4) 
+For the services being validated, does the entity have relationships with one or more third-party service providers 
+that:  
+• 
+Store, process, or transmit account data on the entity’s behalf (for example, payment 
+gateways, payment processors, payment service providers (PSPs, and off-site storage)) 
+ Yes   
+ No 
+• 
+Manage system components included in the entity’s Assessment (for example, via 
+network security control services, anti-malware services, security incident and event 
+management (SIEM), contact and call centers, web-hosting companies, and IaaS, PaaS, 
+SaaS, and FaaS cloud providers)  
+ Yes   
+ No 
+• 
+Could impact the security of the entity’s CDE (for example, vendors providing support 
+via remote access, and/or bespoke software developers). 
+ Yes   
+ No 
+If Yes:  
+Name of Service Provider: 
+Description of Services Provided: 
+Microsoft Azure 
+Hosting, Cloud Computing and Services 
+Note: Requirement 12.8 applies to all entities in this list.  
+ 
+ 
+ 
+Pci
+
+
+--- Page 13 ---
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 11 
+Part 2g. Summary of Assessment (ROC Section 1.8.1) 
+Indicate below all responses provided within each principal PCI DSS requirement. 
+For all requirements identified as either “Not Applicable” or “Not Tested,” complete the “Justification 
+for Approach” table below. 
+Note: One table to be completed for each service covered by this AOC. Additional copies of this 
+section are available on the PCI SSC website. 
+Name of Service Assessed: 
+Nuance (Core Tech) Gatekeeper v1 
+Nuance (Core Tech) Gatekeeper v2 
+Nuance (Core Tech) Mix Runtime Services: Automatic Speech Recognition as a Service (ASRaaS), Dialog 
+as a Service (DLGaaS), Fabric, Natural Language Understanding as a Service (NLUaaS), Nuance 
+Recognizer as a Service (NRaaS), and Text to Speech as a Service (TTSaaS)  
+Nuance (Core Tech) Mix Tooling 
+PCI DSS 
+Requirement 
+Requirement Finding 
+More than one response may be selected for a given requirement. 
+Indicate all responses that apply. 
+Select If a 
+Compensating 
+Control(s) Was Used 
+In Place 
+Not Applicable 
+Not Tested 
+Not in Place 
+Requirement 1: 
+Requirement 2: 
+Requirement 3: 
+Requirement 4: 
+Requirement 5: 
+Requirement 6: 
+Requirement 7: 
+Requirement 8: 
+Requirement 9: 
+Requirement 10: 
+Requirement 11: 
+Requirement 12: 
+Appendix A1: 
+Appendix A2: 
+Pci
+
+
+--- Page 14 ---
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 12 
+Justification for Approach 
+For any Not 
+Applicable 
+responses, identify 
+which sub-
+requirements were 
+not applicable and 
+the reason.  
+1.2.6, 2.2.5 - Not Applicable.  No insecure services, ports or protocols are in use. 
+1.3.3, 2.3.1, 2.3.2, 4.2.1.2 - Not Applicable. No wireless networks are in-scope. 
+1.4.4, 3.1.1, 3.1.2, 3.2.1, 3.3.1, 3.3.1.1, 3.3.1.2, 3.3.1.3, 3.3.2, 3.4.1, 3.4.2, 3.5.1, 3.5.1.1, 
+3.5.1.2, 3.5.1.3, 3.6.1, 3.6.1.2, 3.6.1.3, 3.6.1.4, 3.7.1, 3.7.2, 3.7.3, 3.7.4, 3.7.5, 3.7.6, 
+3.7.7, 3.7.8, 3.7.9, 4.2.2, 7.2.6, 8.2.3, 8.3.10.1, 9.4.1, 9.4.1.1, 9.4.1.2, 9.4.2, 9.4.3, 9.4.4, 
+9.4.5, 9.4.5.1, 9.4.6, 9.4.7, 10.2.1.1 - Not Applicable.  No account data is stored on any 
+in-scope systems components.  Secure storage and protection of account data is the 
+responsibility of Nuance customers. 
+3.3.3 – Not Applicable.  Nuance is not an issuer and does not support issuing services. 
+6.4.1 - Not Applicable.  This requirement has been superseded by Requirement 6.4.2 
+6.4.3, 11.6.1 - Not Applicable.  Payment pages are not present within this environment. 
+6.5.2, 11.3.2.1, 11.3.1.3 - Not Applicable.  No significant changes occurred during the 
+assessment period.  
+8.2.7 - Not Applicable.  Nuance does not allow vendors to access system components 
+within the in-scope environment.  
+8.3.9 - Not Applicable.  Multiple authentication factors are required to access the 
+environment.  
+8.3.10 - Not Applicable.  This requirement has been superseded by Requirement 
+8.3.10.1. 
+8.6.1, 8.6.2 - Not Applicable.  No service accounts within the Nuance Core Tech 
+environment that are used for interactive login 
+9.5.1, 9.5.1.1, 9.5.1.2, 9.5.1.2.1, 9.5.1.3, A2.1.1, A2.1.2, A2.1.3 - Not Applicable.  POI 
+devices are not present in this environment. 
+10.4.2, 10.4.2.1 - Not Applicable.  All system components are considered critical.  
+10.7.1 - Not Applicable.  This requirement has been superseded by Requirement 10.7.2. 
+12.3.2 - Not Applicable.  Nuance does not use a customized approach to meet any PCI 
+DSS requirements 
+12.8.2 - Not Applicable.  Microsoft Azure is an internal service provider and not subject 
+to a written contract agreement. 
+For any Not Tested responses, identify which sub-
+requirements were not tested and the reason. 
+Not Applicable. 
+Pci
+
+
+--- Page 15 ---
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 13 
+Section 2  Report on Compliance 
+(ROC Sections 1.2 and 1.3) 
+Date Assessment began: 
+Note: This is the first date that evidence was gathered, or observations were made. 
+3/5/2025 
+Date Assessment ended: 
+Note: This is the last date that evidence was gathered, or observations were made. 
+7/2/2025 
+Were any requirements in the ROC unable to be met due to a legal constraint? 
+ Yes  
+ No 
+Were any testing activities performed remotely? 
+ Yes  
+ No 
+Pci
+
+
+--- Page 16 ---
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 14 
+Section 3  Validation and Attestation Details 
+Part 3. PCI DSS Validation (ROC Section 1.7) 
+This AOC is based on results noted in the ROC dated 7/31/2025.  
+Indicate below whether a full or partial PCI DSS assessment was completed: 
+ Full Assessment – All requirements have been assessed and therefore no requirements were marked 
+as Not Tested in the ROC.  
+ Partial Assessment – One or more requirements have not been assessed and were therefore marked 
+as Not Tested in the ROC. Any requirement not assessed is noted as Not Tested in Part 2g above.  
+Based on the results documented in the ROC noted above, each signatory identified in any of Parts 3b-3d, 
+as applicable, assert(s) the following compliance status for the entity identified in Part 2 of this document 
+(select one): 
+Compliant: All sections of the PCI DSS ROC are complete, and all assessed requirements are 
+marked as being either In Place or Not Applicable, resulting in an overall COMPLIANT rating; thereby 
+Microsoft Corporation dba. Nuance Communications, Inc has demonstrated compliance with all PCI 
+DSS requirements except those noted as Not Tested above. 
+Non-Compliant: Not all sections of the PCI DSS ROC are complete, or one or more requirements are 
+marked as Not in Place, resulting in an overall NON-COMPLIANT rating; thereby Not Applicable has 
+not demonstrated compliance with PCI DSS requirements. 
+Target Date for Compliance: Not Applicable 
+An entity submitting this form with a Non-Compliant status may be required to complete the Action 
+Plan in Part 4 of this document. Confirm with the entity to which this AOC will be submitted before 
+completing Part 4. 
+Compliant but with Legal exception:  One or more assessed requirements in the ROC are marked 
+as Not in Place due to a legal restriction that prevents the requirement from being met and all other 
+assessed requirements are marked as being either In Place or Not Applicable, resulting in an overall 
+COMPLIANT BUT WITH LEGAL EXCEPTION rating; thereby Not Applicable has demonstrated 
+compliance with all PCI DSS requirements except those noted as Not Tested above or as Not in Place 
+due to a legal restriction.   
+This option requires additional review from the entity to which this AOC will be submitted. 
+If selected, complete the following: 
+Affected Requirement 
+Details of how legal constraint prevents 
+requirement from being met 
+Not Applicable 
+Not Applicable 
+Pci
+
+
+--- Page 17 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 15 
+Part 3a. Service Provider Acknowledgement  
+Signatory(s) confirms: 
+(Select all that apply) 
+ 
+The ROC was completed according to PCI DSS, Version 4.0.1 and was completed according to the 
+instructions therein. 
+ 
+All information within the above-referenced ROC and in this attestation fairly represents the results of the 
+Assessment in all material respects. 
+ 
+PCI DSS controls will be maintained at all times, as applicable to the entity’s environment. 
+ 
+Part 3b. Service Provider Attestation 
+ 
+ 
+Signature of Service Provider Executive Officer  
+Date:  
+Service Provider Executive Officer Name: Umar Waheed 
+Title: Partner Security Engineer Manager 
+ 
+Part 3c. Qualified Security Assessor (QSA) Acknowledgement  
+If a QSA was involved or assisted with this 
+Assessment, indicate the role performed: 
+ QSA performed testing procedures. 
+ QSA provided other assistance.  
+If selected, describe all role(s) performed: Not Applicable  
+ 
+ 
+ 
+Signature of Lead QSA  
+Date:  
+Lead QSA Name: Morgan Sayre 
+ 
+Signature of Duly Authorized Officer of QSA Company  
+Date:  
+Duly Authorized Officer Name: Samuel Bizimungu 
+QSA Company: Coalfire Systems, Inc.  
+ 
+Part 3d. PCI SSC Internal Security Assessor (ISA) Involvement 
+If an ISA(s) was involved or 
+assisted with this Assessment, 
+indicate the role performed: 
+ ISA(s) performed testing procedures. 
+ ISA(s) provided other assistance.  
+If selected, describe all role(s) performed: 
+• Communicated security posture to Coalfire Audit team. 
+• Monitored and guided the internal security team. 
+• Guide the assessment scope. 
+• Reviewed and collated evidence on behalf of Nuance and provided it to the 
+QSA. 
+• Managed the interviews to provide evidence. 
+• Worked with the QSA as part of the post interview efforts to communicate 
+clarifications requested of Nuance, including the collecting of evidence. 
+ 
+Jul 31, 2025
+Jul 31, 2025
+Samuel Bizimungu (Jul 31, 2025 10:55:47 CDT)
+Jul 31, 2025
+Pci
+tip~
+
+
+--- Page 18 ---
+ 
+ 
+ 
+ 
+PCI DSS v4.0.1 Attestation of Compliance for Report on Compliance − Service Providers 
+August 2024 
+© 2006−2024 PCI Security Standards Council, LLC. All rights reserved. 
+Page 16 
+Part 4. Action Plan for Non-Compliant Requirements 
+Only complete Part 4 upon request of the entity to which this AOC will be submitted, and only if the Assessment 
+has Non-Compliant results noted in Section 3. 
+If asked to complete this section, select the appropriate response for “Compliant to PCI DSS Requirements” for 
+each requirement below. For any “No” responses, include the date the entity expects to be compliant with the 
+requirement and provide a brief description of the actions being taken to meet the requirement.  
+PCI DSS 
+Requirement 
+Description of Requirement 
+Compliant to PCI 
+DSS Requirements 
+(Select One) 
+Remediation Date and 
+Actions  
+(If “NO” selected for any 
+Requirement) 
+YES 
+NO 
+1 
+Install and maintain network security 
+controls  
+ 
+ 
+ 
+2 
+Apply secure configurations to all system 
+components  
+ 
+ 
+ 
+3 
+Protect stored account data 
+ 
+ 
+ 
+4 
+Protect cardholder data with strong 
+cryptography during transmission over 
+open, public networks 
+ 
+ 
+ 
+5 
+Protect all systems and networks from 
+malicious software  
+ 
+ 
+ 
+6 
+Develop and maintain secure systems and 
+software 
+ 
+ 
+ 
+7 
+Restrict access to system components and 
+cardholder data by business need to know 
+ 
+ 
+ 
+8 
+Identify users and authenticate access to 
+system components 
+ 
+ 
+ 
+9 
+Restrict physical access to cardholder data 
+ 
+ 
+ 
+10 
+Log and monitor all access to system 
+components and cardholder data 
+ 
+ 
+ 
+11 
+Test security systems and networks 
+regularly 
+ 
+ 
+ 
+12 
+Support information security with 
+organizational policies and programs  
+ 
+ 
+ 
+Appendix A1 
+Additional PCI DSS Requirements for Multi-
+Tenant Service Providers 
+ 
+ 
+ 
+Appendix A2 
+Additional PCI DSS Requirements for 
+Entities using SSL/early TLS for Card-
+Present POS POI Terminal Connections 
+ 
+ 
+ 
+Note: The PCI Security Standards Council is a global standards body that provides resources for payment security 
+professionals developed collaboratively with our stakeholder community. Our materials are accepted in numerous 
+compliance programs worldwide. Please check with your individual compliance accepting organization to ensure that this 
+form is acceptable in their program. For more information about PCI SSC and our stakeholder community please visit: 
+https://www.pcisecuritystandards.org/about_us/ 
+ 
+Pci

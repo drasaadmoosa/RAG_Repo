@@ -1,0 +1,3328 @@
+--- Page 1 ---
+ 
+ 
+ 
+ 
+ 
+ 
+Page 1 of 46 
+ 
+ 
+ 
+ 
+Assessment Report 
+(Recertification & EOS (Relocation – 3 sites) 
+ 
+Microsoft 
+ 
+ 
+Assessment dates 
+20/10/2021 to 19/11/2021 (Please refer to Appendix for details) 
+Assessment Location(s) 
+Hyderabad (000), Bangalore (001), Warszawa (002), București (004), 
+Texas (005) 
+Report Author 
+Kiran Bandari 
+Assessment Standard(s) 
+ISO/IEC 27001:2013 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+Pie i
+BE Microsoft
+
+
+--- Page 2 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 2 of 46 
+ 
+ 
+ 
+Table of contents 
+ 
+Executive Summary ................................................................................................................................................... 4 
+Changes in the organization since last assessment .............................................................................................. 6 
+NCR summary graphs ................................................................................................................................................ 8 
+Your next steps ........................................................................................................................................................ 10 
+NCR close out process ........................................................................................................................................ 10 
+Assessment objective, scope and criteria ............................................................................................................ 11 
+Statutory and regulatory requirements ............................................................................................................... 11 
+Assessment Participants ......................................................................................................................................... 12 
+Assessment conclusion ........................................................................................................................................... 15 
+Findings from previous assessments .................................................................................................................... 16 
+Findings from this assessment ............................................................................................................................... 18 
+ISMS Framework: ................................................................................................................................................ 18 
+GSOC, GSAM, VSOC, Physical Security & REF: ................................................................................................. 18 
+IT Infra: .................................................................................................................................................................. 22 
+Supplier Management: ....................................................................................................................................... 22 
+Human Resources Security: ............................................................................................................................... 23 
+Global Functions (Dev Ops, Assets, OCAG & Chrysalis): ................................................................................ 24 
+Projects: ................................................................................................................................................................ 25 
+Tools: ..................................................................................................................................................................... 27 
+Minor (6) nonconformities arising from this assessment. ................................................................................. 28 
+Next visit objectives, scope and criteria ............................................................................................................... 32 
+Next Visit Plan .......................................................................................................................................................... 33 
+Appendix: Your certification structure & ongoing assessment programme ................................................... 34 
+Scope of Certification ......................................................................................................................................... 34 
+Assessed location(s) ............................................................................................................................................ 34 
+Shift Details .......................................................................................................................................................... 39 
+Certification assessment program .................................................................................................................... 40 
+Mandatory requirements – re-certification. ................................................................................................... 43 
+Expected outcomes for accredited certification. ............................................................................................ 43 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 3 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 3 of 46 
+ 
+ 
+ 
+Definitions of findings: ....................................................................................................................................... 44 
+How to contact BSI .............................................................................................................................................. 45 
+Notes ..................................................................................................................................................................... 45 
+Regulatory compliance ....................................................................................................................................... 46 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 4 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 4 of 46 
+ 
+ 
+ 
+Executive Summary 
+ 
+Recertification and Extension to Scope (Relocation) Assessments for ISMS conducted on a hybrid model. 
+Both on-site and remote audit processes followed. On-site audit conducted at Hyderabad office rest all 
+locations audited remotely through the MST application with screen share features arranged by the 
+Microsoft as per BSI's procedure GP158 (Business continuity - managing extraordinary events), using  
+BSI procedure GP145 (Information and Communication technology – use in audits) to determine the 
+effectiveness of the implementation of the Information Security Management Systems applicable within 
+the proposed scope of registration, in accordance with the company objectives, policies and procedures, 
+applicable requirements of the management standards, other applicable regulatory requirements from 
+relevant regulatory authorities & BSI Conditions of Contract. 
+ 
+- Recertification cum Extension to scope audits conducted at 4 locations remotely, due to COVID-19 
+pandemic situation 
+- Microsoft's facilities' team were available on-site to provide virtual tour of the facilities for few sites 
+otherwise recorded videos and pictures showcased 
+- The records were available in electronic format during remote audit and few hard copies evidenced 
+during on-site audit 
+- There were no issues or difficulty encountered in verifying evidences required for this audit 
+- The planned audit objectives have been achieved, there were no connectivity issues during remote 
+audit which adversely affected the audit 
+ 
+The management system approach is evident in the process and procedures maintained. Leadership 
+commitment was evident from the interaction with Ravi Piduri (CISO), leadership is actively involved in 
+reviews, adding value proposition to their clients, other best practices like NIST implemented. 
+Organisation's risk mitigation plans, problem management effectiveness were beneficial to clients, 
+overall solutions are focused on customer experience. 
+ 
+Organisation's processes have shown maturity in comparison to previous year's audit outcome. Few of 
+the significant continual improvements and positives listed in this section. Six minor NCs and Four OFIs 
+identified on Physical Security & REF and OCAG functions, where organisation has to focus are 
+mentioned in the respective sections of this report. Overall ISMS implementation is effective and 
+meeting the standard requirements to a larger extent. 
+ 
+Continual Improvements: 
+- Secure by Default initiative is leveraged to drive security and assurance from Lead to Order till Order 
+to Cash processes 
+- Data Protection Questionnaire automated and mandated through business from Jun’21 for all T1, T2, 
+T3 projects 
+- Secure by Default sessions increased to 84 in FY2020-21 FROM 40 in FY2019-20 
+- A pool of Security SMEs were established to support project teams 
+ 
+Noteworthy Points: 
+- Carving out SAR (Security Analysis & Reporting) team 
+- 3D layout plans of Bucharest 
+- Daily access cards reconciliation in Warsaw 
+- Consistent background check process across locations 
+- Services DevOps guidelines for all requests 
+- Provisioning of Chrysalis platform 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 5 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 5 of 46 
+ 
+ 
+ 
+- Line of Business Assurance program covering all the DES and DevOps tools and services 
+- Daily scanning for secrets using CredScan 
+ 
+Basic
+Grass Roots
+Embraced
+Embedded
+Your organization now
+Your organization in 
+future
+BSI did business with 80,000 clients in the 
+last 12 months across 172 countries and 
+with over 200,000 clients in the last 6 
+years – all of the learnings from those 
+client interactions were incorporated into 
+the Excellence Framework. The 
+improvement continuum graph is the 
+status of your organization viz a viz where 
+you want to be.
+BSI Improvement Continuum
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 6 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 6 of 46 
+ 
+ 
+ 
+ISMS Excellerator 
+ 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+Excellerator - Information Security
+Management.
+Context Setting
+100%
++
+80%
+Performance
+.
+60%
+Awareness and
+Evaluation &
+Competence
+Improvement
+40%
+20%
+B
+|
+Leadership and
+Risk assessment and
+Commitment
+treatment
+|
+Information
+Security Objectives
+
+
+--- Page 7 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 7 of 46 
+ 
+ 
+ 
+Changes in the organization since last assessment 
+ 
+The following changes in relation to organization structure and key personnel involved in the certified 
+management system were noted: 
+- MCS name changed to ISD – Industry Solutions Delivery team 
+- New team carved out – Security scanning, Analysis & Remediation formed to drive information security 
+and data privacy related aspects and empower the organization 
+ 
+The following changes in relation to the certified organization activities, products or services covered by 
+the scope of certification were identified: 
+- This site is out of scope for ISMS: 8050 Microsoft Way, Charlotte, North Carolina, USA 
+- Relocation of Hyderabad, Bengaluru and Bucharest verified 
+- There is a change in scope statement due to team's name changes, scope of services have not 
+changed 
+ 
+The reference or normative documents applicable to the scope of certification were revised as follows: 
+ISMS SOA V1.13, Dt. October 6th, 2021 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 8 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 8 of 46 
+ 
+ 
+ 
+NCR summary graphs 
+ 
+Which standard(s) BSI recorded findings against 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+8
+—
+6
+5
+34
+=3
+2
+4
+0
+ISOMEC 270012013
+Standard
+WI Hejornoncenformity EEE Miner nonconforrity MBOpperturity
+frimprovement
+=I Observation
+
+
+--- Page 9 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 9 of 46 
+ 
+ 
+ 
+Where BSI recorded findings 
+ 
+ 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+5—— -
+2
+3
+m2
+1
+0
+Warszawa
+Texas
+Hyderabad
+Locations
+HIE Najornonconformity IN| Minor nonconformity I
+Opportunity forimproversent [=I Observation
+
+
+--- Page 10 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 10 of 46 
+ 
+ 
+ 
+Your next steps 
+ 
+NCR close out process 
+ 
+Corrective actions with respect to nonconformities raised at the last assessment have been reviewed 
+and found to be effectively implemented. 
+ 
+6 nonconformities requiring attention were identified. These, along with other findings, are contained 
+within subsequent sections of the report. 
+A nonconformity relates to a single identified lapse, which in itself would not indicate a breakdown in the 
+management system's ability to effectively control the processes for which it was intended. It is 
+necessary to investigate the underlying cause of any issue to determine corrective action. The proposed 
+action will be reviewed for effective implementation at the next assessment. 
+ 
+Please refer to Assessment Conclusion and Recommendation section for the required submission and 
+the defined timeline. 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 11 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 11 of 46 
+ 
+ 
+ 
+Assessment objective, scope and criteria 
+The objective of the assessment was to conduct a re-assessment of the existing certification to ensure  
+the elements of the proposed scope of registration and the requirements of the management standard 
+are effectively addressed by the organisation's management system. 
+ 
+If this visit is part of a multi-location assessment, the final recommendation will be contingent on the 
+findings from all assessments. 
+ 
+The information security management system describes the provision of trusted and managed 
+Information security services – Azure Cloud & AI, Modern Work, Business Applications, Complex Delivery 
+(including Delivery excellence and SQA), Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, GSOC, RE&F for Industry Solutions Delivery 
+from its Hyderabad and Bangalore-India, Warsaw-Poland, Bucharest-Romania and Irving, Tx-USA 
+locations. 
+ 
+ISO 27001:2013 requirements 
+Microsoft's documented policies and procedures 
+Customer requirements 
+Legal & Regulatory requirements 
+ 
+Statutory and regulatory requirements 
+Process to identify applicable legal and regulatory requirements is set and to get updated on 
+amendments from trusted sources is in place and followed. Legal team's support at various regions is 
+provided. Focus on information security, data privacy and contractual breaches from suppliers is evident. 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 12 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 12 of 46 
+ 
+ 
+ 
+Assessment Participants 
+ 
+Name 
+Position 
+Opening 
+Meeting 
+Closing 
+Meeting 
+Interviewed 
+(processes) 
+Ravi Piduri  
+Chief Information Security Advisor 
+Yes 
+Yes 
+Yes 
+Prasad Nelabhotla  
+Architect Cyber 
+Yes 
+Yes 
+Yes 
+Tarun Matai  
+Architect Cyber 
+Yes 
+Yes 
+Yes 
+Aravindhan Rajagopal  
+Architect Cyber 
+Yes 
+Yes 
+Yes 
+Ashwath Govindan  
+Architect Cyber 
+Yes 
+Yes 
+Yes 
+Rick Alba  
+Architect Cyber 
+Yes 
+Yes 
+Yes 
+Harshil Dave 
+InfoSec Consultant 
+Yes 
+Yes 
+Yes 
+Sylwester Banas  
+SR Project Manager 
+Yes 
+Yes 
+Yes 
+Agnieszka Lobodzinska  
+PL Facilities 
+Yes 
+Yes 
+Yes 
+Marzena Zero 
+PL Facilities 
+Yes 
+Yes 
+Yes 
+Tomasz Godun  
+Global Support 
+Yes 
+Yes 
+Yes 
+Jacqueline Koh  
+SR Procurement Program Manager 
+  
+  
+Yes 
+Ewelina Kotlarz  
+PL Facilities 
+  
+  
+Yes 
+Julia Kur  
+PL Facilities 
+  
+  
+Yes 
+Tomasz Wolk  
+GS Facilities 
+  
+  
+Yes 
+Karolina Wicinska  
+SR HR Services Advisor 
+  
+Yes 
+Yes 
+Wojtek Gornisiewicz  
+HR Services 
+  
+Yes 
+Yes 
+Emi Baragan  
+SR Service Engineering 
+Yes 
+Yes 
+Yes 
+Shikha Srivastava  
+Project Manager 
+  
+  
+Yes 
+Adina Vidroiu  
+HR Lead Romania 
+  
+  
+Yes 
+Craig Foster  
+Director HR Services  
+  
+  
+Yes 
+Ashfaq Ahmed  
+SR Project Manager 
+  
+  
+Yes 
+Praveen Raj  
+SR Project Manager 
+  
+  
+Yes 
+Adina Constantinescu  
+Consultant 
+  
+  
+Yes 
+Srikanth Alapati  
+SR Project Manager 
+  
+  
+Yes 
+Gaurav Malhotra  
+SR Project Manager 
+  
+  
+Yes 
+Thomas Küppers  
+Principal Project Manager 
+  
+  
+Yes 
+Armand Dudu 
+Consultant 
+  
+  
+Yes 
+Bhuvan Shantharaju  
+Assc Project Manager 
+  
+  
+Yes 
+Christopher Roth  
+Solution Architect 
+  
+  
+Yes 
+Roman Haug  
+SR Consultant 
+  
+  
+Yes 
+Jens Gerecke  
+Solution Architect 
+  
+  
+Yes 
+Adelina Radoi  
+Field IT Manager 
+  
+  
+Yes 
+Lucian Sandu  
+Global Support 
+  
+  
+Yes 
+Andrei Stoica  
+GS Budget 
+  
+  
+Yes 
+Dan Tabacaru  
+RO Facilities 
+  
+  
+Yes 
+Florinel Iordache  
+GS Facilities 
+  
+  
+Yes 
+Ken Papadopoulos 
+GSOC 
+  
+  
+Yes 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 13 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 13 of 46 
+ 
+ 
+ 
+Alexandra Dragut  
+RO Facilities 
+  
+  
+Yes 
+Jan Sulc 
+EMEA Investigations 
+  
+  
+Yes 
+David Maynard  
+Delivery Manager 
+Yes 
+  
+Yes 
+Fassel Mirza  
+SR Business Program Manager 
+Yes 
+  
+Yes 
+Jamila Rattler-Miller  
+SR Sales Ops Program Manager 
+  
+  
+Yes 
+Noel Mamplata  
+DIR Bus Ops and Programs 
+  
+  
+Yes 
+Ethan Harper  
+US Facilities 
+  
+  
+Yes 
+James Ford  
+US Facilities 
+  
+  
+Yes 
+Mark Hopkins  
+Americas Operations 
+  
+  
+Yes 
+Brett Campbell  
+Americas Operations 
+  
+  
+Yes 
+Victoria Fowler  
+Business Administrator 
+  
+  
+Yes 
+Kristin Fair  
+SR HR Manager 
+  
+  
+Yes 
+Lish Rodriguez  
+HR Manager 
+  
+  
+Yes 
+Lisa Winfrey  
+HR PM 
+  
+  
+Yes 
+Saritha Vrittamani  
+Delivery Manager 
+  
+  
+Yes 
+Mentor Cavazos  
+Project Manager 
+  
+  
+Yes 
+Randi Hamlett  
+Delivery Manager 
+  
+  
+Yes 
+Venkata Sai Gopal 
+Sapasetty  
+GS Facilities 
+  
+  
+Yes 
+Subrahmanya Sastry  
+GS Facilities 
+  
+  
+Yes 
+Bharanidharan 
+Giridharan  
+GS Facilities 
+  
+  
+Yes 
+Pawanjit Paliwal  
+GS Facilities 
+  
+  
+Yes 
+Srinivasa Rao 
+Channamsetti  
+IND REnF 
+  
+  
+Yes 
+Moses R  
+IND REnF 
+  
+  
+Yes 
+Dipti Balan  
+IND REnF 
+  
+  
+Yes 
+Buddharaju Raghavendra 
+Varma  
+IND REnF 
+  
+  
+Yes 
+Satyanarayana B  
+IND REnF 
+  
+  
+Yes 
+Pradhyum Alladi  
+Service Engineer 
+  
+  
+Yes 
+Chirangeevi Yerupula  
+Service Engineer 
+  
+  
+Yes 
+Pratima Mangena  
+Service Engineer 
+  
+  
+Yes 
+Sriram V  
+Service Engineer 
+  
+  
+Yes 
+Agnes Tan  
+Principal Project Manager 
+  
+  
+Yes 
+Prankur Sarbhai  
+SR Project Manager 
+  
+  
+Yes 
+Sailaja Jonnalagadda  
+SR Project Manager 
+  
+  
+Yes 
+Tristan Wee  
+Project Manager 
+  
+  
+Yes 
+Nayana Kumar  
+HR Manager 
+  
+  
+Yes 
+Dipesh Verma  
+SR HR Manager 
+  
+  
+Yes 
+Marianna Kakumanu  
+GSOC 
+  
+  
+Yes 
+Sairaj Goud  
+GSOC 
+  
+  
+Yes 
+Ajay Sattaru  
+SR Software Engineer 
+  
+  
+Yes 
+Aniruddha Bapat  
+SR Software Engineer 
+  
+  
+Yes 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 14 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 14 of 46 
+ 
+ 
+ 
+Dinesh Vijayakumar  
+Program Manager 
+  
+  
+Yes 
+Lakshmi Kammula  
+Program Manager 
+  
+  
+Yes 
+Rajesh Saxena  
+SR Software Engineer 
+  
+  
+Yes 
+Rajeev Harbola  
+SR Software Engineer 
+  
+  
+Yes 
+Koride Shashi Bhushan  
+SR Software Engineer 
+  
+  
+Yes 
+Kumar Abhishek Verma  
+SR Software Engineer 
+  
+  
+Yes 
+Gaurav Srivastava  
+SR Program Manager 
+  
+  
+Yes 
+Anusha Avuthu  
+SR Program Manager 
+  
+  
+Yes 
+Jyoti Pawan Saikia  
+SR Software Engineer 
+  
+  
+Yes 
+Rangarajan Subramani  
+SR Software Engineer 
+  
+  
+Yes 
+Srinivas Kulkarni  
+SR SVC Engineering Manager 
+  
+  
+Yes 
+Deepak Kumar Mishra  
+SR DevOps Engineer 
+  
+  
+Yes 
+Satya Srinivas Gogula  
+Principal Service Engineer 
+  
+  
+Yes 
+Pranay Kumar  
+Service Engineer 
+  
+  
+Yes 
+Sanket Shinde  
+Service Engineer 
+  
+  
+Yes 
+Pradeep Gattupalli  
+SR Project Manager 
+  
+  
+Yes 
+Sukanta Padhi  
+Business Program Manager 
+  
+  
+Yes 
+Supriya Naroor  
+Business Program Manager 
+  
+  
+Yes 
+Preeyaa Jadhav  
+Delivery Manager 
+  
+  
+Yes 
+Maria Hondros  
+Program Director 
+  
+  
+Yes 
+Dalbir Singh  
+SR Project Manager 
+  
+  
+Yes 
+Irena Kennedy  
+Senior Architect 
+  
+  
+Yes 
+Anweshi Devarasetty  
+Solution Architect 
+  
+  
+Yes 
+Rohit G  
+REnF Facilities 
+  
+  
+Yes 
+Anish Kumar Nair  
+REnF Facilities 
+  
+  
+Yes 
+Bhupendra Kumar  
+REnF Facilities 
+  
+  
+Yes 
+Ashutosh Saxena  
+SR Project Manager 
+  
+  
+Yes 
+Srinivas Tattari 
+SR Project Manager 
+  
+  
+Yes 
+ 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 15 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 15 of 46 
+ 
+ 
+ 
+Assessment conclusion 
+ 
+BSI assessment team 
+ 
+Name 
+Position 
+Kiran Bandari 
+Team Leader 
+ 
+Assessment conclusion and recommendation 
+ 
+The audit objectives have been achieved and the certificate scope remains appropriate. The audit team 
+concludes based on the results of this audit that the organization does fulfil the standards and audit 
+criteria identified within the audit report and it is deemed that the management system continues to 
+achieve its intended outcomes. 
+ 
+RECOMMENDED - Corrective Action Plan Required ('Minor' findings only): The audited organization may 
+be recommended for recertification along with extension of scope with location changes of Hyderabad, 
+Bengaluru and Bucharest to the existing certificate including Warsaw and Texas sites, based upon the 
+acceptance of a satisfactory corrective action plan for all 'Minor' findings as shown in this report. 
+Effective implementation of corrective actions will be reviewed during the next surveillance audit. 
+ 
+Please submit a plan through the BSI Connect Portal detailing the nonconformity, the root cause, 
+correction and your proposed corrective action, with responsibilities and timescales allocated. The plan 
+is to be submitted no later than 27/12/2021. If the corrective action plan is not received by this date 
+you may be putting your certification status at risk. 
+ 
+For any questions please contact your local BSI office, referencing the report number 3246000, 
+3238170, 3238172, 3244659, 3239102, 3562364, 3562367, 3562368. 
+ 
+Use of certification documents, mark / logo or report 
+ 
+The use of the BSI certification documents and mark / logo is effectively controlled. 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 16 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 16 of 46 
+ 
+ 
+ 
+Findings from previous assessments 
+ 
+Finding 
+Reference 
+1992930-202010-N1 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+9.1 
+Location 
+reference 
+0047462947-002 
+Category 
+Minor 
+Area/Process: 
+GSOC, REF & Physical Security 
+Details: 
+Monitoring and review of badge access is not periodical to check 
+effectiveness of controls applied, risk not considered 
+Objective 
+Evidence: 
+Warsaw: Reviews done as need basis and no evidences documented 
+Cause 
+The Lenel system was not implemented as per plan since Warsaw site got downsized and 
+business decision was made 
+Correction/containment 
+Facility manager was notified of the Non-conformity, review of logs was performed noting no 
+incident 
+Corrective action 
+Accept this risk as per business decision given that Poland is a low risk geography zone. This 
+risk will be accepted and approved in the Risk Register 
+Closed?: 
+Yes 
+Justification 
+Temporary ID cards reviewed along with logs and daily recon is done 
+ 
+Finding 
+Reference 
+1992930-202010-N2 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A9.2.1 
+Location 
+reference 
+0047462947-005 
+Category 
+Minor 
+Area/Process: 
+Tools & Labs 
+Details: 
+User registration process not followed while granting accesses to users 
+Objective 
+Evidence: 
+Las Colinas - Labs: Access provisioning to Tools & Applications for testing 
+is communicated orally, user registration/requests not evident 
+Cause 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 17 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 17 of 46 
+ 
+ 
+ 
+As Users group is small – so an informal verbal process was used to provision/deprovision 
+access for tools & apps testing. 
+Correction/containment 
+Labs Manager was notified of the Non-conformity, access provisioning and de-provisioning is 
+implemented 
+Corrective action 
+Access provisioning will be formalized as per the access management procedure 
+Closed?: 
+Yes 
+Justification 
+USDC user registration routed to FSA (Federal security agencies) and 
+taken care 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 18 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 18 of 46 
+ 
+ 
+ 
+Findings from this assessment 
+ 
+ISMS Framework: 
+Process verification and documented evidence: 
+- LOB Assurance Monthly Report – Sep’21 include score card for Tools, Dev Ops, action plan, NC tracker, 
+focus activities 
+- Score Card – Tools include Virtuoso, SEE, CCB, OSE, USP, SDM Plus for 11 parameters which include 
+compliance, fixing baseline issues, fix errors, true positives, SLD full review, patching, cred scan, 
+component governance, GDPR, Bug ageing, ASC recommendations etc. 
+- Internal Audit Report Dt. 11/08/21 – 11/10/21, Status Tracker to follow up on actions implemented 
+- Information Security Executive Committee MOM Dt. 13/09/21 
+- Record Retention Metrics on RAG 
+- ISD-IS Risk Register V11.12, Dt. 13/09/2021 (Bengaluru & Bucharest covered) 
+ 
+Continual Improvements 
+- Secure by Default initiative is leveraged for driving security and assurance from Lead to Order till Order 
+to Cash processes 
+- Data Protection Questionnaire automated and mandated through business from Jun’21 for all T1, T2, 
+T3 projects 
+- Secure by Default sessions increased to 84 in FY2020-21 FROM 40 in FY2019-20 
+- Established a pool of Security SME team to support project teams 
+ 
+ 
+GSOC, GSAM, VSOC, Physical Security & REF: 
+Process verification and documented evidences: 
+Bucharest 
+Due to business growth organisation has moved to new premises closing all other sites in Bucharest. 
+The new premises is dedicated to MS and not a multitenant building. MS occupies 12 floors, layout plans 
+in 3D showcased. Entrance, reception, waiting area, access control gates, emergency exits, electrical 
+room, signages for exits and emergency exits visible, Fire Extinguishers, CCTVs, sprinklers, smoke 
+detectors, print & shredder areas, UPS room, assembly point and lift lobbies are evident. Employees are 
+visiting office on need only basis, all entry gates are access controlled. Land lord maintains heating, 
+electrical, plumbing, CAM, perimeter security, fire safety systems, sprinklers, fire alarm system and DG. 
+- Lease Agreement handover Dt. 01/09/2020 valid for 10 years 
+- NDA with land lord 
+- PPMs verified: 2 DGs, Electronic Access Control System, CCTV (with back up of 30 days), Fire 
+extinguishers, Fire suppression system, Inergen fire system for lab, fire extinguishers for other technical 
+rooms, smoke detection & fire alarm systems, UPS & batteries, turn stiles, pest control 
+- Access Audit Dt. 15/10/2021 – identified 6 non-functional cards and removed 
+- CCTV footage Dt. 14/10/2021 @ 1830 hours 
+- Fire evacuation drill Dt. 10/08/21 
+ 
+Warsaw 
+Virtual tour of the facility provided where ACS, first aid tool kit, reception area, COVID precautionary 
+measures, visitor area, CCTVs, fire exit doors with signages, fire alarm triggers, visitor rooms (hard 
+locked). Second floor – work area accessible with staircase, fire extinguishers, server room, smoke 
+detectors, FHS, print area, media storage rooms with ACS, floor maps evident. 3rd and 4th floors are 
+vacated. 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 19 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 19 of 46 
+ 
+ 
+ 
+Asset Management (Media handling – IT & Procurement) 
+Employee Device Management (EDM) is used to manage employee devices including other parts of EU. 
+Seven step process established from employee H/W request till recycling, all assets are under warranty 
+for 3 years. Asset movement is tracked in Asset Link. 
+- New hire Asset # 14635437, Tick ID 4631551 verified till closure 
+- PO 99786138, reviewed, approvals, cap limit set in the tool and reviewed by managers and authorize 
+as per the budget limits 
+ 
+Visitor Management & Reception Desk: 
+Visitor paper cards issued with unique number. Forgot ID cards replaced by temporary cards with 24 
+hours validity. Email communication sent on lost cards and disabled in the system, incident tickets are 
+raised for the same. 
+- Building Access Requirements document followed 
+- Visitor Logs – Oct’21 
+- Temporary ID cards – Sep’21 
+- Incident Ticket 2831570, Card# 31 for lost card & replacement verified 
+- Return of Asset 12742141 verified 
+- PPMs: FHS annually, emergency lights checked & signages, UPS, DG, CCTV, ACS taken care by MS 
+Global teams, smoke detectors test Dt. 10/08/21, FE, anti-fire switch test Dt. 17/09/21 
+- Lenel alarms system in place, false door alarm investigation done and reported 
+- Annual Fire Drill Dt. 27/07/21 
+- Lease Agreement Dt. 28/09/2015 valid for 10 years 
+ 
+Irving, TX 
+This is owned premises, no changes done since last audit. CCTV is maintained by VSOC team. GSAM 
+raises tickets for lost cards and closes. Fourth floor is highly restricted area where visitors are escorted. 
+ 
+- PPMs: UPS, DG, FE, FAS, PAS, Pest control 
+- Fuel analysis Report, Fire Drill Report 
+- Temp Guest Badges Log Dt. 10/14/21 
+- NDA of Securitas Security Agency 
+- BGV for criminal checks of security guards done 
+ 
+Hyderabad 
+New Hyderabad - SSKC2 occupied in Oct’21 relocated from Microsoft Campus for IGD, consists of 5 
+floors have same design where zone 2 is accessed only via zones 1 & 3. On-site visit made to this site. 
+All visitors’ entry permitted from floor 5, vendors and contract staff from 3 floor allowed, hard copies 
+and soft copies of visitor register, temp IDs maintained, visitors are escorted by hosts. Visitors are 
+allowed post approval with justification and made available at security desk. 
+ 
+- Forgot / Lost ID request form verified for 8 users issued in Nov’21, plastic card without any access 
+issued, security personnel deployed across the premises assist the employees to other gates 
+- Thermal scanners used for temp. checks, CCTVs installed, FE, smoke detectors, sprinklers, consented 
+sprinklers, response indicators, FHS by BMS, fire escape route plans, emergency exits checked. CCTV 
+backup maintained for 30 days 
+- WLDS, RRS and VESDA installed in all floors including server and cable rooms 
+- Material & vendor movement happen from 3rd floor, verified material registers along with DCs 
+- Staff IDs provided with barcode, valid for 6 months, attendance report for vendors verified 
+- Guarding Services - Walsons Project Services Request Dt. 07/01/21 
+- VSOC (Virtual Security Operations Center) teams monitors alerts from CCTV and reported to respective 
+sites for actions 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 20 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 20 of 46 
+ 
+ 
+ 
+- BMS room on 5th floor takes care of FAS, AHU, Alarms, AC controller, UPS panels and PAS racks 
+monitored, escalation chart available 
+- UPS room on 4th floor visited, hand held FEs placed, roof mounted clean agent installed in UPS and 
+battery rooms, 14 users authorized for cable room, visitor register and other monitoring lay outs 
+available 
+- CCTV pictures for zone 1, 3rd floor, ODC, cable room, lift lobby and 4th floor zone 1 verified on 
+footages 
+- SSKC2 Area Access Managers List – Primary & secondary 
+- Temp. access card list, recon done and handover at each shift change 
+- Asset maintenance for infra items taken care 
+- Forgot ID Tracker – Nov’21 with 2 instances verified 
+- Time synchronization verified between CCTV / Lenel system and other systems 
+ 
+Physical Security and REF: 
+- PPMs: DG, UPS, FE, Sprinklers, FAS, RRS and noise & air measurement reports verified 
+- Fire NOC Dt. 0/06/19 for 5 years 
+- Lease Deed Dt. 17/11/19 for 5 years 
+- Monthly & Quarterly Reviews 
+- BGV of guards – Srinivas, Abhinashnath verified 
+- Risk Register Dt. 10/10/21 for SSKC2 includes for F&B, SS, M&E, COVID covered 
+ 
+Bengaluru 
+IGD has moved from Manyata Techpark to new premises – Vigyan, Lavelle Road. Entire premises is 
+occupied by MS (G+3 floors). Virtual tour provided covering reception, security desk, thermal scanners, 
+lift lobby, FE, entrance, ACS, reprographic area, ODC cable room, security guards operate in 3 shifts for 
+24/7 coverage, entry gate closed after 3rd shift, access controlled boom barriers installed, daily 
+patrolling of all the premises done, fire safety drills conducted half yearly and unannounced, CCTVs, 
+sprinklers & smoke detectors  installed. CCTV footage Oct. 21st 16:20 evidenced for reception, entry 
+gate, ODC 2nd floor, service lift exit, signages evident, server room and lab room. Fire NOC not 
+applicable, FHS and FSS are available. Solas vendor takes care of AMCs. 
+- Lease Deed Dt. 01/01/21 – 31/12/25 
+- PPMs: FAS & PAS quarterly, UPS quarterly, DG half yearly, FE quarterly, PAC reports verified 
+- Physical Security Services Global Agreement 
+-- Guards BGV checked for Sabyasachi and Satish, periodical PVCs obtained from authorities 
+- Risk assessment done during building occupation, risk reviews done, surprise audits by team managers 
+done half yearly 
+- Physical Security Risk Assessment Dt. 10/03/21 
+ 
+GSAM – Global Security Account Management 
+- Lenel system used to disable badges when security desk team communicates via emails, temp ID 
+cards are issued with 12 hours validity without any access 
+- Area Access Managers provide additional accesses as per request on the existing primary card 
+ 
+VSOC – Virtual Security Operations Center 
+- CCTV recordings done on cloud, 30 days backup and there after get into archives, retention and 
+archiving depends on risk appetite of the location and criticality defined 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 21 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 21 of 46 
+ 
+ 
+ 
+Finding 
+Reference 
+2133991-202110-I1 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+ 
+Location 
+reference 
+0047462947-002 
+Assessment 
+Number 
+3239102 
+Category 
+Opportunity for Improvement 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Details 
+Warsaw: Participants details can be included in the fire drill report 
+ 
+Finding 
+Reference 
+2133991-202110-I2 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A12.1.4 
+Location 
+reference 
+0047462947-000 
+Assessment 
+Number 
+3238170 
+Category 
+Opportunity for Improvement 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Details 
+Hyderabad: Compliance of vendor staff attendance can be improved as 
+few exits are not recorded 
+ 
+Finding 
+Reference 
+2133991-202110-I3 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+ 
+Location 
+reference 
+0047462947-000 
+Assessment 
+Number 
+3238170 
+Category 
+Opportunity for Improvement 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Details 
+Hyderabad: Emergency lights in UPS and Battery room can be functional 
+all times during power switch over 
+ 
+Finding 
+Reference 
+2133991-202110-I4 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+ 
+Location 
+reference 
+0047462947-000 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 22 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 22 of 46 
+ 
+ 
+ 
+Assessment 
+Number 
+3238170 
+Category 
+Opportunity for Improvement 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Details 
+Hyderabad: Subjectivity can be avoided for ‘Severity’ scale in Hyderabad 
+REF Risk Register 
+ 
+IT Infra: 
+Process verification and documented evidences: 
+- Comprises of MS Digital, 5 technical rooms with 2 primary & 3 satellite rooms maintained, high 
+availability of lines maintained. Lenel access controls deployed for rooms, restricted access to only IT 
+team. This team is responsible to keep the network devices up and running. 2 teams share the 
+responsibilities – E360 for global networking and Tech link for onsite infra maintenance. E360 team 
+monitors & communicates to Techlink for rectification on issues identified. Due to movement to new 
+premises all the infrastructure and systems are new and covered under warranty. No security incidents 
+recorded. As a precautionary measure all equipment maintenance is carried out after work hours 
+- SevOne Performance Metrics Report – Oct’21 
+- RITM 1412207 verified for Planned Power Maintenance 
+ 
+ 
+Supplier Management: 
+Process verification and documented evidences: 
+Microsoft Federal 
+Responsibilities include contracting for onboarding process, maintain supplier compliance, supplier 
+engagements. Three level escalation matrix in place. 
+- SOP – MS Federal Subcontractor onboarding Support V1.1 – roles & responsibilities, pre-requisites, 
+adobe sign for MSSA templates verified 
+- New Supplier Onboarding Application Request form 
+- Security Supplier Privacy Assurance Program (SSPA) is mandatory as part of onboarding including NDA 
+- Supplier Empanelment Process Flow 
+- SSPA Supplier Status – 0003037424 supplier verified 
+- MS – Supplier Data Protection Requirements 
+- USDC Supplier Management Process established with 9 stage process and followed 
+- MSSA – MS Subcontractor Agreement Dt. 28/06/21 for 3 years, confidentiality covered 
+- Subcontractor Onboarding Checklist – ID# 3044837 
+- OneVet team takes care of onboarding compliance checks and mitigate the risks identified 
+- Annual performance reviews of suppliers done on partner resource management tool 
+- Weekly connects conducted & feedback shared 
+-- Robert Bosch & World Wide Technology LLC – Supplier Governance Deck covered supplier business, 
+performance review, compliance, feedback and other updates 
+- Subcontracting is allowed with prior approval from MS 
+ 
+India 
+- POEL (Partner Operations Excellence Lead) facilitates compliance requirements are met with various 
+suppliers and partners 
+- Risk Assessment done at RFP level and 2nd level of risk assessment done by Info Sec team 
+- Eight stage process defined and followed as per region specific requirements in services supplier 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 23 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 23 of 46 
+ 
+ 
+ 
+onboarding portal 
+-- Questionnaire, business rules, onboarding location, domain and opportunity information processes 
+involved 
+- Verification of supplier ID w.r.t. to MS departments across regions before onboarding to IGD is done 
+- Partner specialist reviews done in the portal, primary and backup reviewers identified 
+- MSSA Birlasoft – 2206151 Dt. 06/29/21 valid for 3 years, confidentiality is addressed 
+- Vendor Skandha request ID ORR 687 verified – HR services 
+- MOSA (Master Outsourced Services Agreement) – Wipro-MOSA-2209951 for HR services – includes 
+transition plan, timelines, mile stones, key personnel, knowledge transfers, key outcomes, acceptance 
+process, sign off criteria, metrics, risk & mitigation plan and communication plans evidenced 
+ 
+ 
+Human Resources Security: 
+Process verification and documented evidences: 
+Bucharest 
+There are no changes w.r.t. HR policies. Full time employment post completion of interviews and BGV in 
+place, consent documented from emp. to carry out BGV. Confidentiality and privacy covered in Labor 
+Contract, Appendix-1, IPR and non-compete included. Local regulations compliant are Health & Safety, 
+Mandatory health checks completion before onboarding is done. Recurring half yearly health & safety 
+training provided. 
+- Emp. IDs for documents verified: 1456685 and 6167303 
+- BGC Case IDs: HR 7456 111-J556L7 and HR 7482870-Q4P5F4 
+- Exit Checklists for Emp. 1387328 and 768152 for finance, facilities, HR, direct managers & IT 
+ 
+Warsaw 
+Storeroom for HR documents available, retention is 10 years as per 2019 law. ACS in place to access 
+document rom and also hard locked, keys are retained with HR person. Cup boards are fire resistant. 
+Background screening process done diligently where tickets are raised by Global HR team from Prague. 
+Onboarding agenda checked. Security awareness in My Learning are completed. 
+- BGC Tickets 7740620, 7621959, 7696909 
+- Exit Checklists Emp. 29606 and 1150009 
+- NDAs for Emp. 6152887, 834870 and 6172851 
+- Fire Safety System services done Dt. 06/10/21 & 30/09/21 
+ 
+Irving, TX 
+- BGV Request IDs: HA_101520-KZ80X, 110620-R36AQ, 102820-PC6S3, 122220-ZC5X7 and 122220-
+ZO5mJ verified from Oct – Dec 
+- Four step screening process verified – criminal checks for 7 years, employment for 5 years, education, 
+GSEC, credit checks & professional license are part of the package, roles and responsibilities defined 
+- MS Corp Employee Agreement – NDA, non-competition and non-solicitation, IPR covered 
+- Termination Procedures reviewed for return assets, leaving process, remote wiping of devices 
+-- Exits Dt. 08/29/20, 10/03/20 and 01/01/21 checked 
+- Disciplinary Actions – Exits from Jul’21 – Jun’21 verified 
+- IS Training Completion Status Report 
+ 
+Hyderabad & Bengaluru 
+- BGV checks: MO63-6651032, 6605342, 6582838, 6615657, 6500871 verified for Hyderabad and 
+MO63-6680833, 6575302, 6607978, 6586428 verified for Bengaluru 
+- Global sanction check, ID check, employment history, education, criminal checks are done 
+- As a policy DOJ is provided only after BGV is complete 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 24 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 24 of 46 
+ 
+ 
+ 
+- Employment Terms & Conditions, NDA, non-compete, IPR, and invention clauses checked for samples 
+from Jul’20 – Jun’21 – BLR -2 and HYD – 3 
+- Offboarding / Transfer Clearance Forms – MSGD 
+- Separation Certificates 
+- Disciplinary action case reviewed, warning letter issued Dt. 05/03/21 for downloading unauthorized 
+s/w 
+- Mandatory trainings – protect your device (security foundation), SBC, POSH, privacy and data 
+protection are done annually in recurring mode 
+ 
+ 
+Global Functions (InfoSec, Dev Ops, Assets, OCAG & Chrysalis): 
+Process verification and documented evidences: 
+InfoSec – SAR (Security scanning, Analysis & Reporting) 
+This is a new team formed to deliver security solutions and provide expertise related to information 
+security and data privacy as a mission 
+- Azure subscriptions and secure code maintenance in DevOps 
+- ASC recommendations – 10 and security alerts – 1 on POC Internal Program reviewed 
+- SAR is enabling project teams to work and close vulnerabilities and engage in sustainability aspects 
+-- 132395 secrets exposed as of 17/11/21, 1 action required implemented as per 11/17/21 scan 
+ 
+Services Dev Ops – Offers services like coding, build, release and sonar via service requests 
+- Post project registration in Virtuoso, while setting up the Dev Ops environment set up – project 
+manager raises the tickets on Provance platforms 
+-- Request ticket 26259 – 2021 for provision of new Azure Dev Ops Project verified for response SLA & 
+resolution SLA 
+- Services Dev Ops Provance Ops Guide V1.1 – guidelines provided for each type of requests; SLAs 
+defined for all catalogue services 
+- Services Dev Ops SLA DB 
+ 
+Services Assets – Caters to s/w & h/w requirements of IGD 
+- Requests – 26434-2021 and 26388-2021 for temporary laptop provision and office timeline pro license 
+verified respectively 
+- Active Software Licenses approved list 
+- Prohibited & Discouraged Third Party S/W Policy 
+- Exception process followed in case prohibited s/w needs to be provided to customers via tickets raised 
+by IGD 
+ 
+OCAG (One Commercial Azure Governance) – Provision of subscription life cycle, ODC support, 
+implementing new design, internal subscription governance for Azure, service tree inventory clean up 
+and provisioning & decommissioning Azure subscriptions taken care 
+- Req. 26137-2021 for Tools DB verified 
+- Patch Deployment – MCAPS Core Subscriptions Compliance 
+-- Compliance of subscriptions with access and without accesses checked, 99.93% compliant 
+- Missing Updates Details – Ageing patches tracked 
+-- Security DB LOB Exec View V2.1 
+- Quarterly Roles review done on 08/11/21 
+ 
+Chrysalis – This is a platform to cultivate inner source culture within MS. So far 113 ideas posted, 80 in 
+project stage, 35 assets created on 3 elements – explore ideas, projects and assets. Assets related to 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 25 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 25 of 46 
+ 
+ 
+ 
+tools, guidelines, code artifacts, ID components and templates are evident on the platform, this platform 
+is on Azure, document control and owners defined 
+Projects: 
+The following projects were audited: 
+ 
+Project ID 
+Project Name 
+Domain 
+Location 
+33316 
+RENAULT-AVNEXT-CR52-21-01 FF_C.6908212419 
+ACAI 
+Bucharest 
+23173  
+Deutsche Telekom AG 
+ACAI 
+Bucharest 
+33700  
+European Border and Coast Guard Age  
+Modern Work 
+Warsaw 
+Confidential 
+USDC Federal Project (Confidential) 
+ACAI 
+Irving, TX 
+34677 
+FY22-MCS-SG-SCB-Transformation FSI 
+cloud_C.6908009567 
+Business 
+Applications 
+India  
+29122 
+ECIF-NBA Sprint 0_C.6908001045 
+ACAI 
+India 
+24765 
+Shell-FY15-013-Search as a Service-FF_C.6908165361 
+Modern Work 
+India 
+ 
+Process verification and documented evidences: 
+ 
+Bucharest 
+Renault Nissan Alliance: 
+Responsibilities include incident & problem management, deployment, monitoring the application – 
+Connected Vehicle Platform. One dev ops consultant working from Bucharest site. Vehicle ID details are 
+made available and controls place to protect the same. 
+- Monthly Access Review done & shared with client – User Access Audit Reports – Sep’21 
+- Azure Dev Ops DB  - zero failed 
+-- Chg. Ticket 209368, 206930 & 205815 with CAB approvals verified 
+- Deployment V3.39 major release verified for sanity tests, deployment plan, release notes, deployments 
+done region to region in a phased manner 
+ 
+Deutsche Telekom: 
+Responsibilities include supporting customers on Azure Dev Ops on code, support business owners who 
+operate their own application environments. Accesses granted as per MS requirements internally, email 
+sent to client for access requests and credentials provided to users, 2FA practiced along with 
+credentials, role-based accesses provided. No exits from the team, only 1 resource working for this 
+project. 
+- Access request email Dt. 12/10/21 
+- MS Security updates provided every second week 
+- MS protocol followed during WFH as part of Modern Access Policies includes all IT & Info sec controls 
+for this project 
+ 
+Warsaw 
+Project – Green Field Classified 
+Systems to users for this project are provided by Help Desk team. Engagement is Fixed Fee 
+Engagement. Frontex is planning to modernize and deploy a new infrastructure in restricted 
+environment and centralize core ICT services. Client requirements for this project are Green Field 
+Certification which covers EU confidentiality, criminal record check, confirmation from NAS (National 
+Security Services). Confirmation on how to treat non-public information in Poland as a regulatory 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 26 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 26 of 46 
+ 
+ 
+ 
+requirement is signed by all employees. Employees who have signed EU Confidentiality are working 
+outside the environment – 2 users have access and client assets are used for all processing. No events 
+of lost assets recorded so far. Laptops are shared with employees of other regions only by certified 
+employees who have the clearance from National Security Agency of the designation country. 
+- Work Safely from Home V1.0 
+- Employee sign offs – EU Confidentiality 
+- Frontex_GFC_SINA Laptop – Inventory Tracker 
+- Virtuoso – Project Risks & Issues – reviewed weekly 
+- Health Indicator Status – CSAT, Schedules, Risks, Compliance, Process & technical updates 
+-- RAID Logs: 3 high issues and 1 high risks identified, actions taken and timelines documented for 
+closure 
+ 
+USDC Projects : 
+Responsibilities cover developing solutions to MS Exchange, EHR modernization. TMP – Tele Health 
+Management Platform built to handle communication between doctors and patients. No PHI and PII 
+data handled, team provides only build infrastructure. MS owned dev. Environment and production 
+environment is owned by client. 
+ 
+- SIU Appointment to TMP Process Flow Chart 
+- Trouble Tickets verified: 19166 and 19165 
+- Bug Ticket 18989 – UAT done, fixes on dev. Is done by MS including hot fixes and implementation to 
+address issues 
+- VAPIV Application Dt. 08/19/21 takes care of NDA, DP, SIC self-declaration 
+- VA onboarding process and VA clearance process verified 
+- Vulnerability scans done with low, medium and high category findings reported Client runs the solution 
+on their DB, NO GO for medium and high followed 
+-- OIS Fortify Scan Validation Report Dt. 23/07/21 
+-- Fortify Scan Results 
+-- REQ 5249001 for validation acceptance verified 
+- Smoke test reports & results 
+ 
+India 
+Project ID 34677 – SCB : 
+- Provides dynamics marketing & sales solutions, customization and configuration done on cloud 
+environment 
+- Tickets 7138 & 8001 verified till closure acceptance criteria checked 
+- System and UAT testing done – Release 1 with 85% fits and 15% gaps 
+- MS Visual Studio Static Analysis, secure development life cycle update reviewed 
+- Code Metrics Power Tool – 6 parameters for 5 modules tracked, 6 violations identified 2 at framework 
+level and 4 on plugin, action implemented and WIP 
+- Release notes for MCS Build R1 V1.13 and V1.0 reviewed, retrospection on customer portal made 
+available 
+- Access request email Dt. 11/16/21 for ADO access reviewed, no revocation requests raised 
+ 
+Project ID 29122 ECIF – NBA : 
+Provide operate and build mobile apps, videos on demand, 11 workstreams distributed considering large 
+project. Project life cycle, completion status and MS involvement reviewed 
+- US 20849 reviewed, Test suites – 18, 17 passed and 1 not applicable 
+- US 20924, Test case 21998, Bug 25788 closed 
+- Integration, unit testing done and results available in Dev Ops 
+- Sonar scans: Quality Gate Status verified for vulnerabilities, bugs and security hotspots along with 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 27 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 27 of 46 
+ 
+ 
+ 
+code smells 
+- NBA Manager Access controls, access reviews evident 
+- ADO access for MST Dt. 07/14/21 
+- Azure Access Review – Sep’21 
+ 
+Project ID 24765 – Shell : 
+This team acts as search center of excellence for Shell. Activities include manage service tickets and 
+incidents, UI experience improvements provided 
+- Connectivity using Shell remote networks, Citrix, credentials with MFA used 
+- INC1012724, INC0711025 and Service Req. RITM 3388877 reviewed till closure 
+- Share Point – Request Backlog for 10 items reviewed, approved by product owner 
+- REQ2830775, RITM 2944142 reviewed 
+- Test Suites – 6 TCs, 2 failed for US 4966 for 7 bugs raised in Nov’21 
+- Secure Coding principles followed with in MS 
+- Info sec report Dt. Oct. 29th 2021 
+- Burp scan report – 3 low, 8 info Dt. 29/10/21 
+- Cred scan report – 0 findings 
+ 
+ 
+Tools: 
+Consists of USP, OSE, Connected Bridge, SEE, Virtuoso and SDM+, sampled following tools. 
+ 
+Process verification and documented evidences: 
+USP: Unified Support Pricing 
+- Price generating engine used by sales and hosted on cloud 
+- Profile ID 701730 expiry Dt. 01/01/22 verified for 3 user access post approval 
+- BRDs, Sprint Plans, acceptance criteria, list of stories, bugs closure confirmation verified for Sprint 38, 
+US 654484, 659391, test cases and tasks till closure 
+- LOB Tools Evidence Checklist – USP 
+- Release Notes – USP – Sprint 38 
+- USP – Sprint 36 UAT V1.0 
+ 
+Virtuoso: Project ID - 28931 
+- Access via Judson Althoff internal project management tool where accesses are provided during 
+onboarding and default access to Virtuoso provided 
+- Secure by default – Data protection online questionnaire initiated 
+- DPQ submitted for project ID 29152 and 34649 includes data classification, data sensitivity, scope and 
+compliance aspects 
+- Nine KPIs tracked as part of project status every 2 weeks – CSAT, financials, schedules, risks, 
+compliance are few of them 
+- Technical & SQA reviews done periodically and logs raised 
+-- RAID Logs – Project 22352, Risk ID R368102 verified 
+ 
+SEE – Services Engagement Experience 
+- Knowledge management and collaboration tool with O365 used to create pre sales channels 
+- Posts, files, wiki are provided in MST by default 
+- PMXP is added as external tool 
+- Azure Dev Ops Sprint 04, US 139009 verified 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 28 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 28 of 46 
+ 
+ 
+ 
+Minor (6) nonconformities arising from this assessment. 
+ 
+Finding 
+Reference 
+2133991-202110-N1 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A11.2.4 
+Location 
+reference 
+0047462947-002 
+Assessment 
+Number 
+3239102 
+Category 
+Minor 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Statement of 
+non 
+conformance: 
+Warsaw: CCTV & Access Control Systems are not properly maintained 
+Clause 
+requirements 
+        Equipment maintenance 
+        Equipment shall be correctly maintained to ensure its continued 
+availability and integrity. 
+Objective 
+Evidence 
+Warsaw: Issues related to CCTV (blurred camera) & Access Control 
+System (access door not working) Dt. 06/10/21 and 14/09/21 
+respectively not reported and maintained for the adequacy 
+Cause 
+ 
+Correction/containment 
+ 
+Corrective action 
+ 
+ 
+Finding 
+Reference 
+2133991-202110-N2 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A9.2.5 
+Location 
+reference 
+0047462947-005 
+Assessment 
+Number 
+3246000 
+Category 
+Minor 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Statement of 
+non 
+conformance: 
+Texas: Physical access reviews with respect to badges are not conducted 
+periodically 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 29 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 29 of 46 
+ 
+ 
+ 
+Clause 
+requirements 
+Review of user access rights 
+Asset owners shall review users’ access rights at regular intervals. 
+Objective 
+Evidence 
+No evidence of badge access reviews, as per the interview with facility 
+manager 
+Cause 
+ 
+Correction/containment 
+ 
+Corrective action 
+ 
+ 
+Finding 
+Reference 
+2133991-202110-N3 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A9.2.6 
+Location 
+reference 
+0047462947-000 
+Assessment 
+Number 
+3238170 
+Category 
+Minor 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Statement of 
+non 
+conformance: 
+GSAM: User accesses are not disabled upon change (Hyderabad & 
+Bucharest) 
+Clause 
+requirements 
+Removal or adjustment of access rights 
+The access rights of all employees and external party users to 
+information and information processing facilities shall be removed upon 
+termination of their employment, contract or agreement, or adjusted 
+upon change. 
+Objective 
+Evidence 
+GSAM: Primary cards are not disabled while issuing temporary ID cards 
+(SSKC2 - Hyderabad & Bucharest) 
+Cause 
+ 
+Correction/containment 
+ 
+Corrective action 
+ 
+ 
+Finding 
+Reference 
+2133991-202110-N4 
+Certificate 
+Reference 
+IS 595239 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 30 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 30 of 46 
+ 
+ 
+ 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A11.1.3 
+Location 
+reference 
+0047462947-000 
+Assessment 
+Number 
+3238170 
+Category 
+Minor 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Statement of 
+non 
+conformance: 
+Hyderabad: Critical rooms are not secured with monitoring controls 
+Clause 
+requirements 
+Securing offices, rooms and facilities 
+Physical security for offices, rooms and facilities shall be designed and 
+applied. 
+Objective 
+Evidence 
+Hyderabad: Cable room is not installed with CCTV cameras 
+Cause 
+ 
+Correction/containment 
+ 
+Corrective action 
+ 
+ 
+Finding 
+Reference 
+2133991-202110-N5 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A18.1.1 
+Location 
+reference 
+0047462947-000 
+Assessment 
+Number 
+3238170 
+Category 
+Minor 
+Area/Process: 
+GSOC, GSAM, VSOC, Physical Security & REF 
+Statement of 
+non 
+conformance: 
+Legal requirement for Hyderabad and Bengaluru is not meeting 
+Clause 
+requirements 
+Identification of applicable legislation and contractual requirements 
+All relevant legislative statutory, regulatory, contractual requirements 
+and the organization’s approach to meet these requirements shall be 
+explicitly identified, documented and kept up to date for each 
+information system and the organization. 
+Objective 
+Evidence 
+Shops and Establishment Certificates are not renewed as per new 
+premises for Hyderabad and Bengaluru 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 31 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 31 of 46 
+ 
+ 
+ 
+Cause 
+ 
+Correction/containment 
+ 
+Corrective action 
+ 
+ 
+Finding 
+Reference 
+2133991-202110-N6 
+Certificate 
+Reference 
+IS 595239 
+Certificate 
+Standard 
+ISO/IEC 27001:2013 
+Clause 
+A12.6.1 
+Location 
+reference 
+0047462947-000 
+Assessment 
+Number 
+3238170 
+Category 
+Minor 
+Area/Process: 
+Global Functions (Dev Ops, Assets, OCAG & Chrysalis) 
+Statement of 
+non 
+conformance: 
+OCAG: Patch deployment is not efficient 
+Clause 
+requirements 
+Management of technical vulnerabilities 
+Information about technical vulnerabilities of information systems being 
+used shall be obtained in a timely fashion, the organization’s exposure to 
+such vulnerabilities evaluated and appropriate measures taken to 
+address the associated risk. 
+Objective 
+Evidence 
+OCAG: 20 VMs are non compliant to patches from IDG 
+Cause 
+ 
+Correction/containment 
+ 
+Corrective action 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 32 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 32 of 46 
+ 
+ 
+ 
+Next visit objectives, scope and criteria 
+ 
+The objective of the assessment is to conduct a surveillance assessment and look for positive evidence 
+to ensure the elements of the scope of certification and the requirements of the management standard 
+are effectively addressed by the organisation's management system and that the system is 
+demonstrating the ability to support the achievement of statutory, regulatory and contractual 
+requirements and the organisations specified objectives, as applicable with regard to the scope of the 
+management standard, and to confirm the on-going achievement and applicability of the forward 
+strategic plan. 
+ 
+The information security management system describes the provision of trusted and managed 
+Information security services – Azure Cloud & AI, Modern Work, Business Applications, Complex Delivery 
+(including Delivery excellence and SQA), Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, GSOC, RE&F for Industry Solutions Delivery 
+from its Hyderabad and Bangalore-India, Warsaw-Poland, Bucharest-Romania and Irving, Tx-USA 
+locations. 
+ 
+ISO 27001:2013 requirements 
+Microsoft's documented policies and procedures 
+Customer requirements 
+Legal & Regulatory requirements 
+ 
+Please note that BSI reserves the right to apply a charge equivalent to the full daily rate for cancellation 
+of the visit by the organisation within 30 days of an agreed visit date. 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 33 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 33 of 46 
+ 
+ 
+ 
+Next Visit Plan 
+ 
+Date 
+Auditor 
+Time 
+Area/Process 
+Clause 
+ 
+ 
+ 
+ISMS Framework 
+ 
+ 
+ 
+ 
+GSOC, GSAM, VSOC, Physical Security & REF 
+ 
+ 
+ 
+ 
+IT Infra 
+ 
+ 
+ 
+ 
+Supplier Management 
+ 
+ 
+ 
+ 
+Human Resources Security 
+ 
+ 
+ 
+ 
+Global Functions (InfoSec, DevOps, Assets, 
+OCAG & Chrysalis) 
+ 
+ 
+ 
+ 
+Domain Projects 
+ 
+ 
+ 
+ 
+Tools (USP, OSE, Connected Bridge, SEE, 
+Virtuoso, SDM Plus) 
+ 
+ 
+ 
+ 
+Legal & Statutory Requirements 
+ 
+ 
+ 
+ 
+CAV 1 & 2 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 34 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 34 of 46 
+ 
+ 
+ 
+Appendix: Your certification structure & ongoing assessment 
+programme 
+ 
+Scope of Certification 
+ 
+IS 595239 (ISO/IEC 27001:2013) 
+The information security management system describes the provision of trusted and managed 
+Information security services – Azure Cloud & AI, Modern Work, Business Applications, Complex Delivery 
+(including Delivery excellence and SQA), Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, GSOC, RE&F for Industry Solutions Delivery 
+from its Hyderabad and Bangalore-India, Warsaw-Poland, Bucharest-Romania and Irving, Tx-USA 
+locations. This is in Accordance with the latest ISMS Statement of Applicability V1.13 Dt. October 6th, 
+2021. 
+ 
+Assessed location(s) 
+ 
+The audit has been performed at Central Office, Permanent Locations. 
+ 
+Texas / IS 595239 (ISO/IEC 27001:2013) 
+Location reference 
+0047462947-005 
+Address 
+Microsoft Federal Consulting (USDC) 
+LC1, 7000 N. 
+State Highway 161 
+Irving 
+Texas 
+75039 
+USA 
+Visit type 
+Re-certification Audit (RA Opt 2) 
+Assessment number 
+3246000 
+Assessment dates 
+28/10/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+10 
+Total persons doing work at 
+this site 
+10 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+2 day(s) 
+ 
+Hyderabad / IS 595239 (ISO/IEC 27001:2013) 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 35 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 35 of 46 
+ 
+ 
+ 
+Location reference 
+0047462947-000 
+Address 
+Microsoft Global Services Center (India) Private Limited 
+2nd Floor ( Unit-01) & 3rd to 6th Floors 
+(Unit 01 & 02), Salarpuria Sattva Knowledge City 
+Argus Building, Parcel-2, Survey No. 83/1, Plot No - 2 
+Raidurg Panmaktha Village, Serilingampally 
+Ranga Reddy District 
+Hyderabad 
+Telangana 
+500 081 
+India 
+Visit type 
+Re-certification Audit (RA Opt 2) 
+Assessment number 
+3238170 
+Assessment dates 
+16/11/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+100 
+Total persons doing work at 
+this site 
+100 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+4 day(s) 
+ 
+Bangalore / IS 595239 (ISO/IEC 27001:2013) 
+Location reference 
+0047462947-001 
+Address 
+Microsoft GlobalServices Center (India) 
+Private Limited 
+#9, Vigyan, 2nd Floor, Lavelle Road, 
+Bangalore 
+Karnataka 
+560 001 
+India 
+Visit type 
+Re-certification Audit (RA Opt 2) 
+Assessment number 
+3238172 
+Assessment dates 
+03/11/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+30 
+Total persons doing work at 
+this site 
+30 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 36 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 36 of 46 
+ 
+ 
+ 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+2 day(s) 
+ 
+București / IS 595239 (ISO/IEC 27001:2013) 
+Location reference 
+0047462947-004 
+Address 
+Microsoft Global Services Center 
+Iuliu Maniu Boulevard nr. 6P 
+Campus 6.2 Building, Sector 6 
+București 
+061103 
+Romania 
+Visit type 
+Re-certification Audit (RA Opt 2) 
+Assessment number 
+3244659 
+Assessment dates 
+21/10/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+10 
+Total persons doing work at 
+this site 
+10 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+1 day(s) 
+ 
+Warszawa / IS 595239 (ISO/IEC 27001:2013) 
+Location reference 
+0047462947-002 
+Address 
+Microsoft Global Services Center 
+Microsoft Sp. z.o.o 
+1st floor, 
+195A Aleje Jerozolimskie 
+Warszawa 
+02-222 
+Poland 
+Visit type 
+Re-certification Audit (RA Opt 2) 
+Assessment number 
+3239102 
+Assessment dates 
+22/10/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+25 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 37 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 37 of 46 
+ 
+ 
+ 
+Total persons doing work at 
+this site 
+25 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+1 day(s) 
+ 
+Hyderabad / IS 595239 (ISO/IEC 27001:2013) 
+Location reference 
+0047462947-000 
+Address 
+Microsoft Global Services Center (India) Private Limited 
+2nd Floor ( Unit-01) & 3rd to 6th Floors 
+(Unit 01 & 02), Salarpuria Sattva Knowledge City 
+Argus Building, Parcel-2, Survey No. 83/1, Plot No - 2 
+Raidurg Panmaktha Village, Serilingampally 
+Ranga Reddy District 
+Hyderabad 
+Telangana 
+500 081 
+India 
+Visit type 
+Extension to Scope 
+Assessment number 
+3562364 
+Assessment dates 
+15/11/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+100 
+Total persons doing work at 
+this site 
+100 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+1 day(s) 
+ 
+Bangalore / IS 595239 (ISO/IEC 27001:2013) 
+Location reference 
+0047462947-001 
+Address 
+Microsoft GlobalServices Center (India) 
+Private Limited 
+#9, Vigyan, 2nd Floor, Lavelle Road, 
+Bangalore 
+Karnataka 
+560 001 
+India 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 38 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 38 of 46 
+ 
+ 
+ 
+Visit type 
+Extension to Scope 
+Assessment number 
+3562367 
+Assessment dates 
+02/11/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+30 
+Total persons doing work at 
+this site 
+30 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+1 day(s) 
+ 
+București / IS 595239 (ISO/IEC 27001:2013) 
+Location reference 
+0047462947-004 
+Address 
+Microsoft Global Services Center 
+Iuliu Maniu Boulevard nr. 6P 
+Campus 6.2 Building, Sector 6 
+București 
+061103 
+Romania 
+Visit type 
+Extension to Scope 
+Assessment number 
+3562368 
+Assessment dates 
+20/10/2021 
+Deviation from Audit Plan 
+No 
+Total number of Employees 
+10 
+Total persons doing work at 
+this site 
+10 
+Scope of activities at the site 
+Azure Cloud & AI, Modern Work, Business Applications, 
+Complex Delivery (including Delivery excellence and SQA), 
+Enterprise Operations (including Supplier Security 
+Management, Business Operations), Human Resources, 
+GSOC, RE&F 
+Assessment duration 
+1 day(s) 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 39 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 39 of 46 
+ 
+ 
+ 
+Shift Details 
+ 
+An evaluation of the shift patterns and processes undertaken on them has been completed and it has 
+been concluded that sufficient evidence of conformance from all shifts can be seen during the normal 
+assessment times. 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 40 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 40 of 46 
+ 
+ 
+ 
+Certification assessment program 
+ 
+Certificate Number - IS 595239 
+Location reference - 0047462947-000 
+ 
+ 
+Audit1 
+Audit2 
+Audit3 
+Audit4 
+Business 
+area/Location 
+Date (mm/yy): 
+10/2021 
+10/2022 
+10/2023 
+10/2024 
+Duration (days): 
+5 
+3 
+3 
+ 
+ISMS Framework 
+X 
+X 
+X 
+X 
+GSOC, GSAM, VSOC, Physical Security & REF 
+X 
+X 
+X 
+X 
+IT Infra 
+X 
+X 
+X 
+X 
+Supplier Management 
+X 
+X 
+X 
+X 
+Human Resources Security 
+X 
+X 
+X 
+X 
+Global Functions (InfoSec, DevOps, Assets, OCAG & 
+Chrysalis) 
+X 
+X 
+X 
+X 
+Domain Projects 
+X 
+X 
+X 
+X 
+Tools (USP, OSE, Connected Bridge, SEE, Virtuoso, 
+SDM Plus) 
+X 
+X 
+X 
+X 
+Legal & Statutory Requirements 
+X 
+X 
+X 
+X 
+Recertification Assessment 
+X 
+ 
+ 
+X 
+CAV 1 & 2 
+ 
+X 
+X 
+ 
+Extension to scope (Relocation) 
+X 
+ 
+ 
+ 
+ 
+Certificate Number - IS 595239 
+Location reference - 0047462947-001 
+ 
+ 
+Audit1 
+Audit2 
+Audit3 
+Audit4 
+Business 
+area/Location 
+Date (mm/yy): 
+10/2021 
+10/2022 
+10/2023 
+10/2024 
+Duration (days): 
+3 
+1 
+1 
+ 
+Physical Security & REF 
+X 
+X 
+X 
+X 
+IT Infra 
+X 
+X 
+X 
+X 
+Supplier Management 
+X 
+X 
+X 
+X 
+Human Resources Security 
+X 
+X 
+X 
+X 
+Global Functions (InfoSec, DevOps, Assets, OCAG & 
+Chrysalis) 
+X 
+X 
+X 
+X 
+Domain Projects 
+X 
+X 
+X 
+X 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 41 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 41 of 46 
+ 
+ 
+ 
+Tools (USP, OSE, Connected Bridge, SEE, Virtuoso, 
+SDM Plus) 
+X 
+X 
+X 
+X 
+Legal & Statutory Requirements 
+X 
+X 
+X 
+X 
+Recertification Assessment 
+X 
+ 
+ 
+X 
+CAV 1 & 2 
+ 
+X 
+X 
+ 
+Extension to scope (Relocation) 
+X 
+ 
+ 
+ 
+ 
+Certificate Number - IS 595239 
+Location reference - 0047462947-002 
+ 
+ 
+Audit1 
+Audit2 
+Audit3 
+Audit4 
+Business 
+area/Location 
+Date (mm/yy): 
+10/2021 
+10/2022 
+10/2023 
+10/2024 
+Duration (days): 
+1 
+1 
+1 
+ 
+Physical Security & REF 
+X 
+X 
+X 
+X 
+IT Infra 
+X 
+X 
+X 
+X 
+Supplier Management 
+X 
+X 
+X 
+X 
+Human Resources Security 
+X 
+X 
+X 
+X 
+Global Functions (InfoSec, DevOps, Assets, OCAG & 
+Chrysalis) 
+X 
+X 
+X 
+X 
+Domain Projects 
+X 
+X 
+X 
+X 
+Tools (USP, OSE, Connected Bridge, SEE, Virtuoso, 
+SDM Plus) 
+X 
+X 
+X 
+X 
+Legal & Statutory Requirements 
+X 
+X 
+X 
+X 
+Recertification Assessment 
+X 
+ 
+ 
+X 
+CAV 1 & 2 
+ 
+X 
+X 
+ 
+ 
+Certificate Number - IS 595239 
+Location reference - 0047462947-004 
+ 
+ 
+Audit1 
+Audit2 
+Audit3 
+Audit4 
+Business 
+area/Location 
+Date (mm/yy): 
+10/2021 
+10/2022 
+10/2023 
+10/2024 
+Duration (days): 
+2 
+1 
+1 
+ 
+Physical Security & REF 
+X 
+X 
+X 
+X 
+IT Infra 
+X 
+X 
+X 
+X 
+Supplier Management 
+X 
+X 
+X 
+X 
+Human Resources Security 
+X 
+X 
+X 
+X 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 42 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 42 of 46 
+ 
+ 
+ 
+Global Functions (InfoSec, DevOps, Assets, OCAG & 
+Chrysalis) 
+X 
+X 
+X 
+X 
+Domain Projects 
+X 
+X 
+X 
+X 
+Tools (USP, OSE, Connected Bridge, SEE, Virtuoso, 
+SDM Plus) 
+X 
+X 
+X 
+X 
+Legal & Statutory Requirements 
+X 
+X 
+X 
+X 
+Recertification Assessment 
+X 
+ 
+ 
+X 
+CAV 1 & 2 
+ 
+X 
+X 
+ 
+Extension to scope (Relocation) 
+X 
+ 
+ 
+ 
+ 
+Certificate Number - IS 595239 
+Location reference - 0047462947-005 
+ 
+ 
+Audit1 
+Audit2 
+Audit3 
+Audit4 
+Business 
+area/Location 
+Date (mm/yy): 
+10/2021 
+10/2022 
+10/2023 
+10/2024 
+Duration (days): 
+2 
+1 
+1 
+ 
+GSOC, GSAM, VSOC, Physical Security & REF 
+X 
+X 
+X 
+X 
+IT Infra 
+X 
+X 
+X 
+X 
+Supplier Management 
+X 
+X 
+X 
+X 
+Human Resources Security 
+X 
+X 
+X 
+X 
+Global Functions (InfoSec, DevOps, Assets, OCAG & 
+Chrysalis) 
+X 
+X 
+X 
+X 
+Domain Projects 
+X 
+X 
+X 
+X 
+Tools (USP, OSE, Connected Bridge, SEE, Virtuoso, 
+SDM Plus) 
+X 
+X 
+X 
+X 
+Legal & Statutory Requirements 
+X 
+X 
+X 
+X 
+Recertification Assessment 
+X 
+ 
+ 
+X 
+CAV 1 & 2 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 43 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 43 of 46 
+ 
+ 
+ 
+Mandatory requirements – re-certification. 
+ 
+Review of assessment finding regarding conformity, effectiveness and relevance of the management 
+system: 
+Management system was found effective. Regular review of action plans to improve information security 
+is evident 
+ 
+Management system strategy and objectives: 
+Organization has demonstrated continual improvements as aligned with organization objectives and 
+strategy. 
+ 
+Review of progress in relation to the organisation's objectives: 
+All defined objectives are being monitored and tracked to achievement during various committee 
+reviews, actions taken on the misses / partially achieved objectives. There are no major changes 
+expected w.r.t. ISMS. 
+ 
+Review of assessment progress and the re-certification plan: 
+Planned durations for surveillance and next re-assessment are justified 
+ 
+BSI Client Management Impartiality and Surveillance Strategy: 
+TL has required qualifications to complete this assessment. CAV plan to be followed as included in this 
+report unless there are site level changes from the organisation 
+ 
+Continue with the current Total assessment days / Cycle. 
+ 
+ 
+Expected outcomes for accredited certification. 
+What accredited management system certification means? 
+To achieve an organization’s objectives related to the Expected Outcomes intended by the management 
+systems standard, the accredited management system certification is expected to provide confidence 
+that the organization has a management system that conforms to the applicable requirements of the 
+specific ISO standard. 
+ 
+In particular, it is to be expected that the organization 
+• has a system which is appropriate for its organizational context and certification scope, a defined 
+policy appropriate for the intent of the specific management system standard and to the nature, scale 
+and impacts of its activities, products and services over their lifecycles, is addressing risks and 
+opportunities associated with its context and objectives; 
+• analyses and understands customer needs and expectations, as well as the relevant statutory and 
+regulatory requirements related to its products, processes and services; 
+• ensures that product, process and service characteristics have been specified in order to meet 
+customer and applicable statutory/regulatory requirements; 
+• has determined and is managing the processes needed to achieve the Expected Outcomes intended by 
+the management system standard; 
+• has ensured the availability of resources necessary to support the operation and monitoring of these 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 44 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 44 of 46 
+ 
+ 
+ 
+products, processes and services; 
+• monitors and controls the defined product process and service characteristics; 
+• aims to prevent nonconformities, and has systematic improvement processes in place including the 
+addressing of complaints from interested parties; 
+• has implemented an effective internal audit and management review process; 
+• is monitoring, measuring, analysing, evaluating and improving the effectiveness of its management 
+system and has implemented processes for communicating internally, as well as responding to and 
+communicating with interested external parties. 
+ 
+What accredited management systems certification does not mean? 
+It is important to recognize that management system standards define requirements for an 
+organization’s management system, and not the specific performance criteria that are to be achieved 
+(such as product or service standards, environmental performance criteria etc). 
+ 
+Accredited management systems certification should provide confidence in the organization’s ability to 
+meet its objectives related to the intent of the management system standard. A management systems 
+audit is not a full legal compliance audit, and does not necessarily ensure ethical behaviour or that the 
+organization will always achieve 100% conformity and legal compliance, though this should of course be 
+a permanent goal. 
+ 
+Within its scope of certification, accredited management systems certification does not imply or ensure, 
+for example: 
+• that the organization is providing a superior product and service, or 
+• that the organization’s product and service itself is certified as meeting the requirements of an ISO (or 
+any other) standard or specification. 
+ 
+Definitions of findings: 
+ 
+Non-conformity: 
+Non-fulfilment of a requirement. 
+ 
+Major nonconformity: 
+Nonconformity that affects the capability of the management system to achieve the intended results. 
+Nonconformities could be classified as major in the following circumstances: 
+•    If there is a significant doubt that effective process control is in place, or that products or services 
+will meet specified requirements; 
+•    A number of minor nonconformities associated with the same requirement or issue could 
+demonstrate a systemic failure and thus constitute a major nonconformity. 
+ 
+Minor nonconformity: 
+Nonconformity that does not affect the capability of the management system to achieve the intended 
+results. 
+ 
+Opportunity for improvement: 
+It is a statement of fact made by an assessor during an assessment, and substantiated by objective 
+evidence, referring to a weakness or potential deficiency in a management system which if not improved 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 45 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 45 of 46 
+ 
+ 
+ 
+may lead to nonconformity in the future. We may provide generic information about industrial best 
+practices but no specific solution shall be provided as a part of an opportunity for improvement. 
+ 
+Observation: 
+It is ONLY applicable for those schemes which prohibit the certification body to issue an opportunity for 
+improvement. 
+It is a statement of fact made by the assessor referring to a weakness or potential deficiency in a 
+management system which, if not improved, may lead to a nonconformity in the future. 
+ 
+How to contact BSI 
+ 
+Visit the BSI Connect Portal, our web-based self-service tool to access all your BSI assessment and 
+testing data at a time that's convenient to you. View future audit schedules, submit your corrective 
+action plans and download your reports and Mark of Trust logos to promote your achievement. Plus, you 
+can benchmark your performance using our dashboards to help with your continual improvement 
+journey. 
+ 
+Should you wish to speak with BSI in relation to your certification, please contact your local BSI office – 
+contact details available from the BSI website: 
+https://www.bsigroup.com/en-IN/Contact-us/ 
+ 
+Notes 
+ 
+This report and related documents are prepared for and only for BSI’s client and for no other purpose. 
+As such, BSI does not accept or assume any responsibility (legal or otherwise) or accept any liability for 
+or in connection with any other purpose for which the Report may be used, or to any other person to 
+whom the Report is shown or in to whose hands it may come, and no other persons shall be entitled to 
+rely on the Report. If you wish to distribute copies of this report external to your organisation, then all 
+pages must be included. 
+ 
+BSI, its staff and agents shall keep confidential all information relating to your organisation and shall not 
+disclose any such information to any third party, except that in the public domain or required by law or 
+relevant accreditation bodies.  BSI staff, agents and accreditation bodies have signed individual 
+confidentiality undertakings and will only receive confidential information on a 'need to know' basis. 
+ 
+This audit was conducted through document reviews, interviews and observation of activities. The audit 
+method used was based on sampling the organization's activities and it was aimed to evaluate the 
+fulfilment of the audited requirements of the relevant management system standard or other normative 
+document and confirm the conformity and effectiveness of the management system and its continued 
+relevance and applicability for the scope of certification. 
+ 
+As this audit was based on a sample of the organization’s activities, the findings reported do not imply 
+to include all issues within the system. 
+ 
+ 
+bsi.
+.Mmaking excellence a Nabit.
+
+
+--- Page 46 ---
+ 
+ 
+ 
+Assessment Report. 
+ 
+ 
+Page 46 of 46 
+ 
+ 
+ 
+Regulatory compliance 
+ 
+BSI requires to be informed of all relevant regulatory non-compliance or incidents that require 
+notification to any regulatory authority. Acceptance of this report by the client signifies that all such 
+issues have been disclosed as part of the assessment process and agreement that any such non-
+compliance or incidents occurring after this visit will be notified to BSI as soon as practical after the 
+event. 
+ 
+bsi.
+.Mmaking excellence a Nabit.

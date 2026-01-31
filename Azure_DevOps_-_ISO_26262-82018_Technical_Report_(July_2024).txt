@@ -1,0 +1,810 @@
+--- Page 1 ---
+ 
+This report may be represented only in complete wording. The use for promotion needs written permission. This report contains the 
+result of a unique investigation of the product being tested and places no generally valid judgment about characteristics out of the 
+running fabrication. Official translations of this technical report are to be authorized by the test and certification body. 
+Template: TR_RA_F_04.08_v27 
+ 
+Technical Report 
+for the testing of the 
+Software Tool 
+ MS Azure DevOps 
+for safety-related development 
+ 
+Applicant 
+Microsoft Corporation 
+One Microsoft Way  
+98052-6399 Redmond, Washington 
+United States 
+ 
+Report No.: MM99914T 
+Version 1.4 of 2024-07-10 
+ 
+Testing Laboratory for Safety Components 
+TÜV SÜD Rail GmbH 
+Rail Automation 
+Barthstraße 16 
+D-80339 München 
+ 
+ 
+(Page 1 of 14) 
+Rail
+Add value.
+Inspire trust.
+
+
+--- Page 2 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 2 of 14 
+ 
+Table of Contents 
+page 
+1 
+Target of Evaluation (ToE) .................................................................................................. 5 
+2 
+Scope of Testing .................................................................................................................. 6 
+2.1 
+Test Specimen ........................................................................................................... 6 
+2.2 
+Nomenclature and Identification of MS Azure DevOps .............................................. 6 
+2.3 
+Tests .......................................................................................................................... 7 
+3 
+Standards and Guidelines .................................................................................................. 8 
+3.1 
+Functional Safety ....................................................................................................... 8 
+3.2 
+Quality Management System ..................................................................................... 8 
+4 
+Documentation and Results ............................................................................................... 9 
+4.1 
+Processes and Plans ................................................................................................. 9 
+4.2 
+Implementation .......................................................................................................... 9 
+4.2.1 
+Product Modifications related to this Technical Report (TR) v1.4 ....................... 9 
+5 
+Performance and results of tests ..................................................................................... 11 
+5.1 
+Test reports .............................................................................................................. 11 
+5.2 
+Functional Safety Management and Lifecycle Audit ................................................ 12 
+5.3 
+Software Development Process ............................................................................... 12 
+5.4 
+Quality assurance measures ................................................................................... 12 
+5.5 
+Analysis of failure modes / proven in use ................................................................ 12 
+5.6 
+Configuration, modification, and release management ............................................ 12 
+5.7 
+Verification and Validation ....................................................................................... 13 
+5.8 
+Customer Support and Bug Reporting ..................................................................... 13 
+5.9 
+User Documentation ................................................................................................ 13 
+6 
+Summary ............................................................................................................................ 14 
+
+
+--- Page 3 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 3 of 14 
+ 
+List of Tables 
+page 
+Table 1: 
+Modification history .................................................................................................... 4 
+Table 2: 
+Abbreviations ............................................................................................................. 4 
+Table 3: 
+SW identification of MS Azure DevOps ..................................................................... 6 
+Table 4: 
+Basic safety standards ............................................................................................... 8 
+Table 5: 
+Quality Management System ..................................................................................... 8 
+Table 6: 
+Processes and plans documentation ......................................................................... 9 
+Table 7: 
+Implementation documentation .................................................................................. 9 
+Table 8: 
+Modification documents for TR v1.4 ........................................................................ 10 
+Table 9: 
+Modification test results for TR v1.4 ......................................................................... 10 
+Table 10:  Test reports .............................................................................................................. 11 
+
+
+--- Page 4 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 4 of 14 
+ 
+Modification History 
+Rev. Status 
+Date 
+Author 
+Modification / Description 
+1.0 
+Replaced 2022-11-24 
+Daniel Girón Jara  
+Initial 
+1.1 
+Replaced 2022-12-05 
+Daniel Girón Jara 
+Update of references 
+1.2 
+Replaced 2023-03-29 
+Daniel Girón Jara 
+Update after release of safety manual 
+1.3 
+Replaced 2023-04-26 
+Daniel Girón Jara 
+Updates from feedback from the certification 
+process 
+1.4 
+Active 
+2024-07-10 
+Daniel Girón Jara 
+Update 2024 for yearly re-audit and template 
+v27 considerations 
+Table 1: 
+Modification history 
+List of Abbreviations 
+Abbreviation 
+Description 
+ASIL 
+Automotive Safety Integrity Level 
+FSM 
+Functional Safety Management 
+MS 
+Microsoft 
+QMS 
+Quality Management System 
+SaaS 
+Software as a Service 
+ToE 
+Target of Evaluation 
+Table 2: 
+Abbreviations 
+
+
+--- Page 5 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 5 of 14 
+ 
+1 
+Target of Evaluation (ToE) 
+In May 2022 the company Microsoft Corporation requested TÜV SÜD Rail GmbH to certify MS 
+Azure DevOps according to the standard listed in clause 3 of this report. The related project 
+number is 717525424. 
+In May 2024 the certification has been updated to the current sprint deployed of MS Azure 
+DevOps. The related project number is 717530385.  
+The MS Azure DevOps is a Software Tool used in safety-related developments according to ISO 
+26262. The MS Azure DevOps is built as a SaaS Platform. 
+ 
+
+
+--- Page 6 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 6 of 14 
+ 
+2 
+Scope of Testing  
+2.1 
+Test Specimen  
+The scope of the MS Azure DevOps product certification is described in the safety manual. Its 
+uses are the requirements gathering, the control of source code versions and the deployment 
+from the modules Azure Boards, Azure Repos, Azure Pipelines (see Figure 1). 
+ 
+ 
+ Figure 1: 
+Tool interactions 
+2.2 
+Nomenclature and Identification of MS Azure DevOps 
+The MS Azure DevOps tested is identified by software version as follows: 
+Name 
+Date 
+SW 
+Remarks 
+MS Azure DevOps 
+2024-03-29 
+Sprint 237 
+Software is delivered in 
+Sprints. 
+Process 2022.02 as seen 
+during the audit meetings 
+is the focus. 
+Table 3: 
+SW identification of MS Azure DevOps 
+Work Item
+oe
+(Azure Boards)
+Software
+ceeseensee
+ner aaa
+a
+ee
+Linkto ~~
+wer
+ic, F
+, PBI, Task,
+etc.
+Developer A
+<
+“-—
+Notify
+_—
+a“
+Epic,
+Feature,
+ask,
+etc
+Tooeeenn mans
+Trigger
+a
+Linkto
+Develop Source
+ii
+Soest
+ae
+i
+Code
+\
+Push Source Code
+ra
+s,
+mS
+'
+\
+(Rure Repos)
+/
+\
+Nw
+k
+ea
+YSS,
+.
+.
+'.
+eerste: mat
+me
+Software Repository
+Hoes
+ara & len Haale
+an
+Metrics Data
+Siaoses
+(Azure Repos)
+TNA
+INES
+eo
+eae
+- Trigger
+--
+Bees
+Cl Meta & Metrics Data, SE
+wo
+Source Code & Binary
+Build software component as
+Publish _
+Metrics Data Provider &
+>
+Package
+=<
+Dashboard
+Notify
+yor
+package
+/
+f
+a
+we
+ae
+}
+/
+'
+“>
+Consume
+_....----<<--7"7
+7"
+}\\
+/
+i
+Ls
+a
+Hy \
+1
+ge
+eee
+i.
+i
+Review& Approve Pull Request
+“>= Upload
+---------7~
+i
+%
+/
+NS
+Y
+(Azure Repos)
+R
+dt
+SS
+“
+un on
+S
+Software
+a
+j
+Publish/Update
+F
+A
+Developer B
+i
+a
+Persistent File Storage
+t
+Seca,
+'
+Review Source
+Statistic code analysis results
+Code
+Test Environment
+Run containers or pipeline
+jobs in parallel on
+infrastructure or VMs
+
+
+--- Page 7 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 7 of 14 
+ 
+2.3 
+Tests 
+The MS Azure DevOps was examined with respect to the following testing operations: 
+I. 
+Functional Safety including  
+ 
+Functional safety management (FSM) and safety lifecycle 
+ 
+Software development process 
+ 
+Quality assurance measures 
+ 
+Analysis of failure modes 
+II. 
+Configuration, modification, and release management 
+III. 
+Verification and validation 
+IV. 
+Customer support and bug tracking 
+V. 
+Safety information in the product documentation 
+
+
+--- Page 8 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 8 of 14 
+ 
+3 
+Standards and Guidelines 
+The regulations and guidelines which form the basis of the type testing are listed below. 
+3.1 
+Functional Safety  
+No. 
+Reference 
+Description 
+/N1/ 
+ISO 26262-8:2018 
+ 
+Road vehicles — Functional safety —  
+Part 8: Supporting processes 
+Table 4: 
+Basic safety standards 
+3.2 
+Quality Management System 
+No. 
+Reference 
+Description 
+[M1] 
+QMS  
+Quality Management System TÜV SÜD Rail GmbH 
+TR_RA_P_04.50 
+Test Program Functional Safety 
+TR_RA_P_04.51 
+Definition Scope of testing 
+TR_RA_P_04.07 
+Product Modification 
+TR_RA_P_04.52 
+Concept Phase & Safety Lifecycle 
+TR_RA_P_04.53 
+Detail Phase Hardware 
+TR_RA_P_04.54 
+Detail Phase Software 
+TR_RA_P_04.55 
+Safety Manual 
+TR_RA_P_04.56 
+Result of Testing 
+Table 5: 
+Quality Management System 
+
+
+--- Page 9 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 9 of 14 
+ 
+4 
+Documentation and Results  
+4.1 
+Processes and Plans 
+The following documents were issued by the customer: 
+No. 
+Title 
+Document number / ID 
+Rev. 
+Date 
+/D1/ Azure SOP Review Process 
+Azure SOP Review Process 2022.01 
+2022.
+01 
+2022 
+/D2/ Configuration Management 
+Plan 
+Configuration Management Plan – 
+Microsoft Azure – 2022.01 
+2022.
+01 
+2022 
+/D3/ Software Change and Release 
+Management (AZURE) 
+Software Change and Release 
+Management (AZURE) 2022.02 
+2022.
+02 
+2022 
+/D4/ Software (Safety) requirements 
+specifications (SW SRS)1 
+See footnote 
+ 
+ 
+/D5/ Test report2 
+See footnote 
+ 
+ 
+Table 6: 
+Processes and plans documentation 
+ 
+4.2 
+Implementation 
+The following documentation (User Manual) was issued by the customer: 
+No. 
+Title 
+Document number / ID 
+Rev. 
+Date 
+/D6/ 
+Safety Manual 
+MS AzureDevOps ReferenceWorkflow 
+ISO 26262v1p1.docx 
+1.1 
+2023-03-29 
+Table 7: 
+Implementation documentation 
+4.2.1 
+Product Modifications related to this Technical Report (TR) v1.4 
+The product has been modified after release, see clause 1 and clause 2.2. 
+The following documents describe the modifications realised for the already certified product:  
+No. 
+Title 
+Document number / ID 
+Rev. 
+Date 
+The following documents were issued by the customer: 
+/D7/ 
+Release notes since Sprint 208 
+(link to first release notes) 
+https://learn.microsoft.com/en-us/azure/devops/release-
+notes/2022/sprint-209-update?tabs=yaml 
+ 
+1 Spot checks seen live during the audit 
+2 Spot checks seen live during the audit. See received documents, e.g. Passed_tests.png and 
+Code_coverage.png. Testing of changes and deployments 
+
+
+--- Page 10 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 10 of 14 
+ 
+Table 8: 
+Modification documents for TR v1.4 
+Result: 
+No. 
+Title 
+Document number / ID 
+Rev. 
+Date 
+The following test documentation was issued by TÜV SÜD Rail GmbH: 
+[R1] 
+MoM Audit 
+MoM_Audit_MS_Azure_20240515.pdf 
+1.0 
+2024-05-15 
+Table 9: 
+Modification test results for TR v1.4  
+The modifications follow the established procedures for changes and deployment covered in the 
+initial certification. The modifications were carried out and the verification and validation activities 
+have shown that the changes did not raise any safety relevant objections. The approval of the 
+modifications shows that the test specimen is still compliant to the test basis defined in the 
+Technical Report. 
+ 
+ 
+ 
+
+
+--- Page 11 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 11 of 14 
+ 
+5 
+Performance and results of tests 
+5.1 
+Test reports 
+The following test reports were issued by TÜV SÜD Rail GmbH: 
+No. 
+Title 
+Document number / ID 
+Rev. 
+Date 
+[R2] 
+Review Protocol Safety 
+Manual 
+Review Protocol Safety Manual 
+3.0 
+2023-03-29 
+[R3] 
+Checklist according to ISO 
+26262 
+ISO26262_MSAzure.pdf 
+6 
+2023-03-29 
+Table 10:  Test reports 
+
+
+--- Page 12 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 12 of 14 
+ 
+5.2 
+Functional Safety Management and Lifecycle Audit 
+A functional safety management and lifecycle audit was executed by TÜV SÜD Rail GmbH to 
+evaluate the management and technical activities during the software safety lifecycle phases 
+which are necessary for the achievement of the required functional safety of the software tool.  
+Standard operating procedures (see chapter 4.1) are applied with /D3/ (process for software 
+changes and releases) as the main process.  
+Result: 
+The analysis of the organization and procedures of Microsoft Corporation has shown that the 
+applicable requirements for software tools (see checklist [R3]) of the standards /N1/ are covered. 
+5.3 
+Software Development Process 
+The software development process as described in /D3/ contains defining, developing and 
+releasing activities. Further processes, guidelines (/D1/, /D2/) and a team wiki detail the 
+supporting activities. Requirement examples were audited online in spot checks. 
+Result: 
+The analysis of the applied software development lifecycle at Microsoft Corporation has shown 
+that the applicable requirements for software tools of the standards according to chapter 3.1 are 
+covered as documented by [R3]. 
+5.4 
+Quality assurance measures 
+The change and release plan /D3/ shows the activities with different types of verification including 
+automated and manual activities with reviews, analyses and tests. 
+Those tasks have been presented during the assessment (/D5/) and evaluated with respect to 
+the requirements given in /N1/. 
+Result: 
+The applied quality assurance measures meet the applicable requirements for software tool 
+development, see [R3]. 
+5.5 
+Analysis of failure modes / proven in use 
+Analysed failure modes and impacts of Azure DevOps are documented in /D6/. 
+Result: 
+The FMEA was reviewed in [R2] in combination with the user documentation in chapter 5.9.  
+5.6 
+Configuration, modification, and release management 
+The procedures applied for implementation of changes, test implementation and test execution 
+shall be adequate to support the stability and correctness of released versions. 
+
+
+--- Page 13 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 13 of 14 
+ 
+All planning is done via Azure DevOps. Requirements and changes are captured in tickets 
+(including bugs). This provides a complete traceability between requirements and test cases for 
+each version.  
+Configuration management and documentation management is described in /D2/ and /D3/. Every 
+change to the software undergoes a defined procedure before entering the deployment 
+procedure. Automatically assigned reviews and automated tests support the approach. 
+Result: 
+The modification, configuration and release management of Microsoft Corporation is suitable to 
+ensure reliability and quality of the released software products, as documented in [R3].  
+5.7 
+Verification and Validation  
+Azure DevOps is tested permanently during the life-cycle phases by a set of different measures 
+(see 5.4). Examples for a feature-specific test plan were spot checked. Test reports (/D5/) show 
+different tests of the product during its lifecycle. The reports contain also the results of the tests. 
+Result: 
+The analysis (see chapter 5.2) of the verification and validation activities at Microsoft Corporation 
+has shown that – as far as applicable - the requirements according to the standards /N1/ are 
+fulfilled and that the requirements specified in checklists [R3] are covered. 
+5.8 
+Customer Support and Bug Reporting 
+Microsoft Corporation maintains a transparent bug handling policy. Customers can report 
+problems directly in the product or through a Service support page and track the current status 
+of them using the online bug tracking system which also contains fixed / known customer issues. 
+Customer support and customer bug resolution procedures have been reviewed in an online 
+audit. 
+Result:  
+The implemented support and bug tracking procedure of Microsoft Corporation ensures that 
+customers are informed about any known bugs, condition of use and safety-related modifications 
+in time, see [R3]. 
+5.9 
+User Documentation 
+Scope of the certified use cases and safety issues are included in the user documentation /D6/. 
+Additional release-related information shall be provided. This documentation shall allow the tool’s 
+user the application of the product in a safety-related development according to the relevant 
+safety standards. 
+Result: 
+The user documentation includes all safety relevant data as requested by the standards /N1/. 
+This has been reported in [R2] and [R3]. 
+
+
+--- Page 14 ---
+ 
+TÜV SÜD Rail GmbH 
+MM99914T / v1.4 
+Barthstr. 16 
+ MM99914T_v1.4.docx 
+80339 München 
+creator: Daniel Girón Jara  
+phone: +49 89 5791-3028, fax: -2339 
+2024-07-10 
+e-mail: Daniel.GironJara@tuvsud.com 
+page 14 of 14 
+ 
+6 
+Summary 
+The test results of clause 5 showed that the ToE, as specified in clause 2.1, fulfils the 
+requirements of the standards and guidelines referenced in clause 3, if the constraints and 
+conditions defined in the safety manuals are met. 
+The tool Azure DevOps as identified in chapter 2.2 is qualified to be used in a standard-compliant 
+development process according to ISO 26262:2018 for any ASIL. The requirements of the 
+validation of the software tool in accordance with ISO26262-8, Chapter 11.4.9 and evaluation of 
+the tool development process in accordance with ISO26262-8, Chapter 11.4.8 are fulfilled. 
+ 
+Technical Certifier 
+Project Manager 
+ 
+ 
+ 
+ 
+ 
+ 
+Digital 
+unterschrieben 
+von Daniel Girón 
+Jara 
+Datum: 2024.07.12 
+11:20:52 +02'00'
+ 
+Christian 
+Dirmeier 
+2024.07.12 
+11:29:41 
++02'00'
+BRK.

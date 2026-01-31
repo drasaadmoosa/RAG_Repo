@@ -1,0 +1,4519 @@
+--- Page 1 ---
+ 
+MICROSOFT AZURE, DYNAMICS 365 AND ONLINE SERVICES 
+ 
+CSA STAR RECERTIFICATION REVIEW SUMMARY REPORT 
+ 
+NOVEMBER 11, 2025 
+Assessment and Compliance Services 
+ 
+Proprietary & Confidential 
+Unauthorized use, reproduction, or distribution of this report, in whole or in part, is strictly prohibited. 
+ 
+mm Microsoft
+
+
+--- Page 2 ---
+ 
+ 
+ 
+ 
+STATEMENT OF CONFIDENTIALITY 
+ 
+The sole purpose of this document is to provide Microsoft Corporation (Microsoft) with the summary of the Cloud 
+Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) recertification review.  At Microsoft’s 
+discretion, it may distribute this report to its clients.  Each recipient of this report agrees that it shall not distribute or 
+use the information contained herein and any other information regarding Microsoft for any purpose other than 
+those stated.  This report, and any other Microsoft related information provided, shall remain the sole property of 
+Microsoft and may not be copied, reproduced, or distributed without the prior written consent of Microsoft. 
+ 
+ 
+ 
+ 
+ 
+APPLICABILITY 
+ 
+This document is supplemental to the CSA STAR recertification review performed by Schellman Compliance, LLC 
+(Schellman), the primary deliverable which is the certificate.  The information found in this report and the conclusions 
+reached were dependent upon the complete and accurate disclosure of information by Microsoft.  The information 
+provided in this report is “AS IS” without warranties of any kind.  Schellman expressly disclaims any warranties of 
+representations including implied warranties and fitness for a particular purpose. 
+ 
+ 
+ 
+ 
+ 
+INDEPENDENCE DISCLOSURE 
+ 
+Schellman assessed the Information Security Management System (ISMS) for Microsoft against the CSA STAR 
+program requirements.  Schellman does not hold any investment or control over Microsoft.  During the course of 
+the assessment, Schellman did not willfully and unnecessarily market services to achieve compliance to the CSA 
+STAR certification program.  No Schellman service was recommended during the course of the engagement. 
+ 
+Schellman also performed the following reviews for Microsoft’s Azure, Dynamics 365, and other Online Services 
+that are deployed in Azure Public and Government Cloud:  
+• 
+ISO/IEC 27001:2022 Recertification review (inclusive of ISO/IEC 27701:2019, ISO/IEC 27018:2025, and 
+ISO/IEC 27017:2015) 
+• 
+ISO/IEC 20000-1:2018 Recertification review 
+• 
+ISO 9001:2015 Recertification review 
+• 
+ISO 22301:2019 Recertification review 
+
+
+--- Page 3 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLE OF 
+CONTENTS 
+ 
+SECTION 1    PROJECT OVERVIEW ................................. 1 
+SECTION 2    CSA STAR REVIEW RESULTS................ 11 
+SECTION 3    CSA STAR CERTIFICATION TERM 
+PROGRAM ................................................. 31 
+APPENDIX A  CSA STAR REVIEW MATURITY  
+MATRIX..................................................... 33 
+APPENDIX B  MICROSOFT AZURE SCOPE  
+STATEMENT .............................................. 35 
+ 
+ 
+ 
+ 
+
+
+--- Page 4 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 1 
+ 
+PROJECT OVERVIEW 
+ 
+ 
+ 
+
+
+--- Page 5 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+EXECUTIVE SUMMARY 
+ 
+Introduction 
+ 
+Microsoft underwent a CSA STAR recertification review in October 2025 of their ISO/IEC 27001:2022 (ISO 27001) 
+ISMS.  The purpose of the CSA STAR recertification review was to reassess the ISMS against the CSA STAR 
+Certification program requirements.  The CSA STAR Certification is a third-party independent assessment of the 
+security of a cloud service provider (CSP) that leverages the requirements of the ISO 27001 management system 
+standard together with the CSA Cloud Controls Matrix (CCM) version 4.  The assessment included an evaluation 
+of Microsoft’s maturity level across each CCM security domain.  The maturity level for each CCM security control 
+and overall domain was assessed a score of 1 to 15 using the following table*. 
+ 
+Maturity Score 
+Descriptor 
+1-3 
+No Formal Approach 
+4-6 
+Reactive Approach 
+7-9 
+Proactive Approach 
+10-12 
+Improvement-Based Approach 
+13-15 
+Optimizing Approach 
+* See Appendix A for Maturity Matrix 
+ 
+The maturity score for each applicable domain was based on the lowest individual control score.  The composite 
+maturity score was the average maturity score across all domains.  Note that per CSA STAR Certification guidelines, 
+if a major nonconformity were noted in a control domain, the maximum possible maturity score would be 6; if a 
+minor nonconformity was noted in a control domain, the maximum possible maturity score would be 9.  Based on 
+the overall maturity score, an organization could achieve either no award, a bronze award, a silver award, or a gold 
+award based on the following table. 
+ 
+Overall Maturity Score 
+Descriptor 
+Less than 3 
+No Award 
+3-6 
+Bronze Award 
+6-9 
+Silver Award 
+Greater than 9 
+Gold Award 
+ 
+This report includes the results of the October 2025 CSA STAR recertification review. 
+ 
+The scope of the CSA STAR recertification review is limited to the ISMS supporting Microsoft: Azure, Dynamics 
+365, and other Online Services that are deployed in Azure Public and Government Cloud including their 
+development, operations, and infrastructure and their associated security, privacy, and compliance and inclusive of 
+the requirements and control implementation guidance of ISO/IEC 27701:2019 (ISO 27701) for a Privacy 
+Information Management System (PIMS) in the role of a personally identifiable information (PII) processor per the 
+statement of applicability version 2025.02.  The scope of the ISMS includes the control requirements of ISO/IEC 
+27017:2015 (ISO 27017) and ISO/IEC 27018:2025 (ISO 27018). 
+ 
+The scope includes operations at the locations identified in Appendix B. 
+ 
+ 
+
+
+--- Page 6 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+3 
+ 
+ 
+ 
+ 
+Opening Meeting Description 
+ 
+An opening meeting occurred remotely utilizing the Microsoft Teams web conferencing application at approximately 
+11:30 AM PST on Wednesday, September 17, 2025.  The meeting was held to kick-off the recertification review 
+activities.  An agenda was provided as well as a project plan and audit plan for the review.  
+ 
+The opening meeting was held to perform the following: 
+• 
+reconfirm the audit plan, scope, and deliverables for the recertification review; 
+• 
+identify the client points of contact for the objectives and domains; and 
+• 
+discuss the timing expectations of the fieldwork as well as the activities following the fieldwork. 
+ 
+ 
+Audit Review Details 
+ 
+The audit program included a maturity assessment against the following CCM domains:  
+• 
+Audit and assurance; 
+• 
+Application and interface security; 
+• 
+Business continuity management and 
+operation resilience; 
+• 
+Change control and configuration 
+management; 
+• 
+Cryptography, encryption, and key 
+management; 
+• 
+Datacenter security; 
+• 
+Data security and privacy lifecycle 
+management; 
+• 
+Governance, risk management, and 
+compliance; 
+• 
+Human resources; 
+• 
+Identity and access management; 
+• 
+Interoperability and portability; 
+• 
+Infrastructure and virtualization; 
+• 
+Logging and monitoring; 
+• 
+Security incident management, e-discovery, 
+and cloud forensics; 
+• 
+Supply chain management, transparency, 
+and accountability; 
+• 
+Threat vulnerability management; and 
+• 
+Universal endpoint management 
+ 
+A closing meeting occurred remotely utilizing the Microsoft Teams web conferencing application at approximately 
+1:30 PM PST on Friday, October 31, 2025.  The closing meeting included a discussion with Microsoft regarding the 
+CSA STAR review results. 
+ 
+ 
+Overall Award Assignment 
+ 
+Microsoft has implemented control activities within their ISMS to achieve criteria and requirements specified within 
+the CCM.  A risk management program is in place and Microsoft has demonstrated an ability to identify risk and 
+respond to identified risk in accordance with the direction of management and their tolerance for risk.  The ISMS 
+has demonstrated an ability to adapt and mature over time. 
+  
+Microsoft’s maturity level applicable to the CCM in relation to the ISMS is established and is optimized as defined 
+within the CCM maturity matrix as control area owners have demonstrated they actively review best practices from 
+their industry and across the organization and apply it to their control areas.  The collective maturity level in relation 
+to the CCM is high for all the domains.  There were no nonconformities or opportunities for improvement (OFIs) 
+identified during the 2025 ISO 27001 recertification review.  As a result, the audit team’s recommendation is to re-
+issue Microsoft's CSA STAR certification with the following maturity score and award: 
+ 
+
+
+--- Page 7 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+4 
+ 
+ 
+ 
+ 
+Year 
+Overall 
+Maturity 
+Score 
+Descriptor 
+Notes 
+2025 Recertification 
+13.88 
+Gold Award 
+Microsoft continued to demonstrate an optimizing 
+approach to managing controls established 
+across the CCM domains. 
+2024 Surveillance 
+13.88 
+Gold Award 
+2023 Recertification 
+13.88 
+Gold Award 
+ 
+ 
+ 
+ 
+ 
+OVERVIEW OF OPERATIONS 
+ 
+Company Background 
+ 
+Microsoft Azure is a cloud computing platform for building, deploying, and managing applications through a global 
+network of Microsoft and third-party managed datacenters.  It supports both Platform as a Service (PaaS) and 
+Infrastructure as a Service (IaaS) cloud service models and enables hybrid solutions that integrate cloud services 
+with customers’ on-premises resources.  Microsoft Azure supports many customers, partners, and government 
+organizations that span across a broad range of products and services, geographies, and industries.  Microsoft 
+Azure is designed to meet their security, confidentiality, and compliance requirements. 
+  
+Dynamics 365 is an online business application suite that integrates the Customer Relationship Management (CRM) 
+capabilities and its extensions with the Enterprise Resource Planning (ERP) capabilities.  Microsoft Dynamics 365 
+products/offerings and its supporting Datacenters are covered under the Azure, Dynamics 365, and Online Services 
+report. 
+  
+Microsoft datacenters support Microsoft Azure, Dynamics 365, and many other Microsoft Online Services (“Online 
+Services”).  Online Services such as Intune, Power Business Intelligence (BI), and others are Software as a Service 
+(SaaS) services that leverage the underlying Microsoft Azure platform and datacenter infrastructure.   
+  
+For a full description of the scope and services provided, refer to Appendix B. 
+ 
+ 
+ 
+ 
+ 
+ISMS AND PIMS REVIEW 
+ 
+General Design and Operating Effectiveness of the Client ISMS and PIMS 
+ 
+The CSA STAR recertification review was performed in conjunction with the 2025 ISO 27001 and ISO 27701 
+recertification reviews.  As a result, the ISMS and PIMS appear to be operating effectively and the client has met 
+the requirements of the ISO 27001 and ISO 27701 standards, in addition to the control requirements included in 
+the ISMS based on the control sets within ISO 27017 and ISO 27018, and the PIMS processor requirements of ISO 
+27701 as well as the CCM.  
+ 
+Clause 
+Conclusion 
+Comment 
+Context of the Organization and additional ISO 27701 
+requirements 
+Effective 
+No Comment 
+Leadership 
+Effective 
+No Comment 
+Planning and additional ISO 27701 requirements 
+Effective 
+No Comment 
+Support 
+Effective 
+No Comment 
+
+
+--- Page 8 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+5 
+ 
+ 
+ 
+ 
+Clause 
+Conclusion 
+Comment 
+Operation 
+Effective 
+No Comment 
+Performance Evaluation 
+Effective 
+No Comment 
+Improvement 
+Effective 
+No Comment 
+Annex A Control Testing and Additional ISO 27017, ISO 
+27018 and 27701 Implementation Guidance 
+Effective 
+No Comment 
+ISO 27017 Extended Control Set for Cloud Services 
+Security 
+Effective 
+No Comment 
+ISO 27018 Extended Control Set for PII Protection 
+Effective 
+No Comment 
+ISO 27701 Annex B Control Testing for PII Processors 
+Effective 
+No Comment 
+ 
+ 
+Performance of the ISMS and PIMS Over the Certification Cycle 
+ 
+Overall, Microsoft continued to demonstrate a sound understanding of its ISMS and PIMS as it continued to meet 
+the requirements of the ISO 27001 standard and ISO 27701 standard, in addition to the control requirements 
+included in the ISMS and based on the control sets within ISO 27017 and ISO 27018.  During the recertification 
+review, an assessment was performed to determine the overall effectiveness of the ISMS and PIMS during the 
+certification lifecycle and no negative trends were identified.  The ISMS and PIMS and control framework are 
+established, have been supported by top management, and are supported by a competent team dedicated to the 
+foundation and maintenance of the management system.  Since the 2025 scope expansion review, Microsoft 
+continued to expand their ISMS and PIMS scope to include additional service offerings and data center locations 
+and did so in continued conformance of the ISO 27001 and ISO 27701 standards and with regard to achieving the 
+objectives of Microsoft’s information security and privacy policy and Microsoft’s maintenance, monitoring, and 
+improvement activities of the ISMS and PIMS.  These changes were noted to have been reviewed and discussed 
+by management, as appropriate, and appropriately included within the organization’s risk assessment and treatment 
+process, internal audit, and supporting ISMS and PIMS policies and procedures. 
+ 
+Microsoft has implemented continual improvement activities since the 2025 scope expansion review based on 
+results from its risk assessments and implementation of risk treatment plans that were based on available or planned 
+resources that took into consideration external and internal factors such as new organizational changes and 
+location-specific regulations.  As part of the recertification review, evidence of improvement was reviewed and 
+accepted by Schellman to close out the three open OFIs.  Additionally, there have been no complaints and Microsoft 
+has properly marketed their certificate, including certification marks, in accordance with the client obligations and 
+marketing guidelines provided to Microsoft and has not improperly used the registered trademark ISO logo or made 
+improper references to ISO.  Lastly, as a part of the ISMS and PIMS, Microsoft has procedures in place to effectively 
+monitor compliance with relevant information security and privacy legislation and regulations. 
+ 
+ 
+ISMS and PIMS Review 
+ 
+Clause 
+ISMS and PIMS Review 
+Context of the Organization (Clause 4 from ISO 27001 and Clause 5 from ISO 27701) 
+Understanding the 
+Organization and its 
+Context (Clause 4.1) 
+Microsoft has documented its understanding and context of its Azure services in regard to 
+information security and privacy within the information security and privacy manual.  Microsoft 
+has also defined and established its scope as a processor in relation to the services that it 
+provides its customers, the controller.  Additionally, climate change is an issue relative to the 
+scope of the ISMS and PIMS. 
+
+
+--- Page 9 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+6 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+Understanding the 
+Needs and Expectations 
+of Interested Parties 
+(Clause 4.2) 
+Microsoft Azure, Dynamics, and other Online Services considers input from the relevant 
+interested parties to determine the obligations and expectations that Microsoft Azure, 
+Dynamics, and other Online Services needs to meet.  Microsoft Azure, Dynamics, and other 
+Online Services management engages with the relevant interested parties, on a periodic basis, 
+to discuss the requirements and align Microsoft Azure, Dynamics, and other Online Services’ 
+plans. 
+Determining the Scope 
+of the ISMS (Clause 4.3) 
+The scope of the ISMS and PIMS is defined and documented in the IMS scope statement 
+document and most recently updated as of October 14, 2025, with approval date of October 30, 
+2025.  The scope of the ISMS and PIMS is reviewed by the Microsoft Azure compliance 
+manager at least annually or upon significant changes to internal and external interested 
+parties. 
+ 
+The scope of the ISO/IEC 27001:2022 certification covers the Information Security 
+Management System (ISMS) supporting Microsoft Azure, Dynamics 365, and other Online 
+Services that are deployed in Azure Public and Government Cloud including their development, 
+operations, and infrastructure and their associated security, privacy, and compliance and 
+inclusive of the requirements and control implementation guidance of ISO/IEC 27701:2019 for a 
+privacy information management system (PIMS) as data processor per the statement of 
+applicability, version 2025.02, dated November 11, 2025*.  The scope also includes the control 
+implementation guidance and control sets of ISO 27017 and ISO 27018. 
+ 
+The only office facility included within the scope of the ISMS and PIMS is the office facility in 
+Redmond, Washington.  For a listing of in-scope data centers, see Appendix B. 
+ 
+*Note that an updated statement of applicability (version 2025.02) was provided after fieldwork, 
+but prior to reporting, to address minor edits.  The audit team compared the statement of 
+applicability provided during fieldwork (version 2025.01, dated April 15, 2025) and the updated 
+version (version 2025.02, dated November 11, 2025), and noted that no material changes were 
+made which would impact fieldwork procedures, applicable controls, or the audit team’s control 
+testing approach.  As such, the updated statement of applicability versioning is noted 
+throughout this report. 
+Information Security 
+Management System 
+(Clause 4.4) 
+Microsoft has established an integrated management system (IMS) scope statement which 
+serves as a framework to lead the implementation, maintenance, and continual improvement of 
+the ISMS and PIMS in accordance with the requirements of the standards.  Such activities are 
+demonstrated through its establishment of the IMF, which encompasses a select group of 
+Microsoft’s department heads to integrate information security and privacy considerations into 
+its day-to-day activities, fostering an environment of continual improvement. 
+Leadership (Clauses 5) 
+Leadership and 
+Commitment (Clause 
+5.1) 
+The Microsoft Azure, Dynamics, and other Online Services leadership team provides 
+governance for Microsoft Azure and is represented by the top management (corporate vice 
+president (VP) and partner directors of the feature teams).  An organizational chart of the team 
+with roles and responsibilities is well defined and included in the IMS scope statement and 
+information security and privacy manual.  Microsoft Azure leadership is committed to lead and 
+strategically align the ISMS and PIMS to meet business goals and objectives. 
+
+
+--- Page 10 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+7 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+Policy (Clause 5.2) 
+The IMF is responsible for establishing information security and privacy policies that are in 
+alignment with organizational purposes and providing a framework for setting information 
+security and privacy objectives.  The information security policies include commitments: 
+• 
+To satisfy applicable requirements for information security and privacy 
+• 
+To continually improve the ISMS and PIMS 
+ 
+Microsoft’s information security and privacy policies and procedures have been developed in 
+alignment with the standards to meet Microsoft’s compliance obligations.  The information 
+security and privacy policies establish the foundation for IT, security, and privacy stakeholders 
+to help support appropriate and authorized access, usage, and integrity of information.  The ISO 
+27001 Annex A controls in addition to the control requirements included in the ISMS based on 
+the control sets within the ISO 27017 and ISO 27018, and the PIMS processor requirements of 
+ISO 27701 serve as the Microsoft standard as well as additional industry controls to meet 
+additional regulatory requirements.  Microsoft’s information security and privacy policies are 
+documented, communicated to the Microsoft workforce, and available to interested parties, as 
+appropriate. 
+Organizational Roles, 
+Responsibilities, and 
+Authorities (Clause 5.3) 
+Microsoft top / senior management ensures responsibilities and authorities for roles relevant to 
+information security and privacy are assigned and communicated.  The sponsorship of the 
+ISMS and PIMS is headed by the IMF.  The IMF is the management group that oversees the 
+various components of the ISMS and PIMS and the communication and exchange of 
+information between those components.  The objective of the IMF is to ensure the operating 
+effectiveness and continual improvement of the ISMS and PIMS. 
+ 
+Organizational charts are in place that define the organizational structure, reporting lines, and 
+authorities.  These charts are communicated to employees and updated as needed.  Relevant 
+roles (e.g. top management, deputy, risk manager, and security, privacy, and quality 
+compliance leads), their descriptions, and assignees are documented within the IMS plan. 
+Planning (Clause 6 from ISO 27001 and Clause 5 from ISO 27701) 
+Actions to Address Risks 
+and Opportunities 
+(Clause 6.1) 
+Microsoft’s leadership team created the enterprise risk management (ERM) team to identify and 
+ensure accountability of the company’s most significant risks.  The ERM is structured using a 
+framework based on the COSO (Committee of Sponsoring Organizations of the Treadway 
+Commission) – enterprise risk management integrated framework.  It also aligns with the ISO 
+31000:2009 risk management standard.  Microsoft’s risk assessment process allows the 
+organization to assess, identify, and modify their overall security posture and to enable security, 
+operations, organizational management, and other personnel to collaborate and view the entire 
+organization from a vulnerability perspective.  The risk assessment process has obtained 
+management’s commitment for the allocation of resources and for the implementation of 
+appropriate security solutions to achieve the intended outcomes of the ISMS and PIMS, 
+including preventing and mitigating undesired consequences, and continually improving. 
+ 
+Microsoft’s process of identifying and assessing risks is a continuous and integrated process, 
+which is integrated into the ongoing management cycles of each service team.  The ERM, 
+working in conjunction with the Azure risk management team, analyzes risk registers throughout 
+the year, which are completed at least semi-annually (April and October updates), or when 
+significant events occur.  Risk treatment activities are monitored on an ongoing basis to ensure 
+risks are addressed and treatment plans are successfully executed. 
+ 
+The risk assessment results are collected and maintained within the risk manager system 
+where they are then used to generate ERM reports. 
+ 
+Additionally, every Microsoft Azure service and component completes a regular privacy review 
+to identify potential privacy risks associated with the processing of PII.  The frequency of privacy 
+reviews is based on risk level and the state of the service.  Further, the Azure Developer Tools 
+and Services DPIA includes details about the service and a baseline review including a 
+description of the processing, categories of data subjects, the data lifecycle, the measures or 
+controls that were implemented to contribute to the rights of PII principals, and identification of 
+privacy risks to individuals. 
+
+
+--- Page 11 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+8 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+Statement of 
+Applicability (Clause 
+6.1.3) 
+A statement of applicability, version 2025.02, has been documented and lists the applicable 
+controls from Annex A of ISO 27001 and Annex B of ISO 27701, as well as applicable ISO 
+27017 and ISO 27018 controls that have been selected to mitigate risks as outlined in the risk 
+assessment and risk treatment plan.  These controls are mapped to those within the CCM. 
+Information Security 
+Objectives and Planning 
+to Achieve Them 
+(Clause 6.2) 
+Microsoft has established security and privacy objectives at appropriate and relevant functions 
+and levels to provide a platform to improve security, privacy, delivery, corrective action 
+response, and other metrics to achieve desired performance levels for Microsoft cloud products 
+and services.  The plan to satisfy the information security and privacy objectives are referenced 
+in the IMS manual. 
+ 
+Information security and privacy objectives are tracked and monitored closely by responsible 
+departmental teams and reported to the IMF, as necessary.  A summary of current information 
+security and privacy objectives and their performance is also reported and reviewed as part of 
+the monthly security leadership meetings, which includes a review of information security and 
+privacy objective effectiveness and adequacy. 
+Planning of Changes 
+(Clause 6.3) 
+Changes to the ISMS and PIMS are carried out in a planned manner and discussed as a 
+component of various management meetings, such as the semi-annual semester planning 
+meetings, monthly cloud and artificial intelligence (CAI) leadership meetings, periodic 
+compliance and privacy reviews, etc. 
+Support (Clause 7) 
+Resources (Clause 7.1) 
+Microsoft management is committed to continual improvement and effectiveness of the ISMS 
+and PIMS.  Periodic reviews are scheduled to allocate appropriate budget to meet operational 
+requirements and implement corresponding action for the risk treatment plans.  Through the 
+periodic IMF meetings, management provides guidance, resources, and budget planning to 
+successfully meet the security and privacy objectives. 
+Competence (Clause 
+7.2) and Awareness 
+(Clause 7.3) 
+Microsoft full time employees (FTEs) and contingent staff are required to undergo the 
+mandatory basic security and privacy awareness training that includes security foundations 
+training and/or role-based training annually to ensure competency for their job function.  The 
+annual security foundations training includes modules related to protecting your identity, 
+protecting your devices, and protecting your data.  Additionally, security awareness campaigns, 
+software for targeting requirements, and information operations and kinetic effects (STRIKE) 
+role-based training is available to FTEs and contingent staff, as necessary.  New hires are 
+required to take mandatory training before accessing organizational systems or performing 
+assigned duties.  Suppliers are required to complete the supplier code of conduct training upon 
+hire.  A security education and awareness standard operating procedure (SOP) is in place to 
+provide guidance and direction on the security and awareness training process.  For security 
+and compliance training programs that are delivered to groups outside the organization, the 
+organization partners with education solutions like the My Learning system. 
+ 
+Competence and awareness are also accounted for as part of the internal audit process, which 
+defines that internal auditors providing internal audit services to Microsoft are subject to review 
+and approval based on competency requirements set forth by Microsoft. 
+Communication (Clause 
+7.4) 
+Microsoft management is committed to proper communication with the internal and external 
+stakeholders regarding the state of the ISMS and PIMS.  The internal and external stakeholders 
+have been defined and appropriate decisions are made as to who needs to receive what level 
+of detail and when.  A formal communication plan has been established and documented within 
+the Microsoft IMS communication plan.  The IMS communication plan is reviewed at least 
+annually or as needed for appropriateness. 
+
+
+--- Page 12 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+9 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+Documented Information 
+(Clause 7.5) 
+As noted in the document and record management SOP, Microsoft has defined procedures to 
+ensure the control over creation, approval, distribution, usage, and updates of documents and 
+records used in the ISMS and PIMS.  The SOP is applied to documents and records related to 
+the ISMS and PIMS, regardless of whether the documents and records were created internally 
+or whether they are of external origin.  The policy encompasses documents and records stored 
+in any format (e.g., paper, audio, video, etc.). 
+ 
+Documents are reviewed and approved at least annually or upon significant change.  
+Documents are updated by the control owners / service team subject matter experts (SMEs) 
+and approved by the compliance lead prior to publication.  The change history of the document 
+tracks any changes to the content, including creation date, version number, author, change 
+description, approver, and approval date.  When documents are no longer required, they are 
+disposed of according to secure disposal practices. 
+Operation (Clause 8) 
+Operational Planning 
+and Control, Information 
+Security Risk 
+Assessment, and 
+Information Security Risk 
+Treatment (Clause 8) 
+The most recent information security risk assessment and risk treatment processes took place 
+during Microsoft’s 2025 fiscal year.  The results of the risk assessment and the status of risk 
+treatment plans were reviewed as a component of the semi-annual enterprise risk discussion.  
+Additionally, as a component of the risk assessment and risk treatment process, it was noted 
+that Microsoft’s statement of applicability contained references to the related risks in the risk 
+register for each in-scope control.   
+Performance Evaluation (Clause 9) 
+Monitoring, 
+Measurement, Analysis, 
+and Evaluation (Clause 
+9.1) 
+Effectiveness measurement of the ISMS and PIMS is to help ensure continued adequacy, 
+effectiveness, and efficiency of the program.  In addition, Microsoft Azure manages security and 
+privacy KPIs to adequately measure security and privacy performance and effectiveness across 
+the ISMS and PIMS.  Annual, independent entity managed assessments are conducted over 
+the design and operating effectiveness of the control environment, which allow for the 
+monitoring, measurement, analysis, and evaluation of the controls.  Monitoring is embedded in 
+each service area supporting the ISMS and PIMS. 
+ 
+Measurement initiatives were conducted on a regular basis at varied frequencies, depending on 
+the metric being monitored.  Achieved metrics were formally communicated and reviewed as a 
+component of the June 2025 greenlight planning meeting, as well as the April 2025 compliance 
+and privacy review meeting.  The compliance and review meeting included a review of the 
+various audit and compliance programs, as well as status of the ongoing internal programs. 
+Internal Audit (Clause 
+9.2) 
+Microsoft Azure management is committed to performing continuous independent reviews and 
+assessments of its ISMS, PIMS, and control environment to ensure design and operating 
+effectiveness of the controls is assessed and validated on periodic basis.  Microsoft undergoes 
+several independent internal / external entities managed assessments.  The compliance team 
+coordinates and facilitates the independent attestations and reviews.  
+ 
+The most recent internal audit of the IMS was performed by an independent third party.  The 
+internal audit report was dated June 2025, and covers the conformance of the ISMS and PIMS 
+to the requirements of the following ISO standards: ISO 27001, ISO 27017, ISO 27018, and 
+ISO 27701.  The internal audit report included an overall conclusion, audit objectives, scope, 
+audit criteria (inclusive of frequency and methods), assessment of areas reviewed, as well as 
+detailed audit results to support the audit conclusion.  The internal audit report was provided to 
+management in June 2025. 
+ 
+Note that informal internal audits occur as needed when onboarding new services and offerings 
+as well as when performing unique assessments on modifications to the management system 
+(i.e. update to the 2025 version of ISO 27018). 
+
+
+--- Page 13 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+10 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+Management Review 
+(Clause 9.3) 
+Periodic management reviews of the ISMS and PIMS are performed, ensuring continuing 
+suitability, adequacy, and effectiveness of the management systems.  The IMF’s role is to 
+provide management oversight and guidance on the business operations and effectiveness of 
+the ISMS and PIMS via periodic meetings. 
+ 
+The most recent monthly CAI leadership review meeting was held on September 23, 2025.  
+Minutes were taken during the meeting and maintained as records.  The minutes included the 
+agenda items, the associated action items, and future management review meeting topics to be 
+discussed. 
+Improvement (Clause 10) 
+Continual Improvement 
+(Clause 10.1) and 
+Nonconformity and 
+Corrective Action 
+(Clause 10.2) 
+Continuous improvement is inherent in the supporting processes and activities of Microsoft’s 
+ISMS and PIMS.  Continuous improvement was supported through the most recent risk 
+assessment, review of information security and privacy objectives, results from the most recent 
+internal audit, and outputs from the monthly security leadership meetings.  
+ 
+Microsoft management takes corrective action, as necessary, to eliminate the cause of 
+nonconformities within the scope of the ISMS and PIMS.  Procedures are followed when taking 
+corrective action and actions are recorded in the Microsoft Azure exception trackers.  
+Depending on the nature and severity of the nonconformity, the records of corrective actions 
+are reviewed by management during Microsoft Azure risk management forum. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- Page 14 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 2 
+ 
+CSA STAR REVIEW 
+RESULTS 
+ 
+ 
+ 
+
+
+--- Page 15 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR RECERTIFICATION REVIEW SUMMARY 
+ 
+ 
+Control Domain 
+Lowest Maturity 
+Score 
+Reasoning 
+Audit and assurance 
+15 
+This control domain overall is very mature and optimizing in numerous areas to evidence that maturity.  
+Changes in the control area are followed, effective, and evaluated against the strategic objectives of the 
+organization.  Control activities are in place and implemented related to audit planning, independent audits, 
+and information system regulatory mapping.  Plans and processes have been put in place to ensure periodic 
+internal audits.  Audit activities were agreed upon prior to executing any audits.  Changes in the control 
+areas of internal audits incorporate and take into account the strategic objectives of the organization.  The 
+overall score in this domain remained unchanged since the prior review. 
+Application and interface 
+security 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  Information security related 
+requirements are included in any requirements for new information systems or enhancements to existing 
+information systems.  Microsoft provides information to its cloud service customers about the information 
+security capabilities they use.  This information is informative without disclosing information that could be 
+useful to someone with malicious intent.  The overall score in this domain remained unchanged since the 
+prior review. 
+Business continuity 
+management and operational 
+resilience 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  The organization has a 
+formally established information security continuity process and communicates it to users through the Azure 
+security, privacy, and compliance portal on SharePoint.  The established procedures are formally 
+documented in the business continuity and disaster recovery SOP and includes the minimum set of 
+procedures and requirements for management of business continuity risk for Microsoft Cloud Services.  The 
+procedures have been defined as a component of the Microsoft Cloud Services business continuity 
+management system (BCMS) and to strategically aligned with Microsoft’s enterprise business continuity 
+management (EBCM) methodology, incident management policies and the Microsoft Cloud Services 
+information security policy.  The overall score in this domain remained unchanged since the prior review. 
+Change control and 
+configuration management 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  Control activities are in 
+place and implemented related to secure development, quality testing and production changes.  Change 
+requests are managed through a controlled development process using manual and automated procedures.  
+The process is captured and documented within change tickets and changes to the environment were 
+subjected to management approval during the development and before they were made available to the 
+production environment.  In addition, policies and procedures established guidelines regarding acceptable 
+use of company resources and installations of unauthorized software.  The overall score in this domain 
+remained unchanged since the prior review. 
+
+
+--- Page 16 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+13 
+ 
+ 
+ 
+ 
+Control Domain 
+Lowest Maturity 
+Score 
+Reasoning 
+Cryptography, encryption, and 
+key management; 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  Microsoft Azure uses 
+cryptographic controls to protect the confidentiality, authenticity, and integrity of sensitive data while in transit 
+or at rest.  Additionally, Microsoft maintains a documented description of the cryptographic architecture.  The 
+overall score in this domain remained unchanged since the prior review. 
+Datacenter security 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  Control activities are in 
+place and implemented related to asset management and physical security.  Assets are tracked and 
+managed taking into consideration business criticality and operational requirements.  Physical security 
+controls are established at in-scope locations to safeguard sensitive data and information systems.  Policies 
+and procedures are established for secure media disposal and for maintaining a safe and secure working 
+environment.  The overall score in this domain remained unchanged since the prior review. 
+Data security and privacy 
+lifecycle management 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  Microsoft has the asset 
+management SOP, information security policy, access control SOP, and acceptable use standard in place to 
+help guide personnel on asset management and on the acceptable use of assets as it relates to information 
+security requirements.  This data inventory may include cloud service customer data and cloud service 
+derived data.  Microsoft performs an annual review of the data inventory to ensure the organization is 
+following its own data handling standard and to ensure accurate data inventory.  The overall score in this 
+domain remained unchanged since the prior review. 
+Governance, risk management, 
+and compliance 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  Control 
+area owners can demonstrate that they actively review best practice from their industry and across their 
+organization and apply it to the control area.  Control activities are in place and implemented related to 
+baseline requirements, risk assessment, oversight, management programs, support, policy, enforcement, 
+management oversight, reviews, risk assessment, and risk framework.  A formal risk management program 
+is in place and is aligned to ISO 27001, ISO 27017, ISO 27018, and ISO 27701.  The overall score in this 
+domain remained unchanged since the prior review. 
+Human resources 
+13 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  Control 
+area owners can demonstrate that they actively review best practice from their industry and across their 
+organization and apply it to the control area.  Employees are required to read and acknowledge via the 
+employment agreement that they understand their responsibilities for adhering to Microsoft’s corporate and 
+information security policies.  Additionally, Microsoft conducts security awareness training on an annual 
+basis; the training includes content relevant to privacy requirements.  The overall score in this domain 
+remained unchanged since the prior review. 
+
+
+--- Page 17 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+14 
+ 
+ 
+ 
+ 
+Control Domain 
+Lowest Maturity 
+Score 
+Reasoning 
+Identity and access 
+management 
+13 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  Control 
+area owners can demonstrate that they actively review best practice from their industry and across their 
+organization and apply it to the control area.  Control activities are in place and implemented related to 
+identity and access management.  A formal access control policy is in place and procedures for provisioning 
+and deprovisioning user accounts have been effectively implemented.  Administrator access to in-scope 
+environment is limited to user accounts accessible by authorized personnel requiring temporary access with 
+management approval.  In-scope systems enforce minimum password requirements.  User access reviews 
+are performed on a quarterly basis.  The overall score in this domain remained unchanged since the prior 
+review. 
+Interoperability and Portability 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  Control 
+area owners can demonstrate that they actively share best practice to support development in other areas of 
+the organization based on their experience in this control area.  Control activities are in place and 
+implemented related to interoperability and portability.  An industry recognized virtualization platform is 
+utilized to help ensure interoperability.  Further, API whitepapers, tutorials, and security documentation are 
+published and available to users via the company website.  Service terms and confidentiality agreements are 
+in place establishing information processing requirements.  Secure network communication controls are in 
+place.  The overall score in this domain remained unchanged since the prior review. 
+Infrastructure and virtualization 
+security 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity level.  There 
+is evidence that control area owners are managing and actively sharing best practice to support 
+development in other areas of the organization based on their experience in this control area.  Procedures 
+are defined for reviewing logs of other system components periodically, either manually or via log tools, 
+based on the organization’s policies and risk management strategy.  Additionally, Microsoft provides logging 
+capabilities to its cloud service customers.  The overall score in this domain remained unchanged since the 
+prior review. 
+Logging and monitoring 
+14 
+Overall, the controls within the domain are effective and mature.  Per the Assessor’s Grid, this domain is in 
+the optimizing category.  Microsoft has policies and procedures in place for security logging requirements, 
+rules on log data usage, and monitoring alerts.  Microsoft has processes in place to review security and 
+privacy policies annually.  The policies specific to security logging and monitoring processes fall under this 
+category.  Microsoft maintains an automated log collection and analysis tool to review and analyze log 
+events.  Microsoft also maintains policies on log retention and log security requirements.  Microsoft uses a 
+proprietary event management tool to identify and alert on unauthorized use of the information system and 
+assets and takes timely appropriate action when unauthorized use is detected.  Microsoft restricts physical 
+and logical access to audit logs to authorized users only through the use of access control lists within the 
+logging system.  Microsoft maintains documentation on its key management process and provides controls 
+to manage encryption keys through their lifecycle and protect against unauthorized use.  The overall score in 
+this domain remained unchanged since the prior review. 
+
+
+--- Page 18 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+15 
+ 
+ 
+ 
+ 
+Control Domain 
+Lowest Maturity 
+Score 
+Reasoning 
+Security incident management, 
+e-discovery, and cloud forensics 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  Control 
+area owners can demonstrate that they actively share best practice to support development in other areas of 
+the organization based on their experience in this control area.  Control activities are in place and 
+implemented related to incident management.  Incident management policies and procedures are 
+established to manage security incidents within the organization.  Organizational roles, responsibilities, and 
+authorities relevant to incident reporting, triaging, and response are established.  Incident monitoring and 
+forensic procedures are implemented.  The overall score in this domain remained unchanged since the prior 
+review. 
+Supply chain management, 
+transparency, and accountability 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  The overall score in this 
+domain remained unchanged since the prior review. 
+Threat and vulnerability 
+management 
+14 
+This control domain overall is very mature identifying numerous areas to evidence that maturity.  There is 
+evidence that control area owners are managing and actively sharing best practice to support development 
+in other areas of the organization based on their experience in this control area.  Formal procedures are in 
+place for threat and vulnerability management.  Antivirus software has been installed on secure administrator 
+workstations.  Vulnerability scans and penetration tests are performed on an annual basis and are reviewed 
+and remediated accordingly.  The organization tracks, and monitors vulnerabilities identified on a periodic 
+basis.  The overall score in this domain remained unchanged since the prior review. 
+Universal endpoint management 
+13 
+Overall, the controls within the domain are effective and mature.  Per the Assessor’s Grid, this domain is in 
+the Optimizing category.  Microsoft has policies and procedures in place for security requirements of 
+Microsoft owned and managed endpoints.  Microsoft has processes in place to review security and privacy 
+policies annually.  The policies specific to endpoint management fall under this category.  Microsoft 
+maintains an internal software solution with the approved list of applications that can be installed on 
+managed endpoints based on operating system.  Policies restrict the user and device behavior on mobile 
+devices including application installation.  Mobile operability is part of the standard software engineering 
+development lifecycle.  Microsoft maintains a centralized inventory system for all managed endpoints.  
+Endpoint devices are continuously patched through system management software as patches become 
+available.  All managed endpoints are required to be encrypted during the initial setup process and remain 
+encrypted throughout the device's lifecycle.  Microsoft has mechanisms in which corporate issued machines 
+have antivirus software preinstalled to help prevent, detect, and remove malware, depending on the 
+operating system.  Microsoft has mechanisms in which all managed Mac and Windows computers have 
+personal firewalls enabled and managed by corporate IT.  Microsoft has mechanisms in place to provide 
+recent physical locations for employees based on corporate activity logs.  Microsoft has policies and 
+procedures in place for mobile device security guidelines which state Microsoft reserves the right to remotely 
+wipe mobile devices.  Microsoft also has technical implementations in place which require remote wipe 
+capabilities for all mobile devices managed by Microsoft.  Microsoft provides detailed instructions to 
+personnel that wish to provision access to Microsoft corporate services on their mobile devices.  The overall 
+score in this domain remained unchanged since the prior review. 
+ 
+ 
+ 
+
+
+--- Page 19 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+16 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR RECERTIFICATION REVIEW RESULTS 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+A&A - Audit & Assurance 
+Audit and Assurance 
+Policy and Procedures 
+A&A-01 
+Establish, document, approve, communicate, apply, evaluate and maintain audit and assurance policies 
+and procedures and standards.  Review and update the policies and procedures at least annually. 
+15 
+Independent 
+Assessments 
+A&A-02 
+Conduct independent audit and assurance assessments according to relevant standards at least 
+annually. 
+15 
+Risk Based Planning 
+Assessment 
+A&A-03 
+Perform independent audit and assurance assessments according to risk-based plans and policies. 
+15 
+Requirements 
+Compliance" 
+A&A-04 
+Verify compliance with all relevant standards, regulations, legal/contractual, and statutory requirements 
+applicable to the audit. 
+15 
+Audit Management 
+Process 
+A&A-05 
+Define and implement an Audit Management process to support audit planning, risk analysis, security 
+control assessment, conclusion, remediation schedules, report generation, and review of past reports 
+and supporting evidence. 
+15 
+Remediation 
+A&A-06 
+Establish, document, approve, communicate, apply, evaluate and maintain a risk-based corrective 
+action plan to remediate audit findings, review and report remediation status to relevant stakeholders. 
+15 
+AIS - Application & Interface Security 
+Application and Interface 
+Security Policy and 
+Procedures 
+AIS-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+application security to provide guidance to the appropriate planning, delivery and support of the 
+organization's application security capabilities. Review and update the policies and procedures at least 
+annually. 
+15 
+Application Security 
+Baseline Requirements 
+AIS-02 
+Establish, document and maintain baseline requirements for securing different applications. 
+14 
+Application Security 
+Metrics 
+AIS-03 
+Define and implement technical and operational metrics in alignment with business objectives, security 
+requirements, and compliance obligations. 
+15 
+Secure Application 
+Design and Development 
+AIS-04 
+Define and implement a SDLC process for application design, development, deployment, and operation 
+in accordance with security requirements defined by the organization. 
+15 
+Automated Application 
+Security Testing 
+AIS-05 
+Implement a testing strategy, including criteria for acceptance of new information systems, upgrades 
+and new versions, which provides application security assurance and maintains compliance while 
+enabling organizational speed of delivery goals. Automate when applicable and possible. 
+15 
+Automated Secure 
+Application Deployment 
+AIS-06 
+Establish and implement strategies and capabilities for secure, standardized, and compliant application 
+deployment. Automate where possible. 
+15 
+Application Vulnerability 
+Remediation 
+AIS-07 
+Define and implement a process to remediate application security vulnerabilities, automating 
+remediation when possible. 
+15 
+
+
+--- Page 20 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+17 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+BCR - Business Continuity Management and Operational Resilience 
+Business Continuity 
+Management Policy and 
+Procedures 
+BCR-01 
+Establish, document, approve, communicate, apply, evaluate and maintain business continuity 
+management and operational resilience policies and procedures. Review and update the policies and 
+procedures at least annually. 
+14 
+Risk Assessment and 
+Impact Analysis 
+BCR-02 
+Determine the impact of business disruptions and risks to establish criteria for developing business 
+continuity and operational resilience strategies and capabilities. 
+14 
+Business Continuity 
+Strategy 
+BCR-03 
+Establish strategies to reduce the impact of, withstand, and recover from business disruptions within risk 
+appetite. 
+14 
+Business Continuity 
+Planning 
+BCR-04 
+Establish, document, approve, communicate, apply, evaluate and maintain a business continuity plan 
+based on the results of the operational resilience strategies and capabilities. 
+14 
+Documentation 
+BCR-05 
+Develop, identify, and acquire documentation that is relevant to support the business continuity and 
+operational resilience programs. Make the documentation available to authorized stakeholders and 
+review periodically. 
+14 
+Business Continuity 
+Exercises 
+BCR-06 
+Exercise and test business continuity and operational resilience plans at least annually or upon 
+significant changes. 
+14 
+Communication 
+BCR-07 
+Establish communication with stakeholders and participants in the course of business continuity and 
+resilience procedures. 
+14 
+Backup 
+BCR-08 
+Periodically backup data stored in the cloud. Ensure the confidentiality, integrity and availability of the 
+backup, and verify data restoration from backup for resiliency. 
+14 
+Disaster Response Plan 
+BCR-09 
+Establish, document, approve, communicate, apply, evaluate and maintain a disaster response plan to 
+recover from natural and man-made disasters. Update the plan at least annually or upon significant 
+changes. 
+14 
+Response Plan Exercise 
+BCR-10 
+Exercise the disaster response plan annually or upon significant changes, including if possible local 
+emergency authorities. 
+14 
+Equipment Redundancy 
+BCR-11 
+Supplement business-critical equipment with redundant equipment independently located at a 
+reasonable minimum distance in accordance with applicable industry standards. 
+14 
+CCC - Change Control and Configuration Management 
+Change Management 
+Policy and Procedures 
+CCC-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+managing the risks associated with applying changes to organization assets, including application, 
+systems, infrastructure, configuration, etc., regardless of whether the assets are managed internally or 
+externally (i.e., outsourced). Review and update the policies and procedures at least annually. 
+14 
+Quality Testing 
+CCC-02 
+Follow a defined quality change control, approval and testing process with established baselines, 
+testing, and release standards. 
+14 
+Change Management 
+Technology 
+CCC-03 
+Manage the risks associated with applying changes to organization assets, including application, 
+systems, infrastructure, configuration, etc., regardless of whether the assets are managed internally or 
+externally (i.e., outsourced). 
+14 
+
+
+--- Page 21 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+18 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Unauthorized Change 
+Protection 
+CCC-04 
+Restrict the unauthorized addition, removal, update, and management of organization assets. 
+14 
+Change Agreements 
+CCC-05 
+Include provisions limiting changes directly impacting CSCs owned environments/tenants to explicitly 
+authorized requests within service level agreements between CSPs and CSCs. 
+14 
+Change Management 
+Baseline 
+CCC-06 
+Establish change management baselines for all relevant authorized changes on organization assets. 
+14 
+Detection of Baseline 
+Deviation 
+CCC-07 
+Implement detection measures with proactive notification in case of changes deviating from the 
+established baseline. 
+14 
+Exception Management 
+CCC-08 
+Implement a procedure for the management of exceptions, including emergencies, in the change and 
+configuration process. Align the procedure with the requirements of GRC-04: Policy Exception Process. 
+14 
+Change Restoration 
+CCC-09 
+Define and implement a process to proactively roll back changes to a previous known good state in case 
+of errors or security concerns. 
+14 
+CEK - Cryptography, Encryption & Key Management 
+Encryption and Key 
+Management Policy and 
+Procedures 
+CEK-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+Cryptography, Encryption and Key Management. Review and update the policies and procedures at 
+least annually. 
+14 
+CEK Roles and 
+Responsibilities 
+CEK-02 
+Define and implement cryptographic, encryption and key management roles and responsibilities. 
+14 
+Data Encryption 
+CEK-03 
+Provide cryptographic protection to data at-rest and in-transit, using cryptographic libraries certified to 
+approved standards. 
+14 
+Encryption Algorithm 
+CEK-04 
+Use encryption algorithms that are appropriate for data protection, considering the classification of data, 
+associated risks, and usability of the encryption technology. 
+14 
+Encryption Change 
+Management 
+CEK-05 
+Establish a standard change management procedure, to accommodate changes from internal and 
+external sources, for review, approval, implementation and communication of cryptographic, encryption 
+and key management technology changes. 
+14 
+Encryption Change Cost 
+Benefit Analysis 
+CEK-06 
+Manage and adopt changes to cryptography-, encryption-, and key management-related systems 
+(including policies and procedures) that fully account for downstream effects of proposed changes, 
+including residual risk, cost, and benefits analysis. 
+14 
+Encryption Risk 
+Management 
+CEK-07 
+Establish and maintain an encryption and key management risk program that includes provisions for risk 
+assessment, risk treatment, risk context, monitoring, and feedback. 
+14 
+CSC Key Management 
+Capability 
+CEK-08 
+CSPs must provide the capability for CSCs to manage their own data encryption keys. 
+14 
+Encryption and Key 
+Management Audit 
+CEK-09 
+Audit encryption and key management systems, policies, and processes with a frequency that is 
+proportional to the risk exposure of the system with audit occurring preferably continuously but at least 
+annually and after any security event(s). 
+14 
+
+
+--- Page 22 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+19 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Key Generation 
+CEK-10 
+Generate Cryptographic keys using industry accepted cryptographic libraries specifying the algorithm 
+strength and the random number generator used. 
+14 
+Key Purpose 
+CEK-11 
+Manage cryptographic secret and private keys that are provisioned for a unique purpose. 
+14 
+Key Rotation 
+CEK-12 
+Rotate cryptographic keys in accordance with the calculated crypto period, which includes provisions for 
+considering the risk of information disclosure and legal and regulatory requirements. 
+14 
+Key Revocation 
+CEK-13 
+Define, implement and evaluate processes, procedures and technical measures to revoke and remove 
+cryptographic keys prior to the end of its established crypto period, when a key is compromised, or an 
+entity is no longer part of the organization, which include provisions for legal and regulatory 
+requirements. 
+14 
+Key Destruction 
+CEK-14 
+Define, implement and evaluate processes, procedures and technical measures to destroy keys stored 
+outside a secure environment and revoke keys stored in Hardware Security Modules (HSMs) when they 
+are no longer needed, which include provisions for legal and regulatory requirements. 
+14 
+Key Activation 
+CEK-15 
+Define, implement and evaluate processes, procedures and technical measures to create keys in a pre-
+activated state when they have been generated but not authorized for use, which include provisions for 
+legal and regulatory requirements. 
+14 
+Key Suspension 
+CEK-16 
+Define, implement and evaluate processes, procedures and technical measures to monitor, review and 
+approve key transitions from any state to/from suspension, which include provisions for legal and 
+regulatory requirements. 
+14 
+Key Deactivation 
+CEK-17 
+Define, implement and evaluate processes, procedures and technical measures to deactivate keys at 
+the time of their expiration date, which include provisions for legal and regulatory requirements. 
+14 
+Key Archival 
+CEK-18 
+Define, implement and evaluate processes, procedures and technical measures to manage archived 
+keys in a secure repository requiring least privilege access, which include provisions for legal and 
+regulatory requirements. 
+14 
+Key Compromise 
+CEK-19 
+Define, implement and evaluate processes, procedures and technical measures to use compromised 
+keys to encrypt information only in controlled circumstance, and thereafter exclusively for decrypting 
+data and never for encrypting data, which include provisions for legal and regulatory requirements. 
+14 
+Key Recovery 
+CEK-20 
+Define, implement and evaluate processes, procedures and technical measures to assess the risk to 
+operational continuity versus the risk of the keying material and the information it protects being 
+exposed if control of the keying material is lost, which include provisions for legal and regulatory 
+requirements. 
+14 
+Key Inventory 
+Management 
+CEK-21 
+Define, implement and evaluate processes, procedures and technical measures in order for the key 
+management system to track and report all cryptographic materials and changes in status, which include 
+provisions for legal and regulatory requirements. 
+14 
+DCS - Datacenter Security 
+Off-Site Equipment 
+Disposal Policy and 
+Procedures 
+DCS-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+the secure disposal of equipment used outside the organization's premises. If the equipment is not 
+physically destroyed a data destruction procedure that renders recovery of information impossible must 
+be applied. Review and update the policies and procedures at least annually. 
+14 
+
+
+--- Page 23 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+20 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Off-Site Transfer 
+Authorization Policy and 
+Procedures 
+DCS-02 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+the relocation or transfer of hardware, software, or data/information to an offsite or alternate location. 
+The relocation or transfer request requires the written or cryptographically verifiable authorization. 
+Review and update the policies and procedures at least annually. 
+14 
+Secure Area Policy and 
+Procedures 
+DCS-03 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+maintaining a safe and secure working environment in offices, rooms, and facilities. Review and update 
+the policies and procedures at least annually. 
+14 
+Secure Media 
+Transportation Policy and 
+Procedures 
+DCS-04 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+the secure transportation of physical media. Review and update the policies and procedures at least 
+annually. 
+14 
+Assets Classification 
+DCS-05 
+Classify and document the physical, and logical assets (e.g., applications) based on the organizational 
+business risk. 
+14 
+Assets Cataloguing and 
+Tracking 
+DCS-06 
+Catalogue and track all relevant physical and logical assets located at all of the CSP's sites within a 
+secured system. 
+14 
+Controlled Access Points 
+DCS-07 
+Implement physical security perimeters to safeguard personnel, data, and information systems. 
+Establish physical security perimeters between the administrative and business areas and the data 
+storage and processing facilities areas. 
+14 
+Equipment Identification 
+DCS-08 
+Use equipment identification as a method for connection authentication. 
+14 
+Secure Area 
+Authorization 
+DCS-09 
+Allow only authorized personnel access to secure areas, with all ingress and egress points restricted, 
+documented, and monitored by physical access control mechanisms. Retain access control records on 
+a periodic basis as deemed appropriate by the organization. 
+14 
+Surveillance System 
+DCS-10 
+Implement, maintain, and operate datacenter surveillance systems at the external perimeter and at all 
+the ingress and egress points to detect unauthorized ingress and egress attempts. 
+14 
+Unauthorized Access 
+Response Training 
+DCS-11 
+Train datacenter personnel to respond to unauthorized ingress or egress attempts. 
+14 
+Cabling Security 
+DCS-12 
+Define, implement and evaluate processes, procedures and technical measures that ensure a risk-
+based protection of power and telecommunication cables from a threat of interception, interference or 
+damage at all facilities, offices and rooms. 
+14 
+Environmental Systems 
+DCS-13 
+Implement and maintain data center environmental control systems that monitor, maintain and test for 
+continual effectiveness the temperature and humidity conditions within accepted industry standards. 
+14 
+Secure Utilities 
+DCS-14 
+Secure, monitor, maintain, and test utilities services for continual effectiveness at planned intervals. 
+14 
+Equipment Location 
+DCS-15 
+Keep business-critical equipment away from locations subject to high probability for environmental risk 
+events. 
+14 
+
+
+--- Page 24 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+21 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+DSP - Data Security and Privacy Lifecycle Management 
+Security and Privacy 
+Policy and Procedures 
+DSP-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+the classification, protection and handling of data throughout its lifecycle, and according to all applicable 
+laws and regulations, standards, and risk level. Review and update the policies and procedures at least 
+annually. 
+14 
+Secure Disposal 
+DSP-02 
+Apply industry accepted methods for the secure disposal of data from storage media such that data is 
+not recoverable by any forensic means. 
+14 
+Data Inventory 
+DSP-03 
+Create and maintain a data inventory, at least for any sensitive data and personal data. 
+14 
+Data Classification 
+DSP-04 
+Classify data according to its type and sensitivity level. 
+14 
+Data Flow Documentation 
+DSP-05 
+Create data flow documentation to identify what data is processed, stored or transmitted where. Review 
+data flow documentation at defined intervals, at least annually, and after any change. 
+14 
+Data Ownership and 
+Stewardship 
+DSP-06 
+Document ownership and stewardship of all relevant documented personal and sensitive data. Perform 
+review at least annually. 
+14 
+Data Protection by 
+Design and Default 
+DSP-07 
+Develop systems, products, and business practices based upon a principle of security by design and 
+industry best practices. 
+14 
+Data Privacy by Design 
+and Default 
+DSP-08 
+Develop systems, products, and business practices based upon a principle of privacy by design and 
+industry best practices. Ensure that systems' privacy settings are configured by default, according to all 
+applicable laws and regulations. 
+14 
+Data Protection Impact 
+Assessment 
+DSP-09 
+Conduct a Data Protection Impact Assessment (DPIA) to evaluate the origin, nature, particularity and 
+severity of the risks upon the processing of personal data, according to any applicable laws, regulations 
+and industry best practices. 
+14 
+Sensitive Data Transfer 
+DSP-10 
+Define, implement and evaluate processes, procedures and technical measures that ensure any transfer 
+of personal or sensitive data is protected from unauthorized access and only processed within scope as 
+permitted by the respective laws and regulations. 
+14 
+Personal Data Access, 
+Reversal, Rectification 
+and Deletion 
+DSP-11 
+Define and implement, processes, procedures and technical measures to enable data subjects to 
+request access to, modification, or deletion of their personal data, according to any applicable laws and 
+regulations. 
+14 
+Limitation of Purpose in 
+Personal Data Processing 
+DSP-12 
+Define, implement and evaluate processes, procedures and technical measures to ensure that personal 
+data is processed according to any applicable laws and regulations and for the purposes declared to the 
+data subject. 
+14 
+Personal Data Sub-
+processing 
+DSP-13 
+Define, implement and evaluate processes, procedures and technical measures for the transfer and 
+sub-processing of personal data within the service supply chain, according to any applicable laws and 
+regulations. 
+14 
+Disclosure of Data Sub-
+processors 
+DSP-14 
+Define, implement and evaluate processes, procedures and technical measures to disclose the details 
+of any personal or sensitive data access by sub processors to the data owner prior to initiation of that 
+processing. 
+14 
+
+
+--- Page 25 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+22 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Limitation of Production 
+Data Use 
+DSP-15 
+Obtain authorization from data owners, and manage associated risk before replicating or using 
+production data in non-production environments. 
+14 
+Data Retention and 
+Deletion 
+DSP-16 
+Data retention, archiving and deletion is managed in accordance with business requirements, applicable 
+laws and regulations. 
+14 
+Sensitive Data Protection 
+DSP-17 
+Define and implement, processes, procedures and technical measures to protect sensitive data 
+throughout its lifecycle. 
+14 
+Disclosure Notification 
+DSP-18 
+The CSP must have in place, and describe to CSCs the procedure to manage and respond to requests 
+for disclosure of Personal Data by Law Enforcement Authorities according to applicable laws and 
+regulations. The CSP must give special attention to the notification procedure to interested CSCs, 
+unless otherwise prohibited, such as a prohibition under criminal law to preserve confidentiality of a law 
+enforcement investigation. 
+14 
+Data Location 
+DSP-19 
+Define and implement, processes, procedures and technical measures to specify and document the 
+physical locations of data, including any locations in which data is processed or backed up. 
+14 
+GRC - Governance, Risk and Compliance 
+Governance Program 
+Policy and Procedures 
+GRC-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+an information governance program, which is sponsored by the leadership of the organization. Review 
+and update the policies and procedures at least annually. 
+15 
+Risk Management 
+Program 
+GRC-02 
+Establish a formal, documented, and leadership-sponsored Enterprise Risk Management (ERM) 
+program that includes policies and procedures for identification, evaluation, ownership, treatment, and 
+acceptance of cloud security and privacy risks. 
+14 
+Organizational Policy 
+Reviews 
+GRC-03 
+Review all relevant organizational policies and associated procedures at least annually or when a 
+substantial change occurs within the organization. 
+14 
+Policy Exception Process 
+GRC-04 
+Establish and follow an approved exception process as mandated by the governance program 
+whenever a deviation from an established policy occurs. 
+14 
+Information Security 
+Program 
+GRC-05 
+Develop and implement an Information Security Program, which includes programs for all the relevant 
+domains of the CCM. 
+14 
+Governance 
+Responsibility Model 
+GRC-06 
+Define and document roles and responsibilities for planning, implementing, operating, assessing, and 
+improving governance programs. 
+14 
+Information System 
+Regulatory Mapping 
+GRC-07 
+Identify and document all relevant standards, regulations, legal/contractual, and statutory requirements, 
+which are applicable to your organization. 
+14 
+Special Interest Groups 
+GRC-08 
+Establish and maintain contact with cloud-related special interest groups and other relevant entities in 
+line with business context. 
+14 
+
+
+--- Page 26 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+23 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+HRS - Human Resources 
+Background Screening 
+Policy and Procedures 
+HRS-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+background verification of all new employees (including but not limited to remote employees, 
+contractors, and third parties) according to local laws, regulations, ethics, and contractual constraints 
+and proportional to the data classification to be accessed, the business requirements, and acceptable 
+risk. Review and update the policies and procedures at least annually. 
+14 
+Acceptable Use of 
+Technology Policy and 
+Procedures 
+HRS-02 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+defining allowances and conditions for the acceptable use of organizationally-owned or managed 
+assets. Review and update the policies and procedures at least annually. 
+13 
+Clean Desk Policy and 
+Procedures 
+HRS-03 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures that 
+require unattended workspaces to not have openly visible confidential data. Review and update the 
+policies and procedures at least annually. 
+13 
+Remote and Home 
+Working Policy and 
+Procedures 
+HRS-04 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures to 
+protect information accessed, processed or stored at remote sites and locations. Review and update the 
+policies and procedures at least annually. 
+13 
+Asset returns 
+HRS-05 
+Establish and document procedures for the return of organization-owned assets by terminated 
+employees. 
+13 
+Employment Termination 
+HRS-06 
+Establish, document, and communicate to all personnel the procedures outlining the roles and 
+responsibilities concerning changes in employment. 
+13 
+Employment Agreement 
+Process 
+HRS-07 
+Employees sign the employee agreement prior to being granted access to organizational information 
+systems, resources and assets. 
+14 
+Employment Agreement 
+Content 
+HRS-08 
+The organization includes within the employment agreements provisions and/or terms for adherence to 
+established information governance and security policies. 
+14 
+Personnel Roles and 
+Responsibilities 
+HRS-09 
+Document and communicate roles and responsibilities of employees, as they relate to information 
+assets and security. 
+14 
+Non-Disclosure 
+Agreements 
+HRS-10 
+Identify, document, and review, at planned intervals, requirements for non-disclosure/confidentiality 
+agreements reflecting the organization's needs for the protection of data and operational details. 
+14 
+Security Awareness 
+Training 
+HRS-11 
+Establish, document, approve, communicate, apply, evaluate and maintain a security awareness 
+training program for all employees of the organization and provide regular training updates. 
+14 
+Personal and Sensitive 
+Data Awareness and 
+Training 
+HRS-12 
+Provide all employees with access to sensitive organizational and personal data with appropriate 
+security awareness training and regular updates in organizational procedures, processes, and policies 
+relating to their professional function relative to the organization. 
+13 
+Compliance User 
+Responsibility 
+HRS-13 
+Make employees aware of their roles and responsibilities for maintaining awareness and compliance 
+with established policies and procedures and applicable legal, statutory, or regulatory compliance 
+obligations. 
+13 
+
+
+--- Page 27 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+24 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+IAM - Identity & Access Management 
+Identity and Access 
+Management Policy and 
+Procedures 
+IAM-01 
+Establish, document, approve, communicate, implement, apply, evaluate and maintain policies and 
+procedures for identity and access management. Review and update the policies and procedures at 
+least annually. 
+13 
+Strong Password Policy 
+and Procedures 
+IAM-02 
+Establish, document, approve, communicate, implement, apply, evaluate and maintain strong password 
+policies and procedures. Review and update the policies and procedures at least annually. 
+13 
+Identity Inventory 
+IAM-03 
+Manage, store, and review the information of system identities, and level of access. 
+13 
+Separation of Duties 
+IAM-04 
+Employ the separation of duties principle when implementing information system access. 
+13 
+Least Privilege 
+IAM-05 
+Employ the least privilege principle when implementing information system access. 
+13 
+User Access Provisioning 
+IAM-06 
+Define and implement a user access provisioning process which authorizes, records, and communicates 
+access changes to data and assets. 
+13 
+User Access Changes 
+and Revocation 
+IAM-07 
+De-provision or respectively modify access of movers / leavers or system identity changes in a timely 
+manner in order to effectively adopt and communicate identity and access management policies. 
+13 
+User Access Review 
+IAM-08 
+Review and revalidate user access for least privilege and separation of duties with a frequency that is 
+commensurate with organizational risk tolerance. 
+13 
+Segregation of Privileged 
+Access Roles 
+IAM-09 
+Define, implement and evaluate processes, procedures and technical measures for the segregation of 
+privileged access roles such that administrative access to data, encryption and key management 
+capabilities and logging capabilities are distinct and separated. 
+13 
+Management of 
+Privileged Access Roles 
+IAM-10 
+Define and implement an access process to ensure privileged access roles and rights are granted for a 
+time limited period, and implement procedures to prevent the culmination of segregated privileged 
+access. 
+13 
+CSCs Approval for 
+Agreed Privileged Access 
+Roles 
+IAM-11 
+Define, implement and evaluate processes and procedures for customers to participate, where 
+applicable, in the granting of access for agreed, high risk (as defined by the organizational risk 
+assessment) privileged access roles. 
+13 
+Safeguard Logs Integrity 
+IAM-12 
+Define, implement and evaluate processes, procedures and technical measures to ensure the logging 
+infrastructure is read-only for all with write access, including privileged access roles, and that the ability 
+to disable it is controlled through a procedure that ensures the segregation of duties and break glass 
+procedures. 
+13 
+Uniquely Identifiable 
+Users 
+IAM-13 
+Define, implement and evaluate processes, procedures and technical measures that ensure users are 
+identifiable through unique IDs or which can associate individuals to the usage of user IDs. 
+13 
+Strong Authentication 
+IAM-14 
+Define, implement and evaluate processes, procedures and technical measures for authenticating 
+access to systems, application and data assets, including multifactor authentication for at least 
+privileged user and sensitive data access. Adopt digital certificates or alternatives which achieve an 
+equivalent level of security for system identities. 
+13 
+Passwords Management 
+IAM-15 
+Define, implement and evaluate processes, procedures and technical measures for the secure 
+management of passwords. 
+13 
+
+
+--- Page 28 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+25 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Authorization 
+Mechanisms 
+IAM-16 
+Define, implement and evaluate processes, procedures and technical measures to verify access to data 
+and system functions is authorized. 
+13 
+IPY - Interoperability & Portability 
+Interoperability and 
+Portability Policy and 
+Procedures 
+IPY-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+interoperability and portability including requirements for: 
+a. Communications between application interfaces 
+b. Information processing interoperability 
+c. Application development portability 
+d. Information/Data exchange, usage, portability, integrity, and persistence 
+Review and update the policies and procedures at least annually. 
+14 
+Application Interface 
+Availability 
+IPY-02 
+Provide application interface(s) to CSCs so that they programmatically retrieve their data to enable 
+interoperability and portability. 
+14 
+Secure Interoperability 
+and Portability 
+Management 
+IPY-03 
+Implement cryptographically secure and standardized network protocols for the management, import 
+and export of data. 
+14 
+Data Portability 
+Contractual Obligations 
+IPY-04 
+Agreements must include provisions specifying CSCs access to data upon contract termination and will 
+include: 
+a. Data format 
+b. Length of time the data will be stored 
+c. Scope of the data retained and made available to the CSCs 
+d. Data deletion policy 
+14 
+IVS - Infrastructure & Virtualization Security 
+Infrastructure and 
+Virtualization Security 
+Policy and Procedures 
+IVS-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+infrastructure and virtualization security. Review and update the policies and procedures at least 
+annually. 
+14 
+Capacity and Resource 
+Planning 
+IVS-02 
+Plan and monitor the availability, quality, and adequate capacity of resources in order to deliver the 
+required system performance as determined by the business. 
+14 
+Network Security 
+IVS-03 
+Monitor, encrypt and restrict communications between environments to only authenticated and 
+authorized connections, as justified by the business. Review these configurations at least annually, and 
+support them by a documented justification of all allowed services, protocols, ports, and compensating 
+controls. 
+14 
+OS Hardening and Base 
+Controls 
+IVS-04 
+Harden host and guest OS, hypervisor or infrastructure control plane according to their respective best 
+practices, and supported by technical controls, as part of a security baseline. 
+14 
+Production and Non-
+Production Environments 
+IVS-05 
+Separate production and non-production environments. 
+14 
+
+
+--- Page 29 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+26 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Segmentation and 
+Segregation 
+IVS-06 
+Design, develop, deploy and configure applications and infrastructures such that CSP and CSC (tenant) 
+user access and intra-tenant access is appropriately segmented and segregated, monitored and 
+restricted from other tenants. 
+14 
+Migration to Cloud 
+Environments 
+IVS-07 
+Use secure and encrypted communication channels when migrating servers, services, applications, or 
+data to cloud environments. Such channels must include only up-to-date and approved protocols. 
+14 
+Network Architecture 
+Documentation 
+IVS-08 
+Identify and document high-risk environments. 
+14 
+Network Defense 
+IVS-09 
+Define, implement and evaluate processes, procedures and defense-in-depth techniques for protection, 
+detection, and timely response to network-based attacks. 
+14 
+LOG - Logging and Monitoring 
+Logging and Monitoring 
+Policy and Procedures 
+LOG-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+logging and monitoring. Review and update the policies and procedures at least annually. 
+14 
+Audit Logs Protection 
+LOG-02 
+Define, implement and evaluate processes, procedures and technical measures to ensure the security 
+and retention of audit logs. 
+14 
+Security Monitoring and 
+Alerting 
+LOG-03 
+Identify and monitor security-related events within applications and the underlying infrastructure. Define 
+and implement a system to generate alerts to responsible stakeholders based on such events and 
+corresponding metrics. 
+14 
+Audit Logs Access and 
+Accountability 
+LOG-04 
+Restrict audit logs access to authorized personnel and maintain records that provide unique access 
+accountability. 
+14 
+Audit Logs Monitoring 
+and Response 
+LOG-05 
+Monitor security audit logs to detect activity outside of typical or expected patterns. Establish and follow 
+a defined process to review and take appropriate and timely actions on detected anomalies. 
+14 
+Clock Synchronization 
+LOG-06 
+Use a reliable time source across all relevant information processing systems. 
+14 
+Logging Scope 
+LOG-07 
+Establish, document and implement which information meta/data system events should be logged. 
+Review and update the scope at least annually or whenever there is a change in the threat environment. 
+14 
+Log Records 
+LOG-08 
+Generate audit records containing relevant security information. 
+14 
+Log Protection 
+LOG-09 
+The information system protects audit records from unauthorized access, modification, and deletion. 
+14 
+Encryption Monitoring 
+and Reporting 
+LOG-10 
+Establish and maintain a monitoring and internal reporting capability over the operations of 
+cryptographic, encryption and key management policies, processes, procedures, and controls. 
+14 
+Transaction/Activity 
+Logging 
+LOG-11 
+Log and monitor key lifecycle management events to enable auditing and reporting on usage of 
+cryptographic keys. 
+14 
+Access Control Logs 
+LOG-12 
+Monitor and log physical access using an auditable access control system. 
+14 
+Failures and Anomalies 
+Reporting 
+LOG-13 
+Define, implement and evaluate processes, procedures and technical measures for the reporting of 
+anomalies and failures of the monitoring system and provide immediate notification to the accountable 
+party. 
+14 
+
+
+--- Page 30 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+27 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+SEF - Security Incident Management, E-Discover, & Cloud Forensics 
+Security Incident 
+Management Policy and 
+Procedures 
+SEF-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+Security Incident Management, E-Discovery, and Cloud Forensics. Review and update the policies and 
+procedures at least annually. 
+14 
+Service Management 
+Policy and Procedures 
+SEF-02 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+the timely management of security incidents. Review and update the policies and procedures at least 
+annually. 
+14 
+Incident Response Plans 
+SEF-03 
+Establish, document, approve, communicate, apply, evaluate and maintain a security incident response 
+plan, which includes but is not limited to: relevant internal departments, impacted CSCs, and other 
+business critical relationships (such as supply-chain) that may be impacted. 
+14 
+Incident Response 
+Testing 
+SEF-04 
+Test and update as necessary incident response plans at planned intervals or upon significant 
+organizational or environmental changes for effectiveness. 
+14 
+Incident Response 
+Metrics 
+SEF-05 
+Establish and monitor information security incident metrics. 
+14 
+Event Triage Processes 
+SEF-06 
+Define, implement and evaluate processes, procedures and technical measures supporting business 
+processes to triage security-related events. 
+14 
+Security Breach 
+Notification 
+SEF-07 
+Define and implement, processes, procedures and technical measures for security breach notifications. 
+Report security breaches and assumed security breaches including any relevant supply chain breaches, 
+as per applicable SLAs, laws and regulations. 
+14 
+Points of Contact 
+Maintenance 
+SEF-08 
+Maintain points of contact for applicable regulation authorities, national and local law enforcement, and 
+other legal jurisdictional authorities. 
+14 
+STA - Supply Chain Management, Transparency, and Accountability 
+SSRM Policy and 
+Procedures 
+STA-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for 
+the application of the Shared Security Responsibility Model (SSRM) within the organization. Review and 
+update the policies and procedures at least annually. 
+14 
+SSRM Supply Chain 
+STA-02 
+Apply, document, implement and manage the SSRM throughout the supply chain for the cloud service 
+offering. 
+14 
+SSRM Guidance 
+STA-03 
+Provide SSRM Guidance to the CSC detailing information about the SSRM applicability throughout the 
+supply chain. 
+14 
+SSRM Control Ownership 
+STA-04 
+Delineate the shared ownership and applicability of all CSA CCM controls according to the SSRM for 
+the cloud service offering. 
+14 
+SSRM Documentation 
+Review 
+STA-05 
+Review and validate SSRM documentation for all cloud services offerings the organization uses. 
+14 
+SSRM Control 
+Implementation 
+STA-06 
+Implement, operate, and audit or assess the portions of the SSRM which the organization is responsible 
+for. 
+14 
+Supply Chain Inventory 
+STA-07 
+Develop and maintain an inventory of all supply chain relationships. 
+14 
+
+
+--- Page 31 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+28 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Supply Chain Risk 
+Management 
+STA-08 
+CSPs periodically review risk factors associated with all organizations within their supply chain. 
+14 
+Primary Service and 
+Contractual Agreement 
+STA-09 
+Service agreements between CSPs and CSCs (tenants) must incorporate at least the following 
+mutually-agreed upon provisions and/or terms: 
+• 
+Scope, characteristics and location of business relationship and services offered 
+• 
+Information security requirements (including SSRM) 
+• 
+Change management process 
+• 
+Logging and monitoring capability 
+• 
+Incident management and communication procedures 
+• 
+Right to audit and third party assessment 
+• 
+Service termination 
+• 
+Interoperability and portability requirements 
+• 
+Data privacy 
+14 
+Supply Chain Agreement 
+Review 
+STA-10 
+Review supply chain agreements between CSPs and CSCs at least annually. 
+14 
+Internal Compliance 
+Testing 
+STA-11 
+Define and implement a process for conducting internal assessments to confirm conformance and 
+effectiveness of standards, policies, procedures, and service level agreement activities at least annually. 
+14 
+Supply Chain Service 
+Agreement Compliance 
+STA-12 
+Implement policies requiring all CSPs throughout the supply chain to comply with information security, 
+confidentiality, access control, privacy, audit, personnel policy and service level requirements and 
+standards. 
+14 
+Supply Chain 
+Governance Review 
+STA-13 
+Periodically review the organization's supply chain partners' IT governance policies and procedures. 
+14 
+Supply Chain Data 
+Security Assessment 
+STA-14 
+Define and implement a process for conducting security assessments periodically for all organizations 
+within the supply chain. 
+14 
+TVM - Threat & Vulnerability Management 
+Threat and Vulnerability 
+Management Policy and 
+Procedures 
+TVM-01 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures to 
+identify, report and prioritize the remediation of vulnerabilities, in order to protect systems against 
+vulnerability exploitation. Review and update the policies and procedures at least annually. 
+15 
+Malware Protection Policy 
+and Procedures 
+TVM-02 
+Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures to 
+protect against malware on managed assets. Review and update the policies and procedures at least 
+annually. 
+14 
+Vulnerability Remediation 
+Schedule 
+TVM-03 
+Define, implement and evaluate processes, procedures and technical measures to enable both 
+scheduled and emergency responses to vulnerability identifications, based on the identified risk. 
+14 
+Detection Updates 
+TVM-04 
+Define, implement and evaluate processes, procedures and technical measures to update detection 
+tools, threat signatures, and indicators of compromise on a weekly, or more frequent basis. 
+14 
+
+
+--- Page 32 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+29 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+External Library 
+Vulnerabilities 
+TVM-05 
+Define, implement and evaluate processes, procedures and technical measures to identify updates for 
+applications which use third party or open source libraries according to the organization's vulnerability 
+management policy. 
+14 
+Penetration Testing 
+TVM-06 
+Define, implement and evaluate processes, procedures and technical measures for the periodic 
+performance of penetration testing by independent third parties. 
+14 
+Vulnerability Identification 
+TVM-07 
+Define, implement and evaluate processes, procedures and technical measures for the detection of 
+vulnerabilities on organizationally managed assets at least monthly. 
+14 
+Vulnerability Prioritization 
+TVM-08 
+Use a risk-based model for effective prioritization of vulnerability remediation using an industry 
+recognized framework. 
+14 
+Vulnerability Management 
+Reporting 
+TVM-09 
+Define and implement a process for tracking and reporting vulnerability identification and remediation 
+activities that includes stakeholder notification. 
+14 
+Vulnerability Management 
+Metrics 
+TVM-10 
+Establish, monitor and report metrics for vulnerability identification and remediation at defined intervals. 
+14 
+UEM - Universal Endpoint Management 
+Endpoint Devices Policy 
+and Procedures 
+UEM-01 
+Establish, document, approve, communicate, apply, evaluate, and maintain policies and procedures for 
+all endpoints.  Review and update the policies and procedures at least annually. 
+13 
+Application and Service 
+Approval 
+UEM-02 
+Define, document, apply and evaluate a list of approved services, applications and sources of 
+applications (stores) acceptable for use by endpoints when accessing or storing organization-managed 
+data. 
+13 
+Compatibility 
+UEM-03 
+Define and implement a process for the validation of the endpoint device's compatibility with operating 
+systems and applications. 
+13 
+Endpoint Inventory 
+UEM-04 
+Maintain an inventory of all endpoints used to store and access company data. 
+13 
+Endpoint Management 
+UEM-05 
+Define, implement and evaluate processes, procedures and technical measures to enforce policies and 
+controls for all endpoints permitted to access systems and/or store, transmit, or process organizational 
+data. 
+13 
+Automatic Lock Screen 
+UEM-06 
+Configure all relevant interactive-use endpoints to require an automatic lock screen. 
+13 
+Operating Systems 
+UEM-07 
+Manage changes to endpoint operating systems, patch levels, and/or applications through the 
+company's change management processes. 
+13 
+Storage Encryption 
+UEM-08 
+Protect information from unauthorized disclosure on managed endpoint devices with storage encryption. 
+13 
+Anti-Malware Detection 
+and Prevention 
+UEM-09 
+Configure managed endpoints with anti-malware detection and prevention technology and services. 
+13 
+Software Firewall 
+UEM-10 
+Configure managed endpoints with properly configured software firewalls. 
+13 
+Data Loss Prevention 
+UEM-11 
+Configure managed endpoints with Data Loss Prevention (DLP) technologies and rules in accordance 
+with a risk assessment. 
+13 
+
+
+--- Page 33 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+30 
+ 
+ 
+ 
+ 
+Control Area 
+Control ID 
+Control Specification 
+Maturity Score 
+Remote Locate 
+UEM-12 
+Enable remote geo-location capabilities for all managed mobile endpoints. 
+13 
+Remote Wipe 
+UEM-13 
+Define, implement and evaluate processes, procedures and technical measures to enable the deletion 
+of company data remotely on managed endpoint devices. 
+13 
+Third-Party Endpoint 
+Security Posture 
+UEM-14 
+Define, implement and evaluate processes, procedures and technical and/or contractual measures to 
+maintain proper security of third-party endpoints with access to organizational assets. 
+N/A 
+ 
+ 
+ 
+
+
+--- Page 34 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 3 
+ 
+CSA STAR 
+CERTIFICATION TERM 
+PROGRAM 
+ 
+ 
+
+
+--- Page 35 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+32 
+ 
+ 
+ 
+ 
+ 
+ 
+CERTIFICATION TERM PROGRAM 
+ 
+Year 
+Type of Review 
+Process to be Reviewed 
+Dates 
+Locations to 
+be Visited 
+2023 
+Recertification 
+CCM Matrix (4) 
+March – April 2023 
+N/A – Remote 
+2024 
+Surveillance 
+CCM Matrix (4) 
+February – March 2024 
+N/A – Remote 
+2025 
+Recertification 
+CCM Matrix (4) 
+October 2025 
+N/A – Remote 
+2026 
+Surveillance 
+CCM Matrix (4) 
+October 2026 
+N/A – Remote 
+ 
+Legend 
+  Future projects 
+ 
+ 
+ 
+
+
+--- Page 36 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proprietary and Confidential 
+33 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX A 
+ 
+CSA STAR REVIEW 
+MATURITY MATRIX 
+ 
+ 
+
+
+--- Page 37 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+34 
+ 
+ 
+ 
+ 
+Score 
+1 to 3 
+4 to 6 
+7 to 9 
+10 to 12 
+13 to 15 
+ 
+No Formal 
+Approach 
+Reactive 
+Proactive 
+Improving 
+Optimizing 
+Evidence / 
+Definition 
+1. There is no 
+evidence of a 
+system in place to 
+manage the control 
+area. 
+4. There is evidence of a 
+system in place to cover 
+to key operations in the 
+control area.  Where 
+required, the system is 
+documented. 
+7. There is evidence of a 
+robust system in place 
+that covers all routine 
+operation in the control 
+area. 
+10. There is evidence the 
+system for managing the 
+control area is capable of 
+managing contingency 
+events as well as routine 
+activity. 
+13. Control area owners 
+can demonstrate that they 
+actively review best 
+practice from their 
+industry and across their 
+organization and apply it 
+to the control area. 
+Managed 
+2. There is some 
+evidence of either a 
+documented system 
+or an accepted way 
+of working is in 
+place. 
+5. There is a clearly 
+identified owner for the 
+control area who 
+understands their scope 
+of responsibility. 
+8. There is evidence that 
+the control area is actively 
+monitored and measured, 
+and action evaluated 
+based on the evidence. 
+11. Input from a variety of 
+sources is considered to 
+decide how to manage 
+risk and improve 
+operations in this control 
+area. 
+14. Control area owners 
+actively share best 
+practice to support 
+development in other 
+areas of the organization 
+based on their experience 
+in this control area. 
+Followed / 
+Effective 
+3. There is some 
+evidence of an 
+accepted way of 
+working that is 
+broadly understood 
+and followed. 
+6. There is evidence the 
+system is understood and 
+routinely followed. 
+9. There is evidence that 
+critical people operating 
+in the control area 
+appropriately trained / 
+skilled to manage routine 
+operations in the control 
+area. 
+12. There is evidence that 
+input form a range of 
+stakeholders and 
+monitoring systems has 
+been taken into account 
+when improving 
+operations in the control 
+area. 
+15. Changes in the 
+control area are 
+evaluated against the 
+strategic objectives of the 
+organization. 
+ 
+ 
+ 
+
+
+--- Page 38 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+35 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX B 
+ 
+MICROSOFT AZURE 
+SCOPE STATEMENT 
+ 
+ 
+
+
+--- Page 39 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+36 
+ 
+ 
+ 
+ 
+ 
+ 
+MICROSOFT AZURE SCOPE STATEMENT 
+ 
+Scope of the IMS 
+ 
+The scope of the IMS (which includes the ISMS, PIMS, SMS, BCMS, and QMS) comprises the development, 
+operations and infrastructure teams for Azure and Azure based services deployed in Public and Government Cloud, 
+collectively referred as Microsoft: Azure, Dynamics, and other Online Services in accordance with its IMS Statement 
+of Applicability. 
+ 
+Microsoft: Azure, Dynamics, and other Online Services IMS applies to information resources, processes, and 
+personnel within the Microsoft: Azure, Dynamics, and other Online Services Group.  Information Resources include 
+any Microsoft: Azure, Dynamics, and other Online Services owned or managed systems, applications, and network 
+elements, and any information processed by, or used to provide Microsoft services. 
+ 
+ 
+Azure Cloud-based Services Inclusions 
+ 
+The IMS scope includes selective Microsoft: Azure, Dynamics, and other Online Services noted below that are 
+deployed in Azure Public and Government Cloud including their development and operations, infrastructure and 
+their associated security, privacy, and compliance: 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+AI + Machine 
+Learning 
+Azure Bot Service 
+✓ 
+✓ 
+Microsoft Foundry 
+✓ 
+✓ 
+Microsoft Foundry: Foundry Models 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Anomaly Detector 
+✓ 
+- 
+Microsoft Foundry: Azure Document Intelligence 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Metrics Advisor 
+✓ 
+- 
+Microsoft Foundry: Azure Vision 
+✓ 
+✓ 
+Microsoft Foundry: Content Safety 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Content Moderator 
+✓ 
+✓ 
+Microsoft Foundry: Azure Custom Vision 
+✓ 
+✓ 
+Microsoft Foundry: Azure Vision - Face 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Immersive Reader 
+✓ 
+- 
+Microsoft Foundry: Azure AI Personalizer 
+✓ 
+✓ 
+Microsoft Foundry: Azure Language 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Language Understanding 
+✓ 
+✓ 
+Microsoft Foundry: Azure Translator 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI QnA Maker 
+✓ 
+✓ 
+Microsoft Foundry: Azure Speech 
+✓ 
+✓ 
+
+
+--- Page 40 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+37 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+AI + Machine 
+Learning 
+Microsoft Foundry: Azure Machine Learning 
+✓ 
+✓ 
+Microsoft Foundry: Foundry Agent Service 
+✓ 
+- 
+Azure AI Search 
+✓ 
+✓ 
+AI Builder 
+✓ 
+✓ 
+Microsoft Security Copilot 
+✓ 
+- 
+Microsoft Copilot for Sales 
+✓ 
+- 
+Microsoft Copilot for Service 
+✓ 
+- 
+Azure Health Bot 
+✓ 
+- 
+Azure Health AI Deidentification Service 
+✓ 
+- 
+Copilot for Finance 
+✓ 
+- 
+Microsoft Dragon Copilot 
+✓ 
+- 
+Analytics 
+Azure Analysis Services 
+✓ 
+✓ 
+Azure Chaos Studio 
+✓ 
+- 
+Azure Data Explorer 
+✓ 
+✓ 
+Azure Data Factory 
+✓ 
+✓ 
+Azure HDInsight 
+✓ 
+✓ 
+Azure Operator Service Manager 
+✓ 
+- 
+Azure Stream Analytics 
+✓ 
+✓ 
+Azure Data Share 
+✓ 
+✓ 
+Microsoft Fabric 
+✓ 
+- 
+Healthcare Data Solutions in Microsoft Fabric 
+✓ 
+- 
+Power BI Embedded 
+✓ 
+✓ 
+Azure Usage Billing 
+✓ 
+- 
+Compute 
+Cloud Services (Extended Support) 
+✓ 
+✓ 
+Service Fabric 
+✓ 
+✓ 
+Virtual Machine Scale Sets 
+✓ 
+✓ 
+Virtual Machines 
+✓ 
+✓ 
+Virtual Machines Licenses 
+✓ 
+- 
+Virtual Machines Bav2 Series 
+✓ 
+✓ 
+Virtual Machines Bv2 Series 
+✓ 
+✓ 
+
+
+--- Page 41 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+38 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Compute 
+SQL Server on Azure Virtual Machines 
+✓ 
+✓ 
+Virtual Machine Extensions 
+✓ 
+✓ 
+Batch 
+✓ 
+✓ 
+Azure Functions 
+✓ 
+✓ 
+App Service 
+✓ 
+✓ 
+App Service (Web Apps) 
+✓ 
+✓ 
+App Service Static Web Apps 
+✓ 
+✓ 
+Service Connector 
+✓ 
+- 
+Azure AutoManage Machine Configuration 
+✓ 
+✓ 
+Azure VMware Solution 
+✓ 
+✓ 
+Planned Maintenance 
+✓ 
+✓ 
+Azure Arc enabled Servers 
+✓ 
+✓ 
+Azure VM Image Builder 
+✓ 
+✓ 
+Azure Virtual Desktop 
+✓ 
+✓ 
+Azure Spring Apps 
+✓ 
+- 
+Azure Center for SAP Solutions 
+✓ 
+- 
+Azure Compute Fleet 
+✓ 
+- 
+Azure Large Instances 
+✓ 
+- 
+Azure Large Instance for Epic v1.1 
+✓ 
+- 
+Azure Service Manager (RDFE) 
+✓ 
+✓ 
+Standby Pool 
+✓ 
+- 
+Containers 
+Azure Kubernetes Service (AKS) 
+✓ 
+✓ 
+Azure Arc enabled Kubernetes 
+✓ 
+✓ 
+Azure Kubernetes Configuration Management 
+✓ 
+✓ 
+Azure Red Hat OpenShift (ARO) 
+✓ 
+✓ 
+Container Instances 
+✓ 
+✓ 
+Azure Container Registry 
+✓ 
+✓ 
+Azure Container Apps 
+✓ 
+✓ 
+Microsoft Container Registry 
+✓ 
+- 
+Azure Kubernetes Fleet Manager 
+✓ 
+✓ 
+
+
+--- Page 42 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+39 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Databases 
+Azure Arc enabled SQL Server 
+✓ 
+- 
+SQL Managed Instance enabled by Azure Arc 
+✓ 
+- 
+Azure Cosmos DB (and Azure DocumentDB) 
+✓ 
+✓ 
+Azure SQL Database 
+✓ 
+✓ 
+Azure Database for MariaDB 
+✓ 
+✓ 
+Azure Database for MySQL 
+✓ 
+✓ 
+Azure Database for PostgreSQL 
+✓ 
+✓ 
+Azure Database Migration Service 
+✓ 
+✓ 
+Azure Cache for Redis 
+✓ 
+✓ 
+Azure Synapse Analytics 
+✓ 
+✓ 
+Azure SQL Database Edge 
+✓ 
+- 
+Azure Managed Instance for Apache Cassandra 
+✓ 
+- 
+Microsoft Connected Cache for ISP 
+✓ 
+- 
+Oracle Database@Azure** 
+✓ 
+- 
+Azure SQL Managed Instance 
+✓ 
+✓ 
+DevOps 
+Managed DevOps Pools 
+✓ 
+- 
+Azure Monitor Grafana 
+✓ 
+- 
+Playwright 
+✓ 
+- 
+Developer Tools 
+Azure DevTest Labs 
+✓ 
+✓ 
+Azure Lab Services 
+✓ 
+✓ 
+Azure for Education 
+✓ 
+- 
+Azure App Configuration 
+✓ 
+✓ 
+Azure Load Testing 
+✓ 
+✓ 
+Azure Deployment Environments 
+✓ 
+- 
+Microsoft Dev Box 
+✓ 
+- 
+Learn Platform API 
+✓ 
+- 
+Trusted Signing 
+✓ 
+- 
+Hybrid + 
+Multicloud 
+Azure Arc enabled System Center Virtual Machine 
+Manager 
+✓ 
+- 
+Azure Arc enabled VMware vSphere 
+✓ 
+- 
+Azure Arc enabled VMware Solution 
+✓ 
+- 
+Azure Local 
+✓ 
+✓ 
+
+
+--- Page 43 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+40 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Hybrid + 
+Multicloud 
+Workload orchestration 
+✓ 
+- 
+Firmware Analysis 
+✓ 
+- 
+Azure Stack* 
+✓ 
+✓ 
+Nutanix on Azure*** 
+✓ 
+- 
+Identity 
+Azure Information Protection 
+✓ 
+✓ 
+Microsoft Entra ID 
+✓ 
+✓ 
+Microsoft Entra ID Governance 
+✓ 
+- 
+Microsoft Global Secure Access 
+✓ 
+- 
+Azure Active Directory B2C 
+✓ 
+✓ 
+Privileged Identity Management 
+✓ 
+- 
+Microsoft Entra Domain Services 
+✓ 
+✓ 
+Integration 
+Logic Apps 
+✓ 
+✓ 
+API Management 
+✓ 
+✓ 
+Azure API Center 
+✓ 
+- 
+Service Bus 
+✓ 
+✓ 
+Azure Health Data Services 
+✓ 
+✓ 
+Azure Data Manager for Energy 
+✓ 
+- 
+Relay 
+✓ 
+- 
+Internet of 
+Things 
+Event Hubs 
+✓ 
+✓ 
+Event Grid 
+✓ 
+✓ 
+Azure IoT Central 
+✓ 
+- 
+Azure IoT Hub 
+✓ 
+✓ 
+Azure IoT Operations 
+✓ 
+- 
+Notification Hubs 
+✓ 
+✓ 
+Azure Sphere 
+✓ 
+- 
+Azure Defender for IoT 
+✓ 
+✓ 
+Azure Device Registry 
+✓ 
+- 
+Azure Digital Twins 
+✓ 
+- 
+Device Update for IoT Hub 
+✓ 
+- 
+
+
+--- Page 44 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+41 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Management 
+and 
+Governance 
+Application Change Analysis 
+✓ 
+- 
+Azure Resource Manager 
+✓ 
+✓ 
+Automation 
+✓ 
+✓ 
+Azure Advisor 
+✓ 
+✓ 
+Azure Lighthouse 
+✓ 
+✓ 
+Azure Managed Applications 
+✓ 
+✓ 
+Azure Migrate 
+✓ 
+✓ 
+Azure Monitor 
+✓ 
+✓ 
+Azure Monitor for SAP solutions 
+✓ 
+- 
+Azure Policy 
+✓ 
+✓ 
+Azure Resource Graph 
+✓ 
+✓ 
+Cloud Shell 
+✓ 
+✓ 
+Microsoft Azure Portal 
+✓ 
+✓ 
+Defender External Attack Surface Management (EASM) 
+✓ 
+- 
+Azure Blueprints 
+✓ 
+- 
+Cost Management 
+✓ 
+✓ 
+Azure Signup Portal 
+✓ 
+✓ 
+Resource Move 
+✓ 
+✓ 
+Quota+ Usage Blade 
+✓ 
+✓ 
+Quota Management 
+✓ 
+✓ 
+Microsoft Purview 
+✓ 
+✓ 
+Azure Update Manager 
+✓ 
+✓ 
+Azure Help 
+✓ 
+- 
+Azure Business Continuity Center 
+✓ 
+- 
+SaaS API 
+✓ 
+- 
+Publisher Verification Service and Application Consent 
+Service 
+✓ 
+- 
+Azure Managed Grafana 
+✓ 
+✓ 
+Mixed Reality 
+Azure Remote Rendering 
+✓ 
+- 
+Networking 
+Application Gateway 
+✓ 
+✓ 
+Azure Load Balancer 
+✓ 
+✓ 
+Microsoft Azure Peering Service 
+✓ 
+✓ 
+
+
+--- Page 45 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+42 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Networking 
+Azure ExpressRoute 
+✓ 
+✓ 
+Virtual Network 
+✓ 
+✓ 
+VPN Gateway 
+✓ 
+✓ 
+Azure Bastion 
+✓ 
+✓ 
+Azure DDoS Protection 
+✓ 
+✓ 
+Azure DNS 
+✓ 
+✓ 
+Azure Firewall 
+✓ 
+✓ 
+Azure Firewall Manager 
+✓ 
+✓ 
+Azure Front Door 
+✓ 
+✓ 
+Azure Internet Analyzer 
+✓ 
+- 
+Azure Private Link 
+✓ 
+✓ 
+Azure Private MEC 
+✓ 
+- 
+Azure Web Application Firewall 
+✓ 
+✓ 
+Content Delivery Network 
+✓ 
+✓ 
+Network Watcher 
+✓ 
+✓ 
+Network security perimeter 
+✓ 
+- 
+Traffic Manager 
+✓ 
+✓ 
+Virtual WAN 
+✓ 
+✓ 
+IP Services 
+✓ 
+✓ 
+Virtual Network NAT 
+✓ 
+✓ 
+Azure Communications Gateway 
+✓ 
+- 
+Azure Operator Nexus 
+✓ 
+- 
+Nexus Network Fabric 
+✓ 
+- 
+AFOI-Network Cloud 
+✓ 
+- 
+Azure Orbital Ground Station 
+✓ 
+- 
+Azure Route Server 
+✓ 
+✓ 
+Azure Virtual Network Manager 
+✓ 
+✓ 
+Azure Traffic Collector 
+✓ 
+- 
+Azure Network Function Manager 
+✓ 
+✓ 
+Security 
+Key Vault 
+✓ 
+✓ 
+Azure Payment HSM 
+✓ 
+- 
+
+
+--- Page 46 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+43 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Security 
+Azure Cloud HSM 
+✓ 
+✓ 
+Multi-Factor Authentication 
+✓ 
+✓ 
+Azure Dedicated HSM 
+✓ 
+✓ 
+Customer Lockbox for Microsoft Azure 
+✓ 
+✓ 
+Central Fraud and Abuse Risk Platform 
+✓ 
+- 
+Exposure Management 
+✓ 
+- 
+Microsoft Sentinel 
+✓ 
+✓ 
+Microsoft Sentinel Graph (MSG) 
+✓ 
+- 
+Microsoft Defender for Cloud 
+✓ 
+✓ 
+Microsoft Azure Attestation 
+✓ 
+- 
+Azure Confidential Ledger 
+✓ 
+- 
+Trusted Hardware Identity Management 
+✓ 
+- 
+Storage 
+Storage (Blobs (including Azure Data Lake Storage Gen 2), 
+Disks, Files, Queues, Tables, Azure Disk Storage, Archive) 
+including Cool and Premium 
+✓ 
+✓ 
+Azure Storage Mover 
+✓ 
+- 
+Azure Storage Actions 
+✓ 
+- 
+Azure Data Box 
+✓ 
+✓ 
+Azure Data Transfer 
+✓ 
+- 
+Azure HPC Cache 
+✓ 
+✓ 
+Azure Site Recovery 
+✓ 
+✓ 
+Azure Backup 
+✓ 
+✓ 
+Azure File Sync 
+✓ 
+✓ 
+Azure NetApp Files 
+✓ 
+✓ 
+Azure Files 
+✓ 
+✓ 
+Azure Elastic SAN 
+✓ 
+- 
+Azure Managed Lustre 
+✓ 
+✓ 
+Web 
+Azure Maps 
+✓ 
+✓ 
+Azure SignalR Service 
+✓ 
+✓ 
+Azure Web PubSub 
+✓ 
+✓ 
+Azure Fluid Relay 
+✓ 
+✓ 
+
+
+--- Page 47 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+44 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Microsoft Online Services 
+Commercial Marketplace Public Storefront 
+✓ 
+- 
+Intelligent Recommendations 
+✓ 
+- 
+Microsoft Copilot Studio 
+✓ 
+✓ 
+Microsoft Intune 
+✓ 
+✓ 
+Microsoft Defender for Cloud Apps 
+✓ 
+✓ 
+Microsoft Defender Threat Intelligence 
+✓ 
+- 
+Microsoft Graph 
+✓ 
+✓ 
+Microsoft Managed Desktop 
+✓ 
+- 
+Power Apps 
+✓ 
+✓ 
+Power Automate 
+✓ 
+✓ 
+Power BI 
+✓ 
+✓ 
+Microsoft Threat Experts 
+✓ 
+- 
+Microsoft 365 Defender 
+✓ 
+✓ 
+Microsoft Defender for Endpoint 
+✓ 
+✓ 
+Microsoft Defender for Identity 
+✓ 
+✓ 
+Microsoft Defender Vulnerability Management 
+✓ 
+✓ 
+Microsoft Defender Experts for XDR 
+✓ 
+- 
+Microsoft Defender Experts for Hunting 
+✓ 
+- 
+Universal Print 
+✓ 
+- 
+Update Compliance 
+✓ 
+- 
+Azure Managed Experience 
+✓ 
+- 
+Windows Autopatch 
+✓ 
+- 
+Seeing AI 
+✓ 
+- 
+Microsoft Sustainability Manager 
+✓ 
+- 
+Sustainability Data Services 
+✓ 
+- 
+Community Training 
+✓ 
+- 
+Nuance Conversational IVR 
+✓ 
+✓ 
+Microsoft Bot Framework 
+✓ 
+- 
+Microsoft Secure Score 
+✓ 
+✓ 
+Microsoft Dynamics 365 
+Dynamics 365 Contact Center 
+✓ 
+✓ 
+
+
+--- Page 48 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+45 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Dynamics 365 Customer Service 
+✓ 
+✓ 
+Dynamics 365 Customer Voice 
+✓ 
+✓ 
+Dynamics 365 Field Service 
+✓ 
+✓ 
+Dynamics 365 Sales 
+✓ 
+✓ 
+Dynamics 365 Sales Insights 
+✓ 
+- 
+Dynamics 365 Customer Insights 
+✓ 
+✓ 
+Dynamics 365 Business Central 
+✓ 
+- 
+Dynamics 365 Human Resources (Operations) 
+✓ 
+- 
+Dynamics 365 Finance 
+✓ 
+✓ 
+Dynamics 365 Fraud Protection 
+✓ 
+- 
+Dynamics 365 Resource Scheduling Optimization 
+✓ 
+✓ 
+Dynamics 365 Marketing 
+✓ 
+- 
+Power Pages 
+✓ 
+✓ 
+Dynamics 365 Project Operations 
+✓ 
+- 
+Dynamics 365 Supply Chain Management 
+✓ 
+✓ 
+Dynamics 365 Commerce 
+✓ 
+- 
+Dynamics 365 Intelligent Order Management 
+✓ 
+- 
+Chat for Dynamics 365 
+✓ 
+✓ 
+Dynamics 365 Athena - CDS to Azure Data Lake 
+✓ 
+✓ 
+Dynamics 365 Guides 
+✓ 
+- 
+Dynamics 365 Remote Assist 
+✓ 
+✓ 
+Dataverse 
+✓ 
+✓ 
+Infrastructure Services 
+Supporting Infrastructure and Platform Services 
+✓ 
+✓ 
+ 
+Legend 
+* 
+Includes the Azure Stack Bridge service which provides hybrid capabilities between on-premises Azure Stack deployments 
+and the online Azure cloud; however, customers are responsible for managing the security of on-premises components. 
+** 
+Azure manages physical security and the Azure platform (Portal, Resource Provider control plane, Identity and Network 
+connectivity) of the Oracle Database@Azure.  Oracle Cloud Infrastructure manages the other portions, which include the 
+OCI hardware and control plane. 
+*** Azure manages physical security and the Azure platform (Portal, Resource Provider control plane, Identity and Network 
+connectivity) of the Nutanix on Azure offering.  Nutanix Cloud Platform manages the other portions, which include the 
+Nutanix Cloud Portal and Nutanix Cloud Infrastructure Software. 
+ 
+ 
+ 
+
+
+--- Page 49 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+46 
+ 
+ 
+ 
+ 
+Physical Environment 
+ 
+Microsoft: Azure, Dynamics, and other Online Services are hosted in datacenters located throughout the world, 
+which are managed by Azure’s Physical Infrastructure team.  The Physical Infrastructure team provides the physical 
+and logical infrastructure for Microsoft’s cloud and hosted applications.  The Physical Infrastructure team serves as 
+the underlying platform that supports Microsoft’s software plus service strategy.  The physical infrastructure includes 
+the datacenter facilities, as well as the hardware and software components that support the services and networks.  
+At Microsoft, the logical infrastructure consists of operating system instances, routed networks, and unstructured 
+data storage, whether running on virtual or physical assets.  Platform services include compute runtimes, identity, 
+and directory stores (such as Active Directory® and Microsoft account), and other advanced functions consumed 
+by Microsoft properties. 
+ 
+Locations in-scope of the IMS 
+Azure production infrastructure is located in globally distributed datacenters.  These datacenters deliver the core 
+physical infrastructure that includes physical hardware asset management, security, data protection, networking 
+services.  These datacenters are managed, monitored, and operated by Microsoft operations staff delivering online 
+services with 24x7 continuity.  The purpose-built facilities are part of a network of datacenters that provide mission 
+critical services to Azure and other Online Services.  The datacenters within scope of the IMS are as follows: 
+ 
+Main Location of the IMS 
+Redmond, Washington 
+One Microsoft Way 
+Redmond, Washington 98052 
+United States 
+ 
+Microsoft Azure Domestic Datacenters 
+West US 
+Santa Clara, CA 
+San Jose, CA 
+West US 2 
+Columbia, WA  
+Quincy, WA 
+Wenatchee, WA 
+West US 3 
+Phoenix, AZ 
+West Central US 
+Cheyenne, WY 
+Central US 
+Des Moines, IA 
+North Central US 
+Chicago, IL 
+South Central US 
+San Antonio, TX 
+East US 
+Sterling, VA 
+Ashburn, VA 
+Manassas, VA 
+Dulles, VA 
+East US 2 
+Boydton, VA 
+Lawrenceville, GA 
+Mecklenburg, NC 
+US GOV Iowa 
+Des Moines, IA 
+US GOV Arizona 
+Phoenix, AZ 
+US GOV Texas 
+San Antonio, TX 
+
+
+--- Page 50 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+47 
+ 
+ 
+ 
+ 
+Microsoft Azure Domestic Datacenters 
+US GOV Virginia 
+Boydton, VA 
+Mecklenburg, NC 
+US GOV Wyoming 
+Cheyenne, WY 
+ 
+Microsoft Azure International Datacenters 
+Canada East 
+Quebec, Canada 
+Canada Central 
+Toronto, Canada 
+Brazil South 
+Campinas, Brazil 
+Brazil Southeast 
+Rio de Janeiro, Brazil 
+West Europe 
+Amsterdam, Netherlands 
+North Europe 
+Dublin, Ireland 
+UK South 
+London, United Kingdom 
+UK West 
+Cardiff, United Kingdom 
+France Central 
+Paris, France 
+France South 
+Marseille, France 
+Germany North 
+Berlin, Germany 
+Germany West Central 
+Frankfurt, Germany 
+Sweden Central 
+Gavleborg, Sweden 
+Sweden South 
+Malmo, Sweden 
+Switzerland West 
+Geneva, Switzerland 
+Switzerland North 
+Zurich, Switzerland 
+Norway East 
+Oslo, Norway 
+Norway West 
+Stavanger, Norway 
+Poland Central 
+Warsaw, Poland 
+Italy North 
+Milan, Italy 
+Mexico Central 
+Queretaro, Mexico 
+East Asia 
+Hong Kong 
+Southeast Asia 
+Singapore 
+Indonesia Central 
+Jakarta, Indonesia 
+Malaysia West 
+Kuala Lumpur, Malaysia 
+West India 
+Mumbai, India 
+Central India 
+Pune, India 
+South India 
+Chennai, India 
+Jio India Central 
+Nagpur, India 
+Jio India West 
+Jamnagar, India 
+Japan West 
+Osaka, Japan 
+Japan East 
+Tokyo, Japan 
+
+
+--- Page 51 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+48 
+ 
+ 
+ 
+ 
+Microsoft Azure International Datacenters 
+Korea South 
+Busan, South Korea 
+Korea Central 
+Seoul, South Korea 
+UAE Central 
+Abu Dhabi 
+UAE North 
+Dubai 
+Australia East 
+Sydney, Australia 
+Australia Southeast 
+Melbourne, Australia 
+Australia Central 
+Canberra, Australia 
+Australia Central 2 
+Canberra, Australia 
+South Africa North 
+Johannesburg, South Africa 
+South Africa West 
+Cape Town, South Africa 
+Qatar Central 
+Doha, Qatar 
+Israel Central 
+Tel Aviv-Yafo, Israel 
+Spain Central 
+Madrid, Spain 
+New Zealand North 
+Auckland, New Zealand 
+Chile Central 
+Santiago, Chile 
+Austria East 
+Vienna, Austria 
+Taiwan North 
+Taipei, Taiwan 
+Taiwan Northwest 
+Taipei, Taiwan 
+ 
+Microsoft Online Services Datacenters 
+APAC Southeast Asia 2 
+Kuala Lumpur, Malaysia 
+Malaysia South 
+Johor Bahru, Malaysia 
+Korea South 2 
+Busan, South Korea 
+North Europe 2 
+Helsinki, Finland 
+China North 10 
+Beijing, China 
+ 
+Edge Sites 
+Athens, Greece 
+Manila, Philippines 
+Auckland, New Zealand 
+Memphis, TN 
+Bangkok, Thailand 
+Miami, FL 
+Barcelona, Spain 
+Milan, Italy 
+Barueri, Brazil 
+Minneapolis, MN 
+Berlin, Germany 
+Montreal, Canada 
+Bogota, Colombia 
+Mumbai, India 
+Brisbane, Australia 
+Munich, Germany 
+Brussels, Belgium 
+Nairobi, Kenya 
+
+
+--- Page 52 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+49 
+ 
+ 
+ 
+ 
+Edge Sites 
+Bucharest, Romania 
+Nashville, TN 
+Budapest, Hungary 
+New Delhi, India 
+Buenos Aires, Argentina 
+New York City, NY 
+Cairo, Egypt 
+Newark, NJ 
+Cape Town, South Africa 
+Osaka, Japan 
+Chicago, IL 
+Oslo, Norway 
+Cincinnati, OH 
+Palo Alto, CA 
+Copenhagen, Denmark 
+Paris, France 
+Dallas, TX 
+Philadelphia, PA 
+Detroit, MI 
+Phoenix, AZ 
+Doha, Qatar 
+Portland, OR 
+Dubai, United Arab Emirates 
+Prague, Czech Republic 
+Dusseldorf, Germany 
+Pune, India 
+Frankfurt, Germany 
+Queretaro, Mexico 
+Geneva, Switzerland 
+Rabat, Morocco 
+Helsinki, Finland 
+Rio De Janeiro, Brazil 
+Ho Chi Minh City, Vietnam 
+Rome, Italy 
+Hong Kong 
+Salt Lake City, UT 
+Honolulu, HI 
+Sao Paulo, Brazil 
+Houston, TX 
+Seattle, WA 
+Hyderabad, India 
+Seoul, South Korea 
+Istanbul, Turkey 
+Singapore 
+Jakarta, Indonesia 
+Sofia, Bulgaria 
+Jacksonville, FL 
+Stockholm, Sweden 
+Johannesburg, South Africa 
+Taipei, Taiwan 
+Kuala Lumpur, Malaysia 
+Tel Aviv, Israel 
+Lagos, Nigeria 
+Teterboro, NJ 
+Lisbon, Portugal 
+Tokyo, Japan 
+London, United Kingdom 
+Toronto, Canada 
+Los Angeles, CA 
+Warsaw, Poland 
+Luanda, Angola 
+Zagreb, Croatia 
+Madrid, Spain 
+Zurich, Switzerland 
+Manchester, United Kingdom 
+ 
+ 
+Azure Extended Zones 
+Perth, Australia 
+Los Angeles, CA 
+ 
+
+
+--- Page 53 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSA STAR Recertification Review Summary Report 
+Proprietary and Confidential 
+50 
+ 
+ 
+ 
+ 
+In addition to datacenter, network, and personnel security practices, Azure also incorporates security practices at 
+the application and platform layers to enhance security for application development and service administration. 
+ 

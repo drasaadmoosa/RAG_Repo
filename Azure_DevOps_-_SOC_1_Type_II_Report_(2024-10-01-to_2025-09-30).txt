@@ -1,0 +1,3041 @@
+--- Page 1 ---
+ 
+Microsoft Corporation - Azure 
+DevOps 
+System and Organization Controls 
+(SOC) 1 Report 
+October 1, 2024 to September 30, 2025 
+ 
+ 
+ 
+BE Microsoft
+
+
+--- Page 2 ---
+ 
+This report, including the description of tests of controls and results thereof in section 4 is intended solely for 
+the information and use of the Service Organization, user entities of the Service Organization’s system related 
+to the in-scope features during some or all of the period, and the independent auditors of such user entities, 
+who have a sufficient understanding to consider it, along with other information including information about 
+controls implemented by user entities themselves, when assessing the risks of material misstatements of user 
+entities’ financial statements. This report is not intended to be and should not be used by anyone other than 
+these specified parties. 
+ 
+ 
+
+
+--- Page 3 ---
+ 
+ 
+Table of contents 
+Section 1: Independent Service Auditor’s Report 
+1 
+Section 2: Management of Microsoft’s Assertion 
+5 
+Section 3: Management of Microsoft’s Description of its Azure DevOps 
+System 
+8 
+Section 4: Management of Microsoft’s Description of its Control 
+Objectives and Related Controls, and Independent Service      
+Auditor’s Description of Tests of Controls and Results 
+35 
+Section 5: Other Information Provided by Management of Microsoft 59 
+ 
+
+
+--- Page 4 ---
+ 
+ 
+ 
+ 
+ 
+Section 1: 
+Independent Service  
+Auditor’s Report 
+
+
+--- Page 5 ---
+ 
+1 
+Deloitte & Touche LLP 
+1015 Second Avenue, 
+Suite 500 
+Seattle, WA 98104-1126 
+Tel: +1 206 716 7000 
+ 
+Section 1: Independent Service Auditor’s 
+Report 
+ 
+Microsoft Corporation 
+One Microsoft Way  
+Redmond, WA 98052-6399 
+Scope 
+We have examined the description of the Azure DevOps1 system of management of Microsoft Corporation (the 
+“Service Organization” or “Microsoft”) for processing user entities’ transactions throughout the period October 
+1, 2024 to September 30, 2025, included in section 3, “Management of Microsoft’s Description of its Azure 
+DevOps System”  (the “Description”), and the suitability of the design and the operating effectiveness of controls 
+included in the Description to achieve the related control objectives stated in the Description, based on the 
+criteria identified in management of Microsoft’s assertion. The controls and control objectives included in the 
+Description are those that management of Microsoft believes are likely to be relevant to user entities’ internal 
+control over financial reporting and the Description does not include those aspects of the Azure DevOps system 
+that are not likely to be relevant to user entities’ internal control over financial reporting. 
+The information in section 5, “Other Information Provided by Management of Microsoft” is presented by 
+management of Microsoft to provide additional information and is not a part of management of Microsoft’s 
+description of its Azure DevOps system made available to user entities during the period October 1, 2024 to 
+September 30, 2025. Content on the webpages directed by all the links in section 3 and information in section 
+5 has not been subjected to the procedures applied in the examination of the Description of the Azure DevOps 
+system and of the suitability of the design and operating effectiveness of controls to achieve the related control 
+objectives stated in the Description of the Azure DevOps system, and accordingly, we express no opinion on it. 
+Microsoft uses Microsoft Azure (“Azure”) as a cloud platform and datacenter service to host its services 
+(“subservice organization”). The Description in section 3 includes only the controls and related control objectives 
+of Microsoft and excludes the control objectives and related controls of the subservice organization. The 
+Description also indicates that certain control objectives specified by Microsoft can be achieved only if 
+complementary subservice organization controls assumed in the design of the Microsoft’s controls are suitably 
+designed and operating effectively, along with the related controls at Microsoft. Our examination did not extend 
+to controls of the subservice organization or their functions, and we have not evaluated the suitability of the 
+design or operating effectiveness of such complementary subservice organization controls. 
+The Description indicates that certain control objectives specified in the Description can be achieved only if 
+complementary user entity controls contemplated in the design of the Microsoft’s controls are suitably designed 
+and operating effectively, along with related controls at the Microsoft. Our examination did not extend to such 
+complementary user entity controls and we have not evaluated the suitability of the design or operating 
+effectiveness of such complementary user entity controls. 
+ 
+1 Azure DevOps comprises of in-scope features defined in the Report Scope and Boundary subsection in section 3 of this SOC 1 report. 
+Deloitte.
+
+
+--- Page 6 ---
+ 
+2 
+Service Organization’s Responsibilities 
+In section 2, “Management of Microsoft’s Assertion”, management of Microsoft has provided an assertion about 
+the fairness of the presentation of the Description and the suitability of the design and operating effectiveness 
+of the controls to achieve the related control objectives stated in the Description. Management of Microsoft is 
+responsible for preparing the Description and its assertion, including the completeness, accuracy, and method 
+of presentation of the Description and the assertion, providing the services covered by the Description, 
+specifying the control objectives and stating them in the Description, identifying the risks that threaten the 
+achievement of the control objectives, selecting the criteria stated in the assertion, and designing, implementing, 
+and documenting controls that are suitably designed and operating effectively to achieve the related control 
+objectives stated in the Description. 
+Service Auditor’s Responsibilities 
+Our responsibility is to express an opinion on the fairness of the presentation of the Description and on the 
+suitability of the design and operating effectiveness of the controls to achieve the related control objectives 
+stated in the Description, based on our examination. Our examination was conducted in accordance with 
+attestation standards established by the American Institute of Certified Public Accountants (AICPA) and 
+International Standard on Assurance Engagements (ISAE) 3402, Assurance Reports on Controls at a Service 
+Organization, issued by the International Auditing and Assurance Standards Board (IAASB). Those standards 
+require that we plan and perform the examination to obtain reasonable assurance about whether, in all material 
+respects, based on the criteria in management’s assertion, the Description is fairly presented and the controls 
+were suitably designed and operating effectively to achieve the related control objectives stated in the 
+Description throughout the period October 1, 2024 to September 30, 2025. We believe that the evidence we 
+obtained is sufficient and appropriate to provide a reasonable basis for our opinion. 
+An examination of a Description of a service organization’s system and the suitability of the design and operating 
+effectiveness of controls involves: 
+• 
+Performing procedures to obtain evidence about the fairness of the presentation of the Description and 
+the suitability of the design and operating effectiveness of the controls to achieve the related control 
+objectives stated in the Description, based on the criteria in management’s assertion. 
+• 
+Assessing the risks that the Description is not fairly presented and that the controls were not suitably 
+designed or operating effectively to achieve the related control objectives stated in the Description. 
+• 
+Testing the operating effectiveness of those controls that management considers necessary to provide 
+reasonable assurance that the related control objectives stated in the Description were achieved.  
+• 
+Evaluating the overall presentation of the Description, suitability of the control objectives stated therein, 
+and suitability of the criteria specified by the service organization in its assertion. 
+Service Auditor’s Independence and Quality Control 
+We are required to be independent and to meet our other ethical responsibilities in accordance with the Code of 
+Professional Conduct established by the AICPA and the International Ethics Standards Board for Accountants’ 
+Code of Ethics for Professional Accountants. We have complied with those requirements. We applied the 
+Statements on Quality Control Standards established by the AICPA and the International Standards on Quality 
+Management issued by the IAASB and, accordingly, maintain a comprehensive system of quality control. 
+ 
+
+
+--- Page 7 ---
+ 
+3 
+Inherent Limitations 
+The Description is prepared to meet the common needs of a broad range of user entities and their auditors who 
+audit and report on user entities’ financial statements and therefore may not include every aspect of the system 
+that each individual user entity may consider important in its own particular environment. Because of their 
+nature, controls at a service organization may not prevent, or detect and correct, all misstatements in processing 
+or reporting transactions. Also, the projection to the future of any evaluation of the fairness of the presentation 
+of the Description, or conclusions about the suitability of the design or operating effectiveness of the controls to 
+achieve the related control objectives, is subject to the risk that controls at a service organization may become 
+ineffective. 
+Description of Tests of Controls 
+The specific controls tested, and the nature, timing, and results of those tests are listed in section 4, 
+“Management of Microsoft’s Description of its Control Objectives and Related Controls, and Independent Service 
+Auditor’s Description of Tests of Controls and Results.” 
+Opinion 
+In our opinion, in all material respects, based on the criteria described in management of Microsoft’s assertion: 
+a. The Description fairly presents the Azure DevOps system that was designed and implemented throughout 
+the period October 1, 2024 to September 30, 2025. 
+b. The controls related to the control objectives stated in the Description were suitably designed to provide 
+reasonable assurance that the control objectives would be achieved if the controls operated effectively 
+throughout the period October 1, 2024 to September 30, 2025, and subservice organization and user entities 
+applied the complementary controls assumed in the design of the Service Organization’s controls throughout 
+the period October 1, 2024 to September 30, 2025. 
+c. 
+The controls operated effectively to provide reasonable assurance that the control objectives stated in the 
+Description were achieved, throughout the period October 1, 2024 to September 30, 2025, and if 
+complementary subservice organization and user entity controls assumed in the design of Microsoft’s 
+controls operated effectively throughout the period October 1, 2024 to September 30, 2025. 
+Restricted Use  
+This report, including the description of tests of controls and results in section 4, is intended solely for the 
+information and use of management of Microsoft, user entities of Microsoft’s Azure DevOps system during some 
+or all of the period October 1, 2024 to September 30, 2025, and their auditors who audit and report on such 
+user entities’ financial statements or internal control over financial reporting and have a sufficient understanding 
+to consider it, along with other information including information about controls implemented by user entities 
+themselves, when assessing the risks of material misstatement of user entities’ financial statements. This report 
+is not intended to be and should not be used by anyone other than these specified parties. 
+ 
+ 
+December 1, 2025 
+Delete ¢ Touche LLP
+
+
+--- Page 8 ---
+ 
+4 
+ 
+ 
+ 
+Section 2:  
+Management of Microsoft’s 
+Assertion 
+
+
+--- Page 9 ---
+ 
+5 
+ 
+Section 2: Management of Microsoft’s 
+Assertion 
+For the period October 1, 2024 through September 30, 2025 
+We have prepared the description of the Azure DevOps2 system of Management of Microsoft Corporation (the 
+“Service Organization” or “Microsoft”) for processing user entities’ transactions throughout the period October 
+1, 2024 to September 30, 2025, included in section 3, “Management of Microsoft’s Description of its Azure 
+DevOps System” (the “Description”), for user entities of the system during some or all of the period October 1, 
+2024 to September 30, 2025, and their auditors who audit and report on such user entities’ financial statements 
+or internal control over financial reporting and have a sufficient understanding to consider it, along with other 
+information, including information about controls implemented by the subservice organization and user entities 
+of the system themselves, when assessing the risks of material misstatements of user entities’ financial 
+statements. 
+Microsoft uses Microsoft Azure (“Azure”) for platform and datacenter services (“subservice organization”). The 
+Description in section 3 includes only the controls and related control objectives of Microsoft and excludes the 
+control objectives and related controls of the subservice organization. The Description also indicates that certain 
+control objectives specified by Microsoft can be achieved only if complementary subservice organization controls 
+assumed in the design of Microsoft’s controls are suitably designed and operating effectively, along with the 
+related controls at Microsoft. The Description does not extend to controls of the subservice organization.  
+The Description indicates that certain control objectives specified in the Description can be achieved only if 
+complementary user entity controls assumed in the design of Microsoft’s controls are suitably designed and 
+operating effectively, along with related controls at Microsoft. The Description does not extend to controls of the 
+user entities. 
+We confirm, to the best of our knowledge and belief, that:  
+1. The Description fairly presents the Azure DevOps system made available to user entities of the system 
+during some or all of the period October 1, 2024 to September 30, 2025, for processing their transactions 
+as it relates to controls that are likely to be relevant to user entities’ internal control over financial reporting. 
+The criteria we used in making this assertion were that the Description: 
+a. Presents how the system made available to user entities of the system was designed and implemented 
+to process relevant user entity transactions, including, if applicable:  
+i. 
+The types of services provided including, as appropriate, the classes of transactions processed. 
+ii. 
+The procedures, within both automated and manual systems, by which those services are provided, 
+including, as appropriate, procedures by which transactions are initiated, authorized, recorded, 
+processed, corrected as necessary, and transferred to the reports and other information prepared 
+for user entities of the system. 
+iii. The information used in the performance of procedures, including, if applicable, related accounting 
+records, whether electronic or manual, and supporting information involved in initiating, authorizing, 
+recording, processing, and reporting transactions; this includes the correction of incorrect 
+ 
+2 Azure DevOps comprises of in-scope features defined in the Report Scope and Boundary subsection in section 3 of this SOC 1 report. 
+Microsoft Corporation
+Tel 425 882 8080
+One Microsoft Way
+Fax 425 706 7329
+Redmond, WA 98052-6399
+www.microsoft.com
+BE Microsoft
+
+
+--- Page 10 ---
+ 
+6 
+information and how information is transferred to the reports and other information prepared for 
+user entities. 
+iv. How the system captures and addresses significant events and conditions other than transactions. 
+v. The process used to prepare reports or other information provided for user entities. 
+vi. Services performed by a subservice organization, if any, including whether the carve-out method or 
+the inclusive method has been used in relation to them. 
+vii. The specified control objectives and controls designed to achieve those objectives including, as 
+applicable, complementary user entity controls assumed in the design of the service organization’s 
+controls. 
+viii. Other aspects of our control environment, risk assessment process, information and communications 
+(including the related business processes), control activities, and monitoring activities that are 
+relevant to the services provided. 
+b. Includes relevant details of changes to the service organization’s system during the period covered by the 
+Description. 
+c. 
+Does not omit or distort information relevant to the service organization’s system, while acknowledging 
+that the Description is prepared to meet the common needs of a broad range of user entities of the 
+system and their user auditors and may not, therefore, include every aspect of the Azure DevOps system 
+that each individual user entity of the system and its user auditor may consider important in its own 
+particular environment. 
+2. The controls related to the control objectives stated in the Description were suitably designed and operated 
+effectively throughout the period October 1, 2024 to September 30, 2025 to achieve those control objectives 
+if the subservice organization and user entities applied the complementary controls assumed in the design 
+of Microsoft’s controls throughout the period October 1, 2024 to September 30, 2025. The criteria we used 
+in making this assertion were that: 
+a. The risks that threaten the achievement of the control objectives stated in the Description have been 
+identified by management of Microsoft. 
+b. The controls identified in the Description would, if operating effectively, provide reasonable assurance 
+that those risks would not prevent the control objectives stated in the Description from being achieved. 
+c. 
+The controls were consistently applied as designed, including whether manual controls were applied by 
+individuals who have the appropriate competence and authority. 
+
+
+--- Page 11 ---
+ 
+7 
+ 
+ 
+Section 3: 
+Management of Microsoft’s 
+Description of its Azure DevOps 
+System 
+
+
+--- Page 12 ---
+ 
+8 
+Section 3: Management of Microsoft’s 
+Description of its Azure DevOps System 
+Overview of Operations 
+Business Description 
+Azure DevOps provides a set of cloud-powered collaboration tools that work with customers’ existing Integrated 
+Development Environment (IDE) or editor, to enable engineering teams to work effectively on software projects 
+of diverse shapes and sizes. 
+Azure 
+DevOps 
+supports 
+many 
+customers 
+and 
+partner 
+organizations 
+on 
+collaborative software 
+development projects by providing source control, project-tracking tools for agile teams and continuous 
+integration functionality. Azure DevOps is designed to meet their security, privacy, and compliance 
+requirements. 
+Azure DevOps is designed to provide confidentiality, integrity, and availability of customer data. It also provides 
+transparent accountability to allow customers and their agents to track administration of services. 
+Applicability of Report 
+The detail herein is intended to meet the common needs of a broad range of users and may not, therefore, 
+include every aspect of the system that each customer may consider important. Furthermore, detail is limited 
+to the controls in operation to support the features as defined in the Report Scope and Boundary described 
+below. The authorized users of the system providing these features are limited to Azure DevOps personnel. 
+Report Scope and Boundary 
+This report covers the following Azure DevOps features including infrastructure, development, operations, and 
+support for Azure DevOps: 
+1. Team Foundation Service (TFS) 
+a. Azure Boards 
+b. Azure Repos 
+c. 
+Azure Pipelines 
+i. 
+Release Management (RM) 
+2. Shared Platform Services (SPS) 
+a. Account & Authorization 
+b. Identity 
+c. 
+Licensing 
+d. Profile 
+e. Token 
+3. Azure Test Plans 
+4. Azure Artifacts 
+
+
+--- Page 13 ---
+ 
+9 
+a. Packages 
+b. Feeds 
+c. 
+Blob Storage 
+5. Service Hooks (SH) 
+6. Code Search 
+7. GitHub Advanced Security for Azure DevOps (GhAzDo) 
+ 
+Azure DevOps Environment 
+Azure DevOps is developed and managed by the Azure DevOps team within Microsoft’s CoreAI division. The 
+service is hosted on the Microsoft Azure cloud platform, which provides the underlying infrastructure and 
+datacenter services. Azure DevOps is responsible for managing the application and the data that reside on this 
+platform. Its operations and controls align with the same standards and processes followed across Microsoft’s 
+CoreAI division.
+ 
+Figure 1: Azure DevOps Architecture - Stacked View 
+Features and Software Overview 
+Azure DevOps provides a set of cloud-powered collaboration tools for teams that develop software projects. 
+Azure DevOps provides features for teams to share code, track work, and ship software by complementing the 
+IDE. The following diagram shows an overview of Azure DevOps features and key components. 
+Azure Test
+Azure Test
+Azure Test
+Azure Test
+SQL
+Azure Portal
+PEITS
+Azure/Blob
+OD
+AAD (Entra ID)
+MSA
+Service Bus
+Redis Cache
+Compute
+St
+Networking
+‘orage
+Microsoft Datacenters
+[MfAzure DevOps Features
+‘I Underlying Azure Services
+
+
+--- Page 14 ---
+ 
+10 
+ 
+ 
+Figure 2: Azure DevOps Core Infrastructure 
+• 
+Team Foundation Service (TFS): TFS is a cloud-powered product offering: 
+o 
+Azure Boards: Azure Boards provides agile tools to plan, track and discuss work across teams. 
+o 
+Azure Repos: Azure Repos are cloud-hosted private Git repos and can also be used to collaborate to 
+build better code with pull requests and advanced file management. 
+o 
+Azure Pipelines: Azure Pipelines can be used to build, test, and deploy with continuous integration and 
+deployment (CI/CD) that works with any language, platform, and cloud. It can also be used to connect 
+to GitHub or any other Git provider and deploy continuously. 
+- 
+Release Management (RM): Release Management is a DevOps solution to automate deployments as 
+well as workflows, apply security policies, manage users and retain full traceability. 
+• 
+Shared Platform Services (SPS): SPS provides features which are not Azure DevOps-specific, such as 
+account authentication and authorization, licensing services, identity, profile, and token services. 
+• 
+Azure Test Plans: Azure Test Plans is used to test and ship code using manual and exploratory testing 
+tools. 
+• 
+Azure Artifacts: Azure Artifacts is a tool to create, host, and share packages, and add artifacts to CI/CD 
+pipelines. 
+• 
+Service Hooks (SH): Service Hooks uses the Representational State Transfer (REST) Application 
+Programming Interfaces (APIs) to programmatically create subscriptions and notify customer service when 
+a specific event in a team project occurs. 
+• 
+Code Search: Code Search provides fast, flexible and accurate search across all code. 
+• 
+GitHub Advanced Security for Azure DevOps (GhAzDo): GhAzDo is a native security suite that fits 
+directly into customers’ Azure DevOps workflow. It automatically scans for exposed secrets, checks open-
+we meine ES ea
+——) es Se
+i
+he |
+comme) El
+mea
+CE)
+Ghardo
+Ee
+Gl
+Cl
+Cll
+Ge
+GCE
+ED
+Ez
+‘A
+=
+aa
+
+
+--- Page 15 ---
+ 
+11 
+source dependencies for known vulnerabilities and suggests fixes, and performs real-time static code 
+analysis so that development teams can strengthen security without slowing down productivity. 
+Microsoft Azure 
+The Azure DevOps production infrastructure is hosted on Azure and located in globally distributed Microsoft 
+datacenters. Azure is responsible for the physical security of the datacenters, data protection, physical hardware 
+asset management, and network services. These datacenters are managed, monitored, and operated by 
+Microsoft operations staff delivering online services 24x7x365. Azure DevOps operates out of the Microsoft 
+datacenters located in the following regions: 
+• 
+North America 
+o 
+East US 
+o 
+East US 2 
+o 
+West US 
+o 
+West US 2 
+o 
+West Central US 
+o 
+Central US 
+o 
+South Central US 
+o 
+North Central US 
+o 
+Canada Central 
+• 
+Europe 
+o 
+West Europe 
+o 
+North Europe 
+o 
+UK South 
+• 
+South America 
+o 
+Brazil South 
+• 
+Asia 
+o 
+Central India 
+o 
+Southeast Asia 
+• 
+Australia 
+o 
+Australia East 
+Azure also maintains and manages network and platform security. Azure DevOps incorporates security practices 
+at the application layer to enhance security for Azure DevOps customers. Azure and its associated controls 
+implemented to satisfy the in-scope control objectives, are not in scope for this report. 
+Microsoft Online Services Customer Portal and Microsoft Accounts / Organizational Accounts 
+Users who have access to Azure DevOps have established authentication and authorization privileges based on 
+their Microsoft Accounts (MSA), GitHub Accounts and/or Organizational Accounts. Azure DevOps customer billing 
+is handled by Azure and the Microsoft Online Services Customer Portal (MOCP). MOCP and MSA or Organizational 
+Accounts and GitHub Accounts and their associated authentication mechanisms are not in scope for this report. 
+
+
+--- Page 16 ---
+ 
+12 
+Core Service Engineering (CSE) 
+Core Services Engineering (CSE) is an internal Microsoft business unit that is responsible for activities related 
+to managing and operating Microsoft’s worldwide internal technologies infrastructure, corporate and product 
+information, product production and distribution, and maintenance of key internal systems. 
+Azure is responsible for hosting and managing resource domains for Azure DevOps and is carved-out from the 
+scope of this report. 
+Azure DevOps Infrastructure 
+Azure DevOps runs on the Azure Platform as a Service (PaaS) environment. Azure DevOps uploads the Azure 
+DevOps application using Azure’s Management APIs. Azure handles the service management from provisioning 
+to load balancing and health monitoring for continuous availability. 
+Azure DevOps components are implemented as one or more Azure Virtual Machine Scale Sets (VMSS) instances 
+emulating the role of Application Tier (AT) or Job Agent (JA). 
+1. Application Tier (Web VMSS): ATs are Azure web VMSS that interact with customers directly through 
+Web browsers or other HTTP clients. 
+ 
+2. Job Agent (Worker VMSS): JAs are Azure worker VMSS for more general use, and designed to run a 
+variety of backend jobs. 
+Once an application is running, Azure continues to monitor it at the infrastructure level. If the code fails, the 
+role instance crashes, or the physical machine which the instance is executing on fails, Azure automatically 
+starts a new instance of this role. 
+Data & Storage 
+Azure DevOps uses Azure SQL Database for relational storage. Azure DevOps controls its data and access to 
+the data. The Azure SQL Database team handles the administrative work, such as managing the hardware 
+infrastructure and automatically keeping the database and operating system software up to date. Databases are 
+automatically replicated with 1 master and 3 secondary replicas to address failures. A secondary instance of the 
+database is promoted to primary in case the initially designated primary instance fails. 
+Azure DevOps also uses Azure Storage Service blobs, tables and queues. Azure Storage accounts have 
+redundant data copies in a pair region for fault tolerance. 
+Azure DevOps Supporting Infrastructure 
+Deployment Boxes 
+Deployment boxes are primarily used by Release Management (RM) feature to deploy Azure DevOps, as well as 
+customer applications in the Azure cloud. These VMSS servers also function as utility servers for manual 
+deployments, debugging, deploying new Azure DevOps instances, managing certificates, and collecting 
+diagnostics information from production systems. 
+Deployment boxes are infrastructure components used internally by the Azure DevOps Observability team to 
+access the production environment. There is no storage of customer data within the deployment boxes. 
+People 
+Azure DevOps is comprised and supported by the following personnel who support in the delivery and 
+management of its cloud-based services: 
+
+
+--- Page 17 ---
+ 
+13 
+  
+Figure 3: Azure DevOps Organization Structure 
+Azure DevOps Engineering Team 
+The Azure DevOps engineering teams include personnel from the development, test, and Product Management 
+(PM) disciplines for designing, developing, and testing of features and for providing technical support as needed. 
+The Engineering teams manage the component life-cycle as well as monitor and support their specific services 
+and features. Their responsibilities include: 
+• 
+Deploying new features 
+• 
+Providing operational support for existing features (DevOps model) 
+• 
+Proactively addressing potential platform and service issues 
+• 
+Reacting to incidents and support requests 
+Azure DevOps Observability Team 
+The Azure DevOps Observability team is responsible for the infrastructure that provides operational and business 
+data/insights to Azure DevOps and its stakeholders. Their responsibilities include: 
+• 
+Enabling the ability to monitor service health and investigate root cause for live site incidents 
+• 
+Supporting the cadence of business reporting and enabling data driven analysis 
+• 
+Providing guidance and enabling self-service so teams can enable telemetry and gain insights from exploring 
+the resulting data 
+CoreAI 
+Division
+Azure 
+DevOps
+Azure 
+DevOps 
+Engineering 
+Azure 
+DevOps 
+Redmond, 
+WA, USA
+Azure 
+DevOps 
+Prague, 
+Czech 
+Republic
+Azure 
+DevOps 
+Raleigh NC, 
+USA 
+Azure 
+DevOps 
+Hyderabad, 
+India
+Azure DevOps 
+Observability
+Azure DevOps 
+Product 
+Management
+Azure 
+DevOps 
+Security 
+Privacy and 
+Compliance 
+(SPC)
+
+
+--- Page 18 ---
+ 
+14 
+Azure DevOps Product Management Team 
+The Azure DevOps Product Management (PM) team is focused on feature development for the various Azure 
+DevOps features. The Security, Privacy and Compliance (SPC) team sits within the PM team and is responsible 
+for developing, maintaining and monitoring the Information Security (IS) Program including the Risk Assessment 
+process. As part of managing compliance adherence, the team drives compliance and security related features 
+within Azure DevOps. 
+The SPC team works to make Azure DevOps a secure and compliant cloud platform by building common security 
+technologies, tools, processes and best practices across Azure DevOps. The SPC team is also involved in the 
+review of enhancements of Azure DevOps features to facilitate security considerations during the Secure 
+Development Lifecycle (SDL). This team is also responsible for: 
+• 
+Assisting with Secure Development Lifecycle 
+ 
+• 
+Assisting with Incident Response 
+ 
+• 
+Driving security functionality and feature development work 
+ 
+Control Environment 
+Integrity and Ethical Values 
+Corporate governance at Microsoft starts with an independent Board of Directors that establishes, maintains, 
+and monitors standards and policies for ethics, business practices, and compliance that span the company. 
+Corporate governance at Microsoft serves several purposes: 
+1. To establish and preserve management accountability to Microsoft's owners by appropriately distributing 
+rights and responsibilities among Microsoft Board members, managers, and shareholders. 
+2. To provide a structure through which management and the Board set and attain objectives and monitor 
+performance. 
+3. To strengthen and safeguard a culture of business integrity and responsible business practices. 
+4. To encourage the efficient use of resources and to require accountability for stewardship of these resources. 
+Further information about Microsoft’s general corporate governance is available on the Microsoft public website. 
+Microsoft Standards of Business Conduct 
+The Microsoft Standards of Business Conduct (SBC) reflect a commitment to ethical business practices and 
+regulatory compliance. They summarize the principles and policies that guide Microsoft’s business activities and 
+provide information about Microsoft’s Business Conduct and Compliance Program. The SBC was developed in 
+full consideration of Sarbanes-Oxley and proposed NASDAQ listing requirements related to codes of conduct. 
+Additional information about Microsoft’s SBC is available on the Microsoft public website. 
+Training 
+Annual SBC training is mandatory for all Microsoft employees and contingent staff. The SBC training includes 
+information about Microsoft corporate policies for conducting business while conforming to applicable laws and 
+regulations. It reinforces the need for employees to work with integrity and to comply with the laws of the 
+countries where Microsoft operates. It also guides employees and contingent staff on how to report possible 
+
+
+--- Page 19 ---
+ 
+15 
+violations and find contact information if they need to report a violation or ask questions. Microsoft also trains 
+its outsourced providers to understand and comply with Microsoft’s supplier code of conduct. 
+Microsoft employees are also encouraged to attend in person or virtual security training on an annual basis. The 
+objective of these trainings is to educate engineers on secure design and operations that align with Microsoft’s 
+security principles and strategy. These training sessions also aim to increase awareness of security threats. 
+Microsoft recognizes that cyber-attacks and data breaches are real security threats that all enterprises face. 
+Microsoft believes that every Microsoft employee plays a role in enhancing customer trust and protecting the 
+Microsoft brand by following sound security practices. These courses are designed to help employees detect and 
+prevent threats to the corporate network.  
+Accountability  
+All Microsoft and contingent staff are accountable for understanding and adhering to the guidance contained in 
+the Microsoft Security Policy and any applicable supporting procedures. Individuals not employed by Microsoft, 
+but allowed to access, manage, or process information assets of the Azure DevOps environment are also 
+accountable for understanding and adhering to the guidance contained in the Security Policy and procedures. 
+Commitment to Competence 
+Microsoft hiring managers define job requirements prior to recruiting, interviewing, and hiring. Job requirements 
+include the primary responsibilities and tasks involved in the job, background skills needed to perform the job, 
+and personal qualifications desired. Once the requirements are determined, managers create a job description, 
+which is a profile of the job and is used to identify potential candidates. When viable candidates are identified, 
+the interview process begins to evaluate candidates and make an appropriate hiring decision. 
+Microsoft employees create individual core priorities that align with those of their manager, organization, and 
+Microsoft, and are supported with customer-centric actions and measures so that everyone is working toward 
+the same overarching vision. Core priorities are established when employees are hired, and then updated 
+throughout the year during one-on-one connect meetings with their manager. The primary focus of the connect 
+meetings is to assess employees’ performance against their core priorities and to agree on an updated list of 
+priorities going forward. A manager uses this evaluation of an individual employee's impact, taking into 
+consideration what was accomplished, how the results were achieved and the demonstration of priorities 
+relevant to the role. 
+Microsoft’s Compensation Committee is responsible for reviewing and discussing plans for executive officer 
+development and corporate succession plans for the CEO and other executive officers. 
+Compliance and Ethics - Board of Directors and Senior Leadership  
+The Compliance and Ethics designs and provides reports to the Board of Directors on compliance matters. 
+Compliance and Ethics also organizes annual meetings with the Senior Leadership Team (SLT) for their 
+compliance review.  
+Internal Audit Department 
+Microsoft has an Internal Audit (IA) function which consists solely of independent directors who report directly 
+to the Audit Committee (AC) of the Board of Directors. IA has a formal charter that is reviewed by the AC and 
+management. Responsibilities of IA include performing audits, reporting issues, and making recommendations 
+to management and the AC. 
+
+
+--- Page 20 ---
+ 
+16 
+Audit Committee  
+The AC Charter and Responsibilities are published on Microsoft’s website. The AC meets privately on a quarterly 
+basis with Microsoft’s external auditors and IA. The agendas for the quarterly AC meetings are found in the AC 
+Responsibilities Calendar sent out with the Charter. In addition, the AC influences the company through the IA 
+function. The AC reviews the scope of internal audit and assists in the process of identifying and resolving any 
+issues. Lastly, the AC monitors itself by completing an annual self-evaluation. 
+Risk Assessment 
+Practices for Identification of Risk 
+The Microsoft Enterprise Risk Management (ERM) function provides management and accountability of Microsoft 
+Corporate’s short- and long-term risks. ERM collaborates with Internal Audit, Financial Compliance Group, 
+Operations, and Legal and Compliance groups to perform a formal risk management process. Risk assessments 
+include risks in financial reporting, fraud, and compliance with laws. 
+Further, Azure DevOps performs a risk assessment of each feature on a rotating semi-annual basis, including 
+potential hazards such as access monitoring, broad data breach, malware attacks, and privacy. Additionally, 
+Azure DevOps performs a holistic risk assessment of the platform on an annual basis. Threats are evaluated for 
+impact on the security, continuity, and operations of the Azure DevOps platform. 
+Internal Audit - Fraud Risks  
+IA and the Financial Integrity Unit (FIU) are responsible for identifying fraud risks across Microsoft. The FIU 
+performs procedures for the detection, investigation, and prevention of financial fraud impacting Microsoft 
+worldwide. Fraud and abuse that is uncovered, is reported to the Disclosure Committee. The FIU provides both 
+a reactive and proactive response to allegations of fraud and abuse. The FIU uses a case management system 
+that is also used by the Director of Compliance to track cases and related metrics. The FIU interacts with 
+Microsoft management, Corporate, External, and Legal Affairs (CELA), Human Resources (HR), Finance, 
+Procurement, and others to determine specific fraud risks and responses.  
+Periodic Risk Assessment  
+The Microsoft Internal Audit team and other groups within the company perform a periodic risk assessment. The 
+assessment is reviewed by senior management.  
+IA specialization area leaders determine high-priority risks across the company, including financial reporting, 
+operational business process, and systems controls. Control failures are also assessed to determine whether 
+they give rise to additional risks. 
+Compliance and Ethics/ Internal Audit / Risk Management - Risk Responsibility  
+The responsibility for risk is distributed throughout the organization based on the individual group’s services. 
+Compliance and Ethics, IA, and the ERM teams work together to represent enterprise risk management. Through 
+quarterly and year-end reviews, the Chief Financial Officer (CFO) and Corporate Controller (and respective 
+groups) review the disclosures and issues that may have arisen. 
+Monitoring 
+Azure DevOps Security and Compliance Monitoring 
+Azure DevOps maintains reasonable and appropriate technical and organizational measures, internal controls, 
+and information security routines intended to help protect customer data against accidental loss, destruction, 
+or alteration; unauthorized disclosure or access; or unlawful destruction.  
+
+
+--- Page 21 ---
+ 
+17 
+Subservice Organization Monitoring 
+Azure DevOps utilizes the internal subservice, Azure, which provides cloud services and datacenter hosting 
+services. Azure DevOps’ management assesses the risks associated with the subservice organization and has 
+implemented various management oversight and monitoring processes to ascertain that the organization 
+continues to provide services in a controlled manner. These include, but are not limited to, reviewing third-party 
+service auditor reports and holding discussions with subservice organization’s management. 
+Compliance and Ethics - Business Conduct Hotline  
+There is a confidential and anonymous Business Conduct Hotline available for employees to report issues. The 
+hotline is accessible 24x7 through email, phone, fax, and mail. The individual may also send a letter or fax 
+reporting the concern to Microsoft’s Director of Compliance.  
+Employees are instructed that it is their duty to promptly report any concerns of suspected or known violations 
+of the Code of Professional Conduct, the SBC, or other Microsoft policies or guidelines. The procedures to be 
+followed for such a report are outlined in the SBC, and the Whistle Blowing Reporting Procedure and Guidelines 
+in the Employee Handbook. Employees are also encouraged to communicate the issue to their manager, their 
+manager’s manager, their CELA contact, their HR contact, or the Compliance Office.  
+Internal Audit  
+Microsoft’s IA department provides support to management across the company by independently and 
+objectively assessing whether the objectives of management are adequately performed, and by facilitating 
+process improvements and the adoption of business practices, policies, and controls governing worldwide 
+operations.  
+Information and Communication 
+An annual process exists to set objectives and commitments among all executives and is rolled down to 
+employees. These commitments and objectives are filtered down to team members through the annual and 
+mid-year review processes. 
+Internal Communication 
+Responsibilities around internal controls are communicated broadly through Monthly Controller calls, All Hands 
+Meetings run by the Chief Financial Officer (CFO), and email updates sent / conference calls held by the Financial 
+Compliance Group with the Sarbanes-Oxley extended project team. Responsibilities for compliance with policies 
+are outlined in the SBC training.  
+Office of the CFO - Communications External to the Company 
+CFO communications outside the company occur throughout the year and, where appropriate, these external 
+communications include a discussion of the company’s attitude towards sound internal controls. The Office of 
+the CFO is responsible for communications outside the company such as Quarterly Earnings Release, Financial 
+Analyst meetings, customer visits, external conferences, and external publications. 
+Data 
+Customers upload data to store or process in Azure DevOps. In addition, certain types of data are provided by 
+the customers or generated on the customer’s behalf to enable the use of the Azure DevOps components. 
+Microsoft only uses customer data to support the provisioning of the services subscribed to by the customers in 
+accordance with the Service Level Agreements. The customer-provided data is broadly classified into the 
+following data types: 
+
+
+--- Page 22 ---
+ 
+18 
+1. Access Control Data is data used to manage access to other types of data or functions within Azure 
+DevOps. 
+2. Customer Content is the data, information, and code that Microsoft internal employees, and non-Microsoft 
+personnel (if present) provide to, transfer in, store in or process. 
+3. End-user Identifiable Information (EUII) is data that directly identifies or could be used to identify the 
+authenticated user of a Microsoft service. EUII does not extend to other personal information found in 
+Customer Content. 
+4. Support Data is data provided to Microsoft and generated by Microsoft as part of support activities. 
+5. Feedback is data provided as part of a review or feedback for one of Microsoft’s products and services that 
+includes personal data. 
+6. Account Data is information about payment instruments. This type of data is not stored in the Azure 
+DevOps platform. 
+7. Public Personal Data is publicly available personal information that Microsoft obtains from external 
+sources. 
+8. End User Pseudonymous Identifiers (EUPI) are identifiers created by Microsoft tied to the user of a 
+Microsoft service.  
+9. Organization Identifiable Information (OII) is data that can be used to identify a particular tenant / 
+Azure DevOps organization. 
+10. System Metadata is data generated in the course of running the service, not linkable to a user or tenant. 
+It does not contain Access Control Data, Customer Content, EUII, Support Data, Account Data, Public 
+Personal Data, EUPI, or OII. 
+11. Public Non-Personal Data is publicly available information that Microsoft obtains from external sources. 
+It does not contain Public Personal Data. 
+The following table illustrates some examples of the different data elements provided by the customer with 
+respect to the in-scope Azure DevOps features. 
+Azure DevOps Feature 
+Data Element 
+Data Type 
+TFS 
+Azure Boards: Work Items 
+Customer Content 
+Azure Boards: Work Item Attachments 
+Customer Content 
+Azure Repos: Source Code 
+Customer Content 
+Azure Pipelines: Release Definitions 
+Customer Content 
+Microsoft Server Names / Server IPs 
+System Metadata 
+SPS 
+Account & Authorization: Storage Keys & Account 
+Passwords 
+Access Control Data 
+
+
+--- Page 23 ---
+ 
+19 
+Azure DevOps Feature 
+Data Element 
+Data Type 
+Profile: Customer Profile Data 
+Customer Content 
+Profile: Internet Protocol Address and Email 
+Address 
+End-user Identifiable 
+Information (EUII) 
+Token: Authentication Token Hashes 
+Access Control Data 
+Azure Test Plans 
+Test Data and Results 
+Customer Content 
+Azure Artifacts 
+Package Data and Feeds 
+Customer Content 
+Service Hooks 
+Storage Keys & Account Passwords 
+Access Control Data 
+Code Search 
+Storage Keys & Account Passwords 
+Access Control Data 
+Source Code Indices 
+Customer Content 
+GhAzDo 
+Security Data Analysis, Alerts and Metadata 
+Customer Content 
+ 
+Data Ownership 
+Customer data is handled and stored in accordance with the accepted standards for the service. Microsoft does 
+not claim ownership over customer data or information that passes through the Azure DevOps service or that is 
+hosted in its repositories. The Azure DevOps Terms and Conditions (Microsoft Product Terms) cover the 
+agreement with the customers regarding data ownership. Further, customer data is accessible within agreed-
+upon services in data formats compatible with providing those services. 
+Applicable Data Elements 
+For the purposes of this report, Microsoft has implemented controls to protect the data elements specifically 
+covered under Customer Content and Access Control Data. 
+Description of Control Objectives 
+Security Organization  
+Control Objective 1 
+Controls provide reasonable assurance that information security policies are 
+implemented and communicated. 
+Operator Access 
+Control Objective 2 
+Controls provide reasonable assurance that logical access to Azure DevOps 
+production infrastructure is restricted to authorized personnel. 
+Data Security 
+
+
+--- Page 24 ---
+ 
+20 
+Control Objective 3 
+Controls provide reasonable assurance that the data and secrets associated with 
+the Azure DevOps features are protected during transit and while at rest. 
+Change Management 
+Control Objective 4 
+Control policies and procedures provide reasonable assurance that changes to the 
+Azure DevOps platform are documented, authorized, and tested. 
+Software Development 
+Control Objective 5 
+Controls provide reasonable assurance that development of new features or 
+changes to existing features follow a formal SDL process and are documented, 
+authorized, and tested. 
+Logging and Monitoring 
+Control Objective 6 
+Controls provide reasonable assurance that the Azure DevOps features are 
+monitored for known security vulnerabilities and potential unauthorized activity. 
+Incident Management 
+Control Objective 7 
+Controls provide reasonable assurance that production incidents are managed in 
+accordance with documented procedures for timely resolution. 
+Logical Access 
+Control Objective 8 
+Controls provide reasonable assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+ 
+Security Organization - Information Security Program 
+Azure DevOps has established an Information Security Program that provides documented management 
+direction and support for implementing information security within the Azure DevOps environment. The design 
+and implementation of applicable controls are defined based on the type of Azure DevOps feature and its 
+architecture. 
+The objective of the Information Security Program of Azure DevOps is to maintain Confidentiality, Integrity, and 
+Availability (CIA) of information while complying with applicable legislative, regulatory, and contractual 
+requirements.  
+The Information Security Program consists of the following components:  
+1. Policy, Standards and Procedures  
+2. Risk Assessment  
+3. Training and Awareness  
+4. Security Implementation  
+5. Review and Compliance  
+6. Management Reporting  
+The Information Security Program is based on the International Organization of Standards (ISO) Codes of 
+Practice for information security management ISO/IEC 27001:2013 standard. Its accompanying policies and 
+
+
+--- Page 25 ---
+ 
+21 
+processes provide a framework to assess risks to the Azure DevOps environment, develop mitigating 
+strategies and implement security controls. In addition, team-specific Standard Operating Procedures (SOPs) 
+are developed to carry out specific operational tasks in the following areas:  
+1. Access Control 
+2. Asset Management 
+3. Business Continuity and Disaster Recovery 
+4. Capacity Management 
+5. Cryptographic Controls 
+6. Document and Records Management 
+7. Exception Process 
+8. Change and Release Management 
+9. Incident Management 
+10. Legal and Regulatory Compliance 
+11. Logging and Monitoring 
+12. Secure Development Lifecycle 
+13. Third Party Management 
+14. Vulnerability Scanning and Patch Management 
+Information Security Policy 
+Azure DevOps adheres to Microsoft’s Information Security Policy (MSP) that addresses security, availability and 
+confidentiality for Azure DevOps. The Information Security Policy outlines high level objectives related to 
+information security, defines risk management requirements and information security roles and responsibilities. 
+The policy contains rules and requirements that must be adhered to in the delivery and support of Azure DevOps 
+components. SOPs are developed to support the policy. The policy is communicated to employees, contractors 
+and third-parties. 
+The Azure DevOps Information Security Management Forum (ISMF), which is comprised of stakeholders and 
+representatives from Security, Engineering, Operations as well as supporting business functions (e.g., CELA, 
+and HR), reviews and provides input into the Microsoft Information Security Policy. 
+The policy is reviewed and updated, as necessary, at least annually, or more frequently, in the event of a 
+significant security event, or upon significant changes to the service or business model, legal requirements, 
+organization or platform.  
+Each management-endorsed version of the MSP and subsequent updates are distributed to relevant stakeholders 
+from Azure DevOps Security and Compliance intranet site.  
+ 
+ 
+
+
+--- Page 26 ---
+ 
+22 
+Training and Awareness 
+Information security training and awareness is provided to Azure DevOps employees, contractors and third-
+parties on an ongoing basis to educate them on applicable policies, standards and information security practices. 
+Awareness training on security, availability and confidentiality of information is provided to Azure DevOps 
+employees at the time of joining as part of induction. In addition, Azure DevOps staff participate in a mandatory 
+security, compliance, and privacy training periodically in order to design, build, and operate secure cloud 
+services. Please refer to the previous section on training for details. 
+Employees receive information security training and awareness through different programs such as new 
+employee orientation, computer-based training, and periodic Azure DevOps communication (e.g., compliance 
+and security program updates). These include training and awareness pertaining to Azure DevOps, in the 
+security, availability, confidentiality, and integrity domains. In addition, job-specific training is provided to Azure 
+DevOps personnel, where appropriate. The key objectives of the information security training and awareness 
+program are listed below: 
+• 
+The learner will be able to articulate the need to protect confidentiality, integrity, and availability of the 
+Azure DevOps environment. 
+• 
+The learner will be able to apply basic security practices to safeguard the Azure DevOps environment and 
+customer information. 
+• 
+The learner will understand the criticality of security, compliance and privacy in relation to customer 
+expectations. 
+• 
+The learner will have a basic understanding of Azure DevOps’ responsibility to meet compliance and privacy 
+commitments. 
+• 
+The learner will know where to find additional information on security, privacy, and compliance. 
+Roles and Responsibilities 
+Information security roles and responsibilities are defined across the different Azure DevOps functions. The 
+cross-functional Azure DevOps ISMF is responsible for information security matters and they discuss, review 
+and coordinate security activities across Azure DevOps. In addition, the Azure DevOps Security team facilitates 
+implementation of security controls and provides security guidance to the Azure DevOps teams. The Azure 
+DevOps Security, Privacy and Compliance team coordinates with representatives from CELA (legal, compliance 
+requirements, secure development and privacy), HR (personnel security) and Azure (security policy 
+requirements) on additional information security related activities impacting the Azure DevOps service.  
+Incident Management 
+Azure DevOps has implemented an incident management framework that includes defined processes, roles, 
+communications, responsibilities and procedures for detection, escalation and response to incidents internally 
+and to customers.  
+Incident Internal Monitoring and Communication  
+The Azure DevOps Observability and Engineering teams’ processes are crafted to ensure focus on service health 
+and customer experience that minimizes the time to detect, respond to and mitigate impacting issues. 
+Ownership for Live Site is shared across all Engineering disciplines. This results in process improvements, which 
+evolve out of the direct experience, in the areas of monitoring, diagnostics, resiliency, and quality assurance. 
+
+
+--- Page 27 ---
+ 
+23 
+Live Site management in Azure DevOps is broken into three distinct tracks. The first track describes that the 
+events are monitored and alerted. The second track lays out the process for handling incidents. The third track 
+focuses on pulling out the learnings from each incident and to drive continual improvements into service Live 
+Site health. Azure DevOps has a weekly cadence for review of Live Site Incidents (LSI). 
+Figure 4: Incident Management 
+Incident Handling  
+The Azure DevOps team uses the established incident classification, escalation and notification process for 
+assessing an incident’s criticality and severity, and accordingly escalating to the appropriate groups for timely 
+action. The Azure DevOps Live Site team, with assistance from additional Azure DevOps and Microsoft teams 
+(e.g., Cloud + AI Security team for investigation, when necessary), documents, tracks, and coordinates 
+response to incidents. Where required, incidents can also be escalated to the privacy, legal or executive 
+management team(s) following established forensic procedures to support potential legal action after an 
+information security incident.  
+Incident Post-mortem  
+Post-mortem activities are conducted for customer impacting incidents with high severity ratings (i.e., severities 
+0, 1, and 2) and security incidents. The post-mortems are reviewed by the Azure DevOps Engineering team 
+during monthly review meetings with Azure DevOps senior management. Incident and security post-mortem 
+trends are reviewed and evaluated on a periodic basis and, where necessary, the Azure DevOps service or 
+security program may be updated to incorporate improvements identified because of incidents. 
+Telemetry 
+• Alerts - Define health 
+alerts for failure modes 
+• Diagnostics - Deliver 
+instrumentation data and 
+operational reports 
+• Troubleshooting Guides - 
+Guidance for investigation 
+an alert is defined by the 
+feature and then refined by 
+the Engineering team 
+• Failure Mode Testing - 
+The Observability team 
+performs failure testing to 
+ensure alerts fire as 
+expected 
+• Onboarding - The Feature 
+team works with their 
+Service Engineers to 
+onboard new alerts to be 
+sent to the 24 x7 team 
+Live Site Review 
+• Goal - Monthly review of 
+LSI ensures that Leadership 
+has visibility into live site 
+health and repeat issues 
+• Cadence - Incidents have 
+root cause documented and 
+are reviewed on a weekly 
+basis 
+• Audience - Azure DevOps 
+Leadership and Partners 
+attend to drive impact; 
+Developers attend to 
+provide details on service 
+incidents 
+• Ownership - Dev owns 
+reviews for App and Deploy 
+issues; Observability team 
+owns reviews for Platform 
+issues 
+• Driving Improvements - 
+Bugs and problem work 
+items are logged for gaps 
+(e.g., missing alerts) and 
+repeat root cause 
+Incident Management 
+• Detection - Product alerts 
+start the Live Site Incident 
+(LSI) process upon 
+detection of health issues 
+• Triage - The 24x7 team 
+receives all critical alerts 
+and confirms impact using 
+TFS guidance 
+• Escalation - Both Dev and 
+Ops have individuals in the 
+on-call rotation. 
+Engineering team is the 
+initial escalation path. 
+Engineering team calls Dev 
+as needed 
+• Incident Management - A 
+bridge is managed by the 
+Engineering team which 
+engages Dev and Partners 
+to troubleshoot 
+• Resolution - 
+Communication and service 
+restoration are actively 
+driven until customer 
+impact is eliminated 
+
+
+--- Page 28 ---
+ 
+24 
+Logical Access 
+Customer Registration 
+Azure DevOps customers register with Azure DevOps by setting up an account through the Azure DevOps portal 
+using their Microsoft Account (MSA), an Organizational Account (Microsoft Entra ID) or GitHub credentials. Azure 
+DevOps logically segregates these customer accounts to restrict unauthorized access. Microsoft Online Services 
+Customer Portal (MOCP), including billing and registration, and MSA, including password management, are 
+outside the scope of this system description. 
+Customer Authentication 
+Azure DevOps customers can log in to Azure DevOps with an MSA, an Organizational Account, or GitHub 
+credentials. Once the customer is authenticated to Azure DevOps, the customer is given an OpenID cookie that 
+is valid only for a stipulated period. The service forces the customer to obtain a new cookie on a periodic basis. 
+OpenID tokens are used by the browser and the client to communicate with Azure DevOps. Azure DevOps’ 
+extensibility model exposes APIs based on REST, SOAP, OAuth, JSON, and Service Hooks. Azure DevOps APIs 
+can be accessed directly outside the browser. Azure DevOps has published a standard set of APIs with an 
+ecosystem of tools and libraries on the Azure DevOps public documentation. Azure DevOps customers can 
+connect to the Azure DevOps APIs using the following ways: 
+• 
+OAuth 2.0 Session Tokens: Customer web applications can also authenticate to REST APIs without having 
+the applications request for their usernames and passwords repeatedly. Azure DevOps uses the OAuth 2.0 
+protocol to authorize customer applications for users and generate access tokens. Customer applications 
+use these tokens to authenticate while accessing REST APIs. 
+• 
+Personal Access Tokens: Applications that require Basic Authentication and non-interactive experiences 
+can use Personal Access Tokens (PATs) to communicate with Azure DevOps. A PAT is an extension to OAuth 
+capabilities. An authenticated user can create a PAT that then enables the user to use Basic Authentication 
+without directly accessing customer credentials. In addition to capabilities of OAuth session tokens, PATs 
+can also be scoped to specific Azure DevOps accounts, and can be revoked when required.  
+• 
+SSH authentication: Customers can connect to Git repos through SSH when the recommended Git 
+Credential Managers or Personal Access Tokens cannot be used to securely connect using HTTPS 
+authentication. SSH public key authentication works with a pair of generated encryption keys. 
+Additionally, customers can configure settings to allow or deny access through these authentication 
+mechanisms. Customer confidential data such as PATs, Session Tokens and SSH Public Key are hashed and 
+stored securely. Furthermore, user sessions within the service portal expire after a stipulated period of inactivity. 
+Operator Access 
+Production Infrastructure Access Management 
+The Microsoft Security Policy establishes the access control requirements for requesting and provisioning user 
+access for accounts and services. The policy requires that access be denied by default, follow least privilege 
+principle, and be granted only upon business need.  
+Azure DevOps uses corporate and Azure-managed Active Directory (AD) infrastructure, wherever applicable, for 
+centralized authentication and authorization to restrict access to the systems and features within the Azure 
+DevOps environment.  
+Domain-account management requests are routed to the designated asset owner or associated agent according 
+to established account provisioning and de-provisioning processes for approval. Typically, access is controlled 
+through domain security groups within the Active Directory in addition to the user’s individual accounts. User 
+
+
+--- Page 29 ---
+ 
+25 
+access requests require approval by the assigned security group owner. Requests for new access are 
+automatically forwarded to the security group owner for approval in the system. 
+Employee status data from Microsoft HR is used to facilitate the provisioning and removal of user accounts in 
+the corporate and Azure-managed Entra ID domains. Automated feeds from Microsoft HR systems provide this 
+information, and account management processes prevent the creation of an account for individuals that do not 
+have valid HR records. These feeds also initiate the removal of user accounts for terminated users from the 
+Active Directory. Furthermore, production domain-level user accounts are disabled after a stipulated period of 
+inactivity. 
+Automated mechanisms are implemented to manage the appropriateness of user access to information systems. 
+Policies and standards for password complexity are established and implemented for Azure DevOps personnel 
+credentials.  
+Production assets that are not domain-joined or that use local user accounts for authentication require 
+appropriate approvals prior to being granted access. Manual, periodic reviews of individual accounts, service 
+accounts and security group memberships on assets are performed to evaluate appropriateness of access to 
+information systems, and remediation actions are taken, as necessary, based on the review. 
+By default, on Azure DevOps Virtual Machines (VMs), user accounts are not created, and the Windows default 
+administrator account is disabled. Temporary access for Azure DevOps personnel to customer data and 
+applications is provisioned based on established procedures with the appropriate approvals. These temporary 
+access events (i.e., request, approval, and revocation of access) are logged and tracked using an internal 
+ticketing system per documented procedures. 
+Access to Azure DevOps Infrastructure 
+Azure DevOps maintains strict control over who has access to the Azure DevOps production environment and 
+customer data. Persistent privileged access to production systems is limited to Observability team members. 
+Production access to the Engineering team members is provided on a temporary basis to resolve Live Site issues. 
+Access is only granted at the level of least privilege, required with a pre-defined expiry, and revoked as soon as 
+the access period expires. Access requests and approvals are tracked and monitored in a separate system. 
+Access points such as Secure Admin Workstation (SAW) require users to perform two-factor authentication using 
+a smart card and AD domain credentials to gain access. SAW are secure hardened devices that limit access to 
+specific users and whitelisted applications. Mobile devices connected to the production environment are limited 
+to Secure Access Workstation (SAW) laptops and do not include phones or tablets. 
+In the unlikely event where Just-in-Time (JIT) temporary access cannot be used, Azure DevOps service teams 
+have the ability to access the production environment using designated break-glass accounts, which provide 
+users a short-term admin-level access. Alerting and monitoring has been enabled for all break-glass accounts 
+access. Upon accessing a break-glass account, an alert is generated, whereupon the service team will investigate 
+and determine if the access was appropriate.  
+Remote Desktop 
+Production servers are configured to require users to perform two-factor authentication using a smart card and 
+domain password to gain access to the Directory Services production servers using the Remote Desktop 
+Connection application. Remote Desktop Connection has encryption settings enforced. 
+
+
+--- Page 30 ---
+ 
+26 
+Vulnerability Management 
+Logging and Monitoring 
+Azure DevOps uses Azure’s agent-based monitoring infrastructure within the Azure platform to provide 
+automated logging and alerting capabilities. The monitoring system detects potential unauthorized activity and 
+security events such as the creation of unauthorized local users, local groups, drivers, services, or IP 
+configurations. The monitoring agents are responsible for monitoring a defined set of user and administrator 
+events, aggregating log events and sending the aggregated log information to a centralized log repository either 
+at regular intervals or in real-time.  
+Administrator, operator, and system activities performed within the Azure DevOps environment are logged and 
+monitored. Azure DevOps components are configured to use Coordinated Universal Time (UTC) time and the 
+clocks are synchronized with the domain controller server. 
+Azure DevOps uses Azure’s alerting system to provide real-time alerting through automatic generation of emails 
+and alarms based on the log information captured by the monitoring infrastructure. Feature teams are 
+responsible for configuring the events to be alerted. The event and warning logs are aggregated, alerts are 
+generated on anomalous behavior, and appropriate actions are taken in accordance with the incident handling 
+procedures described in the Incident Management section. Engineering teams manage responses to malicious 
+events, including escalating to and engaging specialized support groups. Also, availability of logging and 
+monitoring software is monitored by internal tools on a continuous basis, and responsible personnel is notified 
+in case of any failure. Logging servers are required to authenticate over encrypted channel to access logs 
+generated within the production environment. Access to logging and monitoring infrastructure is restricted to 
+authorized personnel. Azure DevOps provides logging mechanisms that can be configured by customers to log 
+activities and metrics. 
+System Monitoring Tools  
+1. Geneva Monitoring within the Microsoft Azure platform provides automated logging and alerting 
+capabilities for monitoring system use and detection of potential unauthorized activity. Its primary 
+capabilities include Data Collection, Data Aggregation, Data Analysis and Information Access. 
+2. Azure Security Monitoring (ASM) provides logging and alerting upon detection of breaches or attempts 
+to breach Azure cloud-based platform trust boundaries. Critical security event logs generated are configured 
+to alert through Azure’s alerting system. ASM monitors key security parameters to identify potentially 
+malicious activity on Azure nodes.  
+3. Microsoft Endpoint Protection (MEP) provides guards against malware that provides security value to 
+the Azure VMSS. Microsoft’s antimalware endpoint solutions are designed to run quietly in the background 
+without requiring human intervention. If malware is detected, the endpoint protection agent automatically 
+acts to remove the detected threat. 
+4. Windows Defender guards against malware and helps improve the security of the Azure DevOps 
+underlying infrastructure running VMSS running Windows Server 2016 and newer. Windows Defender can 
+be configured to enable antimalware protection for the Azure DevOps virtual infrastructure. Microsoft’s 
+antimalware solutions are designed to run quietly in the background without requiring human intervention. 
+If malware is detected, Windows Defender automatically takes action to remove the detected threat. 
+In addition, the Azure DevOps Live Site team uses third-party external monitoring services to monitor service 
+health and performance. 
+
+
+--- Page 31 ---
+ 
+27 
+Patch Management 
+Patching of Azure VMSS 
+Azure DevOps leverages Azure Shared Image Gallery to create custom VMSS images. New images are created 
+on every patch Tuesday, which are used for the creation of new VMSS. Automatic OS upgrade is also enabled 
+to ensure that the latest security fixes and patches are pushed to existing VMSS. 
+Vulnerability Scanning 
+C+AI carries out frequent internal scans of Azure DevOps’ servers to identify vulnerabilities and assess the 
+effectiveness of the patch management process. The scanning reports are reviewed by appropriate personnel 
+and remediation efforts are conducted in a timely manner. 
+Software Development 
+Secure Development 
+Azure DevOps' software development practices, across each of the feature teams, are aligned with the Microsoft 
+Secure Development Lifecycle (SDL) methodology established by Microsoft Corporate, External, and Legal Affairs 
+(CELA). The SDL methodology introduces security and privacy control specifications during the feature / 
+component design and throughout the development process, which are reviewed through designated security 
+roles. Azure DevOps feature teams track and complete their SDL compliance for every major and minor release 
+of Microsoft’s Azure DevOps services.  
+Security testing runs in parallel with release management for Azure DevOps. This is an ongoing process. For 
+each major and minor release, security bugs identified are tracked for criticality and subsequent closure. Security 
+fixes are incorporated within the Azure DevOps environment.  
+A designated group of security champs within the Azure DevOps feature teams provides guidance, performs 
+periodic security reviews, and oversees the implementation of SDL activities into Azure DevOps software 
+development projects. The SDL process specifies testing tools to check for potential security issues, such as 
+input/output data validation. Exceptions identified through the process must be documented and appropriately 
+reviewed for risk and approved by Security Advisors as well as the feature team management personnel. 
+Issues/exceptions are evaluated based on the risk and resolved or approved prior to release.  
+Authorized system changes are promoted from test, pre-production to production per the software change and 
+release management process as described in the Change Management section. 
+Source Code Control 
+The Azure DevOps source code is stored within Azure DevOps’ internal instance repository, which provides the 
+versioning system for the source code. Azure DevOps tracks the identity of the person who checks source code 
+out, and what changes are made. Permission to make changes to the source code is provided by granting write 
+access to the source code branches, which limits access to confined project boundaries per job responsibilities. 
+In addition, source code builds are scanned for malware prior to production release. 
+Access requests by Full-time Employees (FTEs) and non-FTEs to the source code repository require approval 
+from the relevant project sponsor. Upon expiry, FTEs and non-FTEs need to submit request to the project 
+sponsor for access renewal.  
+Segregation of Duties 
+Responsibilities for release management and production deployment are segregated among designated Azure 
+DevOps personnel. 
+
+
+--- Page 32 ---
+ 
+28 
+Change Management 
+Azure DevOps uses its own DevOps tools for collaboration, automated releases, and continuous delivery for 
+delivering Azure DevOps features. From continuous integration to continuous delivery, Azure DevOps creates 
+automated builds and repeatable workflows to keep code quality and deploy seamlessly. Azure DevOps uses its 
+own built-in version control, and build system, and integrates releasing applications to production and 
+operations.  
+The change management process requires changes to be submitted per a pull request which is then checked 
+into a production build once secondary review and approval is obtained. The production build then undergoes 
+release testing, review and deployment approval prior to being released to Azure DevOps production 
+environments. 
+Formal management responsibilities and procedures are in place to ensure reasonable control of changes to 
+software, security or procedures. Changes are made to operational systems on a continuous basis to improve 
+the systems with new features and bug-fixes with a valid business reason. Implemented changes require 
+creation and retention of a “release” containing relevant information. Once released, changes are monitored for 
+success; failed implementations are immediately rolled back and the change is not considered as completed 
+until it is implemented and validated to operate as intended. 
+The Azure DevOps Change Management process is established to plan, schedule, approve, apply, distribute, 
+and track changes to the production environment through designated responsibilities with the objective of 
+minimizing risk and customer impact. It further controls the integrity and reliability of the environment while 
+maintaining the pace of change required for business purposes.  
+Software and Infrastructure Changes 
+Changes within the Azure DevOps environment are categorized into software changes and infrastructure 
+changes. Changes are tracked through production deployment as a part of the release management process, 
+based on the type of change. 
+• 
+Software and Infrastructure Changes - Software and infrastructure changes are modifications, 
+enhancements and upgrades to Azure DevOps platform software and underlying infrastructure. They include 
+release changes, hotfixes, emergency changes and configuration changes. Azure DevOps ships features on 
+a three-week cadence. The changes are tracked and deployed using Azure DevOps Release tool. Changes 
+submitted to the centralized repository are logged and can be traced to the individuals or system 
+components executing them. 
+All activity performed, including changes made, using a user’s break-glass account is logged and alerted. Service 
+teams will review activity to ensure any changes made were appropriate. Azure DevOps has implemented tools 
+to perform integrity verification checks to detect unauthorized changes to software, firmware and information. 
+Segregation of Duties 
+Azure DevOps reviews the progress of feature deployment at every stage of the release pipeline with full 
+traceability. In the Azure DevOps model, individual engineers are responsible for ensuring changes developed 
+and implemented into the business go through impact assessment, testing, and approval processes depending 
+on the impact of the change. In addition, the Azure DevOps feature teams are responsible for enforcing 
+segregation of duties in the Change Management process. 
+Separation of Environments 
+Azure DevOps has implemented segregated environments for development, test and production, to support 
+segregation of duties and prevent unauthorized changes to production. Azure DevOps maintains logical and 
+physical separation between the DEV (development), TEST (pre-production) and PROD (production) 
+
+
+--- Page 33 ---
+ 
+29 
+environments. Virtual services run on different clusters in separate network segments. Access to TEST and PROD 
+deployment boxes is restricted to authorized personnel from the Observability team. 
+Deployment of software to production must meet testing criteria prior to release. Production deployments use 
+approved software builds. In addition, production data is not used or copied to non-production environments. 
+Test scripts and synthetic data are created for use in the development and test environments. 
+Data Security 
+Please refer to the Data section above for information on data classification in Azure DevOps.  
+Backup of Secrets 
+ 
+Processes are implemented for the backup of secrets. Backup of secrets is managed by the Azure team, and is 
+not in scope of this report. 
+Data Redundancy 
+To protect data in the case of hardware or service failures, Azure Storage geo-replicates customer data between 
+two locations within the same region that are hundreds of miles apart; for instance, between North and West 
+Europe or between North and South United States. The exception to this is the Brazilian datacenter which is 
+paired with the South-Central US datacenter. For Azure blobs, customer data is replicated three times within a 
+single datacenter and is replicated asynchronously to a second datacenter hundreds of miles away. As such, 
+Azure always maintains the equivalent of six (6) copies of customer data. This enables Azure DevOps to failover 
+to a separate datacenter in the case of a major outage or disaster while also providing local redundancy for 
+hardware failures within a datacenter. For Azure SQL Database, daily backups are maintained offsite by Azure 
+to minimize data loss in the case of datacenter disasters. Backups are monitored and errors are investigated 
+and followed-up on appropriately by the Azure team. Please refer to the Azure Sites - Azure Blob Storage geo-
+redundancy and Azure SQL geo-redundancy for further details. 
+Data Location 
+Azure DevOps is available in multiple geographies across the world. By default, the location of Azure DevOps 
+data is in the closest geography to the customer, but customers have the option to choose a different geography. 
+If the customer wants to change the location, their organization’s data may be migrated to a different geography, 
+with the assistance of Microsoft support. 
+Data Segregation 
+Azure DevOps assigns each customer a unique identifier as part of the initial setup process. The mapping 
+between the customer unique identifier and customer data location within the partition table is in a configuration 
+database hidden from each customer. Each customer’s data is segregated and partitioned within the partition 
+database based on this unique identifier to ensure appropriate data segregation. 
+Customer Data Deletion 
+Customer data and metadata is disabled or deleted (per the direction of the customer) upon termination of their 
+Azure DevOps Organization. Azure DevOps provides its customers with a “soft delete” period during which the 
+organization’s data can be restored. Upon termination of this “soft delete” period, the clean-up job orchestrates 
+the delete operation among the various Azure DevOps features and processes it until completion. 
+
+
+--- Page 34 ---
+ 
+30 
+Data Classification  
+Data (also referred to as information and assets) is classified into eleven categories, as described in the Data 
+section above, based on how it is used or may be used within the Azure DevOps service.  
+Azure DevOps Inter-Component Communication 
+Internal communication between key Azure DevOps components where customer data is transmitted and 
+involved is secured using Secure Sockets Layer (SSL). SSL certificates are Enhanced Key Usage (EKU) - enforced 
+and self-signed, except for those certificates that are used for connections from outside the network.  
+Secrets Management 
+Azure DevOps uses Azure Key Vault for secret management. Secrets that are used to manage and maintain the 
+service, such as SSL certificates and encryption keys, are managed, stored, and transmitted securely. Access 
+to these secrets requires specific permission, which is logged and recorded in a secure manner. Secrets are 
+rotated on a regular cadence and can be rotated on-demand in the case of a security event or attrition. 
+Cryptographic controls 
+Cryptographic controls and approved algorithms are used for information protection within the Azure DevOps 
+environment, and implemented based on the Azure DevOps Cryptographic Policy and Microsoft Cryptographic 
+Standards. Cryptographic keys are managed throughout their lifecycle (e.g., generation, distribution, 
+revocation) in accordance with established key management processes. 
+System Incidents 
+There was no significant system incidents identified that (a) were the result of controls that were not suitably 
+designed or operating effectively to achieve one or more of the service commitments and system 
+requirements or otherwise (b) resulted in a significant failure in the achievement of one or more of those 
+service commitments and system requirements during the period October 1, 2024, to September 30, 2025. 
+Changes to the Azure DevOps system 
+During the period from October 1, 2024 through September 30, 2025, the only change to the Azure DevOps 
+system was the introduction of the new feature, GitHub Azure DevOps (GhAzDo); no other modifications 
+occurred that would affect report users’ understanding of how the system is used. 
+Complementary User Entity Controls 
+The following list includes complementary user entity controls that Azure DevOps assumes its user entities have 
+implemented. User organization auditors should determine whether the user entities have established sufficient 
+controls in these areas:  
+Complementary User Entity Controls 
+Related Control Objectives 
+Customers are responsible for reporting to Azure 
+DevOps the incidents and alerts that are specific to 
+their Azure DevOps accounts. 
+Control Objective 7: Controls provide reasonable 
+assurance that production incidents are managed 
+in accordance with documented procedures for 
+timely resolution. 
+
+
+--- Page 35 ---
+ 
+31 
+Complementary User Entity Controls 
+Related Control Objectives 
+Customers utilizing Microsoft Entra ID (formerly Azure 
+Active Directory) services are responsible for 
+implementing appropriate authentication mechanisms 
+and limiting administrative access to appropriate 
+individuals to maintain integrity of their Azure DevOps 
+account. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers are responsible for establishing appropriate 
+controls over the use of their Microsoft Accounts and 
+passwords.  
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers are responsible for reviewing the access 
+activities associated with their Azure DevOps accounts. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers are responsible for appropriate protection 
+of the secrets associated with their accounts. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers’ administrators are responsible for the 
+selection and use of their passwords. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers are responsible for ensuring that 
+authorized users are added to their accounts. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers are responsible to implement logical access 
+controls to provide reasonable assurance that 
+unauthorized access to Azure DevOps projects is 
+restricted. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers are responsible to assign unique IDs and 
+secure passwords to users and customers accessing 
+their Azure DevOps account. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+Customers are responsible for ensuring the 
+supervision, management and control of access to 
+data stored in Azure DevOps. 
+Control Objective 8: Controls provide reasonable 
+assurance that logical access to customer data and 
+systems within Azure DevOps is restricted. 
+ 
+External Subservice Organization and Complementary Subservice Organization Controls 
+The achievement of certain control objectives related to Azure DevOps’ access control, data security and 
+vulnerability and patch management is dependent upon controls, known as complementary subservice 
+organization controls that are performed by the subservice provider.  
+Each user entity’s internal controls over financial reporting should be evaluated in conjunction with Azure 
+DevOps’ controls and the related tests and results described in section 4 of this report, while considering the 
+complementary subservice organization controls expected to be implemented at the subservice organization, as 
+
+
+--- Page 36 ---
+ 
+32 
+described in the table, below. The scope of this report does not include control objectives and controls at the 
+external subservice organization. Through the performance of the control activities described herein, including 
+obtaining and evaluating the SOC 1 reports for subservice provider, Azure DevOps monitors subservice 
+provider’s adherence to policies and procedures. Additionally, business process controls have been designed 
+and implemented to identify exceptions to standard procedures and processing practices and to resolve them. 
+Type of 
+Services 
+Provided 
+Subservice 
+Organization Name 
+Complementary 
+Subservice 
+Organization 
+Controls 
+Relevant Control Objective 
+Secrets 
+Management 
+Microsoft Azure 
+Azure is responsible for 
+encryption and back up 
+of secrets stored on 
+Azure Key Vault 
+service. 
+Control Objective 3: Controls provide 
+reasonable assurance that the data and 
+secrets associated with the Azure DevOps 
+features are protected during transit and 
+while at rest. 
+Backup 
+Monitoring 
+Microsoft Azure 
+Azure is responsible for 
+monitoring backups and 
+handling backup errors, 
+including investigating 
+and following up as 
+needed. 
+Control Objective 3: Controls provide 
+reasonable assurance that the data and 
+secrets associated with the Azure DevOps 
+features are protected during transit and 
+while at rest. 
+Backup of 
+SQL 
+Database  
+Microsoft Azure 
+Azure is responsible for 
+maintaining Point in 
+time Restore (PITR) 
+capabilities for the 
+Azure DevOps data 
+stored on Azure SQL 
+Databases. 
+Control Objective 3: Controls provide 
+reasonable assurance that the data and 
+secrets associated with the Azure DevOps 
+features are protected during transit and 
+while at rest. 
+Backup of 
+Storage 
+Accounts 
+Microsoft Azure 
+Azure is responsible for 
+maintaining the backup 
+of Storage Accounts. 
+Control Objective 3: Controls provide 
+reasonable assurance that the data and 
+secrets associated with the Azure DevOps 
+features are protected during transit and 
+while at rest. 
+Hardware 
+Change 
+Management 
+Microsoft Azure 
+Azure is responsible for 
+hardware change 
+management including 
+commissioning and 
+decommissioning. 
+Control Objective 4: Control policies 
+and procedures provide reasonable 
+assurance that changes to the Azure 
+DevOps platform are documented, 
+authorized, and tested. 
+Security and 
+anti-malware 
+logging and 
+vulnerability 
+scanning 
+Microsoft Azure 
+Azure DevOps 
+leverages Azure’s 
+logging and reporting 
+capabilities for 
+appropriate monitoring 
+of security and anti-
+malware events and 
+vulnerability alerts.  
+Control Objective 6: Controls provide 
+reasonable assurance that the Azure 
+DevOps features are monitored for known 
+security vulnerabilities and potential 
+unauthorized activity. 
+
+
+--- Page 37 ---
+ 
+33 
+Type of 
+Services 
+Provided 
+Subservice 
+Organization Name 
+Complementary 
+Subservice 
+Organization 
+Controls 
+Relevant Control Objective 
+Network 
+Security of 
+Azure 
+DevOps 
+Microsoft Azure 
+Azure is responsible for 
+maintaining controls 
+over protection of the 
+network environment 
+and infrastructure, 
+including perimeter 
+firewalls and restricting 
+access to network 
+devices. 
+Control Objective 6: Controls provide 
+reasonable assurance that the Azure 
+DevOps features are monitored for known 
+security vulnerabilities and potential 
+unauthorized activity. 
+In addition to the Complementary Subservice Organization Controls listed above, Microsoft Azure is responsible 
+for providing physical and environmental security to the Azure DevOps application and data hosted at Microsoft 
+datacenters. 
+
+
+--- Page 38 ---
+ 
+34 
+ 
+Section 4:  
+Management of Microsoft’s 
+Description of Its Control 
+Objectives and Related Controls, 
+and Independent Service 
+Auditor’s Description of Tests of 
+Controls and Results 
+
+
+--- Page 39 ---
+ 
+35 
+Section 4: Management of Microsoft’s 
+Description of Its Control Objectives and 
+Related Controls, and Independent Service 
+Auditor’s Description of Tests of Controls 
+and Results 
+Description of testing procedures performed 
+Deloitte & Touche LLP performed a variety of tests relating to the controls listed in this section throughout 
+the period from October 1, 2024 through September 30, 2025. Our tests of controls were performed on 
+controls as they existed during the period of October 1, 2024 through September 30, 2025 and were applied 
+to those controls specified by Microsoft. 
+In determining the nature, timing, and extent of tests, we considered (a) the nature and frequency of the 
+controls being tested, (b) the types of available evidential matter, (c) the assessed level of control risk, (d) 
+the expected effectiveness of the test, and (e) our understanding of the control environment. 
+In addition to the tests listed below, we ascertained through multiple inquiries with management and the 
+control owners that each control activity listed below operated as described throughout the period. Tests 
+performed are described below: 
+Test 
+Description 
+Corroborative inquiry 
+Conducted detailed interviews with relevant personnel to obtain 
+evidence that the control was in operation during the report 
+period and is accompanied by other procedures noted below 
+that are necessary to corroborate the information derived from 
+the inquiry. 
+Observation 
+Observed the performance of the control during the report 
+period to evidence application of the specific control activity. 
+Examination of 
+documentation/inspection 
+If the performance of the control is documented, inspected 
+documents and reports indicating performance of the control. 
+Reperformance of monitoring activities 
+or manual controls 
+Obtained documents used in the monitoring activity or manual 
+control activity, independently reperformed the procedures, 
+and compared any discrepancies identified with those identified 
+by the responsible control owner. 
+Reperformance of programmed 
+processing 
+Input test data, manually calculated expected results, and 
+compared actual results of processing to expectations. 
+ 
+
+
+--- Page 40 ---
+ 
+36 
+Testing of tools supporting control activities 
+For the tools used in the performance of control activities in Section 4, we performed procedures to address 
+the risks associated with their use. While these procedures were not specifically included in the test 
+procedures listed in Section 4, they were completed as part of the testing to support our conclusions. 
+Reliability of information produced by the Service Organization 
+We performed procedures to evaluate whether the information provided by the service organization, which 
+includes (a) information in response to ad hoc requests from the service auditor (e.g., population lists), and 
+(b) information used in the execution of a control (e.g., exception reports or transaction reconciliations), 
+was sufficiently reliable for our purposes by obtaining evidence about the accuracy and completeness of 
+such information and evaluating whether the information was sufficiently precise and detailed for our 
+purposes. 
+Our procedures to evaluate whether this information was sufficiently reliable included procedures to address 
+(a) the accuracy and completeness of source data, and (b) the creation and modification of applicable report 
+logic and parameters. While these procedures were not specifically called out in the test procedures listed 
+in this section, they were completed as a component of our testing to support the evaluation of whether or 
+not the information is sufficiently precise and detailed for purposes of fully testing the controls identified by 
+the Service Organization. 
+Reporting on results of testing 
+The concept of materiality is not applied when reporting the results of control tests because Deloitte & 
+Touche LLP does not have the ability to determine whether an exception will be relevant to a particular user 
+entity. Consequently, Deloitte & Touche LLP reports all exceptions. 
+
+
+--- Page 41 ---
+ 
+37 
+Results of Testing Performed 
+Security Organization 
+Control Objective 1: Controls provide reasonable assurance that information security policies are implemented and communicated. 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+IS - 1 
+Microsoft has documented and 
+communicated a security policy 
+that defines the information 
+security rules and 
+requirements for the Azure 
+DevOps environment. 
+• 
+Inquired of management if a documented security policy that 
+specifies the rules and requirements applicable to the Azure 
+DevOps environment exists. 
+• 
+Obtained and inspected the security policy to ascertain that it 
+addresses the applicable information security requirements. 
+• 
+Inspected the security policy to ascertain that it was 
+published and communicated to Azure DevOps' employees 
+and the relevant third parties. 
+No exceptions 
+noted. 
+IS - 2 
+The security policy is reviewed 
+and approved annually by 
+Microsoft management. 
+• 
+Inquired of management to understand the process for 
+reviewing and approving the security policy. 
+• 
+Obtained and inspected evidence of the annual security policy 
+review performed and the associated management approvals 
+to ascertain that it was reviewed annually. 
+No exceptions 
+noted. 
+IS - 3 
+Management has established 
+defined roles and 
+responsibilities to oversee 
+implementation of the 
+information security policy 
+across the service. 
+• 
+Inquired of management to understand the implementation of 
+the security policy requirements within Azure DevOps through 
+the designation of roles and responsibilities. 
+• 
+Inspected relevant documentation (e.g., SOPs) to ascertain 
+that roles and responsibilities for implementation of security 
+policy requirements were defined and documented. 
+No exceptions 
+noted. 
+IS - 4 
+An information security 
+education and awareness 
+program is established that 
+includes policy training and 
+• 
+Inquired of management to understand the processes for 
+awareness and training on information security for 
+employees, contractors, and third-party users. 
+No exceptions 
+noted. 
+
+
+--- Page 42 ---
+ 
+38 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+periodic security updates to 
+Azure DevOps personnel. 
+• 
+Inspected training material to ascertain that it incorporated 
+policy training and periodic security updates. 
+• 
+Obtained participation details for mandatory security trainings 
+and ascertained that participation was tracked for Azure 
+DevOps personnel. 
+ 
+
+
+--- Page 43 ---
+ 
+39 
+Operator Access 
+Control Objective 2: Controls provide reasonable assurance that logical access to Azure DevOps production infrastructure is restricted to 
+authorized personnel. 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+OA - 1 
+Administrative access to the 
+service is controlled through 
+defined interfaces that require 
+authentication using AD 
+credentials. 
+• 
+Inquired of management to understand the procedures in 
+place for accessing Azure DevOps-specific administration 
+tools. 
+• 
+For a sample of security groups, obtained and inspected 
+evidence to ascertain that access to the administration tools 
+was restricted through defined interfaces, authenticated 
+through AD credentials, and was limited based on the job 
+responsibilities. 
+• 
+Obtained and inspected the current listing of user accounts 
+and ascertained that each user was assigned a unique user 
+ID which clearly identifies the user. 
+No exceptions 
+noted. 
+OA - 2 
+Requests for new access, or 
+modifications to existing 
+access, are submitted and 
+approved prior to provisioning 
+access to employees, 
+contractors, and service 
+providers to specific 
+applications or information 
+resources. 
+• 
+Inquired of management regarding the approvals required 
+from the security group owners for accessing specific 
+applications or information resources.  
+• 
+For a sample of security groups, inspected the use of account 
+management tools to ascertain that access was 
+granted/modified for to users only upon receipt of approval 
+from Full-Time Employee (FTE) managers or their delegates. 
+• 
+For a sample of one user and security group, observed the 
+enforcement of approval rule configuration to ascertain that 
+access is created/obtained after the appropriate approvals. 
+No exceptions 
+noted. 
+OA - 3 
+Procedures are in place to 
+disable accounts on a timely 
+basis, upon the user's 
+termination. 
+• 
+Inquired of management that procedures are established for 
+disabling terminated user accounts in a timely manner. 
+No exception 
+noted.  
+ 
+
+
+--- Page 44 ---
+ 
+40 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+• 
+For a sample of terminated users within the examination 
+period, obtained account disablement logs to ascertain that 
+accounts were disabled timely upon termination. 
+OA - 4 
+Password complexity standards 
+are defined and enforced for 
+Azure DevOps personnel 
+credentials. 
+• 
+Inquired of management to understand the implementation of 
+password standards (e.g., length, complexity and age) and 
+acceptable use guidelines. 
+• 
+Obtained the relevant configuration files to ascertain that 
+password standards were enforced. 
+No exceptions 
+noted. 
+OA - 5 
+Access privileges are reviewed 
+quarterly to determine if 
+access rights are 
+commensurate to the user's 
+job duties. Access is modified 
+based on the results of the 
+reviews. 
+• 
+Inquired of management to understand the process in place 
+and the cadence for periodic user access reviews. 
+• 
+Obtained review documentation for sampled quarters to 
+ascertain whether access reviews were performed per the 
+defined cadence and resulting action items were completed 
+by the owners/delegates of the feature. 
+No exceptions 
+noted.  
+OA - 6 
+Procedures are established for 
+granting temporary access for 
+personnel to customer data 
+and applications upon 
+appropriate approval. 
+• 
+Inquired of management to understand the procedures in 
+place for granting and revoking temporary access for 
+personnel to customer data and applications. 
+• 
+For a sample of temporary access requests, obtained and 
+inspected temporary access logs and associated tickets to 
+ascertain that temporary access was granted and approved 
+per the defined process and had documented business 
+justification associated with it. 
+No exceptions 
+noted. 
+OA - 7 
+Authentication over an 
+encrypted Remote Desktop 
+Connection is used for 
+administrator access to the 
+production environment. 
+• 
+Inquired of management to understand the mechanisms in 
+place for connecting remotely to the Azure DevOps 
+environment. 
+• 
+Observed access sessions to ascertain that Remote Desktop 
+Protocol (RDP) connections to the Azure DevOps environment 
+were authenticated and encrypted. 
+No exceptions 
+noted. 
+
+
+--- Page 45 ---
+ 
+41 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+OA - 8 
+Alerts are generated when a 
+break-glass account is used to 
+access production 
+environment. 
+• 
+Inquired of management to understand the procedures in 
+place for monitoring break-glass account access to the 
+production environment. 
+• 
+Obtained and inspected the configuration files to ascertain 
+that automated mechanisms were in place to generate alerts 
+when a break-glass account is used to access the production 
+environment. 
+• 
+For various break-glass activity, observed the associated 
+ticket to ascertain that an alert was generated when a break-
+glass account was used to access the production 
+environment. 
+No exceptions 
+noted. 
+OA - 9 
+Production domain-level user 
+accounts are disabled after a 
+stipulated period of inactivity. 
+• 
+Inquired of management if procedures for disabling user 
+accounts that have been inactive after a stipulated period in 
+the production environment are established. 
+• 
+Obtained and inspected the applicable configuration settings 
+to ascertain that production domain accounts were disabled 
+timely after their inactivity period. 
+• 
+For a sampled user, obtained and inspected the last login 
+date and account status to ascertain that the account was 
+disabled timely after the inactivity period. 
+No exceptions 
+noted. 
+OA - 10 
+Access to production resources 
+requires the use of a Secure 
+Admin Workstation (SAW) 
+which requires MFA for access. 
+SAWs are hardened and 
+secured devices with restricted 
+access. 
+• 
+Inquired of management to understand the process of using 
+Secure Admin Workstation (SAW) machine and authentication 
+using MFA for accessing production resources. 
+• 
+Observed the access and authentication mechanisms to 
+ascertain that access to production resources required using 
+Secure Admin Workstation (SAW) machine and MFA for 
+authentication. 
+No exceptions 
+noted. 
+
+
+--- Page 46 ---
+ 
+42 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+• 
+Obtained and inspected the configuration settings for SAW 
+devices and ascertained that the devices are hardened and 
+have restricted access. 
+ 
+ 
+ 
+ 
+
+
+--- Page 47 ---
+ 
+43 
+Data Security 
+Control Objective 3: Controls provide reasonable assurance that the data and secrets associated with the Azure DevOps features are 
+protected during transit and while at rest. 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+DS - 1 
+Cryptographic certificates, 
+keys, and customer access 
+keys used for communication 
+between the features and 
+other internal components are 
+stored securely and are rotated 
+on a periodic basis. 
+• 
+Inquired of management to understand the different types of 
+cryptographic certificates and keys used by the service to 
+connect to internal components, and their cadence/frequency 
+of rotation. 
+• 
+Inspected the location of the cryptographic keys, customer 
+access keys, connection strings and Storage Account Keys 
+(SAKs) to ascertain that they were encrypted. Additionally, 
+inspected security groups having access to secrets to 
+ascertain that access was strictly restricted to personnel 
+having valid business justification.  
+• 
+Obtained the list of production secrets and for a sample of 
+production secrets, obtained the last rotation date to 
+ascertain that the secrets were rotated on a periodic basis.  
+No exceptions 
+noted. 
+DS - 2 
+Customer data communicated 
+through service interfaces is 
+encrypted during transmission 
+over external networks. 
+• 
+Inquired of management regarding controls in place that 
+restrict transmission of customer data using secure protocols 
+through various endpoints over external networks. 
+• 
+Reperformed the control to ascertain that the restrictions 
+were in place to prevent the use of insecure protocols for the 
+transmission of customer data over external networks. 
+No exceptions 
+noted. 
+DS - 3 
+Internal communication 
+between key components 
+where customer data is 
+transmitted/involved is secured 
+using SSL or equivalent 
+mechanism(s). 
+• 
+Inquired of management to understand the use of secure 
+mechanisms such as Secure Sockets Layer (SSL) with mutual 
+authentication for communication between internal key 
+components that involve customer data. 
+No exceptions 
+noted. 
+
+
+--- Page 48 ---
+ 
+44 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+• 
+For a sample of Azure DevOps components, performed 
+inspection to ascertain the use of Secure Sockets Layer (SSL) 
+for internal communication. 
+DS - 4 
+Cryptographic controls are 
+used for information protection 
+within the platform based on 
+the Cryptographic Policy and 
+Key Management procedures. 
+• 
+Inquired of management regarding the policies and 
+procedures in place for using cryptographic controls within 
+the Azure DevOps environment.  
+• 
+Inspected a sample of releases to ascertain that 
+Cryptographic Policy and Key Management requirements were 
+enforced. 
+No exceptions 
+noted. 
+DS - 5 
+Backups of key service 
+components are performed 
+regularly and stored in fault 
+tolerant (isolated) facilities. 
+• 
+Inquired of management regarding the procedures in place 
+for backing up the Azure DevOps service components. 
+• 
+For a sample of key service components, obtained and 
+inspected configurations and logs to ascertain that 
+component data was backed up and stored in fault tolerant 
+(isolated) facilities. 
+No exceptions 
+noted. 
+DS - 6 
+Critical Azure DevOps 
+components are designed with 
+redundancy to sustain isolated 
+faults and minimize disruptions 
+to customer services. 
+• 
+Inquired of management regarding the redundancy 
+mechanisms in place for key components within the Azure 
+DevOps platform. 
+• 
+For a sample of critical Azure DevOps components, performed 
+inspection to ascertain that redundancies were implemented 
+within the production environment to minimize the 
+disruptions to customer services. 
+No exceptions 
+noted. 
+DS - 7 
+Customer data is automatically 
+replicated to minimize isolated 
+faults. Customers are able to 
+determine geographical 
+regions of the data processing 
+and storage, including data 
+backups. 
+• 
+Inquired of management regarding the redundancy 
+mechanisms in place to replicate customer data stored across 
+Azure DevOps features. 
+• 
+For a sample of Azure DevOps features, observed 
+configuration and replication status to ascertain that 
+customer data was automatically replicated to minimize 
+isolated faults. 
+No exceptions 
+noted. 
+
+
+--- Page 49 ---
+ 
+45 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+• 
+Observed the customer portal and available options to 
+ascertain that the customers are able to determine 
+geographical regions of the data processing and storage, 
+including data backups. 
+DS - 8 
+Upon termination of a 
+customer account, the 
+customer data is removed 
+based upon the stipulated 
+retention and removal 
+timelines. 
+• 
+Inquired of management regarding the policy and procedures 
+in place for the retention and removal of customer data upon 
+deletion of Azure DevOps account. 
+• 
+For a sample of terminated customer accounts, inspected 
+logged database events to ascertain that data was retained or 
+removed as per the stipulated retention and removal 
+timelines noted in the Azure DevOps data retention and 
+removal policies. 
+No exceptions 
+noted. 
+ 
+ 
+ 
+
+
+--- Page 50 ---
+ 
+46 
+Change Management 
+Control Objective 4: Control policies and procedures provide reasonable assurance that changes to the Azure DevOps platform are 
+documented, authorized, and tested. 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+CM - 1 
+Procedures for managing 
+different types of changes to 
+the features are documented 
+and communicated. 
+• 
+Inquired of management regarding the procedures for 
+managing various types of changes to the Azure DevOps 
+environment including requirements for tracking, approval 
+and testing. 
+• 
+Obtained and inspected the Change Management procedure 
+documentation to ascertain that procedures for requesting, 
+classifying, approving, and implementing changes were 
+defined and communicated. 
+No exceptions 
+noted. 
+CM - 2 
+Secondary approval is required 
+prior to all pull request check-
+ins to the production build, 
+enforcing segregation among 
+designated personal when 
+implementing changes.  
+• 
+Inquired of management about the procedures for 
+segregation of duties for key responsibilities related to 
+change implementation and approval. 
+• 
+Obtained and inspected policy documentation and ascertained 
+that segregation of duties for key responsibilities was 
+documented. 
+• 
+For a sample of branch policy setting, inspected the branch 
+policy configuration to ascertain that responsibilities for 
+approving and implementing changes to the features are 
+segregated among designated personnel.  
+• 
+For a sample of changes implemented to production, obtained 
+and inspected evidence to ascertain that approval and 
+implementation of changes were segregated among 
+designated personnel. 
+No exceptions 
+noted. 
+CM – 3 
+Key stakeholders approve prior 
+to deploying release into 
+production based on 
+• 
+Inquired of management about the procedures for approving 
+changes prior to release into production. 
+No exceptions 
+noted. 
+
+
+--- Page 51 ---
+ 
+47 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+documented change 
+management procedures. 
+• 
+For a sample of changes implemented to production, obtained 
+and inspected evidence to ascertain that changes were 
+approved by key stakeholders and executed in accordance 
+with documented procedures. 
+CM - 4 
+Software releases and 
+configuration changes are 
+tested based on established 
+criteria prior to production 
+implementation. 
+• 
+Inquired of management regarding the procedures for testing 
+various types of changes to the Azure DevOps environment. 
+• 
+For a sample of changes made to production, obtained and 
+inspected evidence to ascertain that documented procedures 
+for testing were followed prior to deployment. 
+No exceptions 
+noted. 
+CM - 5 
+Implemented changes are 
+reviewed for adherence to 
+established procedures prior to 
+closure. Changes are rolled 
+back to their previous state in 
+case of errors or security 
+concerns. 
+• 
+Inquired of management regarding the procedures for 
+reviewing various types of changes to the Azure DevOps 
+environment prior to closure. 
+• 
+For a sample of changes made to production, obtained and 
+inspected evidence to ascertain that changes were reviewed 
+prior to closure. Further, ascertained that changes were rolled 
+back to their previous state if errors or security issue 
+identified during review. 
+No exceptions 
+noted. 
+CM - 6 
+Any changes to production via 
+break-glass have been 
+reviewed to ensure all changes 
+were appropriate. 
+• 
+Inquired of management to understand the process related to 
+performing a review of changes made through break-glass 
+accounts in the production environment. 
+• 
+Obtained and inspected the break-glass account access 
+population and ascertained that there were no instances of 
+break-glass account access scenarios during the examination 
+period. 
+Inconclusive. 
+The operating 
+effectiveness of 
+this control 
+activity was not 
+tested during the 
+examination 
+period, as no 
+instances of 
+changes to 
+production via 
+break-glass were 
+identified. 
+
+
+--- Page 52 ---
+ 
+48 
+Software Development 
+Control Objective 5: Controls provide reasonable assurance that development of new features or changes to existing features follow a 
+formal SDL process and are documented, authorized, and tested. 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+SDL - 1 
+Development of new features 
+and changes to existing 
+features follow a defined 
+approach based on the 
+Microsoft Secure Development 
+Lifecycle (SDL) methodology. 
+• 
+Inquired of management to understand the SDL methodology 
+followed for the development of new features and making 
+changes to existing features.  
+• 
+For a sample of releases, inspected SDL documentation to 
+ascertain that SDL methodology was followed to incorporate 
+security practices as part of the development process. 
+• 
+For a sample of changes, obtained and inspected evidence to 
+ascertain that documented procedures for testing were 
+followed prior to deployment. 
+No exceptions 
+noted. 
+SDL - 2 
+Applicable operational security 
+and internal control 
+requirements are documented 
+and approved for Azure 
+DevOps. 
+• 
+Inquired of management regarding the process to identify 
+and document applicable security and internal control 
+requirements as part of the SDL process. 
+• 
+For a sample of releases, inspected documentation to 
+ascertain that security and internal control requirements were 
+identified, documented, and approved based on review with 
+designated security leads. 
+No exceptions 
+noted. 
+SDL - 3 
+Responsibilities for production 
+deployment are segregated 
+within the feature teams. 
+• 
+Inquired of management to understand the processes in place 
+to segregate responsibilities for production deployment within 
+the feature teams. 
+• 
+Obtained and inspected evidence for a sample of production 
+deployments to ascertain that access to perform production 
+deployments was restricted to authorized Azure DevOps 
+teams. 
+No exceptions 
+noted. 
+
+
+--- Page 53 ---
+ 
+49 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+SDL - 4 
+Separate environments, 
+outside of production, are 
+established for the purpose of 
+developing and testing 
+changes. Production data is not 
+replicated in test or 
+development environments. 
+• 
+Inquired of management around separation of development, 
+test, and production environments. 
+• 
+For a sample of services, obtained and inspected 
+configuration files to ascertain that the development, test and 
+production environments existed and were separate. 
+• 
+For a sample of services, obtained and inspected database 
+configuration files to ascertain that production data is not 
+replicated to the test or development environments. 
+No exceptions 
+noted. 
+SDL - 5 
+Azure DevOps Services use 
+code repositories for managing 
+source code changes. 
+Procedures are established to 
+approve code changes made to 
+source code repository. Code 
+changes submitted to the 
+repository are logged and can 
+be traced to the individuals or 
+system components executing 
+them. 
+• 
+Inquired of management regarding the access control 
+procedures established to authorize access to code repository 
+based on roles. 
+• 
+For a sample of services, obtained and inspected the branch 
+policy settings and associated membership details to 
+ascertain that source code changes are approved by 
+appropriate personnel. 
+• 
+Obtained and inspected the master branch configuration files 
+and a sample change to ascertain that the identity of the 
+individual and/or system component changing the code, the 
+time of the change, and changes submitted to the source 
+code repository were logged. 
+No exceptions 
+noted. 
+SDL - 6 
+A security review of releases is 
+performed on a periodic basis 
+by designated security 
+personnel within Azure 
+DevOps. 
+• 
+Inquired of management to understand the procedures for 
+security review of services. 
+• 
+For a sample of services, inspected documentation to 
+ascertain that a security review was completed on a periodic 
+basis as per the SDL methodology and sign-offs were 
+obtained from the designated security personnel. 
+No exceptions 
+noted. 
+SDL - 7 
+Source code builds are 
+scanned for malware prior to 
+release to production. 
+• 
+Inquired of management regarding the procedures in place to 
+scan source code builds for malware. 
+No exceptions 
+noted. 
+
+
+--- Page 54 ---
+ 
+50 
+Control Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+• 
+For a sample of source code builds, obtained and inspected 
+evidence of scan build for malwares to ascertain that malware 
+scanning was performed automatically as part of the build 
+process prior to release to production. 
+ 
+ 
+
+
+--- Page 55 ---
+ 
+51 
+Logging and Monitoring  
+Control Objective 6: Controls provide reasonable assurance that the Azure DevOps features are monitored for known security vulnerabilities 
+and potential unauthorized activity. 
+Control 
+Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+VM - 1 
+Production and supporting 
+infrastructure are configured to 
+log and collect security events. 
+• 
+Inquired of management that security event logging is 
+configured for key components within Azure DevOps platform 
+components and supporting infrastructure to enable detection 
+of security events. 
+• 
+For a sample of platform components and supporting 
+infrastructure, obtained and inspected configurations to 
+ascertain that logging of security events was enabled. Also, 
+obtained and inspected an automated alert and associated 
+monitoring. 
+No exceptions 
+noted. 
+VM - 2 
+Administrator activity is 
+logged. 
+• 
+Inquired of management regarding the mechanisms in place 
+for logging administrator activities within Azure DevOps 
+platform. 
+• 
+For a sample of platform components and supporting 
+infrastructure, obtained and inspected configurations to 
+ascertain that logging of administrator activities was enabled. 
+Also, obtained and inspected an automated alert, associated 
+monitoring and corresponding log of administrator activity. 
+No exceptions 
+noted. 
+VM - 3 
+A monitoring system is 
+implemented on production 
+and supporting infrastructure 
+to monitor the service for 
+potential malicious activity and 
+intrusion past service trust 
+boundaries. 
+• 
+Inquired of management regarding the monitoring 
+capabilities within the Azure DevOps environment to detect 
+potential malicious activity and intrusions. 
+No exceptions 
+noted. 
+
+
+--- Page 56 ---
+ 
+52 
+Control 
+Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+• 
+For a sample of platform components and supporting 
+infrastructure, obtained and inspected configurations to 
+ascertain that a monitoring system was in place to detect 
+malicious activities and intrusion. Also, obtained and 
+inspected an automated alert, associated monitoring and 
+corresponding event log. 
+VM - 4 
+Procedures have been 
+established to investigate and 
+respond to the malicious 
+events detected by the 
+monitoring system for timely 
+resolution. 
+• 
+Inquired of management if incidents and malicious events are 
+detected, investigated, and resolved in a timely manner per 
+documented procedures. 
+• 
+Obtained and inspected a sample of incident tickets 
+pertaining to Azure DevOps to ascertain that incidents and 
+malicious event were detected, investigated, and resolved in 
+a timely manner. 
+No exceptions 
+noted. 
+VM - 5 
+Procedures are established to 
+evaluate and implement 
+Microsoft released patches to 
+service components. 
+• 
+Inquired of management to understand the patch 
+management process implemented within the Azure DevOps 
+environment. 
+• 
+For a sample of servers, obtained and inspected upgrade 
+configurations or patch installation logs to ascertain whether 
+patches were implemented per documented procedures. 
+No exceptions 
+noted. 
+VM - 6 
+Procedures are established to 
+monitor production and 
+supporting infrastructure for 
+known security vulnerabilities. 
+Identified security 
+vulnerabilities are remediated. 
+• 
+Inquired of management regarding the procedures in place to 
+monitor the Azure DevOps components and supporting 
+infrastructure for known security vulnerabilities. 
+• 
+For a sample of platform components and supporting 
+infrastructure, obtained and inspected configurations to 
+ascertain that monitoring for known security vulnerabilities 
+was enabled. Further, ascertained that identified security 
+vulnerabilities were monitored for remediation. 
+No exceptions 
+noted. 
+
+
+--- Page 57 ---
+ 
+53 
+Control 
+Title 
+Control Activity 
+Test Procedures 
+Results of Tests 
+VM - 7 
+The availability of the service is 
+monitored through third-party 
+and internal tools, and the 
+status is communicated 
+through a Service Dashboard. 
+• 
+Inquired of management regarding the procedures and tools 
+for monitoring of service availability. 
+• 
+Inspected service dashboards and monitoring tools to ascertain 
+that availability was monitored and status was communicated. 
+No exceptions 
+noted. 
+VM - 9 
+Azure DevOps provides logging 
+mechanisms that can be 
+configured by customers to log 
+activities and metrics. 
+• 
+Inquired of management to understand the logging 
+mechanisms available to customers, and how these logging 
+mechanisms can be leveraged. 
+• 
+Reperformed the control to ascertain that logging 
+mechanisms can be configured by customers to log activities 
+and track metrics. Inspected the logs available on the portal 
+and ascertained that expected entries are being logged. 
+No exceptions 
+noted. 
+ 
+ 
+
+
+--- Page 58 ---
+ 
+54 
+Incident Management 
+Control Objective 7: Controls provide reasonable assurance that production incidents are managed in accordance with documented 
+procedures for timely resolution. 
+Control 
+Title 
+Control Activity 
+Test Procedures 
+Results of 
+Tests 
+IM - 1 
+An incident management 
+framework is established and 
+communicated with defined 
+processes, roles and 
+responsibilities for the 
+detection, escalation and 
+response of incidents. 
+• 
+Inquired of management that information security incidents 
+are managed through designated responsibilities and 
+documented procedures. 
+• 
+Obtained and inspected information security incident 
+management policy documents to ascertain that roles and 
+responsibilities for detection, escalation and notification to 
+specialist groups during a security incident were established 
+and communicated. 
+No exceptions 
+noted. 
+IM - 2 
+Events, thresholds and metrics 
+are defined and configured to 
+detect incidents and alert the 
+associated Service Operations 
+team. 
+• 
+Inquired of management about the events, thresholds and 
+metrics established to detect and facilitate alerts/notifications 
+to incident management teams. 
+• 
+For a sample of incidents, inspected IcM tickets to ascertain 
+that automated notifications were received upon occurrence 
+of the configured events, thresholds and metrics. 
+No exceptions 
+noted. 
+IM - 3 
+The Service Operations team 
+performs monitoring, including 
+documentation, classification, 
+escalation, and coordination of 
+incidents per documented 
+procedures. 
+• 
+Inquired of management about the procedures in place for 
+24x7 monitoring and handling of incidents. 
+• 
+Identified the population of incidents (all severities) within 
+the examination period and obtained and inspected a sample 
+of incident tickets to ascertain that each incident was handled 
+per documented procedures. 
+• 
+Obtained and inspected the monitoring team schedule to 
+ascertain that monitoring was performed 24x7. 
+No exceptions 
+noted. 
+
+
+--- Page 59 ---
+ 
+55 
+Control 
+Title 
+Control Activity 
+Test Procedures 
+Results of 
+Tests 
+IM - 4 
+Incident post-mortem activities 
+are conducted for high severity 
+incidents impacting the service 
+environment. 
+• 
+Inquired of management about the procedures in place for 
+performing incident post-mortem and submitting formal 
+management reports, for customer-impacting, high-severity 
+incidents.  
+• 
+Inspected a sample of incidents to ascertain whether the 
+service environment was impacted and for those that 
+impacted the service environment, a post-mortem was 
+performed and relevant sign-offs were obtained as per 
+documented procedures. 
+No exceptions 
+noted. 
+ 
+ 
+ 
+ 
+
+
+--- Page 60 ---
+ 
+56 
+Logical Access 
+Control Objective 8: Controls provide reasonable assurance that logical access to customer data and systems within Azure DevOps is 
+restricted. 
+Control 
+Title 
+Control Activity 
+Test Procedures 
+Results of 
+Tests 
+LA - 1 
+External access to customer 
+data stored in the service 
+requires authentication. 
+• 
+Inquired of management to understand the authentication 
+methods in place to restrict external access to customer data 
+stored in Azure DevOps. 
+• 
+Reperformed the control to ascertain that authentication was 
+required to access the data stored in the service. 
+No exceptions 
+noted. 
+LA - 2 
+Customer credentials used to 
+access the service meet the 
+applicable password policy 
+requirements. 
+• 
+Inquired of management to understand the password policies 
+established and enforced for customer credentials. 
+• 
+Reperformed the controls to ascertain that customer 
+credentials used to access the service meet the applicable 
+password polices. 
+No exceptions 
+noted. 
+LA - 3 
+Logical segregation is 
+implemented to restrict 
+unauthorized access to other 
+customer tenants. 
+• 
+Inquired of management to understand the controls 
+implemented to enforce logical segregation between 
+customer accounts. 
+• 
+Reperformed the control to ascertain that segregation was 
+enforced between accounts, and customers can access data 
+within the service only upon authorization checks. 
+No exceptions 
+noted. 
+LA - 4 
+Customer data that is 
+confidential is protected while 
+in storage within the service. 
+• 
+Inquired of management to understand the mechanisms 
+implemented to protect customer confidential data. 
+• 
+Inspected mechanisms to ascertain that customer confidential 
+data was protected while in storage. 
+No exceptions 
+noted. 
+
+
+--- Page 61 ---
+ 
+57 
+Control 
+Title 
+Control Activity 
+Test Procedures 
+Results of 
+Tests 
+LA - 5 
+Customer-configured 
+authorization settings can be 
+set to further restrict 
+authentication methods. 
+• 
+Inquired of management to understand various authorization 
+settings that the customer can configure. 
+• 
+Reperformed the control to ascertain that access was 
+restricted based on customer configured authorization 
+settings. 
+No exceptions 
+noted. 
+LA - 6 
+User sessions within the 
+service portal expire after a 
+stipulated period of inactivity. 
+• 
+Inquired of management to understand the mechanisms 
+implemented to enforce session timeout on Azure DevOps 
+portal. 
+• 
+Inspected the session expiry settings in the Azure DevOps 
+portal and reperformed the control to ascertain that sessions 
+were configured to expire after a stipulated period of 
+inactivity. 
+No exceptions 
+noted. 
+ 
+ 
+ 
+
+
+--- Page 62 ---
+ 
+58 
+ 
+ 
+Section 5:  
+Other Information Provided 
+by Management of Microsoft 
+
+
+--- Page 63 ---
+ 
+59 
+Section 5: Other Information Provided by 
+Management of Microsoft 
+The information included in section 5 of this report is presented by Microsoft to provide additional information 
+to user entities and is not part of Microsoft’s description of the system. The information included here in section 
+5 has not been subjected to the procedures applied in the examination of the description of the system related 
+to description of the system, and, accordingly, Deloitte & Touche LLP expresses no opinion on it. 
+User Entity Responsibilities 
+The following list includes user entity responsibilities that Microsoft assumes its customers have implemented, 
+but are not required to meet the control objectives: 
+• 
+Customers are responsible for reporting to Azure DevOps the incidents and alerts that are specific to 
+their Azure DevOps accounts.  
+• 
+Customers utilizing Microsoft Entra ID services are responsible for implementing appropriate 
+authentication mechanisms and limiting administrative access to appropriate individuals to maintain 
+integrity of their Azure DevOps account. 
+• 
+Customers are responsible for establishing appropriate controls over the use of their Microsoft Accounts 
+and passwords.  
+• 
+Customers are responsible for reviewing the access activities associated with their Azure DevOps 
+accounts.  
+• 
+Customers are responsible for appropriate protection of the secrets associated with their accounts.  
+• 
+Customers’ administrators are responsible for the selection and use of their passwords.  
+• 
+Customers are responsible for ensuring that authorized users are added to their accounts.  
+• 
+Customers are responsible to implement logical access controls to provide reasonable assurance that 
+unauthorized access to Azure DevOps projects is restricted.  
+• 
+Customers are responsible to assign unique IDs and secure passwords to users and customers accessing 
+their Azure DevOps account.  
+• 
+Customers are responsible for ensuring the supervision, management and control of access to data 
+stored on Azure DevOps.  
+• 
+Customers are responsible for managing compliance with applicable laws / regulations.  
+• 
+Customers are responsible for following appropriate security practices while using Azure DevOps 
+features. 
+• 
+Customers are responsible for maintaining their own system(s) of record.  
+• 
+Customers are responsible for backup of their data from Azure DevOps to local storage upon Azure 
+DevOps account termination.  
+• 
+Customers are responsible for backup of data prior to account deletion. 
+• 
+Customers are responsible for specifying authorization requirements for their internet-facing messaging 
+end-points.  
+• 
+Customers are responsible for following a Secure Development Lifecycle for their applications developed 
+using Azure DevOps. 

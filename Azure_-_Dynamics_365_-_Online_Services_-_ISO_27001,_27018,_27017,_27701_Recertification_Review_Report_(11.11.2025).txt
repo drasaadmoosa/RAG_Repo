@@ -1,0 +1,2658 @@
+--- Page 1 ---
+ 
+MICROSOFT AZURE, DYNAMICS 365, AND ONLINE SERVICES 
+ 
+ISO/IEC 27001:2022, ISO/IEC 27018:2025, ISO/IEC 27017:2015, AND ISO/IEC 
+27701:2019 RECERTIFICATION REVIEW SUMMARY REPORT  
+ 
+NOVEMBER 11, 2025 
+Assessment and Compliance Services 
+ 
+Proprietary & Confidential 
+Unauthorized use, reproduction, or distribution of this report, in whole or in part, is strictly prohibited. 
+ 
+=e Microsoft
+
+
+--- Page 2 ---
+ 
+ 
+ 
+ 
+STATEMENT OF CONFIDENTIALITY AND DISTRIBUTION LIST 
+ 
+The sole purpose of this document is to provide Microsoft Corporation (Microsoft) with the summary of the ISO/IEC 
+27001:2022 (ISO 27001), ISO/IEC 27018:2025 (ISO 27018), ISO/IEC 27017:2015 (ISO 27017), and ISO/IEC 
+27701:2019 (ISO 27701) Recertification review.  At Microsoft’s discretion, it may distribute this report to its clients.  
+Each recipient of this report agrees that it shall not distribute or use the information contained herein and any other 
+information regarding Microsoft for any purpose other than those stated.  This report, and any other Microsoft related 
+information provided, shall remain the sole property of Microsoft and may not be copied, reproduced, or distributed 
+without the prior written consent of Microsoft. 
+ 
+ 
+ 
+ 
+ 
+APPLICABILITY 
+ 
+This document is supplemental to the ISO 27001, ISO 27018, ISO 27017, and ISO 27701 Recertification review 
+performed by Schellman Compliance, LLC (Schellman), the primary deliverable which is the certificate.  The 
+information found in this report and the conclusions reached were dependent upon the complete and accurate 
+disclosure of information by Microsoft.  The information provided in this report is “AS IS” without warranties of any 
+kind.  Schellman expressly disclaims any warranties of representations including implied warranties and fitness for 
+a particular purpose. 
+ 
+ 
+ 
+ 
+ 
+INDEPENDENCE DISCLOSURE 
+ 
+Schellman assessed the Information Security Management System (ISMS) and Privacy Information Management 
+System (PIMS) for Microsoft.  Schellman does not hold any investment or control over Microsoft.  During the course 
+of the assessment, Schellman did not willfully and unnecessarily market services to achieve conformance to ISO 
+27001, ISO 27018, ISO 27017, or ISO 27701.  No Schellman service was recommended during the course of the 
+engagement.  
+ 
+Schellman also performed the following reviews for Microsoft’s Azure, Dynamics 365, and other Online Services 
+that are deployed in Azure Public and Government Cloud: 
+• 
+ISO/IEC 20000-1:2018 Recertification review 
+• 
+ISO 9001:2015 Recertification review 
+• 
+ISO 22301:2019 Recertification review 
+• 
+Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) Recertification review 
+  
+
+
+--- Page 3 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLE OF 
+CONTENTS 
+ 
+SECTION 1  AUDIT TEAM RECOMMENDATION AND 
+AUDIT RESULTS ......................................... 1 
+SECTION 2  PROJECT OVERVIEW ................................. 4 
+SECTION 3  AUDIT DETAILS ....................................... 12 
+APPENDIX   MICROSOFT AZURE SCOPE 
+STATEMENT ............................................. 15 
+ 
+ 
+ 
+ 
+
+
+--- Page 4 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 1 
+ 
+AUDIT TEAM 
+RECOMMENDATION 
+AND AUDIT RESULTS 
+ 
+ 
+ 
+ 
+ 
+
+
+--- Page 5 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+AUDIT TEAM RECOMMENDATION, AUDIT FINDINGS, AND GENERAL 
+DESIGN AND OPERATING EFFECTIVENESS OF THE ISMS AND PIMS 
+ 
+Summary of Findings and Recommendation, General Design and Operating Effectiveness of the Client 
+ISMS and PIMS 
+ 
+Overall, the ISMS appears to be operating effectively and the client has met the requirements of the ISO 27001 
+standard, in addition to the control requirements included in the ISMS and based on the control sets within ISO 
+27017 and ISO 27018, and the PIMS requirements of ISO 27701 in the role of a personally identifiable information 
+(PII) processor.  There were no nonconformities or opportunities for improvement (OFIs) noted as a result of the 
+2025 recertification review.  It is the audit team’s recommendation to issue the certification for a three-year term 
+reflecting the updated ISMS and PIMS scope based on modifications made since the 2025 scope expansion review. 
+  
+The ISMS and PIMS have adapted and demonstrated maturity over time, with the support of senior leadership, who 
+have provided resources necessary to maintain and implement risk treatment plans and project initiatives designed 
+to improve the risk posture of the organization.  Policies are well-defined, detailed, reviewed and updated regularly, 
+communicated, and understood by users within the organization.  The policies and procedures are designed in 
+accordance with the ISO 27001 standard in addition to the control requirements included in the ISMS based on the 
+control sets within the ISO 27017 and ISO 27018, and the ISO 27701 standard for a PIMS, as a PII processor.   
+ 
+The ISMS and PIMS have demonstrated improvement through ongoing monitoring activities, such as the risk 
+assessments and management reviews, which have identified areas for management to address risk or improve 
+the company’s risk posture via implementation of new security programs and initiatives, the addition of security and 
+compliance personnel to ensure that the ISMS and PIMS operate as intended, and implementation of new security 
+tools and processes designed to manage risk, both manual and automated.  These plans were implemented through 
+the support of planned resources made available by senior leadership, taking into consideration the needs and 
+requirements of interested parties, and driven by external and internal factors such as organizational changes, new 
+business opportunities, updates to regulation and legislation, and newly identified security risks. 
+  
+As part of the assessment, Schellman concluded that the scope of the ISMS and PIMS was appropriate, and the 
+audit objectives of the review were met.  
+ 
+Clause 
+Conclusion 
+Comment 
+Context of the Organization and additional ISO 27701 
+requirements 
+Effective 
+No Comment 
+Leadership 
+Effective 
+No Comment 
+Planning and additional ISO 27701 requirements 
+Effective 
+No Comment 
+Support 
+Effective 
+No Comment 
+Operation 
+Effective 
+No Comment 
+Performance Evaluation 
+Effective 
+No Comment 
+Improvement 
+Effective 
+No Comment 
+Annex A Control Testing and Additional ISO 27017, ISO 
+27018 and 27701 Implementation Guidance 
+Effective 
+No Comment 
+ISO 27017 Extended Control Set for Cloud Services 
+Security 
+Effective 
+No Comment 
+ISO 27018 Extended Control Set for PII Protection 
+Effective 
+No Comment 
+ISO 27701 Annex B Control Testing for PII Processors 
+Effective 
+No Comment 
+ 
+ 
+
+
+--- Page 6 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+3 
+ 
+ 
+ 
+ 
+Performance of the ISMS and PIMS Over the Certification Cycle 
+ 
+Overall, Microsoft continued to demonstrate a sound understanding of its ISMS and PIMS as it continued to meet 
+the requirements of the ISO 27001 standard and ISO 27701 standard, in addition to the control requirements 
+included in the ISMS and based on the control sets within ISO 27017 and ISO 27018.  During the recertification 
+review, an assessment was performed to determine the overall effectiveness of the ISMS and PIMS during the 
+certification lifecycle and no negative trends were identified.  The ISMS and PIMS and control framework are 
+established, have been supported by top management, and are supported by a competent team dedicated to the 
+foundation and maintenance of the management system.  Since the 2025 scope expansion review, Microsoft 
+continued to expand their ISMS and PIMS scope to include additional service offerings and data center locations 
+and did so in continued conformance of the ISO 27001 and ISO 27701 standards and with regard to achieving the 
+objectives of Microsoft’s information security and privacy policy and Microsoft’s maintenance, monitoring, and 
+improvement activities of the ISMS and PIMS.  These changes were noted to have been reviewed and discussed 
+by management, as appropriate, and appropriately included within the organization’s risk assessment and treatment 
+process, internal audit, and supporting ISMS and PIMS policies and procedures. 
+ 
+Microsoft has implemented continual improvement activities since the 2025 scope expansion review based on 
+results from its risk assessments and implementation of risk treatment plans that were based on available or planned 
+resources that took into consideration external and internal factors such as new organizational changes and 
+location-specific regulations.  As part of the recertification review, evidence of improvement was reviewed and 
+accepted by Schellman to close out the three open OFIs.  Additionally, there have been no complaints and Microsoft 
+has properly marketed their certificate, including certification marks, in accordance with the client obligations and 
+marketing guidelines provided to Microsoft and has not improperly used the registered trademark ISO logo or made 
+improper references to ISO.  Lastly, as a part of the ISMS and PIMS, Microsoft has procedures in place to effectively 
+monitor compliance with relevant information security and privacy legislation and regulations. 
+
+
+--- Page 7 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 2 
+ 
+PROJECT OVERVIEW 
+ 
+ 
+ 
+ 
+ 
+
+
+--- Page 8 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+5 
+ 
+ 
+ 
+ 
+ 
+ 
+EXECUTIVE SUMMARY 
+ 
+Introduction 
+ 
+Microsoft (or the “client”) underwent a recertification review in September and October 2025 of their ISO 27001 and 
+ISO 27701 (or the “standards”) certification which was originally issued on November 29, 2011.  The purpose of the 
+recertification review was to assess the ISMS and PIMS in relation to the ISO 27001 and ISO 27701 standards.  
+This report includes the results of the 2025 recertification review mentioned above. 
+ 
+Schellman performed the recertification review to summarily review the documentation and maintenance, 
+monitoring, and operating effectiveness of the ISMS and PIMS in order to achieve multiple objectives.  The 
+recertification review included the following: 
+• 
+the system maintenance elements which include the risk assessment process, internal audit, measurement 
+and monitoring, management review, corrective action, and continual improvement; 
+• 
+communications from external parties as required by the ISMS and PIMS standards ISO 27001 and ISO 
+27701 and other documents required for certification; 
+• 
+changes to the documented system; 
+• 
+areas subject to change; 
+• 
+selected elements of ISO 27001, ISO 27701, ISO 27017, and ISO 27018; 
+• 
+assessment of the management system over the course of the certification lifecycle; and  
+• 
+other selected areas as appropriate. 
+ 
+The scope of the review was limited to the ISMS and PIMS supporting Microsoft Azure, Dynamics 365, and other 
+Online Services that are deployed in Azure Public and Government Cloud including their development, operations, 
+and infrastructure and their associated security, privacy, and compliance and inclusive of the requirements, control 
+set, and control implementation guidance of ISO 27701 for a PIMS as PII data processor, per the statement of 
+applicability version 2025.02, which includes the control sets and control implementation guidance of ISO 27017 
+and ISO 27018.  The scope includes operations at the locations identified in the Appendix. 
+ 
+ 
+Opening Meeting Description 
+ 
+An opening meeting occurred remotely utilizing the Microsoft Teams web conferencing application at approximately 
+11:30 AM PST on Wednesday, September 17, 2025.  The meeting was held to kick-off the recertification review 
+activities.  An agenda was provided as well as a project plan and audit plan for the review.  
+ 
+The opening meeting was held to perform the following: 
+• 
+reconfirm the audit plan, scope, and deliverables for the recertification review; 
+• 
+identify the client points of contact for the objectives and domains; and 
+• 
+discuss the timing expectations of the fieldwork as well as the activities following the fieldwork. 
+ 
+ 
+Audit Review Details 
+ 
+The recertification audit covered the documentation requirements of the ISO 27001, ISO 27701, ISO 27017, and 
+ISO 27018 standards, as well as testing which included evidence of the monitoring, maintenance, and operating 
+effectiveness of the ISMS and PIMS and testing of the applicable control framework. 
+
+
+--- Page 9 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+6 
+ 
+ 
+ 
+ 
+The recertification audit objectives included the following: 
+• 
+Determine the continued conformance of the ISMS and PIMS to ISO 27001 and ISO 27701, specifically 
+with regard to achieving the objectives of Microsoft’s information security and privacy policy and Microsoft’s 
+maintenance, monitoring, and improvement activities of the ISMS and PIMS. 
+• 
+Determine the effectiveness of the procedures and processes for evaluation and review of compliance with 
+relevant information security and privacy legislation and regulations. 
+• 
+Validate the functions at each in-scope location to help ensure the functions performed are relevant to the 
+scope of the management system. 
+• 
+Review of action taken on findings identified during previous audits, as applicable. 
+• 
+Review the performance of the management system over the period of certification, including the review of 
+previous surveillance audits. 
+ 
+The focus of the review enabled Schellman to maintain confidence that Microsoft’s certified ISMS and PIMS 
+continued to fulfill the requirements of ISO 27001 and ISO 27701 between recertification audits.  The ISO 27001 
+and ISO 27701 recertification included an analysis of the following ISMS and PIMS activities, as applicable:   
+• 
+assessment of monitoring, measurement, analysis, and evaluation to ensure that the methods selected 
+produce comparable and reproducible results; 
+• 
+documentation information required per clauses 4 through 10 of ISO 27001 and clause 5 of ISO 27701; 
+• 
+selection of control objectives and controls based on the risk assessment and risk treatment processes; 
+• 
+reviews of the effectiveness of the ISMS and PIMS and measurements of the effectiveness of the 
+information security and privacy controls, reporting, and reviewing against the ISMS and PIMS objectives; 
+• 
+internal audits and management reviews; 
+• 
+management responsibility for the information security and privacy manual; 
+• 
+leadership and support of the ISMS and PIMS; 
+• 
+correspondence between the selected and implemented controls, the statement of applicability, and the 
+results of the risk assessment and risk treatment process, and the ISMS and PIMS policy objectives; 
+• 
+implementation of controls, taking into account the organization’s measurements of effectiveness of 
+controls, to determine whether controls are implemented and effective to achieve the stated objectives;  
+• 
+programs, processes, procedures, records, internal audits, and reviews of the ISMS and PIMS 
+effectiveness to ensure that these are traceable to management decisions and the ISMS and PIMS policy 
+and objectives; 
+• 
+whether the ISMS and PIMS documents information required by ISO 27001 and ISO 27701 and information 
+determined by the organization as being necessary for the effectiveness of the ISMS and PIMS; 
+• 
+a review of action taken on findings identified during previous audits, as applicable; 
+• 
+complaints handling; 
+• 
+progress of planned activities aimed at continual improvement; 
+• 
+continuing operational control; 
+• 
+review of any changes as well as an assessment of the certification lifecycle; 
+• 
+use or marks and/or any reference to certification; and 
+• 
+the performance of the management system over the period of certification, including the review of previous 
+surveillance audits. 
+ 
+During the assessment, all ISMS-related and PIMS-related documentation was available for the audit team to 
+assess the ISMS and PIMS in relation to the audit objectives of this assessment.  In addition, there were no 
+
+
+--- Page 10 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+7 
+ 
+ 
+ 
+ 
+deviations from the audit plan, significant issues impacting the audit, or any unresolved issues at the time of the 
+issuance of the report. 
+ 
+A closing meeting occurred remotely utilizing the Microsoft Teams web conferencing application at approximately 
+1:30 PM PST on Friday, October 31, 2025.  The closing meeting included discussions on the conformity of the 
+client’s ISMS and PIMS in relation to the ISO 27001 and ISO 27701 standards and discussions regarding the 
+recommendation to re-issue the certificate of conformance for another three-year term. 
+ 
+ 
+ 
+ 
+ 
+OVERVIEW OF OPERATIONS 
+ 
+Company Background and Description of Services Provided 
+ 
+Microsoft Azure is a cloud computing platform for building, deploying, and managing applications through a global 
+network of Microsoft and third-party managed datacenters.  It supports both Platform as a Service (PaaS) and 
+Infrastructure as a Service (IaaS) cloud service models and enables hybrid solutions that integrate cloud services 
+with customers’ on-premises resources.  Microsoft Azure supports many customers, partners, and government 
+organizations that span across a broad range of products and services, geographies, and industries.  Microsoft 
+Azure is designed to meet their security, confidentiality, and compliance requirements. 
+  
+Dynamics 365 is an online business application suite that integrates the Customer Relationship Management (CRM) 
+capabilities and its extensions with the Enterprise Resource Planning (ERP) capabilities.  Microsoft Dynamics 365 
+products/offerings and its supporting Datacenters are covered under the Azure, Dynamics 365, and Online Services 
+report. 
+  
+Microsoft datacenters support Microsoft Azure, Dynamics 365, and many other Microsoft Online Services (“Online 
+Services”).  Online Services such as Intune, Power Business Intelligence (BI), and others are Software as a Service 
+(SaaS) services that leverage the underlying Microsoft Azure platform and datacenter infrastructure.  
+  
+For a full description of the scope and services provided, refer to the Appendix. 
+ 
+ 
+ 
+ 
+ 
+ISMS AND PIMS REVIEW 
+ 
+Clause 
+ISMS and PIMS Review 
+Context of the Organization (Clause 4 from ISO 27001 and Clause 5 from ISO 27701) 
+Understanding the 
+Organization and its 
+Context (Clause 4.1) 
+Microsoft has documented its understanding and context of its Azure services in regard to 
+information security and privacy within the information security and privacy manual.  Microsoft 
+has also defined and established its scope as a processor in relation to the services that it 
+provides its customers, the controller.  Additionally, climate change is an issue relative to the 
+scope of the ISMS and PIMS. 
+Understanding the Needs 
+and Expectations of 
+Interested Parties (Clause 
+4.2) 
+Microsoft Azure, Dynamics, and other Online Services considers input from the relevant 
+interested parties to determine the obligations and expectations that Microsoft Azure, 
+Dynamics, and other Online Services needs to meet.  Microsoft Azure, Dynamics, and other 
+Online Services management engages with the relevant interested parties, on a periodic 
+basis, to discuss the requirements and align Microsoft Azure, Dynamics, and other Online 
+Services’ plans. 
+Determining the Scope of 
+the ISMS (Clause 4.3) 
+The scope of the ISMS and PIMS is defined and documented in the IMS scope statement 
+document and most recently updated as of October 14, 2025, with approval date of October 
+30, 2025.  The scope of the ISMS and PIMS is reviewed by the Microsoft Azure compliance 
+manager at least annually or upon significant changes to internal and external interested 
+parties. 
+
+
+--- Page 11 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+8 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+The scope of the ISO/IEC 27001:2022 certification covers the Information Security 
+Management System (ISMS) supporting Microsoft Azure, Dynamics 365, and other Online 
+Services that are deployed in Azure Public and Government Cloud including their 
+development, operations, and infrastructure and their associated security, privacy, and 
+compliance and inclusive of the requirements and control implementation guidance of 
+ISO/IEC 27701:2019 for a privacy information management system (PIMS) as data processor 
+per the statement of applicability, version 2025.02, dated November 11, 2025*.  The scope 
+also includes the control implementation guidance and control sets of ISO 27017 and ISO 
+27018. 
+ 
+The only office facility included within the scope of the ISMS and PIMS is the office facility in 
+Redmond, Washington.  For a listing of in-scope data centers, see the Appendix. 
+ 
+*Note that an updated statement of applicability (version 2025.02) was provided after 
+fieldwork, but prior to reporting, to address minor edits. The audit team compared the 
+statement of applicability provided during fieldwork (version 2025.01, dated April 15, 2025) 
+and the updated version (version 2025.02, dated November 11, 2025), and noted that no 
+material changes were made which would impact fieldwork procedures, applicable controls, 
+or the audit team’s control testing approach. As such, the updated statement of applicability 
+versioning is noted throughout this report. 
+Information Security 
+Management System 
+(Clause 4.4) 
+Microsoft has established an integrated management system (IMS) scope statement which 
+serves as a framework to lead the implementation, maintenance, and continual improvement 
+of the ISMS and PIMS in accordance with the requirements of the standards.  Such activities 
+are demonstrated through its establishment of the IMF, which encompasses a select group of 
+Microsoft’s department heads to integrate information security and privacy considerations into 
+its day-to-day activities, fostering an environment of continual improvement. 
+Leadership (Clauses 5) 
+Leadership and 
+Commitment (Clause 5.1) 
+The Microsoft Azure, Dynamics, and other Online Services leadership team provides 
+governance for Microsoft Azure and is represented by the top management (corporate vice 
+president (VP) and partner directors of the feature teams).  An organizational chart of the 
+team with roles and responsibilities is well defined and included in the IMS scope statement 
+and information security and privacy manual.  Microsoft Azure leadership is committed to lead 
+and strategically align the ISMS and PIMS to meet business goals and objectives. 
+Policy (Clause 5.2) 
+The IMF is responsible for establishing information security and privacy policies that are in 
+alignment with organizational purposes and providing a framework for setting information 
+security and privacy objectives.  The information security policies include commitments: 
+• 
+To satisfy applicable requirements for information security and privacy 
+• 
+To continually improve the ISMS and PIMS 
+ 
+Microsoft’s information security and privacy policies and procedures have been developed in 
+alignment with the standards to meet Microsoft’s compliance obligations.  The information 
+security and privacy policies establish the foundation for IT, security, and privacy 
+stakeholders to help support appropriate and authorized access, usage, and integrity of 
+information.  The ISO 27001 Annex A controls in addition to the control requirements included 
+in the ISMS based on the control sets within the ISO 27017 and ISO 27018, and the PIMS 
+processor requirements of ISO 27701 serve as the Microsoft standard as well as additional 
+industry controls to meet additional regulatory requirements.  Microsoft’s information security 
+and privacy policies are documented, communicated to the Microsoft workforce, and 
+available to interested parties, as appropriate. 
+Organizational Roles, 
+Responsibilities, and 
+Authorities (Clause 5.3) 
+Microsoft top / senior management ensures responsibilities and authorities for roles relevant 
+to information security and privacy are assigned and communicated.  The sponsorship of the 
+ISMS and PIMS is headed by the IMF.  The IMF is the management group that oversees the 
+various components of the ISMS and PIMS and the communication and exchange of 
+information between those components.  The objective of the IMF is to ensure the operating 
+effectiveness and continual improvement of the ISMS and PIMS. 
+ 
+Organizational charts are in place that define the organizational structure, reporting lines, and 
+authorities.  These charts are communicated to employees and updated as needed.  
+
+
+--- Page 12 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+9 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+Relevant roles (e.g., top management, deputy, risk manager, and security, privacy, and 
+quality compliance leads), their descriptions, and assignees are documented within the IMS 
+plan. 
+Planning (Clause 6 from ISO 27001 and Clause 5 from ISO 27701) 
+Actions to Address Risks 
+and Opportunities (Clause 
+6.1) 
+Microsoft’s leadership team created the enterprise risk management (ERM) team to identify 
+and ensure accountability of the company’s most significant risks.  The ERM is structured 
+using a framework based on the COSO (Committee of Sponsoring Organizations of the 
+Treadway Commission) – enterprise risk management integrated framework.  It also aligns 
+with the ISO 31000:2009 risk management standard.  Microsoft’s risk assessment process 
+allows the organization to assess, identify, and modify their overall security posture and to 
+enable security, operations, organizational management, and other personnel to collaborate 
+and view the entire organization from a vulnerability perspective.  The risk assessment 
+process has obtained management’s commitment for the allocation of resources and for the 
+implementation of appropriate security solutions to achieve the intended outcomes of the 
+ISMS and PIMS, including preventing and mitigating undesired consequences, and 
+continually improving. 
+ 
+Microsoft’s process of identifying and assessing risks is a continuous and integrated process, 
+which is integrated into the ongoing management cycles of each service team.  The ERM, 
+working in conjunction with the Azure risk management team, analyzes risk registers 
+throughout the year, which are completed at least semi-annually (April and October updates), 
+or when significant events occur.  Risk treatment activities are monitored on an ongoing basis 
+to ensure risks are addressed and treatment plans are successfully executed. 
+ 
+The risk assessment results are collected and maintained within the risk manager system 
+where they are then used to generate ERM reports. 
+ 
+Additionally, every Microsoft Azure service and component completes a regular privacy 
+review to identify potential privacy risks associated with the processing of PII.  The frequency 
+of privacy reviews is based on risk level and the state of the service.  Further, the Azure 
+Developer Tools and Services DPIA includes details about the service and a baseline review 
+including a description of the processing, categories of data subjects, the data lifecycle, the 
+measures or controls that were implemented to contribute to the rights of PII principals, and 
+identification of privacy risks to individuals. 
+Statement of Applicability 
+(Clause 6.1.3) 
+A statement of applicability, version 2025.02, has been documented and lists the applicable 
+controls from Annex A of ISO 27001 and Annex B of ISO 27701, as well as applicable ISO 
+27017 and ISO 27018 controls that have been selected to mitigate risks as outlined in the risk 
+assessment and risk treatment plan. 
+Information Security 
+Objectives and Planning to 
+Achieve Them (Clause 6.2) 
+Microsoft has established security and privacy objectives at appropriate and relevant 
+functions and levels to provide a platform to improve security, privacy, delivery, corrective 
+action response, and other metrics to achieve desired performance levels for Microsoft cloud 
+products and services.  The plan to satisfy the information security and privacy objectives are 
+referenced in the IMS manual. 
+ 
+Information security and privacy objectives are tracked and monitored closely by responsible 
+departmental teams and reported to the IMF, as necessary.  A summary of current 
+information security and privacy objectives and their performance is also reported and 
+reviewed as part of the monthly security leadership meetings, which includes a review of 
+information security and privacy objective effectiveness and adequacy. 
+Planning of Changes 
+(Clause 6.3) 
+Changes to the ISMS and PIMS are carried out in a planned manner and discussed as a 
+component of various management meetings, such as the semi-annual semester planning 
+meetings, monthly cloud, and artificial intelligence (CAI) leadership meetings, periodic 
+compliance, and privacy reviews, etc. 
+Support (Clause 7) 
+Resources (Clause 7.1) 
+Microsoft management is committed to continual improvement and effectiveness of the ISMS 
+and PIMS.  Periodic reviews are scheduled to allocate appropriate budget to meet operational 
+requirements and implement corresponding action for the risk treatment plans.  Through the 
+
+
+--- Page 13 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+10 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+periodic IMF meetings, management provides guidance, resources, and budget planning to 
+successfully meet the security and privacy objectives. 
+Competence (Clause 7.2) 
+and Awareness (Clause 
+7.3) 
+Microsoft full-time employees (FTEs) and contingent staff are required to undergo the 
+mandatory basic security and privacy awareness training that includes security foundations 
+training and/or role-based training annually to ensure competency for their job function.  The 
+annual security foundations training includes modules related to protecting your identity, 
+protecting your devices, and protecting your data.  Additionally, security awareness 
+campaigns, software for targeting requirements, and information operations and kinetic 
+effects (STRIKE) role-based training is available to FTEs and contingent staff, as necessary.  
+New hires are required to take mandatory training before accessing organizational systems or 
+performing assigned duties.  Suppliers are required to complete the supplier code of conduct 
+training upon hire.  A security education and awareness standard operating procedure (SOP) 
+is in place to provide guidance and direction on the security and awareness training process.  
+For security and compliance training programs that are delivered to groups outside the 
+organization, the organization partners with education solutions like the My Learning system. 
+ 
+Competence and awareness are also accounted for as part of the internal audit process, 
+which defines that internal auditors providing internal audit services to Microsoft are subject to 
+review and approval based on competency requirements set forth by Microsoft. 
+Communication (Clause 
+7.4) 
+Microsoft management is committed to proper communication with the internal and external 
+stakeholders regarding the state of the ISMS and PIMS.  The internal and external 
+stakeholders have been defined and appropriate decisions are made as to who needs to 
+receive what level of detail and when.  A formal communication plan has been established 
+and documented within the Microsoft IMS communication plan.  The IMS communication plan 
+is reviewed at least annually or as needed for appropriateness. 
+Documented Information 
+(Clause 7.5) 
+As noted in the document and record management SOP, Microsoft has defined procedures to 
+ensure the control over creation, approval, distribution, usage, and updates of documents and 
+records used in the ISMS and PIMS.  The SOP is applied to documents and records related 
+to the ISMS and PIMS, regardless of whether the documents and records were created 
+internally or whether they are of external origin.  The policy encompasses documents and 
+records stored in any format (e.g., paper, audio, video, etc.). 
+ 
+Documents are reviewed and approved at least annually or upon significant change.  
+Documents are updated by the control owners / service team subject matter experts (SMEs) 
+and approved by the compliance lead prior to publication.  The change history of the 
+document tracks any changes to the content, including creation date, version number, author, 
+change description, approver, and approval date.  When documents are no longer required, 
+they are disposed of according to secure disposal practices. 
+Operation (Clause 8) 
+Operational Planning and 
+Control, Information 
+Security Risk Assessment, 
+and Information Security 
+Risk Treatment (Clause 8) 
+The most recent information security risk assessment and risk treatment processes took 
+place during Microsoft’s 2025 fiscal year.  The results of the risk assessment and the status 
+of risk treatment plans were reviewed as a component of the semi-annual enterprise risk 
+discussion.  Additionally, as a component of the risk assessment and risk treatment process, 
+it was noted that Microsoft’s statement of applicability contained references to the related 
+risks in the risk register for each in-scope control.   
+Performance Evaluation (Clause 9) 
+Monitoring, Measurement, 
+Analysis, and Evaluation 
+(Clause 9.1) 
+Effectiveness measurement of the ISMS and PIMS is to help ensure continued adequacy, 
+effectiveness, and efficiency of the program.  In addition, Microsoft Azure manages security 
+and privacy KPIs to adequately measure security and privacy performance and effectiveness 
+across the ISMS and PIMS.  Annual, independent entity managed assessments are 
+conducted over the design and operating effectiveness of the control environment, which 
+allow for the monitoring, measurement, analysis, and evaluation of the controls.  Monitoring is 
+embedded in each service area supporting the ISMS and PIMS. 
+ 
+Measurement initiatives were conducted on a regular basis at varied frequencies, depending 
+on the metric being monitored.  Achieved metrics were formally communicated and reviewed 
+as a component of the June 2025 greenlight planning meeting, as well as the April 2025 
+compliance and privacy review meeting.  The compliance and review meeting included a 
+
+
+--- Page 14 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+11 
+ 
+ 
+ 
+ 
+Clause 
+ISMS and PIMS Review 
+review of the various audit and compliance programs, as well as status of the ongoing 
+internal programs. 
+Internal Audit (Clause 9.2) 
+Microsoft Azure management is committed to performing continuous independent reviews 
+and assessments of its ISMS, PIMS, and control environment to ensure design and operating 
+effectiveness of the controls is assessed and validated on periodic basis.  Microsoft 
+undergoes several independent internal / external entities managed assessments.  The 
+compliance team coordinates and facilitates the independent attestations and reviews.  
+ 
+The most recent internal audit of the IMS was performed by an independent third party.  The 
+internal audit report was dated June 2025, and covers the conformance of the ISMS and 
+PIMS to the requirements of the following ISO standards: ISO 27001, ISO 27017, ISO 27018, 
+and ISO 27701.  The internal audit report included an overall conclusion, audit objectives, 
+scope, audit criteria (inclusive of frequency and methods), assessment of areas reviewed, as 
+well as detailed audit results to support the audit conclusion.  The internal audit report was 
+provided to management in June 2025. 
+ 
+Note that informal internal audits occur as needed when onboarding new services and 
+offerings as well as when performing unique assessments on modifications to the 
+management system (i.e., update to the 2025 version of ISO 27018). 
+Management Review 
+(Clause 9.3) 
+Periodic management reviews of the ISMS and PIMS are performed, ensuring continuing 
+suitability, adequacy, and effectiveness of the management systems.  The IMF’s role is to 
+provide management oversight and guidance on the business operations and effectiveness of 
+the ISMS and PIMS via periodic meetings. 
+ 
+The most recent monthly CAI leadership review meeting was held on September 23, 2025.  
+Minutes were taken during the meeting and maintained as records.  The minutes included the 
+agenda items, the associated action items, and future management review meeting topics to 
+be discussed. 
+Improvement (Clause 10) 
+Continual Improvement 
+(Clause 10.1) and 
+Nonconformity and 
+Corrective Action (Clause 
+10.2) 
+Continuous improvement is inherent in the supporting processes and activities of Microsoft’s 
+ISMS and PIMS.  Continuous improvement was supported through the most recent risk 
+assessment, review of information security and privacy objectives, results from the most 
+recent internal audit, and outputs from the monthly security leadership meetings.  
+ 
+Microsoft management takes corrective action, as necessary, to eliminate the cause of 
+nonconformities within the scope of the ISMS and PIMS.  Procedures are followed when 
+taking corrective action and actions are recorded in the Microsoft Azure exception trackers.  
+Depending on the nature and severity of the nonconformity, the records of corrective actions 
+are reviewed by management during Microsoft Azure risk management forum. 
+ 
+ 
+
+
+--- Page 15 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 3 
+ 
+AUDIT DETAILS 
+ 
+ 
+
+
+--- Page 16 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+13 
+ 
+ 
+ 
+ 
+ 
+ 
+CERTIFICATION CYCLE PROGRAM  
+ 
+Year 
+Type of 
+Review 
+Processes to be Assessed 
+Dates 
+Locations to be 
+Assessed 
+2023 
+Recertification 
+• 
+ISMS framework (clauses 4-10) 
+• 
+Annex A (A5-A18 / 5-8): 
+o 
+Annex A additional ISO 27017, ISO 27018, 
+and ISO 27701 implementation guidance 
+o 
+Site-specific Annex A controls for locations 
+to be assessed 
+o 
+Transition to ISO 27001:2022 
+• 
+PIMS framework (Clause 5) 
+• 
+ISO 27017 extended control set for cloud 
+services security 
+• 
+ISO 27018 extended control set for PII 
+protection (A02-A12) 
+• 
+ISO 27701 Annex B Control Testing for PII 
+Processors (B.8.2-B.8.5) 
+March – 
+April 2023 
+Redmond, WA 
+Sample of Data 
+Centers 
+2023 
+Scope 
+Expansion  
+• 
+ISMS framework (clauses 4-10) 
+• 
+Annex A (5-8) sampled control objectives, 
+including Annex A additional ISO 27017, 27018, 
+and ISO 27701 implementation guidance 
+• 
+PIMS framework (Clause 5 and 8) 
+• 
+Sampled ISO 27017 and ISO 27018 Extended 
+Control Sets  
+• 
+ISO 27701 Annex B Control Testing for PII 
+Processors (B.8.2-B.8.5) 
+October – 
+November 
+2023 
+Redmond, WA 
+2024 
+Surveillance 
+• 
+ISMS framework (clauses 4-10) 
+• 
+Annex A (5-8) sampled control objectives, 
+including Annex A additional ISO 27017, 27018, 
+and ISO 27701 implementation guidance 
+• 
+PIMS framework (Clause 5 and 8) 
+• 
+Sampled ISO 27017 Extended Control Set for 
+Cloud Services Security  
+• 
+Sampled ISO 27018 extended control set for PII 
+protection  
+• 
+ISO 27701 sampled Annex B Control Testing for 
+PII Processors  
+February – 
+March 2024 
+Redmond, WA 
+Sample of Data 
+Centers 
+2024 
+Scope 
+Expansion  
+• 
+ISMS framework (clauses 4-10) 
+• 
+Annex A (5-8) sampled control objectives, 
+including Annex A additional ISO 27017, 27018, 
+and ISO 27701 implementation guidance 
+• 
+PIMS framework (Clause 5 and 8) 
+• 
+Sampled ISO 27017 and ISO 27018 Extended 
+Control Sets  
+• 
+ISO 27701 Annex B Control Testing for PII 
+Processors (B.8.2-B.8.5) 
+October 
+2024 
+Redmond, WA 
+
+
+--- Page 17 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+14 
+ 
+ 
+ 
+ 
+Year 
+Type of 
+Review 
+Processes to be Assessed 
+Dates 
+Locations to be 
+Assessed 
+2025 
+Scope 
+Expansion 
+• 
+ISMS framework (clauses 4-10) 
+• 
+Annex A (5-8) sampled control objectives, 
+including Annex A additional ISO 27017, 27018, 
+and ISO 27701 implementation guidance 
+• 
+PIMS framework (Clause 5 and 8) 
+• 
+Sampled ISO 27017 and ISO 27018 Extended 
+Control Sets  
+• 
+ISO 27701 Annex B Control Testing for PII 
+Processors (B.8.2-B.8.5) 
+March – 
+May 2025 
+Redmond, WA 
+2025 
+Recertification 
+• 
+ISMS framework (clauses 4-10) 
+• 
+Annex A (A5-A8): 
+o 
+Annex A additional ISO 27017, ISO 27018, 
+and ISO 27701 implementation guidance 
+o 
+Site-specific Annex A controls for locations 
+to be assessed 
+• 
+PIMS framework (Clause 5) 
+• 
+ISO 27017 extended control set for cloud 
+services security 
+• 
+ISO 27018 extended control set for PII 
+protection  
+• 
+ISO 27701 Annex B Control Testing for PII 
+Processors (B.8.2-B.8.5) 
+September 
+– October 
+2025 
+Redmond, WA, 
+and Sample of 
+Data Centers 
+ 
+ 
+
+
+--- Page 18 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX 
+ 
+MICROSOFT AZURE 
+SCOPE STATEMENT 
+ 
+ 
+
+
+--- Page 19 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+16 
+ 
+ 
+ 
+ 
+ 
+ 
+MICROSOFT AZURE SCOPE STATEMENT 
+ 
+Scope of the IMS 
+ 
+The scope of the IMS (which includes the ISMS, PIMS, SMS, BCMS, and QMS) comprises the development, 
+operations and infrastructure teams for Azure and Azure based services deployed in Public and Government Cloud, 
+collectively referred as Microsoft: Azure, Dynamics, and other Online Services in accordance with its IMS Statement 
+of Applicability. 
+ 
+Microsoft: Azure, Dynamics, and other Online Services IMS applies to information resources, processes, and 
+personnel within the Microsoft: Azure, Dynamics, and other Online Services Group.  Information Resources include 
+any Microsoft: Azure, Dynamics, and other Online Services owned or managed systems, applications, and network 
+elements, and any information processed by, or used to provide Microsoft services. 
+ 
+ 
+Azure Cloud-based Services Inclusions 
+ 
+The IMS scope includes selective Microsoft: Azure, Dynamics, and other Online Services noted below that are 
+deployed in Azure Public and Government Cloud including their development and operations, infrastructure and 
+their associated security, privacy, and compliance: 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+AI + Machine 
+Learning 
+Azure Bot Service 
+✓ 
+✓ 
+Microsoft Foundry 
+✓ 
+✓ 
+Microsoft Foundry: Foundry Models 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Anomaly Detector 
+✓ 
+- 
+Microsoft Foundry: Azure Document Intelligence 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Metrics Advisor 
+✓ 
+- 
+Microsoft Foundry: Azure Vision 
+✓ 
+✓ 
+Microsoft Foundry: Content Safety 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Content Moderator 
+✓ 
+✓ 
+Microsoft Foundry: Azure Custom Vision 
+✓ 
+✓ 
+Microsoft Foundry: Azure Vision - Face 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Immersive Reader 
+✓ 
+- 
+Microsoft Foundry: Azure AI Personalizer 
+✓ 
+✓ 
+Microsoft Foundry: Azure Language 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI Language Understanding 
+✓ 
+✓ 
+Microsoft Foundry: Azure Translator 
+✓ 
+✓ 
+Microsoft Foundry: Azure AI QnA Maker 
+✓ 
+✓ 
+Microsoft Foundry: Azure Speech 
+✓ 
+✓ 
+
+
+--- Page 20 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+17 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+AI + Machine 
+Learning 
+Microsoft Foundry: Azure Machine Learning 
+✓ 
+✓ 
+Microsoft Foundry: Foundry Agent Service 
+✓ 
+- 
+Azure AI Search 
+✓ 
+✓ 
+AI Builder 
+✓ 
+✓ 
+Microsoft Security Copilot 
+✓ 
+- 
+Microsoft Copilot for Sales 
+✓ 
+- 
+Microsoft Copilot for Service 
+✓ 
+- 
+Azure Health Bot 
+✓ 
+- 
+Azure Health AI Deidentification Service 
+✓ 
+- 
+Copilot for Finance 
+✓ 
+- 
+Microsoft Dragon Copilot 
+✓ 
+- 
+Analytics 
+Azure Analysis Services 
+✓ 
+✓ 
+Azure Chaos Studio 
+✓ 
+- 
+Azure Data Explorer 
+✓ 
+✓ 
+Azure Data Factory 
+✓ 
+✓ 
+Azure HDInsight 
+✓ 
+✓ 
+Azure Operator Service Manager 
+✓ 
+- 
+Azure Stream Analytics 
+✓ 
+✓ 
+Azure Data Share 
+✓ 
+✓ 
+Microsoft Fabric 
+✓ 
+- 
+Healthcare Data Solutions in Microsoft Fabric 
+✓ 
+- 
+Power BI Embedded 
+✓ 
+✓ 
+Azure Usage Billing 
+✓ 
+- 
+Compute 
+Cloud Services (Extended Support) 
+✓ 
+✓ 
+Service Fabric 
+✓ 
+✓ 
+Virtual Machine Scale Sets 
+✓ 
+✓ 
+Virtual Machines 
+✓ 
+✓ 
+Virtual Machines Licenses 
+✓ 
+- 
+Virtual Machines Bav2 Series 
+✓ 
+✓ 
+Virtual Machines Bv2 Series 
+✓ 
+✓ 
+
+
+--- Page 21 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+18 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Compute 
+SQL Server on Azure Virtual Machines 
+✓ 
+✓ 
+Virtual Machine Extensions 
+✓ 
+✓ 
+Batch 
+✓ 
+✓ 
+Azure Functions 
+✓ 
+✓ 
+App Service 
+✓ 
+✓ 
+App Service (Web Apps) 
+✓ 
+✓ 
+App Service Static Web Apps 
+✓ 
+✓ 
+Service Connector 
+✓ 
+- 
+Azure AutoManage Machine Configuration 
+✓ 
+✓ 
+Azure VMware Solution 
+✓ 
+✓ 
+Planned Maintenance 
+✓ 
+✓ 
+Azure Arc enabled Servers 
+✓ 
+✓ 
+Azure VM Image Builder 
+✓ 
+✓ 
+Azure Virtual Desktop 
+✓ 
+✓ 
+Azure Spring Apps 
+✓ 
+- 
+Azure Center for SAP Solutions 
+✓ 
+- 
+Azure Compute Fleet 
+✓ 
+- 
+Azure Large Instances 
+✓ 
+- 
+Azure Large Instance for Epic v1.1 
+✓ 
+- 
+Azure Service Manager (RDFE) 
+✓ 
+✓ 
+Standby Pool 
+✓ 
+- 
+Containers 
+Azure Kubernetes Service (AKS) 
+✓ 
+✓ 
+Azure Arc enabled Kubernetes 
+✓ 
+✓ 
+Azure Kubernetes Configuration Management 
+✓ 
+✓ 
+Azure Red Hat OpenShift (ARO) 
+✓ 
+✓ 
+Container Instances 
+✓ 
+✓ 
+Azure Container Registry 
+✓ 
+✓ 
+Azure Container Apps 
+✓ 
+✓ 
+Microsoft Container Registry 
+✓ 
+- 
+Azure Kubernetes Fleet Manager 
+✓ 
+✓ 
+
+
+--- Page 22 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+19 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Databases 
+Azure Arc enabled SQL Server 
+✓ 
+- 
+SQL Managed Instance enabled by Azure Arc 
+✓ 
+- 
+Azure Cosmos DB (and Azure DocumentDB) 
+✓ 
+✓ 
+Azure SQL Database 
+✓ 
+✓ 
+Azure Database for MariaDB 
+✓ 
+✓ 
+Azure Database for MySQL 
+✓ 
+✓ 
+Azure Database for PostgreSQL 
+✓ 
+✓ 
+Azure Database Migration Service 
+✓ 
+✓ 
+Azure Cache for Redis 
+✓ 
+✓ 
+Azure Synapse Analytics 
+✓ 
+✓ 
+Azure SQL Database Edge 
+✓ 
+- 
+Azure Managed Instance for Apache Cassandra 
+✓ 
+- 
+Microsoft Connected Cache for ISP 
+✓ 
+- 
+Oracle Database@Azure** 
+✓ 
+- 
+Azure SQL Managed Instance 
+✓ 
+✓ 
+DevOps 
+Managed DevOps Pools 
+✓ 
+- 
+Azure Monitor Grafana 
+✓ 
+- 
+Playwright 
+✓ 
+- 
+Developer Tools 
+Azure DevTest Labs 
+✓ 
+✓ 
+Azure Lab Services 
+✓ 
+✓ 
+Azure for Education 
+✓ 
+- 
+Azure App Configuration 
+✓ 
+✓ 
+Azure Load Testing 
+✓ 
+✓ 
+Azure Deployment Environments 
+✓ 
+- 
+Microsoft Dev Box 
+✓ 
+- 
+Learn Platform API 
+✓ 
+- 
+Trusted Signing 
+✓ 
+- 
+Hybrid + 
+Multicloud 
+Azure Arc enabled System Center Virtual Machine 
+Manager 
+✓ 
+- 
+Azure Arc enabled VMware vSphere 
+✓ 
+- 
+Azure Arc enabled VMware Solution 
+✓ 
+- 
+Azure Local 
+✓ 
+✓ 
+
+
+--- Page 23 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+20 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Hybrid + 
+Multicloud 
+Workload orchestration 
+✓ 
+- 
+Firmware Analysis 
+✓ 
+- 
+Azure Stack* 
+✓ 
+✓ 
+Nutanix on Azure*** 
+✓ 
+- 
+Identity 
+Azure Information Protection 
+✓ 
+✓ 
+Microsoft Entra ID 
+✓ 
+✓ 
+Microsoft Entra ID Governance 
+✓ 
+- 
+Microsoft Global Secure Access 
+✓ 
+- 
+Azure Active Directory B2C 
+✓ 
+✓ 
+Privileged Identity Management 
+✓ 
+- 
+Microsoft Entra Domain Services 
+✓ 
+✓ 
+Integration 
+Logic Apps 
+✓ 
+✓ 
+API Management 
+✓ 
+✓ 
+Azure API Center 
+✓ 
+- 
+Service Bus 
+✓ 
+✓ 
+Azure Health Data Services 
+✓ 
+✓ 
+Azure Data Manager for Energy 
+✓ 
+- 
+Relay 
+✓ 
+- 
+Internet of 
+Things 
+Event Hubs 
+✓ 
+✓ 
+Event Grid 
+✓ 
+✓ 
+Azure IoT Central 
+✓ 
+- 
+Azure IoT Hub 
+✓ 
+✓ 
+Azure IoT Operations 
+✓ 
+- 
+Notification Hubs 
+✓ 
+✓ 
+Azure Sphere 
+✓ 
+- 
+Azure Defender for IoT 
+✓ 
+✓ 
+Azure Device Registry 
+✓ 
+- 
+Azure Digital Twins 
+✓ 
+- 
+Device Update for IoT Hub 
+✓ 
+- 
+
+
+--- Page 24 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+21 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Management 
+and 
+Governance 
+Application Change Analysis 
+✓ 
+- 
+Azure Resource Manager 
+✓ 
+✓ 
+Automation 
+✓ 
+✓ 
+Azure Advisor 
+✓ 
+✓ 
+Azure Lighthouse 
+✓ 
+✓ 
+Azure Managed Applications 
+✓ 
+✓ 
+Azure Migrate 
+✓ 
+✓ 
+Azure Monitor 
+✓ 
+✓ 
+Azure Monitor for SAP solutions 
+✓ 
+- 
+Azure Policy 
+✓ 
+✓ 
+Azure Resource Graph 
+✓ 
+✓ 
+Cloud Shell 
+✓ 
+✓ 
+Microsoft Azure Portal 
+✓ 
+✓ 
+Defender External Attack Surface Management (EASM) 
+✓ 
+- 
+Azure Blueprints 
+✓ 
+- 
+Cost Management 
+✓ 
+✓ 
+Azure Signup Portal 
+✓ 
+✓ 
+Resource Move 
+✓ 
+✓ 
+Quota+ Usage Blade 
+✓ 
+✓ 
+Quota Management 
+✓ 
+✓ 
+Microsoft Purview 
+✓ 
+✓ 
+Azure Update Manager 
+✓ 
+✓ 
+Azure Help 
+✓ 
+- 
+Azure Business Continuity Center 
+✓ 
+- 
+SaaS API 
+✓ 
+- 
+Publisher Verification Service and Application Consent 
+Service 
+✓ 
+- 
+Azure Managed Grafana 
+✓ 
+✓ 
+Mixed Reality 
+Azure Remote Rendering 
+✓ 
+- 
+Networking 
+Application Gateway 
+✓ 
+✓ 
+Azure Load Balancer 
+✓ 
+✓ 
+Microsoft Azure Peering Service 
+✓ 
+✓ 
+
+
+--- Page 25 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+22 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Networking 
+Azure ExpressRoute 
+✓ 
+✓ 
+Virtual Network 
+✓ 
+✓ 
+VPN Gateway 
+✓ 
+✓ 
+Azure Bastion 
+✓ 
+✓ 
+Azure DDoS Protection 
+✓ 
+✓ 
+Azure DNS 
+✓ 
+✓ 
+Azure Firewall 
+✓ 
+✓ 
+Azure Firewall Manager 
+✓ 
+✓ 
+Azure Front Door 
+✓ 
+✓ 
+Azure Internet Analyzer 
+✓ 
+- 
+Azure Private Link 
+✓ 
+✓ 
+Azure Private MEC 
+✓ 
+- 
+Azure Web Application Firewall 
+✓ 
+✓ 
+Content Delivery Network 
+✓ 
+✓ 
+Network Watcher 
+✓ 
+✓ 
+Network security perimeter 
+✓ 
+- 
+Traffic Manager 
+✓ 
+✓ 
+Virtual WAN 
+✓ 
+✓ 
+IP Services 
+✓ 
+✓ 
+Virtual Network NAT 
+✓ 
+✓ 
+Azure Communications Gateway 
+✓ 
+- 
+Azure Operator Nexus 
+✓ 
+- 
+Nexus Network Fabric 
+✓ 
+- 
+AFOI-Network Cloud 
+✓ 
+- 
+Azure Orbital Ground Station 
+✓ 
+- 
+Azure Route Server 
+✓ 
+✓ 
+Azure Virtual Network Manager 
+✓ 
+✓ 
+Azure Traffic Collector 
+✓ 
+- 
+Azure Network Function Manager 
+✓ 
+✓ 
+Security 
+Key Vault 
+✓ 
+✓ 
+Azure Payment HSM 
+✓ 
+- 
+
+
+--- Page 26 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+23 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Security 
+Azure Cloud HSM 
+✓ 
+✓ 
+Multi-Factor Authentication 
+✓ 
+✓ 
+Azure Dedicated HSM 
+✓ 
+✓ 
+Customer Lockbox for Microsoft Azure 
+✓ 
+✓ 
+Central Fraud and Abuse Risk Platform 
+✓ 
+- 
+Exposure Management 
+✓ 
+- 
+Microsoft Sentinel 
+✓ 
+✓ 
+Microsoft Sentinel Graph (MSG) 
+✓ 
+- 
+Microsoft Defender for Cloud 
+✓ 
+✓ 
+Microsoft Azure Attestation 
+✓ 
+- 
+Azure Confidential Ledger 
+✓ 
+- 
+Trusted Hardware Identity Management 
+✓ 
+- 
+Storage 
+Storage (Blobs (including Azure Data Lake Storage Gen 2), 
+Disks, Files, Queues, Tables, Azure Disk Storage, Archive) 
+including Cool and Premium 
+✓ 
+✓ 
+Azure Storage Mover 
+✓ 
+- 
+Azure Storage Actions 
+✓ 
+- 
+Azure Data Box 
+✓ 
+✓ 
+Azure Data Transfer 
+✓ 
+- 
+Azure HPC Cache 
+✓ 
+✓ 
+Azure Site Recovery 
+✓ 
+✓ 
+Azure Backup 
+✓ 
+✓ 
+Azure File Sync 
+✓ 
+✓ 
+Azure NetApp Files 
+✓ 
+✓ 
+Azure Files 
+✓ 
+✓ 
+Azure Elastic SAN 
+✓ 
+- 
+Azure Managed Lustre 
+✓ 
+✓ 
+Web 
+Azure Maps 
+✓ 
+✓ 
+Azure SignalR Service 
+✓ 
+✓ 
+Azure Web PubSub 
+✓ 
+✓ 
+Azure Fluid Relay 
+✓ 
+✓ 
+
+
+--- Page 27 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+24 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Microsoft Online Services 
+Commercial Marketplace Public Storefront 
+✓ 
+- 
+Intelligent Recommendations 
+✓ 
+- 
+Microsoft Copilot Studio 
+✓ 
+✓ 
+Microsoft Intune 
+✓ 
+✓ 
+Microsoft Defender for Cloud Apps 
+✓ 
+✓ 
+Microsoft Defender Threat Intelligence 
+✓ 
+- 
+Microsoft Graph 
+✓ 
+✓ 
+Microsoft Managed Desktop 
+✓ 
+- 
+Power Apps 
+✓ 
+✓ 
+Power Automate 
+✓ 
+✓ 
+Power BI 
+✓ 
+✓ 
+Microsoft Threat Experts 
+✓ 
+- 
+Microsoft 365 Defender 
+✓ 
+✓ 
+Microsoft Defender for Endpoint 
+✓ 
+✓ 
+Microsoft Defender for Identity 
+✓ 
+✓ 
+Microsoft Defender Vulnerability Management 
+✓ 
+✓ 
+Microsoft Defender Experts for XDR 
+✓ 
+- 
+Microsoft Defender Experts for Hunting 
+✓ 
+- 
+Universal Print 
+✓ 
+- 
+Update Compliance 
+✓ 
+- 
+Azure Managed Experience 
+✓ 
+- 
+Windows Autopatch 
+✓ 
+- 
+Seeing AI 
+✓ 
+- 
+Microsoft Sustainability Manager 
+✓ 
+- 
+Sustainability Data Services 
+✓ 
+- 
+Community Training 
+✓ 
+- 
+Nuance Conversational IVR 
+✓ 
+✓ 
+Microsoft Bot Framework 
+✓ 
+- 
+Microsoft Secure Score 
+✓ 
+✓ 
+Microsoft Dynamics 365 
+Dynamics 365 Contact Center 
+✓ 
+✓ 
+
+
+--- Page 28 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+25 
+ 
+ 
+ 
+ 
+Product 
+Category 
+Service/Offering Name 
+Cloud Environment Scope 
+Azure 
+Azure 
+Government 
+Dynamics 365 Customer Service 
+✓ 
+✓ 
+Dynamics 365 Customer Voice 
+✓ 
+✓ 
+Dynamics 365 Field Service 
+✓ 
+✓ 
+Dynamics 365 Sales 
+✓ 
+✓ 
+Dynamics 365 Sales Insights 
+✓ 
+- 
+Dynamics 365 Customer Insights 
+✓ 
+✓ 
+Dynamics 365 Business Central 
+✓ 
+- 
+Dynamics 365 Human Resources (Operations) 
+✓ 
+- 
+Dynamics 365 Finance 
+✓ 
+✓ 
+Dynamics 365 Fraud Protection 
+✓ 
+- 
+Dynamics 365 Resource Scheduling Optimization 
+✓ 
+✓ 
+Dynamics 365 Marketing 
+✓ 
+- 
+Power Pages 
+✓ 
+✓ 
+Dynamics 365 Project Operations 
+✓ 
+- 
+Dynamics 365 Supply Chain Management 
+✓ 
+✓ 
+Dynamics 365 Commerce 
+✓ 
+- 
+Dynamics 365 Intelligent Order Management 
+✓ 
+- 
+Chat for Dynamics 365 
+✓ 
+✓ 
+Dynamics 365 Athena - CDS to Azure Data Lake 
+✓ 
+✓ 
+Dynamics 365 Guides 
+✓ 
+- 
+Dynamics 365 Remote Assist 
+✓ 
+✓ 
+Dataverse 
+✓ 
+✓ 
+Infrastructure Services 
+Supporting Infrastructure and Platform Services 
+✓ 
+✓ 
+ 
+Legend 
+* 
+Includes the Azure Stack Bridge service which provides hybrid capabilities between on-premises Azure Stack 
+deployments and the online Azure cloud; however, customers are responsible for managing the security of on-
+premises components. 
+** Azure manages physical security and the Azure platform (Portal, Resource Provider control plane, Identity and 
+Network connectivity) of the Oracle Database@Azure.  Oracle Cloud Infrastructure manages the other portions, 
+which include the OCI hardware and control plane. 
+*** Azure manages physical security and the Azure platform (Portal, Resource Provider control plane, Identity and 
+Network connectivity) of the Nutanix on Azure offering.  Nutanix Cloud Platform manages the other portions, 
+which include the Nutanix Cloud Portal and Nutanix Cloud Infrastructure Software. 
+ 
+
+
+--- Page 29 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+26 
+ 
+ 
+ 
+ 
+Physical Environment 
+ 
+Microsoft: Azure, Dynamics, and other Online Services are hosted in datacenters located throughout the world, 
+which are managed by Azure’s Physical Infrastructure team.  The Physical Infrastructure team provides the physical 
+and logical infrastructure for Microsoft’s cloud and hosted applications.  The Physical Infrastructure team serves as 
+the underlying platform that supports Microsoft’s software plus service strategy.  The physical infrastructure includes 
+the datacenter facilities, as well as the hardware and software components that support the services and networks.  
+At Microsoft, the logical infrastructure consists of operating system instances, routed networks, and unstructured 
+data storage, whether running on virtual or physical assets.  Platform services include compute runtimes, identity, 
+and directory stores (such as Active Directory® and Microsoft account), and other advanced functions consumed 
+by Microsoft properties. 
+ 
+Locations in-scope of the IMS 
+Azure production infrastructure is located in globally distributed datacenters.  These datacenters deliver the core 
+physical infrastructure that includes physical hardware asset management, security, data protection, networking 
+services.  These datacenters are managed, monitored, and operated by Microsoft operations staff delivering online 
+services with 24x7 continuity.  The purpose-built facilities are part of a network of datacenters that provide mission 
+critical services to Azure and other Online Services.  The datacenters within scope of the IMS are as follows: 
+ 
+Main Location of the IMS 
+Redmond, Washington 
+One Microsoft Way 
+Redmond, Washington 98052 
+United States 
+ 
+Microsoft Azure Domestic Datacenters 
+West US 
+Santa Clara, CA 
+San Jose, CA 
+West US 2 
+Columbia, WA  
+Quincy, WA 
+Wenatchee, WA 
+West US 3 
+Phoenix, AZ 
+West Central US 
+Cheyenne, WY 
+Central US 
+Des Moines, IA 
+North Central US 
+Chicago, IL 
+South Central US 
+San Antonio, TX 
+East US 
+Sterling, VA 
+Ashburn, VA 
+Manassas, VA 
+Dulles, VA 
+East US 2 
+Boydton, VA 
+Lawrenceville, GA 
+Mecklenburg, NC 
+US GOV Iowa 
+Des Moines, IA 
+US GOV Arizona 
+Phoenix, AZ 
+US GOV Texas 
+San Antonio, TX 
+
+
+--- Page 30 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+27 
+ 
+ 
+ 
+ 
+Microsoft Azure Domestic Datacenters 
+US GOV Virginia 
+Boydton, VA 
+Mecklenburg, NC 
+US GOV Wyoming 
+Cheyenne, WY 
+ 
+Microsoft Azure International Datacenters 
+Canada East 
+Quebec, Canada 
+Canada Central 
+Toronto, Canada 
+Brazil South 
+Campinas, Brazil 
+Brazil Southeast 
+Rio de Janeiro, Brazil 
+West Europe 
+Amsterdam, Netherlands 
+North Europe 
+Dublin, Ireland 
+UK South 
+London, United Kingdom 
+UK West 
+Cardiff, United Kingdom 
+France Central 
+Paris, France 
+France South 
+Marseille, France 
+Germany North 
+Berlin, Germany 
+Germany West Central 
+Frankfurt, Germany 
+Sweden Central 
+Gavleborg, Sweden 
+Sweden South 
+Malmo, Sweden 
+Switzerland West 
+Geneva, Switzerland 
+Switzerland North 
+Zurich, Switzerland 
+Norway East 
+Oslo, Norway 
+Norway West 
+Stavanger, Norway 
+Poland Central 
+Warsaw, Poland 
+Italy North 
+Milan, Italy 
+Mexico Central 
+Queretaro, Mexico 
+East Asia 
+Hong Kong 
+Southeast Asia 
+Singapore 
+Indonesia Central 
+Jakarta, Indonesia 
+Malaysia West 
+Kuala Lumpur, Malaysia 
+West India 
+Mumbai, India 
+Central India 
+Pune, India 
+South India 
+Chennai, India 
+Jio India Central 
+Nagpur, India 
+Jio India West 
+Jamnagar, India 
+Japan West 
+Osaka, Japan 
+Japan East 
+Tokyo, Japan 
+
+
+--- Page 31 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+28 
+ 
+ 
+ 
+ 
+Microsoft Azure International Datacenters 
+Korea South 
+Busan, South Korea 
+Korea Central 
+Seoul, South Korea 
+UAE Central 
+Abu Dhabi 
+UAE North 
+Dubai 
+Australia East 
+Sydney, Australia 
+Australia Southeast 
+Melbourne, Australia 
+Australia Central 
+Canberra, Australia 
+Australia Central 2 
+Canberra, Australia 
+South Africa North 
+Johannesburg, South Africa 
+South Africa West 
+Cape Town, South Africa 
+Qatar Central 
+Doha, Qatar 
+Israel Central 
+Tel Aviv-Yafo, Israel 
+Spain Central 
+Madrid, Spain 
+New Zealand North 
+Auckland, New Zealand 
+Chile Central 
+Santiago, Chile 
+Austria East 
+Vienna, Austria 
+Taiwan North 
+Taipei, Taiwan 
+Taiwan Northwest 
+Taipei, Taiwan 
+ 
+Microsoft Online Services Datacenters 
+APAC Southeast Asia 2 
+Kuala Lumpur, Malaysia 
+Malaysia South 
+Johor Bahru, Malaysia 
+Korea South 2 
+Busan, South Korea 
+North Europe 2 
+Helsinki, Finland 
+China North 10 
+Beijing, China 
+ 
+Edge Sites 
+Athens, Greece 
+Manila, Philippines 
+Auckland, New Zealand 
+Memphis, TN 
+Bangkok, Thailand 
+Miami, FL 
+Barcelona, Spain 
+Milan, Italy 
+Barueri, Brazil 
+Minneapolis, MN 
+Berlin, Germany 
+Montreal, Canada 
+Bogota, Colombia 
+Mumbai, India 
+Brisbane, Australia 
+Munich, Germany 
+Brussels, Belgium 
+Nairobi, Kenya 
+Bucharest, Romania 
+Nashville, TN 
+
+
+--- Page 32 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 27001 and ISO 27701 Recertification Review Summary Report 
+Proprietary and Confidential 
+29 
+ 
+ 
+ 
+ 
+Edge Sites 
+Budapest, Hungary 
+New Delhi, India 
+Buenos Aires, Argentina 
+New York City, NY 
+Cairo, Egypt 
+Newark, NJ 
+Cape Town, South Africa 
+Osaka, Japan 
+Chicago, IL 
+Oslo, Norway 
+Cincinnati, OH 
+Palo Alto, CA 
+Copenhagen, Denmark 
+Paris, France 
+Dallas, TX 
+Philadelphia, PA 
+Detroit, MI 
+Phoenix, AZ 
+Doha, Qatar 
+Portland, OR 
+Dubai, United Arab Emirates 
+Prague, Czech Republic 
+Dusseldorf, Germany 
+Pune, India 
+Frankfurt, Germany 
+Queretaro, Mexico 
+Geneva, Switzerland 
+Rabat, Morocco 
+Helsinki, Finland 
+Rio De Janeiro, Brazil 
+Ho Chi Minh City, Vietnam 
+Rome, Italy 
+Hong Kong 
+Salt Lake City, UT 
+Honolulu, HI 
+Sao Paulo, Brazil 
+Houston, TX 
+Seattle, WA 
+Hyderabad, India 
+Seoul, South Korea 
+Istanbul, Turkey 
+Singapore 
+Jakarta, Indonesia 
+Sofia, Bulgaria 
+Jacksonville, FL 
+Stockholm, Sweden 
+Johannesburg, South Africa 
+Taipei, Taiwan 
+Kuala Lumpur, Malaysia 
+Tel Aviv, Israel 
+Lagos, Nigeria 
+Teterboro, NJ 
+Lisbon, Portugal 
+Tokyo, Japan 
+London, United Kingdom 
+Toronto, Canada 
+Los Angeles, CA 
+Warsaw, Poland 
+Luanda, Angola 
+Zagreb, Croatia 
+Madrid, Spain 
+Zurich, Switzerland 
+Manchester, United Kingdom 
+ 
+ 
+Azure Extended Zones 
+Perth, Australia 
+Los Angeles, CA 
+ 
+In addition to datacenter, network, and personnel security practices, Azure also incorporates security practices at 
+the application and platform layers to enhance security for application development and service administration. 
